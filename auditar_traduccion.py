@@ -33,6 +33,18 @@ UNCHANGED_ALLOWED = {
     "LeVi",
     "Kukrushka",
     "Manan",
+    "Setsu",
+    "Jonas",
+    "Raqio",
+    "SQ",
+    "Gina",
+    "Stella",
+    "Yuriko",
+    "Otome",
+    "Shigemichi",
+    "Comet",
+    "Sha-Ming",
+    "Remnan",
     "SQ",
     "Ad astra per aspera.",
     "AC",
@@ -47,6 +59,9 @@ UNCHANGED_ALLOWED = {
 
 PUNCT_ONLY_RE = re.compile(r"^[\s\W_]+$", re.UNICODE)
 PLACEHOLDER_RE = re.compile(r"\{[^}]+\}")
+LOOP_KEY_DUMP_RE = re.compile(
+    r"^RL:[A-Z].*\n(?:[a-z,]+\n)?(?:D\d:.*\n)*(?:-+Loop\d+-+\nRL:[A-Z].*\n(?:[a-z,]+\n)?(?:D\d:.*\n)*)*$"
+)
 GLOSSARY_PATH = SCRIPT_DIR / "glosario_v1.json"
 LAYOUT_RULES_PATH = SCRIPT_DIR / "layout_rules.json"
 ENGLISH_LEFTOVER_RE = re.compile(
@@ -186,8 +201,12 @@ def is_allowed_unchanged(text: str) -> bool:
     stripped = text.strip()
     if stripped in UNCHANGED_ALLOWED:
         return True
+    if stripped.startswith("RL:") and "---------------Loop" in stripped:
+        return True
     core = stripped.strip(" \t\r\n.!?¿¡…\"'“”()[]{}")
-    return core in UNCHANGED_ALLOWED
+    if core in UNCHANGED_ALLOWED:
+        return True
+    return bool(LOOP_KEY_DUMP_RE.match(stripped))
 
 
 def is_translatable(text: str) -> bool:

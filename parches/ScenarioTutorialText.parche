@@ -693,6 +693,7 @@ fb215e1243380a54cd3261706468f98f:0:¿Dar un paso al frente?
 455f590c64289c7a97ce14c496ef99f0:0:¿Alguien más quiere reclamar el rol de Ingeniero?\nEntonces, ¿podemos asumir que {0} es el verdadero Ingeniero?
 ead4091a79fdf08b0a7f815ff5a588b8:0:Ha salido un Ingeniero falso.\nCuando tú eres el Ingeniero,\nes imprescindible que des un paso al frente y reclames tu rol.
 b5210d93734f60f8643dbbbd2032b17d:0:Ha salido un Ingeniero falso.\nSi no das ahora un paso al frente para reclamar tu rol,\nluego ya no podrás hacerlo.
+460d7c1445a67f9f9f3af523c3d14f6b:1:Dio un paso al frente como {0}.
 b2088249307d5e14e8fb96107e79cb66:0:No dar un paso al frente
 892dfaa03151c077b61d84ee7cd3b860:0:¡Eh, venga, {0}!\nTú eres el Ingeniero, ¿no?\n¡No te quedes callado así!
 f7eaa49d9c072c6a37acfbc8c71c334a:0:Anunciaste al grupo que tú eras el Ingeniero...
@@ -703,6 +704,7 @@ b9150495e075d55efe18db37f21951fc:0:En el pasillo
 77de2aa34d7508102580c772c4797255:0:¡{0}... {0}!\n¡Te quiero!
 4706175ed2a35a098eb413ca924c6d10:0:Yo... nunca había sentido algo así.\n¡Te quiero! ¡Te quiero te quiero TE QUIERO!
 fe7036d6cab122db4915f7631bfd1743:0:Los niveles de \"afinidad\" entre personajes se reinician\ncada vez que comienza un loop.
+538e7a091fad204642458c92bcda75d1:0:Ah, {0}...
 6a4a6e1c10b8734ab254f6db326ee172:0:¿Te apartas?
 6aa0ddd217bcdd739c9447a2ddabcbda:0:Eeeh...
 3810a5478f79615bf24de86b3cd7ab5b:0:Adelante, humíllate todo lo que quieras.\nPero igual busca otro sitio para hacerlo, ¿vale?
@@ -720,15 +722,60 @@ d0e4094b0e39a1137213946f9cc4dedc:0:Yo, em... *ejem*.\nNo, lo siento, me dejé ll
 94c52a677c2554dd0a35855c0c18cdee:0:Si no es hombre
 8219fdea239ce79e9de3dbacf9e45d98:0:Perdona por entretenerte.\nSolo quería hablar contigo un momento.
 7a6acf76e0e5f71e08cd3f579e8f2273:0:{0}, cuando diste un paso al frente como Ingeniero...\nme sentí muy conmovida.
+30f927864292429aafcf63f822273a89:0:Yo...\nCreo que tú eres el verdadero Ingeniero, {0}.\nEstoy segura.
+857bc2eb208b9043fc856b94908e567f:0:Jeje, quizá no haya pruebas que lo respalden, pero...\n{0}, siento que podríamos llegar a ser muy buenos amigos.\nAsí que quiero confiar en ti.
 fe7036d6cab122db4915f7631bfd1743:1:Los niveles de \"afinidad\" entre personajes se reinician\ncada vez que comienza un loop.
+5e4508743ed93b720042fa2c6926347e:0:Unión hombre-mujer
+ff9d38a304f1e7dd09ec8e3091c3c2ac:0:{0}... Estás en una situación bastante peligrosa.\nCreo que corres un alto riesgo de ser objetivo del\ninfectado por Gnosia en el próximo salto.
 5c3fce304a2f63d95927c4ad14bbf55d:0:¿Por qué?
+445f3a289a9eb1212bd02e5da190694a:0:Preguntaste por qué te atacarían.
+3b48a9c0fa2f7b3b3a76ed3a0e82f322:0:Si te atacan, entonces el otro Ingeniero...\nQuedará claro que {1} era falso.\nCreo que eso sería perjudicial para el bando Gnosia, pero...
+ef3c0aa708f657f850c1b39b116bd598:0:Probablemente sacrificarán a uno de los suyos para librarse del verdadero Ingeniero.\nEs muy probable que eso sea exactamente lo que hagan los Gnosia.
 bc57ca2cff8ef188e74fc495b87626a4:0:No pasa.
+dfd76f45d2889d5fcd6f4a11ee752628:0:Sin embargo... no te preocupes, por favor.\nPrometo protegerte, {0}.
+92f929fb5727368bbfe485c77ef8fa9f:0:Muy bien...\nBuenas noches.
 f79692fd74a2c0089e6b340f49b53b0c:0:Nadie fue atacado.
+6dfbb38639b0297ed16d27d34153d798:0:¡Ey! ¡Parece que todos estáis bien!
+4d8cea7840fc44ddd720c4a7edac5383:0:¡Hoooola!\nQué bien que estemos todos, en plan... vivos.
+2f53f1c5787acbda320187669092d622:0:Pero, ¿por qué...?\nSe suponía que los Gnosia debían eliminar a alguien durante el salto...
+c7c7ddda1d9fb0a0b579a3b5d9322bdb:0:¿Nadie ha desaparecido? ¿Por qué?\nNo me digáis que al final no había ningún Gnosia...
+bef9d878559b47954ae917a9ef886e4d:0:Creo que fue...\nel Ángel guardián.
+a5bd583b5c8c5af99f4e548d9df0abf1:0:¿Eh? ¿Qué es eso?
+15578a995082f595812de3742bf0f6b8:0:¿Hm?
+5205dc306c491bf9c56afb42ae25cd4a:0:Uno de la tripulación se ha convertido en Ángel guardián...\nY ha impedido el ataque de los Gnosia.
+531514e51c412cf7e433aa05cf7806e2:0:Nunca había oído hablar de eso...\n¿Ángel guardián? ¿De verdad existe algo así?
+d0daa71961e9138237fe367a48847d57:0:¿Eso... siquiera es posible?
+5fd06e363e1ccdfb7df8d8cfc896008a:0:Sí, con unas credenciales de salto muy concretas.\nAl retrasar el momento del salto real,\nlos Gnosia pierden la ocasión de atacar a su objetivo.
+7a6a453fd15bc69f211cb1083182c2d0:0:Sííí... yo qué sé.\nO sea, si no ha desaparecido nadie, ¿entonces estamos a salvo...?
+b4f79b467e95f3fb200580f4f878cbe1:0:Vale, yo tampoco lo entiendo, ¡pero suena genial!\nEntonces ya no tenemos que preocuparnos por los Gnosia, ¿no?
+e3554bf85be9b4d6e653e377b8112f9c:0:No, el salto solo puede retrasarse un instante, así que...\nEn realidad solo da tiempo a proteger a una sola persona.\nAdemás, un Ángel guardián no puede protegerse a sí mismo.
+c67b4ffe3c8290499584d1b5db80e230:0:Un \"Ángel guardián\" puede proteger a un único tripulante\n - salvo a sí mismo - del ataque Gnosia.\n(Solo hay un Ángel guardián a la vez.)
+14dfc26be58d146ef738791819d4bee8:0:Se puede asumir, por tanto, que consiguió proteger al objetivo de los Gnosia.\nAsí que...
+0bd075684d2ee3f18479570a26fb3909:0:Sí, así que debemos seguir alerta y continuar buscando al Gnosia.\nPara empezar, ¿puede alguien dar el informe de la investigación de ayer?
+9f3df47080b8264b234817bfcbdb9b38:0:Entonces tenemos que encontrar al Gnosia y congelarlo, ¿no?\nEntendido. Vale, ¡vamos con los informes!
+045d3239a2630c058c9f6bcbdfaec567:0:Cuando hayas reclamado el rol de Ingeniero,\npodrás dar tu \"Informe\" antes de las discusiones.
 c7dff84f0ac832269f5bb92bd09c8c73:0:Sobre Stella
+5aa4bb72dc0355503da65af52c8b6c54:0:Entonces Stella es, eh... ¿el Ángel guardián o algo así?\nEntonces no es sospechosa, ¿verdad?
+2e2c9693ea469f4f5e3c9b8c5182bd2d:0:Preguntaste si Stella era el Ángel guardián.
+7e8970825060468b251019de30d8453e:0:Por cierto, Stella es una de esos... eh...\nÁngeles guardianes, ¿no? Yo diría que podemos fiarnos de ella.
+701b17a7b842f7ae34dd7730f15b4244:0:Eh...\nNo, yo solo he señalado esa posibilidad.\nNo pretendía insinuar que yo misma fuera... el Ángel guardián.
+060fb750533ad9b976f3bc598e6a450b:0:¿Mmm...?
+dcd76be9d578c45430f99326728c10ae:0:¿En serio?!\nEntonces ¿quién demonios es ese Ángel guardián?
+fc5b3e84b6b40770a5c808bdc85b382a:0:Será mejor que no intentemos averiguar la identidad del Ángel guardián.\nCorre el riesgo de convertirse en objetivo del enemigo.
 349d4a945d252c3352fa2dfa2bdb1044:0:Registrar conversación
 e6fe336782de4138b8a6679ec8f2e323:0:Conversación
+037e7d75015756b5da65f86cded24077:0:Ah... {0}...
+ba4a7bc4aa2b629a30fdd41251772c82:0:Jeje, estaba pensando...\nEsperaba que vinieras.
+72706f9eb9c979080fbc8eef921a3bdd:0:Supongo que esto es... una despedida.
+bfa8c895003004cbb76cec9eb07f759a:0:Los Gnosia probablemente creen que yo soy el Ángel guardián.\nY por eso... creo que esta noche... me eliminarán.
+d729a632c5bf88707cfcd98abd9eab06:0:Jeje... pero por favor, no te preocupes.\n{0}... solo quiero que tú sobrevivas.
 6455bea297b0e4b3fcbd16bd7ba401de:0:Gracias
+21fc04db6244cc54f458dee2e1e5d4b4:0:Le agradeciste a Stella sus amables palabras.
+0d80f260b1625b44ff4f9cbf0690733d:0:Solo saber que te importa lo suficiente como para decírmelo...\nEs más que suficiente para que pueda irme en paz.
+81b6ba79b6145c5bf6e79a755e31add8:0:Adiós, {0}.
 9b2ae337f8f41010a317021c38667682:0:Abrazarla
+1d05f9fe49e92828b2271c4f9e2dea09:0:Ah…
+f3e29818134f413169854f4727817889:0:Ah, {0}...!
 # loop5
 4afa2dd4b5450f8628d3c1be9fdac616:5:Crear loop
 889bdf852e27d350772452d3d91b07ce:5:Precarga de escenario
@@ -742,6 +789,8 @@ c1f7cbe4b13794400b68c4cabb1e7684:0:Jaja, sí, y también puede que no consigamos
 ad635a6ef00558eb8d90a1be62b13cfb:0:Si todos insistís en seguir hablando, que así sea.\nPero... siguen entre nosotros.
 94412010591dc324d2f4ac2632bf1f95:0:Por el momento has conseguido evitar que te manden a criogenia, pero...
 f35fdcbd3c4d8679c14d3e69ade84a70:0:(Deberías andarte con ojo con Yuriko.\nAmiga o enemiga, da igual... es peligrosa.)
+886cfda9370b4cd8943df77ee26fb855:0:Setsu...
+f8c93ec078d28e77e2b7225f288aed5e:0:¿Sí...?
 50c3df54ecfd7ef26f0c08360df7cb55:0:No has hecho más que propagar mentiras y desconfianza, ¿verdad?\nVamos, confiesa.
 218f1e4e9ecbe77c137125abf719f136:0:Muy bien...\nComencemos la discusión.
 aff3dd1ec458282e45de27ed6a453758:0:Volver a la habitación
@@ -749,6 +798,7 @@ b9150495e075d55efe18db37f21951fc:1:En la habitación
 cf6e533677ee9ae3a76815a2c3bb99b7:0:Cuando terminó la discusión, saliste al pasillo.
 34fa7c576b269925fb4b67a966fdeaee:0:Tras el envío a criogenia, sales al pasillo.
 531c68e747b812417fce7dd32ef48de7:0:Jeje... ¿qué es lo que tanto temes?\nHablaremos en otra parte. Sígueme.
+581c5e490737d19c819e20b5a5376d02:0:Mirador
 64c5b19f6d8cf83ce387b140c4f3005d:0:Esto servirá.\nAquí nadie nos molestará.
 6dfdd3c9ceb33cc61270459c9f12c94c:0:En esta sala...\nPuedes ver aquí proyectado todo lo que nos rodea.
 43a15975ff663f8d381f4d22c83602ae:0:Mira...\nPuedes ver incluso las estrellas más lejanas.
@@ -786,6 +836,7 @@ e55a0f01a29384f870363ade3c4c0ce3:0:¿Te gustan los gatos?
 f3528f994db1b7f6d618904200f8d5e8:0:Sí
 d84750eec870e17be2e23bc007ca6cbd:0:Respondiste que te gustan los gatos.
 8cdb7183c14e31f759b9e5c1ce680333:0:¡Oh, genial! Qué alivio.\nNo me gustaría pensar que te caigo mal o algo así, ¿sabes?
+dd076239a170de64e7d267159f509c09:0:No me gusta.
 8a71bdbd936d1cfd8c0f97c883d9a812:0:Respondiste que no te gustan los gatos.
 99b1287c8938928200ec62ca05bcd3b9:0:Jaja, ya veo.\nBueno, qué se le va a hacer, ¿eh?
 0027cd04e8c2c96a77e431f06151cc60:2:No respondas
@@ -813,8 +864,10 @@ b2562313dd78025e9504343e799ee9c8:1:Llegada
 71cf83ca5d245b6dfb6ffa1d48b429e5:0:En fin, ¿quién de nosotros tiene más probabilidades de estar infectado?\nMe gustaría oír la opinión de todos.
 1562786e00c356b0cf4cd2329f2f9bb2:0:Noche con Comet
 b9150495e075d55efe18db37f21951fc:2:En el pasillo
+f60426f24d926a450e0e22f3204e290a:0:Ah, eres tú, {0}.
 2b7efbe24e87bd915f4a61b617c8338e:0:Llegas justo a tiempo.\nOye, déjame preguntarte una cosa.
 54891db420db2dbe3ac37d1bd4de6ae4:0:{0}, ¿eres Gnosia?
+454fd30780de2e437fa1f428c3eea1b9:0:No.
 a9a97cd91ee02146cec873c34cee3dce:0:Respondiste que no eras Gnosia.
 d5e0db3477cfe9c29f58015aaf69487e:0:Vale, confío.
 8a2677967e51b910fc08327613f666a7:0:Sí
@@ -830,129 +883,483 @@ e4325abd2d561454bea46ede08ded4e2:0:Hm, al menos podrías darme una respuesta, ¿
 130321d41e2680cf409078f59c7a85a8:0:En realidad soy bastante perceptiva.\nNormalmente noto enseguida cuándo alguien miente.
 6a3280d03735fe6d60b49dbc2f2cfbd8:0:Comet tiene una \"Intuición\" extremadamente alta y detecta mentiras con facilidad.\nCuando sospecha o duda de alguien,\npuede ser porque se ha dado cuenta de que estaba mintiendo.
 a7641ea4db32381ec163a0de8d7a36fd:0:Vale, voy a ir a preguntarles a los demás.\n¡Nos vemos!
+b83d39ce3bbc98651c1bbb011a563f7d:0:(Has detectado la mentira de {0}...)
 1962e6bfe0aa821bc742b07fed80e35b:0:Ten cuidado
 5b5475fb7db562079c23ccd635aa04a5:0:Le dijiste que tenía que moverse con cuidado.
+0714fda2d0deb97edf4e0bfd4b2076d5:0:Ah, porque podrían señalarme y atacarme, ¿no?\nSí, tienes razón.
+77850b9a5d0ccc66a4860ce4c565040b:0:Pero yo no soy mucho de pensar las cosas.\nAsí que creí que era mejor lanzarme de cabeza, ¿sabes?
+ebd8ff29d5b7feb305a4799f9c6f99d0:0:Jeje... En fin, ¡hasta mañana!
 2162364790a74702fa81aeb5a6c2e7de:0:Mnt.
+935cbf60a38b539726a3a0591ef2371a:0:¿Sabes? Me di cuenta ayer, mientras hablábamos.\n{0} está mintiendo.
+0488daab59f57ccd3c48241f4002abcf:0:¿Tienes alguna prueba...?
+650741a2751d3cf76a23f47ea9ecfd08:0:Hm...\nEntonces, ¿en qué pruebas basas este ataque contra {0}?
+d19fec3d5e5dfca623c50791ca106c23:0:¿En serio?!\n¡Jolín, Comet! ¡¿Cómo lo sabes?!
+b61520ac14f2642a3ee61dafe16d52d9:0:Es pura intuición, en realidad.\nPero te digo que {0} está mintiendo.
+1404ab3ae36b4775b378c969f72dd170:0:{0} está mintiendo.
 # loop8
 4afa2dd4b5450f8628d3c1be9fdac616:8:Crear loop
 889bdf852e27d350772452d3d91b07ce:8:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:6:Explicar situación
+a58883d345ff5fc847fb82bb30868946:0:Hm. Así que vuelve a empezar...
+7ef09bb87353cd9d183a8e383d2ca03e:0:¡Ja! Humanos idiotas.\nVamos a acabar con todos uno por uno.
+1d1a0e3624553dfe2be768db84c50fe7:0:Esta vez, Raqio y tú sois \"Gnosia\".\nPuedes consultar \"Datos ref.\" para ver quién está de tu lado.
+89e95319150f2658c2aaee8fd8752749:0:Escucha, {0}.\nNo hagas ninguna estupidez y no me estorbes.
+1643728a752b181be709988552d09719:0:Si hace falta, te echaré a los leones sin pensármelo.\nAsí que será mejor que te calles y me dejes a mí, ¿entendido?
+9480788946bbcff8b09372a14bf25264:0:No confío en nadie.\nNi humano ni Gnosia.
+23b4e5302c8d5207423688a5f9aa3101:0:...Eso es todo.\nTenemos que encontrar a los dos infectados por Gnosia que hay entre nosotros\ny mandarlos a criogenia.
+f13c8628909680a6e97633796cc05ebb:0:También está confirmado que hay un Ingeniero y un Ángel guardián.\nEso puede ayudarnos a identificar a los infectados.
 89f305a57b4d57ca2c554000156ebeb9:0:¡Esto será fácil!
+2f444e6d7e23f4d1ed14eb497d37fba2:0:Jeje, eso espero.\nQue nos enseñen de qué son capaces.
+1365dd456e9ef2b537660fd78f5e6eb2:0:Los Gnosia pueden reclamar falsamente roles\ncomo Ingeniero, Doctor, etc.
 2120aa26c1ab30234fd99b213b40b13c:0:CO de Raqio
+5cafad7d2ea0e1472736450050d605ae:0:Raqio ha dado un paso al frente reclamando falsamente el rol de Ingeniero,\nseguramente con la intención de difundir información falsa y entorpecer la discusión.
+460d7c1445a67f9f9f3af523c3d14f6b:2:Dio un paso al frente como {0}.
 08a7e14e1520b91e5095d83c317246b0:0:Noche en la habitación
 b9150495e075d55efe18db37f21951fc:3:En el pasillo
+ad32d40da4fa3e42905e4f52a84c8d93:0:Comienza la cuenta atrás para el salto.
+09a9fcee8233ae1861f3f55ffedbff6e:0:¿Eh...?\n¿El tiempo... se ha detenido...?
 c6c422349c3f71682a9653f91e8566b7:0:Hm.
 1ba9fa4e10d3b1239e564dbcd247a3d5:0:Si, y?
+0c8a37d4aae19cd2b165b5082b38f858:0:¿No entiendes lo que está pasando?\nPara el salto se usan cálculos de panposibilidad, ¿verdad?\nComo \"terminales\", tú y yo estamos conectados automáticamente a Gnos, obviamente.
+325b2fd4119ff70c84c7ea1e67ae4293:0:Para el salto se usan cálculos de panposibilidad, ¿verdad?\nComo \"terminales\", tú y yo estamos conectados automáticamente a Gnos.
 916d6d706db76d9e8dd3d49095fb392f:0:No lo entiendo
 700b13546596cc4aa215641e2ebc3f5f:0:Respondiste que no lo entendías.
+adf1de1abefcbdf90eae9b35ff9a3452:0:Claro que no lo entiendes.\nNo entiendes nada.
+76f302fbddbed0dffd13943c134743ff:0:Hm. Bueno, no hace falta que lo comprendas del todo.\nY no me apetece explicártelo.
 db611a0f66d3566d9fa3e0c9acf1fef3:0:Veo
+3c8873cae924e7a97167c4a9b1a596d6:0:Respondiste que Raqio tiene toda la razón.
+9efebf151eaad6710f1271629e1d0278:0:Te advertí que no hicieras nada estúpido ni temerario.\nEntonces ¿por qué fuiste a reclamar el rol de Ingeniero?\nAunque... da igual. Ni siquiera quiero oírlo.
+2a0f4767f99537ee1cd4f48cfc5b9667:0:Hay tres Ingenieros. Dos de ellos son sin duda Gnosia.\nPrácticamente acabas de regalarles esa información a los humanos.
+366fbb3a1f6d0ccb6deac9ae7c114a25:0:Ahora podrían mandar a los tres Ingenieros a criogenia y se acabó.\nEn fin... apostemos a que se eliminen entre ellos y luchemos contra eso.
+2759c079c95d540b3b9e3c65d8903df5:0:Muy bien... ahora decidamos.\n¿Cuál de estos lamentables humanos será el siguiente en ser borrado de este universo?
+57450ebbeaea4c36a8b7ad15f75ab3e5:0:Y por cierto, solo puede eliminarse a una persona cada vez.\nAsí que tenemos que elegir con cuidado.
+65d59ed73967e1f48eb2c845c4445998:0:A quién elijas dice mucho de tu carácter.\nJaja, venga, enséñame de qué pasta estás hecho.
 e0b02b0fd651fe72fc6fa9612ebb8ab6:0:Ir a la pantalla de selección
 afdb9a70f1f416daee4cddd53fa9acd8:0:Selección correcta
+3e92d21d0dfd7d4bf8000c0c8591e194:0:{0}, ¿eh? No es una mala elección.\nDe acuerdo, vamos con esa.
+2b85aca2a4857a813f1c64384d7e974b:0:{0} está tumbado, sin respirar.\nRaqio extiende la mano en silencio...
+d2873894751742e53b8424b3fc02e70a:0:En realidad {0} debería darnos las gracias.\nPor poner fin amablemente a una vida tan inútil.
+2ea9d88b2635b9a0e61c7e3a96bd3b4f:0:{1}, ¿por qué te quedas ahí plantado?\nDate prisa y toca a {0}.
+ec8038acdce242d63ae6b41f356039bf:0:Extiendes la mano para tocar el cuerpo de {0}...
+905ee34b5026de809b60d9df43c6392f:0:La punta de tu dedo toca a {0} y, en ese instante...\nLa piel de {0} empieza a hincharse y a abrirse...
+67ee4e7fe631e09460aa3430f0f89966:0:Buen viaje, {0}.
+6ace58245013a0d462fe4225ea28562a:0:Y entonces, con un chasquido...\nComo si estallara una burbuja, todo desapareció.
+3ae56f90767b97c7d4e2caffb45a8d8a:0:Decidiste atacar a {0}.
+deb271114ebb76f2aecb72b3e3cbf4b1:0:Selección no válida
+57e82e67837753669a22b1d613aab139:0:Esa es una elección pésima...\nSi eliminamos a {0}, quedará claro que tú y yo somos Gnosia.
+e8cb8a8c67c4947143f5c1348c195aed:0:Rechazado. No puedo creer que siquiera lo propongas. Casi me enfurece.\nElige otra vez. Ahora.
+ed5c1c5df743ce3c0ca5f36e7db0dbc3:0:¿Es que quieres destruirte a ti mismo?\nSi eliminamos a {0}, tus mentiras quedarán al descubierto.
+2031ae49e56dad448e393ff1be4ee848:0:Para ti, {0} se supone que es un farsante, un Gnosia, ¿no?\nAsí que si {0} desaparece y se descubre que no era Gnosia...\nJa, para ti se habrá acabado.
+582329233685e4886e9d90ad4692b406:0:Ahora, elige otra vez.\nPiensa muy bien a quién debemos eliminar.
+b097dd172877f7b35060e3615ea25990:0:¿Intentas tenderme una trampa...?\n¿O es que eres completamente idiota?
+9f7c009a5c7579ca533030805262dcd7:0:Si eliminan a {0}, entonces {0} no podía ser Gnosia.\nEso dejará claro que yo mismo soy Gnosia, ¿no crees?
+64f842e8ba3b57a7093a3252431de0a4:0:¿Bien? ¿Lo entiendes de verdad?\nVuelve a elegir.
 2e028e216a892c17d035a62ee1765bd5:3:Sin acción
 621193e4f00c3c9335ccd5e04d5cd311:2:Día {0}
 4c0cbf76af7f6c3bf1f540bf4360aa0e:2:{0} fue eliminado por los Gnosia.
 b0401a86e9259c72144eb0fcd4ad0143:1:Mañana del día 2
+c309892a649ca2069e7666092d345f67:0:Se detectó presencia de Gnosia al completarse el salto.
+aed87c3304c8bbb6ab6dc2d01711996c:0:El salto ha terminado y el tiempo parece haberse puesto en marcha otra vez.
+d57a8bb24c61d63a7c57dd1463254df5:0:Encontrad y eliminad a cualquier tripulante infectado por Gnosia,\nsegún el protocolo anti-Gnosia.\nRepito...
+4fa4631ba2baca765c61bab9f902bc5d:0:Hora de ir a la consola principal.\nHabrá que procurar que no nos... eliminen.
 417f8c514fd29e3846e39797a852a67e:0:Gan
 b9150495e075d55efe18db37f21951fc:4:En el pasillo
+50fe446a004b193d838b0e35470d372d:0:Ahora la cosa queda en dos contra dos.\nEstá decidido. Hemos ganado.
+fdf42ba7a12e93bcd4ded8eacc893d58:0:¡Ja! Ha estado cerca.\nQuiero decir, siempre supe que ganaríamos, pero aun así.\nNo hay forma de que yo pierda, ¿verdad?
 acfa323d1c0f8f034d11c185d303aafb:0:Yo también.
+bb9965834815fb97e6c3d72e88355110:0:Respondiste que tú también lo habías dado todo.
+974513e9aca910a50003a3d72262c0c1:0:Sí, supongo que tú también aportaste lo tuyo.\nNo conozco demasiado las sutilezas de las mentes estúpidas.\nAsí que gracias por pelear a su mismo nivel.
 0fc9ea7745511d99d94131ee64d2c851:0:Apoyar
+4bba90134b318b9f2d2e9ff4903fd889:0:Respondiste que sí, que Raqio había estado increíble.
+7e46e5ad887de0ab260a35741e052a0c:0:¿Pero qué demonios estás diciendo? Qué repelús...
+d256984286ece8b58b45877881dbc193:0:En fin, cuando nos quitemos de en medio a los supervivientes,\nme apoderaré de la nave\ny entonces tocará divertirse un poco.
+b9d329e058e6dba2f3c54b5c302cb87a:0:Podríamos borrar algún sistema solar,\no quizá destruir una flota entera.\nJaja, ahora sí que se pone interesante, ¿no?
 # loop9
 4afa2dd4b5450f8628d3c1be9fdac616:9:Crear loop
 889bdf852e27d350772452d3d91b07ce:9:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:7:Explicar situación
+b531c458e733050ed692805700a15c42:0:Esta vez eres...\nNo Gnosia. Solo un tripulante corriente.
+36c204a8fdc1b7ae27cc1bffbba5cabf:0:¿Sabes? No lo entiendo del todo...
+107b212769ce7c4d88cb98177d07589e:0:En plan, ¿de verdad tenemos que eliminar a los Gnosia?\nActúan como humanos, así que ¿no podríamos llegar a un acuerdo con ellos?
+e34ced8c7a3b871e916f450686b74c26:0:Sí, es un buen argumento.
+4df81e5cc961ea0baca0c5af5c60544e:0:Si les pidiéramos que no se deshicieran de nosotros, ¿a lo mejor hasta nos harían caso...?
+fa12911c66cc204ef998f9f2d64ad13a:0:Nunca he oído que nadie haya conseguido llegar a un \"acuerdo\" con los Gnosia\nni con Gnos.\nDudo que sea posible.
+cba12f206374c15d387bf0c0604b4fdd:0:Pero aunque probablemente sea imposible...\nNo perdemos nada por intentar hablar con ellos, ¿no?\nA lo mejor también tienen buenas ideas, ¿sabes?
+d458a7113965836720bea22620d09cd0:0:Supongo que podría ser, sí. Hasta podría salir bien...
 f2ba37910943788ab5c61997aa6678f3:0:Imposible.
+9d554abc8e668f12fdffb48e24c5c182:0:Los Gnosia eliminan a los humanos.\nEs simplemente lo que hacen, y por lo que existen.
+2ca20cd79877aa59a3a5f5746f9d29bc:0:Igual que tus gatos son simplemente gatos. O los humanos, humanos.\nLos Gnosia son simplemente Gnosia.
+6bc917e81995dad8aa4a19e54a9b6e6b:0:Ya veo...
+4cf2f6dfb68fe8e487f49dc9cfbdd209:0:No hay tiempo para esto. Tenemos que empezar...
+2aa57bb7506081b529274abcceaa01f3:0:¿Puedo decir algo...?\nHay algo que me preocupa...
 d07077898798fa322001b7bdde175a33:0:Escuchar a Stella
+71e5de1f750223a4d8611c2b9bd7e9b8:0:Espero equivocarme, pero... Chipie.\nTú eres Seguidor AC, ¿verdad?
+40e6898287677b193afa7fe01120a19d:0:¿{0} podría ser Seguidor AC?
 a51de1b23a6183ee47ba1f992141d7d3:0:Seguidor AC?
+f6496a884582e9af555710a527d6184e:0:Preguntaste qué es un Seguidor AC.
+47f9f89f18144a490853bb07c9568145:0:¿Seguidor AC? ¿Qué es eso?
+276efb0cdcb59c15054a79008c27119a:0:Ay, por favor... cuánta ignorancia.\n\"Anti-Cósmico\", abreviado como \"AC\", seguidor.\nUn montón de raritos que adoran a Gnos.
+c919e3010fd2cc2d714c35bc27060a33:0:Creen que este universo está loco.\nPero si los Gnosia nos eliminaran,\npodríamos trasladarnos al \"verdadero\" universo...
+19b3372d8a56c4c0b0cb9d6dfc3d6d57:0:Reniegan de las leyes de la física y de la humanidad, y adoran a Gnos.\nEso viene a ser la idea de los Seguidores AC.\nPor lo visto, últimamente su número ha aumentado mucho.
+d91a7ce1c2ea27d43b2172eadaf39587:0:Humanos, del lado de los Gnosia...
+99ab841d576505a610a6b27cb35329a5:0:Los \"Seguidores AC\" son humanos, pero mienten y entorpecen la discusión\npor el bien de los Gnosia.\nLos Seguidores AC no saben quién es Gnosia.
+625a881a7ffb412b39c9acae6c00b945:0:Entonces eso significa que...\nCualquier humano que miente igualmente es Seguidor AC, ¿no?\nVale, entendido.
+cca3fe7554a7395bbe7a1c4a900a5c38:0:Entonces Chipie es, en plan... ¿Seguidor AC...?
+cfd2c0aca830cdd8a356745c9bd743cb:0:Jaja, siento decepcionarte.\nPero no soy nada tan dramático.
+01dfc4b84af5b00b19bee500601653c8:0:En ese caso... ten cuidado, Chipie.\nEn algunos planetas pueden ejecutarte solo por\nexpresar opiniones favorables a los Gnosia.
+df529b58b2a3d2ccbec006a2aee3f78d:0:Y me gustaría que todos los demás también tuvierais cuidado...\nCualquiera de nosotros podría ser Seguidor AC.
+77b5adc0d1e20301eb3378ac9755ad68:0:Esta vez hay un \"Seguidor AC\" entre el grupo.\n(Solo hay un Seguidor AC a la vez.)
 # loop10
 4afa2dd4b5450f8628d3c1be9fdac616:10:Crear loop
 889bdf852e27d350772452d3d91b07ce:10:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:8:Explicar situación
+71ee7a17a07141b663db37dba5c92591:0:Un campo de flores se extiende hasta donde alcanza la vista.\nUna joven está recogiendo flores.
+c7bd8700f93b1ad5798890b0f2ad34ec:0:A veces levanta la vista hacia ti y simplemente sonríe.\nSin palabras, puedes sentir lo que siente.
+709ca37676909ff007c7f2acddd4a991:0:Esta muchacha callada se llama Kukrushka.\nNadie ha oído jamás la voz de Kukrushka.
+ee200154708cd4b76a32445d932226ca:0:Sin embargo, el hecho de que no tenga voz forma parte de su encanto.\nUn sabio de antaño dijo una vez: \"La mejor mujer es la que no habla\".\nY ese sabio era yo.
+a6506beb1cf47512787f3f28ab78e69b:0:Además, la riqueza de expresiones de Kukrushka y sus movimientos delicados...\nson más elocuentes que las palabras.\nSí, Kukrushka es la imagen misma de la perfección juvenil.
+e8d74cd3ad60ed91a4cbfe6423268c5f:0:Pero la juventud es un milagro efímero que un día desaparece.\nPara un hombre de mediana edad como yo... je, resulta un tanto deslumbrante.
+dfd3add006603f919e4a28cb62d27516:0:¿Qué ocurre, {0}?\n¿Sientes lástima por este pobre Jonas?
+1ce208dd33d34e353e4d8cfab4ba4530:0:La muchacha... y también este hombre...\nParece que se unirán a nosotros esta vez.
+745c1babac4920fa268c8305687ad565:0:Je, si me miras así me sonrojaré.\nPero, {0}! Escucha: parece que la joven dama te llama.
+1386b40b93e1033b5806e8bc285cf908:0:(Kukrushka sonríe.\nEn sus manos lleva una corona de flores que ha hecho ella misma.)
+d22a072958999063e41616e19d1998fc:0:(Te hace un gesto para que te acerques.\nParece que quiere ponerte la corona en la cabeza.)
+8256b3b18a8e2ec03c95df386790c98b:0:Se va a celebrar una reunión de emergencia por la contaminación Gnosia.\nSe ruega a todos los pasajeros que acudan a la sala de la consola principal.
+4e10e92287ca3755c251f0dec9ce9109:0:Esto es... la sala mirador.\nParece que LeVi ha forzado el apagado de la proyección del campo de flores.
+e3937622130c783b7d20d3e81682629c:0:Hum, nada delicado, desde luego...\nPero la situación parece urgente. Vamos, debemos irnos.
 faf234a0399d4500d2b46d7513e93455:1:Consola principal
+ecdc5324a39da03e855f30eaa0ffb161:0:Y sobre estas discusiones...\n¿No está fastidiada alguien que no puede hablar...?
+affefee8c928f2a6b7596f55487d3057:0:(Kukrushka capta la atención de todos con gestos.\nY luego sonríe, como para tranquilizar a Shigemichi.)
+0c91e5dddd17386a1b561c00458187d4:0:Jaja, parece que no hay problema.\nVenga, empecemos ya, ¿no?
 8f9611921c070cc0ae0529b0809c0d12:0:Congelar
 4794ad5ceb66cc409a6d7db9bb820cc8:1:Ve
+cb424e2b25d4bc80b8d8176c9b6ab029:0:Los que debían dormir... ya duermen.\nAhora bien...
+a77a0b4e60a2c7b57ce478d6f93189d4:0:Yo me quedaré aquí.\nTengo... unos asuntos que atender.
 f19445a74317bdfd5f95b978179ff115:0:Registrar conversación
 de0ba86f747b9323dfc9a752fe518552:0:Conversación
+686a09a90826df174404f666a3e5fbc5:0:Por alguna razón, las luces están atenuadas y la sala está a oscuras.\nSe supone que Jonas está aquí...
 46a0622f04a5a08713ca3bbb4a162b04:0:Oh...
+8b64ff61c9809d25f25cbbd14c8688e6:0:Desde el fondo de la sala oscura se oye la voz de Jonas...
+7d540990810c6ba9358048fc4707b5e4:0:Ah, fría y hermosa, una estatua helada de elegancia...\nY mi cuerpo, tan tosco y desgarbado...\nJe... qué triste. Jejeje...
+0c39a187ceacb14ae1659dcb7b81cb85:0:Será mejor... no decir nada.
 2e028e216a892c17d035a62ee1765bd5:4:Sin acción
+dbe6ae7e781ea1b80235d6a7656d7f56:0:Bien, comencemos la discusión del día.\nPresentaré yo el primer tema; supongo que nadie se opondrá.
 ad779a335ab1a61d0b59b3d4b579fefc:0:Oye
+103acc4021db0f74254ddcde46807c6e:0:Ahora, todos...\n¿No os parece...
+edf09f504a9851ef15237f3297bd18ff:0:que {0}, a quien mandamos a criogenia ayer, era de verdad Gnosia?\n¿Que vuestra decisión fue la correcta?
+605b88d1f462359c5536f1a886b1f497:0:Bueno, sí... supongo.\nPero en realidad no lo sabemos, así que... ¿qué le vamos a hacer?
+5062f13945cbb2ebeea2ca2eeb2fda81:0:Hum... Si lo supiéramos, todo sería mucho más fácil.
+7f5227d16fcfb5ca52f4fe7a721fc92a:0:¿Que si quien mandamos a criogenia era Gnosia?\nHombre, claro que estaría bien saberlo con certeza.
+65200a7c9e397fcb953f50ac272f071f:0:Ya pasó. Ahora no podemos hacer nada.\nAdemás, no tenemos forma de saberlo.
+4596fc1b6b7539f147f1babd0ba50f6e:0:Je... Pero sí se puede saber. ¡Yo PUEDO saberlo!\n¿Y sabéis por qué? Porque yo... ¡soy JONAS!\n¡El Doctor de esta nave!
+fd1b9ad5b4de283c790bfa15d7a42361:0:\"Doctor\" puede averiguar mediante examen si la persona enviada\na criogenia el día anterior era realmente Gnosia o no.\n(Solo puede haber un Doctor.)
+460d7c1445a67f9f9f3af523c3d14f6b:3:Se presentó como {0}.
 57f341b73c2e35a262e1d26c07ae02de:0:Después del CO de Jonas
+5b0687884d99264ac0ce3f73f42c310f:0:Vaya... Un impostor sale enseguida a disputar mi puesto.\nNuestros enemigos sí que se mueven deprisa.
+3b6c2176e484c05db480c9156f258641:0:Bien... Permíteme presentar el resultado de mi examen.\n{0}, a quien enviamos ayer a criogenia, era en efecto... je, Gnosia.
+b6ce0e528be087b939b937aa1fe9099f:0:Bien... Permíteme presentar el resultado de mi examen.\n{0}, a quien enviamos ayer a criogenia, NO era Gnosia.
+e6506d88ad6be6191cfe9ad61bcbe4ca:0:Eso es todo lo que puedo aportar por ahora.\nEspero que sepáis aprovecharlo bien.
+9224c45b081ecb248f490fbe5e7f771c:0:Puedes consultar los \"Informes del Doctor\" en \"Datos ref.\".
 # loop11
 4afa2dd4b5450f8628d3c1be9fdac616:11:Crear loop
 889bdf852e27d350772452d3d91b07ce:11:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:9:Explicar situación
+5e1741da21de22c831aeed0028dfc313:0:...Parece que esta vez he tenido suerte.
+19a2155e0b98e555bf40d232c7a7adb9:0:Hacía bastante que no empezábamos un loop juntos, {0}.\nAl menos, desde mi punto de vista.
+5f9c67316c3a5af8089bc51180432ffd:0:Ya que tenemos un poco de tiempo, intercambiemos información.\nVamos... Enséñame tu \"Llave\", {0}.
+d892e6b8016a9c22b77cfc5e10773a70:0:¿Llave?
+fbe61bd6e2e971731d471c916486a72f:0:Preguntaste qué significaba eso de la \"Llave\".
 7b725856a881ac4ed6129a0304f0ddb7:0:¿Cómo?
+a2661e9159c8dcfedb53a2b8f938a04f:0:Preguntaste cómo sacar esa \"Llave\".
+9a33d77f0bd6ce3ebc4a1d19e617da82:0:Ah...\n¿Es tu primera vez?
+f321173ee4426e7737eb60614c23fafe:0:Je... Perdona, nada.\nEn ese caso, {0}, prueba a pensar que quieres sacar una \"Llave\".
+601c6dc9b8fd1bd3e7ddd52705899af1:0:Intentas pensar en sacar una \"Llave\"...
+4bbf34e0da51d6b27ec35c9cc3a701f6:0:Sí... así está bien.
+758d0c434c1309247bbba7864e27270d:0:En esa \"Llave\" queda registrado todo lo que has vivido en loops anteriores.\nY si hacemos que se toquen...
+6cd958ae81af63602b36df5e0afd5a42:0:Podemos compartir nuestras experiencias.
+6cb87ef2371b42781d450bb79852b4f4:0:Datos tripul.: Todos
 daa235706925d9805ecc565bca87a74c:0:Sobre los loops
+9f4c78754667c089170d97fadfdb6990:0:Así que este es tu 11.º loop...\nJe, parece que yo llevo bastantes más.
+9abf14827789880f44c138e553d08a6f:0:Además, quizá tu cuerpo aún no se haya acostumbrado del todo a la \"Llave\".\nParece que los ajustes de situación no están funcionando.\nSupongo que se activarán con algo más de tiempo.
+de70492a2a7c33d8be508f112213ec92:0:Creo que eso es todo...\nAh, y te conviene echar un vistazo a los datos de la tripulación.
+b85e6078f1881b1bac757501083e673d:0:{0}, los únicos que conservamos recuerdos de los loops somos tú y yo.\nPero los demás mantienen la misma personalidad en cada loop.\nSi entiendes cómo piensan y actúan, te será más fácil sobrevivir.
+ed59fc38215e9db33dc42e705b39d8a3:0:Y además... no se trata solo de sobrevivir.\n{0}. Quiero que busques conmigo.
+b9b4d2007a542c3b229e990bcc1e1738:0:¿Por qué este mundo se repite una y otra vez?\n¿Y cómo podemos ponerle fin?\nQuiero que busquemos esas respuestas...
 6fb59874bd810a4564764c005d0c7099:0:Buscar juntos
+eec1b980e96a5e2b39f0b3fa5f31373b:0:Respondiste que buscarías con Setsu.
+91bd8872317f97001d0fc8028492932b:0:Je... gracias.\nMe alegra oír eso.
 17ee1208abc07cef009e444b0615c205:7:No decir nada
+7ecfa4e634d7e969ec37d2cb99b12d8f:0:Aun así... lo que podemos hacer es limitado.\nSupongo que solo nos queda dar lo mejor según la situación.
+64d0f02d3ad2b6e20640ef38bff2c6e4:0:Además, esta vez...\nTú eres el Ángel guardián, {0}. Ayúdanos a lograr la victoria.
+70c019667d1741d0cac69b9c4e37b916:0:En este loop eres el \"Ángel guardián\".\nCada noche puedes elegir a una persona\npara protegerla del ataque de los Gnosia.
+4b112c23bc6c4db7bd87392ed053de68:0:Y yo... soy Gnosia.\nVoy a hacer lo que me toca hacer.
 0a94e4ab549b353936fde9f54a0d1f40:0:Soy Gnosia.
 faf234a0399d4500d2b46d7513e93455:2:Consola principal
+7f643e63a389d6ddc9c501705ac00a25:0:La discusión ha comenzado.\nSetsu había admitido ser Gnosia, pero...
 b8e2ccd770b2df429f431b701697de0d:0:Charla libre
+fe2c73af3a959bbdddbeb8af7ba9a38a:0:Así que ahora somos enemigos...\n{0}, escúchame. No hace falta que te contengas por mí.
 97ba3399b1c7c3a287d4457b3dcf817e:5:Cong.
+c58d7fccb205a6c1de85ad94c62c5972:0:{0}.\nOjalá la próxima vez podamos encontrarnos en mejores circunstancias.\nHasta entonces...
 403d7ef3956695dbabd178a9bab469e2:0:{0} ha sido enviado a criogenia.
 c168912d3b723ce9f0e86b43ec4ed99d:0:Final
 6d9f006d9f61c6a70225b64c0d0cc0a0:0:Con Setsu
 448c2afba9e1712a5e4a391a16e3424e:0:Por...?
+29f398138885d4f2b649c7ebd7f026e4:0:¿Por qué te dije que era Gnosia...?\n¿Por qué me dejaste con vida?
 ad22f56be28be5bbd7212386e2e74133:0:Sin querer
+d8cbeada04bd6aa1aa4d27dc07c6d8a1:0:Respondiste que no era tu intención.
+81a488c87e237561e6edfb10766a4f6b:0:Ah... ya veo.\nBueno, supongo que entonces no había mucho que hacer...
 681ee4364ff9d77885f303aece8033bd:0:Olvidé
+473c98d8978b90a8168919468a4561d0:0:Respondiste que habías olvidado por completo que Setsu era Gnosia.
+21b43ab0c59ef77e2151ee08127f2fc7:0:¿Eh...? ¿De verdad...?
+18af2a58aac34ada409b10324c0e093b:0:Quizá no lo expliqué bien.\nDebería habértelo dicho más claramente. Perdona.
+57e5c126a56a59db0ef07d61faebb776:0:Te lo repito: soy Gnosia.\nY, {0}, ahora que solo quedamos tú y yo...\nEso significa que los humanos han perdido.
+982fd80260b45ddfb7e75e32326a1073:0:Así que el tiempo debería rebobinar dentro de poco.\nEso creo...
+59d2d48a6040286079ebb3ce4ecfa512:0:Fue cosa de ambos
+3eed938e238e5dd953be82770aca15f2:0:Respondiste que fue cosa de ambos.
+d6b6da724cba561247f21c3dc7cf00de:0:Sí... supongo que tienes razón.\nComo Gnosia, quizá debería haberte eliminado enseguida, siendo tú el Ángel guardián.
+64461fc6ef037fe6e36eae6ef763a96c:0:Supongo que yo solo...
+731d04ad96cd21df10dffbe54057fd54:0:En realidad, dejemos este tema...\nYo también actué mal. Por eso te pido perdón.\nPero... pero aun así...
 4660acceddc3969fb7605ba5b8b3ff71:0:No decir nada
+696ac33358417d635ad94562692b77ae:0:Así que... no vas a responder.\nEstá bien. Pero quiero que lo pienses...
+8bb1d3333349e2d3752820969f43ae5c:0:Como siempre
+c9bf1f169ed794f3c7c1b25840d6717b:0:Si todo termina aquí, como siempre, está bien...\nPero... ¿y si...? ¿Y si esta vez el tiempo no rebobina?\nYo...
+5eb08910273000e9dc3d06a8536e0612:0:{0}, tendría que eliminarte.\nPorque soy Gnosia...
+9088acc681b583e344d753e4c4b4912b:0:Y entonces... me quedaría sola.\nVagando por este universo sin nadie más.
+e42804bbbf0ddb032ec9aab473fd912e:0:Por eso, {0}...\nSi volvemos a entrar en otro loop...\nQuiero que en el siguiente hagas esto...
+6c7a4240ebeada319bac879566d95a95:0:Si estás del lado humano, quiero que luches contra los Gnosia.\nSi sospechas de mí, ve a por mí y no te contengas.
+0b908fbda7ecf00290ce41bd70799dab:0:Si eres Gnosia, puedes eliminarme.\nYo... yo haré lo mismo.
+d2636181ba086a3d5782bd867cb836f0:0:¿Vale? Y además...\nQuiero resolver el misterio de este mundo extraño...
+4d75680cb9832c5d25b4be8ca7a87bc0:0:Junto a ti, {0}...
 4fe4e722ffcc4fb60371f9f04eaa076a:0:Rechazar
 # loop14
 4afa2dd4b5450f8628d3c1be9fdac616:12:Crear loop
 965ba1c58316cb32a9a7b78d83a60e88:0:Después de crear el loop
 889bdf852e27d350772452d3d91b07ce:12:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:10:Explicar situación
+32503a4e79f95c2ff19759878f743d28:0:Bien... empecemos.\nLa lucha a muerte entre la humanidad y los Gnosia.
 7f9063ae009e927600167ddf64437d26:0:Eh...
+c3a8a7cc9363f9a37ea8475010c3969b:0:Eso de la \"humanidad\"...\n¿Me incluye... a mí?
+e01aeb8f0036c17b600479bd9fc4edc0:0:Ah, claro. En el caso de Otome...\nHum, no estoy seguro...
+a3fcef48a856b7a3a47ae69a8b021038:0:¿Puede un delfín infectarse de Gnosia?
+78f9681a61522758696b5e65c4129396:0:Eh... no lo sé.\nYo tampoco sé mucho sobre esto de los Gnosia.
+d5c3ad31363e16b01c5ea521633225dd:0:Creo que debemos asumir que Otome también puede\ninfectarse de Gnosia.
+e6bb2d480a5b4b25702727fece0576ca:0:Sí, si no podemos asegurarlo... lo más prudente es eso.\nTenemos que contar con ese riesgo.
+7f53db4f35e382e0758b9bf6e2e530a0:0:Además, yo...\ncreo que es humana.
+d3d64cfb3d0c602e3cd8acdfd0d0dfab:0:¡Chii! ¡Gina...!
+49011ec6f5f542184096ee4a57403085:0:Hum...\nSi lo que separa a los humanos de los animales es la inteligencia y la conciencia...\nentonces sí... estoy de acuerdo.
+07e7e54894aec246e604f8e717434a52:0:Sí. Percibo inteligencia en Otome.\nEn Shigemichi y Comet, en cambio, no tanta.
+3ee98f2340532347ca36617c38a5f88b:0:¿Eh? Entonces Shigemichi es... ¿humano?
+e9e73d5c6c4633ea8baf7401be897466:0:¡Eh! ¡No fastidiéis...!
+24d8ad22c13548476a5f98d0c5752f52:0:Falta un miembro de la tripulación.\nHe intentado contactar varias veces, sin éxito.
+a9d0a101659be45c85d9433b3df45733:0:Ah, Sha-Ming, ¿eh?\nBueno, qué se le va a hacer...
+25b22050d301a595e6fc860832d787ca:0:Sí. Aunque él fuera Gnosia...\nestá claro que aún queda otro entre nosotros.\nEmpecemos ya la discusión de hoy.
+497f2c087948a3e8aee328cf15212fe5:0:¿Falta una persona?\nParece que Otome va a participar, pero...
+324028f87b128de79f4b61764bf4b0fe:0:Sí, ¡haré todo lo posible!\n¡Chii!
 7990cbc765e06aa035673bf3aa37a80c:0:Noche con Sha-Ming
 b9150495e075d55efe18db37f21951fc:5:En el pasillo
+8aeb85bf8cfec8ebd3762da0e5ed096d:0:{0}. ¿Puedes acompañarme un momento?
 9d18f95f84fde0f7fa2bfb77a42f8747:0:Respondiste OK.
+55eb30b266bba694c5fa5a0f57b2943b:0:Uf, gracias.\nNo quería ir a ver a Sha-Ming yo sola.
+5cfdaed6da4b8350d9288a444d5153bc:0:Sinceramente... no lo soporto.
 d506980bec9847875d234085fd9fbda0:0:Rechazar
+0851519167129e7a6ac1af7673eebc45:0:Respondiste que no querías.
+44b13f2a5ecbbac4be2854bcfed95905:0:¿Pero podrías venir...?\nSerá solo un minuto... ¿Sí, por favor?
 ee361d3ccc8acc5a01b16dc12ad206f2:0:No decir nada
+353535918bb6f89138670378e226b614:0:Voy a ver al tipo que no apareció hoy, Sha-Ming.\nQuiero que vengas conmigo...
 d506980bec9847875d234085fd9fbda0:1:Rechazar
+0851519167129e7a6ac1af7673eebc45:1:Respondiste que no querías.
+fca64ad44eafa93d148e3b8cb67e3ba8:0:Venga ya. ¡Solo ven conmigo!
 1cd73df76ae74122df3941f81da2e294:0:Ir a la sala de ocio
+3acd0a8ef8682e74be2008f189c08b18:0:Je, imaginaba que acabaríais viniendo.
+cf8bcd8d840a48189183256eefcaa5e0:0:A ver, Setsu, dejemos las formalidades.\nDame aquí un besazo de esos que derriten, anda, cielo.
+2f25ef109b1e261c4e716b4acb245625:0:Sha-Ming, ¿cuántas veces te lo tengo que decir? Soy no binarie.\nDeja de tratarme así y deja lo de \"cielo\".
+ec651fcaa4ef9ef1831115615354220d:0:Je, aun así me irías igual.\nY bueno, ¿quién es este? No lo había visto nunca.
 d01b0a2aa4621087cb96457e26168fc6:0:Di tu nombre
+3cd54f07fe80c83cbe62685343f6f7b0:0:Te presentaste ante Sha-Ming.
 02f76f309632848706c4422f9e67db62:0:No lo digas
+49c278d0ba785fa5cabcb19755919354:0:Es {0}... alguien cercano a mí.
 13bed5bd7819495728fbd17a43d63652:0:Después de la presentación
+3ec983df8f3f89e19c52cc0524cd52be:0:{0}, ¿eh? ¡Vale!\nYo soy Sha-Ming. Puedes llamarme \"Ming\".
+be62b5a54c301aa652e7e1a397231949:0:Hum... En fin.\nNo os preocupéis por mí. Vosotros a lo vuestro.
+6251cf72cf5c088245559af995d421fe:0:Sha-Ming, voy a ir al grano.\nNo apareciste en la reunión sobre los Gnosia.\n¿Qué estabas haciendo exactamente?
+50055b83a3ee07f9fe2ccaa2147e183e:0:Pues estaba cascándomela, ¿y qué?
+c59491e714a5b0d220cdffeb1279558a:0:No debería haber preguntado...\nLo reformulo: ¿por qué no viniste?
+3e8c6ee846e4b82912d68e89bc728357:0:¿Y por qué iba a ir?\nSi digo algo que no toca, los Gnosia pueden fijarse en mí\ny acabar borrándome, ¿no?
+17def8b731507f42c6a5602a1bcac422:0:Mira, yo no quiero destacar.\n¿Se entiende?
+716d9bd69ba301796c615b5f6041793a:0:Sha-Ming tiene muchísimo \"Sigilo\",\nlo que hace que sea menos probable que los Gnosia lo elijan.\nAdemás, sus comentarios apenas lo hacen destacar.
+d72c1e98e9c793246f66871ad18f9cb6:0:Si no te gusta, vótame y mándame al congelador.\nPrefiero pasar un tiempo congelado a que me borren del todo.
+97b7f44580056d1ea51bf28d8a564c00:0:Sha-Ming... no puedes hacer lo que te dé la gana.\nMás te vale venir mañana a la discusión.
+c3d1cb6e639d32492276ee9dde6f1ee6:0:Siiii, claro. Va a ser que no.
+e2567b54d339a5835bd06d55781fa3c5:0:En ese caso, ¿qué tal si te hago salir de esta nave?\nPor la esclusa, tú solo.
+f7ecefda3dadb5249064fb8279125299:0:Eh, espera. Básicamente me estás diciendo que me muera, ¿no?!
+b6a07fa583d55e179b6454cfb9aab1b5:0:Sí. Morirías.
+33d0e34678f427ad69b480d4dc7b69bb:0:Vale, vale, hablas en serio...\nEstá bien, me rindo.
+8806ada6a91888901dd72d5b94251e20:0:Uf... Gracias, {0}.
+d3646dfeb78dabf7499fc1dd9fa77315:0:Con tenerte allí conmigo...\nhe conseguido superar este loop sin matar a Sha-Ming.
+b779638e6e9bdf2fab6af0b5ae35fab4:0:Datos tripul.: Sha-Ming
 dfea1e8162021bfb5d805a3552419092:0:Aparece Shamin
+7fd251244ae6e9e6f38cb2b226300650:0:En fin, desde hoy me sumo al grupo.\nLo que sea.
 # loop17
 4afa2dd4b5450f8628d3c1be9fdac616:13:Crear loop
 965ba1c58316cb32a9a7b78d83a60e88:1:Después de crear el loop
 889bdf852e27d350772452d3d91b07ce:13:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:11:Explicar situación
+b6519907f86a73f007f1929554ed496c:0:Ahora empieza de verdad.\nPreparaos.
 6157163b0ec6a005dbc16fff7448044d:0:Es Yuriko...
+452ffdd6364465deba4a2c8b9796ffc4:0:Je. Humanos y Gnosia por igual: si queréis sobrevivir...\nluchad y retorceos con todas vuestras fuerzas.
+b27f0680bc68f717451bec93d8886b28:0:¡Ajá! Muy buena, majestad.\nYo me haría tu súbdito encantado, ya te lo digo.
+6f10e0fcafee8c345a7b8345fa942c4e:0:Payaso inmundo.
+adfff8694c230ad1ad9c0f7ed94c3115:0:(La expresión de Kukrushka es sombría.\nParece tenerle miedo a Yuriko.)
+19d822f5b0989f3a3780fd2a01f8b0ff:0:No tenemos mucho tiempo. Pasemos a la discusión.\nPor cierto...
+4880072bfb00b9db91e225769ef7a67e:0:Muchacho... ¿quién eres?
+1146ba7d621e9b53de8c2c6ddc555f36:0:¿Eh...?\n¿Y-yo...?
+e77f515c2cf8fad868ec4288f30778dc:0:Si hablas de Remnan, lleva un tiempo a bordo.\nCreo que ya os habíais visto antes...
+a99c048a180b39415fcae24d162a3fb0:0:Yo, eh... no se me da hablar con la gente...
+dc83ee01fc38deb7364b7483df7fbeee:0:No tratas mucho con los demás, ¿verdad?\nY, además, dejas poca impresión y te olvidan enseguida.\nEso es tan propio de Remnan...
+c6c0aa9d0c680fc290937ddb4afb5a30:0:Sí...\nCreo que tienes razón.
 ed1dc211ec45e6d720b37a2dbc716dfc:0:Entiendo...
+0eb7be4d30783e995779153650a904a8:0:(Esta vez está todo el mundo.\nLa cosa puede ponerse dura.)
+ec5a26dda25b8f71a6c7b8ed4c9f18dd:0:(Tenemos que ir con cuidado.\nCuidémonos mutuamente, ¿vale...?)
+c7b0125a4672fee85e2e3cd9f656a957:0:Bueno, ¿empezamos ya?
+48dd4883303d98a87c778c1a682320c2:0:Entonces permitidme plantear el primer asunto.\nEscuchad con atención.
+acb43002b975133ed9f3c2c203d437e0:0:Datos tripul.: Yuriko
 d07077898798fa322001b7bdde175a33:1:Escuchar a Yuriko
+8714e321f8b2061acf6577842db38cbf:0:Primero demostraré que no he sido mancillada por la plaga Gnosia.
+f8f1debb9bbea0b9400f664d52a4ac3d:0:Así que... no eres Gnosia, ¿eh?\n¿Tienes alguna forma de probarlo?
+7933a343c7b9fab44959f257a4ecc4af:0:Sí.\nVosotros sois refugiados que subisteis a bordo en Liu-An por casualidad.\n¿Correcto?
+313e3b5fc553b27e834a2ca9ed0181b6:0:Sí.\nAquel sitio quedó arrasado por los Gnosia y destruido.\nTuvimos muchísima suerte de subir a esta nave.
+3d12a07aa7c0bf8f5a1b312ed1e1ff84:0:Sí.\nAquel sitio quedó arrasado por los Gnosia y destruido.\nTuve muchísima suerte de subir a esta nave.
+449e1b57b5151f397aefe95f5db88463:0:Puede ser... pero seguimos en peligro.\nDurante la evacuación, tres infectados lograron subir a bordo.
+6d54a751d75e27f6e983ff806677518a:0:Exacto.\nLos Gnosia subieron a la nave junto con vosotros.
+562c33e6899c3813439f4bfd31a4e227:0:Por lo tanto, igual que yo...\nquienes ya estaban en esta nave antes de Liu-An\nno pueden ser infectados Gnosia.
+bc52bfa7941d929c67cb0c936a85e751:0:Hum...\nPero cualquiera que bajara de la nave en Liu-An pudo ser infectado.\n¿Puedes negar eso?
+460d7c1445a67f9f9f3af523c3d14f6b:4:Se presentó como {0}.
 219e038f72aad4ac65427b4e5786225c:0:Escuchar a Yuriko
+c05a36c36e8bcb1243448997463fe4dc:0:Yu-Yuriko y yo...\nno... no salimos de la nave...
+fea7ef837ad64fdf66faa4a9e9df58a8:0:¿Y cómo sabemos que no os habéis puesto de acuerdo?
+d991fc968d0402c166138485a5c3021e:0:...!\n¡N-no...! Yo...
+096d7c417ef6c75aa59381042ca0c7f8:0:Sí. Puedo confirmar que dos tripulantes permanecieron a bordo en Liu-An.\nSin embargo, no puedo confirmar si se trataba de Yuriko y Remnan...
+cd1feaa0f18982642ab54900997f5098:0:Los únicos que nos quedamos en la nave fuimos nosotros dos.\nSi alguien más quiere afirmar lo mismo, que hable.
+0eec1656e35ed368a1f0cf8757c254b8:0:Hum... Parece que nadie.\nEn ese caso, queda decidido.
+1f19c62984a86f9d9fef2d0be13d366e:0:Sí...\nYuriko y Remnan no pueden ser Gnosia.\nDe eso estoy seguro.
+2454ffe03ef7397b523ee1839f44f71c:0:Las dos personas que se quedaron \"de guardia\" son humanas seguro.\nSolo quienes permanecieron a bordo pueden reclamar ese rol.\nLos Gnosia y demás no pueden fingirlo.
 2033c3c1ea961307a1f395c3413e2ead:1:También dio un paso al frente como {0}.
 d96f59773232cb5f924056946210df60:0:Seguir hablando
 b9150495e075d55efe18db37f21951fc:6:Noche con Otome
+60b94356fd09ddd1d200bcc0f3745393:0:...?\nHay un charco en el suelo...
+9baeacc1fa0ce8895378111d5334a4ae:0:Sigues el rastro de agua por el pasillo...
+8390cf1ad69e787a265a89d5d796ff4d:0:¡Chii! {0}!
 be947ef8c9d11dd9a867dd78a375d4a6:0:¿Puedo... ayudarte?
 9c18ef0d25143cefbfe6812e5a32daf1:0:Derrame
+ff8aaa94ba780f8eb53193e3cad1a0ef:0:Preguntaste por el agua del suelo.
+c0e7e99ef6409e3bd7a10368ae710fde:0:Ah, em... me di un golpe en el casco.\nSe agrietó y se salió parte del agua.
+516346c706d2b812a4ed37e836b76e2f:0:Y me puse muy nerviosa,\npero vino Remnan a ayudarme.
+99ce14a55b6dfdde75c9a3477feda470:0:Dejarlo así... sería peligroso.
 1320e5389f76bd1e66c307be604bdeab:0:¿Qué pasa?
+7618d6c5ca7ddc29a7e4ab8e68ba4ee7:0:Preguntaste qué estaban haciendo los dos.
+dfe51157f41f5a19ec917321575cd7fb:0:El casco... de Otome.\nLo estoy reparando.
+fbb60f37f15f9326a7f34074875ce3e3:0:Se agrietó y se salió parte del agua.
 0185c0ad804c63e0ab5caa54095642d1:0:Seguir la conversación
+80c12ea37d7e07fa2e0a1b0e91d94378:0:Vale... con esto debería bastar.
+59cf293434994bb8931e6b592dad4a0e:0:¡Chii, chii! Ya no tengo que preocuparme por secarme.\n¡Muchísimas gracias, Remnan!
+64016dc496b52d934910b77a0924aeb4:0:No es nada...\nEn la planta de síntesis... hay casi todos los materiales necesarios.\nNo es... tan difícil...
 40d34982be661d55d4900a0f147b17d4:0:Elogiarlo
+84c783b9c625a2a3a364f901e04029a5:0:Mostraste interés por el trabajo de Remnan y se lo agradeciste.
+2ffd04ab63c09e7d09a4b260addde438:0:Sí, ¡Remnan es increíble!\n¡Lo arregló enseguida!
+59f05f15326e558897e951558036c3d6:0:Es que... me gusta este tipo de trabajo.\nMe alegro de haber... podido ayudar.
+ad6ef55095f55928c46e9437202990ee:0:¡Se ha esforzado muchísimo para arreglarme esto!\nRemnan es muy buena persona.\nMe alegro de haberme dado cuenta.
+13776b4adbd1da4ab2d17a53408afaf0:0:Oh, no...\nAunque yo no hubiera estado... seguro que... cualquiera...
+b5bef9c08f679fe6fc6524330ce34564:0:No.\nAntes de que llegaras, me crucé con SQ.\nDijo \"¿Esto es como un espectáculo de agua?\" y se fue.
+4860c0badcb95f60d8fa4861c40acd74:0:Los elogios sin fin de Otome y la humildad extrema de Remnan\ncontinuaron hasta la hora del salto.
+b4a83b4e8adcebae8ef2a2007e6363dc:0:Datos tripul.: Otome/Remnan
 fc26600ea00bb2a825098e19abceaa44:0:Enséñamelo
+edfbbd4f661c334a2f074990bff487c5:0:Le pediste a Remnan que te enseñara a usar la planta de síntesis.
+7b64d785d0f06b5c8bcb01113258afff:0:Oh, claro...\nPrimero hay que escanear los materiales mientras revisas\na la vez los recursos de la planta de síntesis...
+5511daf9e7334b3cf88e5866e2fbe432:0:Ah, ya veo.\nO sea, que hay que hacerlo al mismo tiempo.
+fabe5888d9dfdd14b4f25e0b35648349:0:Sí.\nLuego extrapolas los patrones de moldeado y el agente fijador...
+1dc75afbcb73c53b25957a8c63d00d44:0:Vaya. ¿Y también puentéas la salida?
+d828b3909f9cf341e60e17d45e23af5a:0:Sí... así es más eficiente...
+05a1f43a5751a3549585b3256f40aa26:0:Mientras escuchabas a Otome y a Remnan hablar de tecnología,\nte diste cuenta de que ya era hora del salto...
+c8c68c737a250bcb85cb42f1d5dc0c6d:0:Datos tripul.: Otome/Remnan
 # loop19
 4afa2dd4b5450f8628d3c1be9fdac616:14:Crear loop
 965ba1c58316cb32a9a7b78d83a60e88:2:Después de crear el loop
 889bdf852e27d350772452d3d91b07ce:14:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:12:Explicar situación
+1e26408b393ce07b5b03eb11985cac7b:0:¿Un error en los ajustes de situación...?\nYo... nunca había visto algo así.
+98e3a4509c0a5c28336c2f382d0a42f8:0:Al menos yo no lo había visto nunca.\n¿Un error en el universo...?
+5282b7f92086ba5b46eff149180b377c:0:Esta vez podrían darse irregularidades.\nEsperemos que nos ayuden a encontrar la salida de este loop.
+753908bff1b3f943adebd4da88e64241:0:¿Un error en los ajustes de situación...?\nComo la otra vez.
+8fc405626f719cbd341138ff79fd3bd9:0:Bueno, {0}...\nIntenta sobrevivir todo lo posible y observa bien lo que pase.
+ed86f2404a7f910a020d943c3eb4c605:0:Je, yo también ayudaré.\nSuperémoslo juntos.
+ec290210cf9157c0507a3eefd9373b14:0:¿Otro error...?\nEsto no deja de pasar, ¿eh?
+b8f15a66c15c2e10ec8ccf8a2e71047f:0:Si esto sigue así...\nprueba a cambiar los ajustes y a reducir el número de Gnosia,\no a aumentar el número de tripulantes.
+cb4c976477393c68a8f69fcd33a258fa:0:Pero de momento intentemos salir adelante esta vez.\nVamos, pongámonos con ello.
+f589ea832191f0f5a42e1fcaefdf45d7:0:Intercambiaste información con Setsu.\nEsta vez, Setsu es \"{0}\".
+f456473214567dff90ceda1623a7f55c:0:Miras a tu alrededor, pero no ves nada extraño...
+1d91024cfa54f4519a1a0c445eef01f0:0:Soy {0}.
 f54fcc1b16537a01658439f5b8b60d44:0:Ruidos noche
 b9150495e075d55efe18db37f21951fc:7:En el pasillo
+1012dbe9774e6f479135084a282ecc0a:0:...?\nPor un instante, te pareció que algo iba mal con tu vista.
 c168912d3b723ce9f0e86b43ec4ed99d:1:Final
 0f6f69b806923fcae858091f2885e2e8:0:Final Bug
+39aef16e857b030cbec086f3d08b747c:0:Has logrado sobrevivir hasta aquí...
+00d86d8cd5ec9af103cb5f4bc5f3b10a:0:¡El mundo... se está desintegrando...!
+5f6356f313c540f3332ff9c0b7871548:0:Esta vez, debido a un error del sistema,\nhas sido configurado como \"Bug\".
+060011edb343781ba2e3539b2a9f3c1a:0:Si el \"Bug\" logra sobrevivir hasta que humanos y Gnosia\ndecidan un vencedor,\nla victoria será para el \"Bug\".
+963ef8b20e5f459d61d611db1237fe6c:0:Si gana el \"Bug\", el universo será destruido.
 # Nanori
 a7129f4a77ed3a2353cfd0283764e31f:0:Noche con Setsu
 b9150495e075d55efe18db37f21951fc:8:En el pasillo
+f66edd24f3c00d3df619871c013a5c41:0:{0}...\n¿Tienes un momento?
+775fdf6f661c2611cf0a45f8099af25d:0:Hay algo que he notado durante la discusión...\nAún no llevas muchos loops encima, ¿verdad?
+44f84fe59cb0910448423c26095ebd7b:0:Por eso quería darte unos consejos sobre qué debes vigilar.\nSi no te hacen falta, lo dejamos.
 6b294543cfbd3e7ba0546305ba619355:0:Dimelo
+d0ee62cbadd58e683e67fdb17a3b6305:0:Le pediste a Setsu que te dijera en qué debías fijarte.
+a1be0ac9ae4cad99a6b65409d1c29a1b:0:Vale.\nLo primero es procurar no destacar demasiado.
 10f56584522a11b02b646d3ee6091907:0:No hace
+5e630311c4b228f64ada65c1a837e89c:0:Respondiste que no necesitabas consejo.
+b3e03fff68660f7129bdf9f141a79252:0:Ya veo...\nPero hay una cosa sobre los Ingenieros que sí debes saber.
 9d655f9d510ca2e44cae231b08703a8d:0:No respondas
+1aeb34f2fd5034a15d91e3f4566e99a4:0:De acuerdo... te lo explico.\nLo primero es procurar no destacar demasiado.
 5c841298915e0e8bbc14d254d785ee9c:0:Seguir la conversación
+e1e077c75616e7d973041c57b492dbfb:0:Cuanto más destaques, más probable será que sospechen de ti\ny acaben votándote.\nTambién llamarás la atención del enemigo y correrás más riesgo de que te eliminen.
+b0ab5237ac36b2716a4b4a1832a2cc80:0:Claro que hablar ya te hace destacar.\nSi te limitas a seguir la opinión de otra persona, mucho menos.
+adb110317eaeeb5d22d509f912616f09:0:Además, si te señalan y protestas o discutes demasiado, también llamarás la atención.\nCualquier comportamiento antinatural te hará destacar.
+f68c8dacc3bd5f4e555d5e31873ea831:0:Pero si por miedo a destacar no haces nada, te dejarás arrastrar por la situación.\nAsí que no tengas miedo de hablar cuando creas que hace falta.
+57f3c9bb8a2f99cf7117a362560a2d03:0:Subir tu aptitud de \"Sigilo\" hace que destaques menos\nal hablar.
+15133d94196aa2ac763cc433b3b673ee:0:Debes ser siempre consciente de cuánta atención estás atrayendo.\n¿Qué más...? Ah, sí,\nlos Ingenieros.
 56bef0c91043dd7248f422002bb333e4:0:Sobre los Ingenieros
+67d3556d1ed0a66dccc412dd9f8e77bf:0:El Ingeniero es un arma muy importante en la lucha contra el enemigo.\nPuede aportar la información clave sobre\nquién es y quién no es Gnosia.
+4bdc7859cce3f6b0525a0035346408da:0:Pero si no da un paso al frente, no puede compartir esa información.\nA menudo los Ingenieros no lo hacen por miedo a que los ataquen.
+3ea6adeb0d8ee18eb831918dade6a55b:0:Por eso, a veces hay que animarlos a dar un paso al frente.\nLa información puede decidir esta batalla.
+30177e6ed87a683fa0ec87eebbaff887:0:Habilidad \"Da un paso al frente\" adquirida
+79c2757fa79202ebf9fb9003efc3c413:0:Has adquirido la habilidad \"Da un paso al frente\".\nSi tu \"Carisma\" es 10 o más,\npuedes usarla una vez por discusión.
+47ec3418c7d86a61fbab0b6a2f4b306f:0:Has adquirido la habilidad \"Da un paso al frente\".\nNecesitas 10 o más de \"Carisma\" para usarla.
+1adf32e7a1a7a6da00bd63bdedc14e89:0:Puedes consultar los detalles y condiciones de uso de las habilidades\nen tu habitación o en \"Lista de comandos\" del Menú Inicio.
+5bfc9e6c5e8e8892c8ecd419265dcad1:0:Sí...\nEso sería todo.
+4917712b0650c579bbbecf8fa869e427:0:Bueno... nos espera una lucha larga.\nHagamos lo que podamos para salir adelante.
 # Sys
 a9ec56ad3e9fe08c4c7feeaaa4a137b7:0:Experimento
+cad957192bc419e7be5e97ce680baf3d:0:Vamos a hacer algunos experimentos.\nA ver qué efectos puedes generar.
 1962e6bfe0aa821bc742b07fed80e35b:1:Ten cuidado
+368fa678dad8dcec24dd9b4de662c13a:0:Ten cuidado, {0}.\nHablar demasiado y no hablar nada son cosas peligrosas.\nLlamarás sospechas innecesarias.
+e269f3b0acfaac5c87ed2de7478298c0:0:Quedarte callado o destacar hará que sospechen de ti.\nTener mucho \"Sigilo\" ayuda a que\nte hagas menos visible.
 e45e8658aa7d8349467e7c8593b3070a:0:Después del CO
 e45e8658aa7d8349467e7c8593b3070a:1:Después del CO
+365fca860449463919c6a2202962caef:0:Si reclamas un rol en el segundo día o más tarde,\npuedes consultar resultados anteriores en \"Informes del Ingeniero\"\no \"Informes del Doctor\" dentro de \"Datos ref.\".
 e45e8658aa7d8349467e7c8593b3070a:2:Después del CO
+b9e30ef6eab96a67cf1bf32206545fd6:0:Cuando reclamas un rol en el segundo día o más tarde,\nse generarán resultados anteriores acordes a ese anuncio.
+911d2110ed243ac01bddba0e2634f1ee:0:La almeja roja que viajó en el tiempo
+643520959501377db770005550e0d427:0:¿Q-...qué?\nDe repente todo el mundo se ha vuelto rarísimo...
+d278d8e8dd7c108057cf6817cdcab221:0:La existencia de la nave está sufriendo tensión en el rico bing-bong de fideos.
+29ed45e0eb8ec879481ea617cfcdb7e2:0:¿Hasta LeVi también?!\n¿Qué demonios está pasando aquí...?
+b0b2b0eb23f005cbfbfd0d6ac8d4c689:0:Los cálculos se han calculado mal calculadamente.\nComo resultado, el kit del universo se ha puesto raro.
+923960d2bfc2ce5f7e4d4cae60743706:0:Sí, está rrrroto.\n¿Quién ha sido? ¿Tú? ¿O CCCCCartman?
+4389056bb6b3f90793d0f295d38c042a:0:Bueno, suuupongo que ESTo sigNIFica que ESTAmos tooodos acaabaaaados.\nJaaaajajajajaaaaa.
+7aa557c1a7f0f1714f14d0d5cb284199:0:JAJAJAjaajajjajjjjAJAAAJAJJJJJJJJAAaaaaaaaajjAAAAAAAA\njjjjjaaAAAjjJjAaAaAaJAjaJAJAJAJAAAAAAjaaaJJJAAAA\nJJJJaaAAjjJaaajJA ja ja... ¿Ja? ¿Eh?
+96361bafea9a1727773da5fdb2e4d0b7:0:Cuando las probabilidades de roles y demás\nsufren anomalías,\nel orden del universo puede destruirse.
+d44fbfddc737ac99019318f0d18fca35:0:Cuando eres \"Ingeniero\" o \"Doctor\" y otra persona\nreclama ese rol pero tú no das un paso al frente,\naumenta la probabilidad de que ocurra esa anomalía.
 416d84167ed87081e645fc00425e57a7:0:Forzando cierre.
+82d7f70dd773cb21c93397a80195e4b1:0:El orden del universo ha sido destruido...
 2e028e216a892c17d035a62ee1765bd5:5:Sin acción
