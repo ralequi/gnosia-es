@@ -10,7 +10,15 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from gnosia_common import OUTPUT_DIR, TMP_DIR, ensure_dir, load_entities_from_manifest, write_json  # noqa: E402
+from gnosia_common import (  # noqa: E402
+    OUTPUT_DIR,
+    TMP_DIR,
+    decode_corpus_text,
+    ensure_dir,
+    load_entities_from_manifest,
+    read_json,
+    write_json,
+)
 
 PHASE1_ENTITIES = {
     "OthersText",
@@ -36,6 +44,31 @@ UNCHANGED_ALLOWED = {
 
 PUNCT_ONLY_RE = re.compile(r"^[\s\W_]+$", re.UNICODE)
 PLACEHOLDER_RE = re.compile(r"\{[^}]+\}")
+GLOSSARY_PATH = SCRIPT_DIR / "glosario_v1.json"
+ASCII_FALLBACK_PATTERNS = {
+    "sueno": "sueño",
+    "frio": "frío",
+    "logica": "lógica",
+    "actuacion": "actuación",
+    "intuicion": "intuición",
+    "dia": "día",
+    "angel": "ángel",
+}
+ENGLISH_LEFTOVER_RE = re.compile(
+    r"\b(Engineer|Guardian Angel|Crew Member Data|Data Reference|Load|Save|Proceed|Goodnight|warp)\b"
+)
+STYLIZATION_RE = re.compile(r"(s[uú]{2,}per|voo+y|superconfuso|supersospechoso)", re.IGNORECASE)
+
+
+def load_glossary_map() -> dict[str, str]:
+    glossary = read_json(GLOSSARY_PATH)
+    flattened: dict[str, str] = {}
+    for section in ("roles", "acciones", "estado_y_ui"):
+        flattened.update(glossary.get(section, {}))
+    return flattened
+
+
+GLOSSARY_MAP = load_glossary_map()
 
 
 def parse_args() -> argparse.Namespace:
@@ -55,7 +88,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--report-dir",
         type=Path,
-        default=TMP_DIR / "audit_phase1",
+        default=TMP_DIR / "audit",
         help="Directory for JSON and text audit reports.",
     )
     return parser.parse_args()
@@ -115,6 +148,30 @@ def is_translatable(text: str) -> bool:
     return any(char.isalpha() for char in stripped)
 
 
+def editorial_reasons(source_text: str, work_text: str) -> list[str]:
+    reasons: list[str] = []
+    decoded_source = decode_corpus_text(source_text)
+    decoded_work = decode_corpus_text(work_text)
+    lower_work = decoded_work.lower()
+
+    expected_glossary = GLOSSARY_MAP.get(decoded_source)
+    if expected_glossary is not None and decoded_work != expected_glossary:
+        reasons.append("glossary_mismatch")
+
+    for ascii_term in ASCII_FALLBACK_PATTERNS:
+        if re.search(rf"\b{re.escape(ascii_term)}\b", lower_work):
+            reasons.append("ascii_fallback")
+            break
+
+    if work_text != source_text and ENGLISH_LEFTOVER_RE.search(decoded_work):
+        reasons.append("english_leftover")
+
+    if STYLIZATION_RE.search(decoded_work):
+        reasons.append("stylization_review")
+
+    return reasons
+
+
 def main() -> int:
     args = parse_args()
     source_manifest, source_entities = load_entities_from_manifest(args.source_manifest)
@@ -143,17 +200,19 @@ def main() -> int:
             for param_index, source_param in enumerate(source_sheet.params):
                 source_text = source_param[1]
                 work_text = work_sheet.params[param_index][1]
-                tier = classify_tier(source_entity.entity_name, source_sheet.name, source_text)
+                source_display = decode_corpus_text(source_text)
+                work_display = decode_corpus_text(work_text)
+                tier = classify_tier(source_entity.entity_name, source_sheet.name, source_display)
                 if tier is None:
                     continue
 
                 summary[f"tier_{tier}"] += 1
-                placeholders_source = PLACEHOLDER_RE.findall(source_text)
-                placeholders_work = PLACEHOLDER_RE.findall(work_text)
-                newline_source = source_text.count("\n")
-                newline_work = work_text.count("\n")
-                source_len = len(source_text)
-                work_len = len(work_text)
+                placeholders_source = PLACEHOLDER_RE.findall(source_display)
+                placeholders_work = PLACEHOLDER_RE.findall(work_display)
+                newline_source = source_display.count("\n")
+                newline_work = work_display.count("\n")
+                source_len = len(source_display)
+                work_len = len(work_display)
 
                 status = "ok"
                 reasons: list[str] = []
@@ -170,9 +229,16 @@ def main() -> int:
                         status = "review"
                     reasons.append("over_budget")
 
-                if status != "hard_fail" and work_text == source_text and is_translatable(source_text):
+                if status != "hard_fail" and work_text == source_text and is_translatable(source_display):
                     status = "review"
-                    reasons.append("unchanged")
+                    reasons.append("unchanged_translatable")
+
+                if status != "hard_fail":
+                    for reason in editorial_reasons(source_text, work_text):
+                        if reason not in reasons:
+                            reasons.append(reason)
+                    if reasons and status == "ok":
+                        status = "review"
 
                 summary[status] += 1
                 report_entries.append(
@@ -189,6 +255,8 @@ def main() -> int:
                         "budget": budget,
                         "source_text": source_text,
                         "translated_text": work_text,
+                        "source_display_text": source_display,
+                        "translated_display_text": work_display,
                     }
                 )
 
@@ -196,7 +264,7 @@ def main() -> int:
     write_json(report_dir / "audit.json", {"summary": summary, "entries": report_entries})
 
     lines = [
-        "GNOSIA phase-1 translation audit",
+        "GNOSIA translation audit",
         f"ok={summary['ok']} review={summary['review']} hard_fail={summary['hard_fail']}",
         f"tier_A={summary['tier_A']} tier_B={summary['tier_B']} tier_C={summary['tier_C']}",
         "",

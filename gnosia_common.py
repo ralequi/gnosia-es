@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import shutil
 import struct
 from collections import Counter
 from dataclasses import asdict, dataclass
@@ -23,9 +24,15 @@ DEFAULT_SHAREDASSETS = ROOT_DIR / "Gnosia_Data" / "sharedassets0.assets"
 DEFAULT_BUNDLE_DIR = ROOT_DIR / "Gnosia_Data" / "StreamingAssets" / "aa" / "StandaloneWindows64"
 OUTPUT_DIR = TRANSLATOR_DIR / "out"
 TMP_DIR = TRANSLATOR_DIR / "tmp"
+WORK_DIR = TRANSLATOR_DIR / "work"
+PATCH_DIR = TRANSLATOR_DIR / "parches"
 ENTITY_JSON_DIRNAME = "entities"
 RECONSTRUCTED_BLOB_DIRNAME = "blobs"
+PATCH_SUFFIX = ".parche"
 WRITER_PADDING = b"\x00\x00\x00\x00"
+PATCH_SLOT_INDEX = 1
+PATCH_REFERENCE_SLOT_INDEX_JP = 0
+PATCH_REFERENCE_SLOT_INDEX_ZH = 2
 
 
 @dataclass
@@ -126,6 +133,10 @@ def slugify_name(text: str) -> str:
 
 def entity_filename(path_id: int, entity_name: str, suffix: str) -> str:
     return f"{path_id:04d}_{slugify_name(entity_name)}{suffix}"
+
+
+def patch_filename(entity_name: str) -> str:
+    return f"{slugify_name(entity_name)}{PATCH_SUFFIX}"
 
 
 def entity_param_count(entity: ParsedEntity) -> int:
@@ -498,3 +509,169 @@ def summarize_entities(entities: list[ParsedEntity]) -> dict[str, int]:
         "param_count": sum(entity_param_count(entity) for entity in entities),
         "localized_string_count": sum(entity_localized_string_count(entity) for entity in entities),
     }
+
+
+def create_work_corpus_from_manifest(
+    *,
+    source_manifest_path: Path,
+    work_dir: Path,
+    force: bool = False,
+) -> dict[str, Any]:
+    if work_dir.exists():
+        if not force:
+            raise FileExistsError(f"Work directory already exists: {work_dir}")
+        shutil.rmtree(work_dir)
+
+    ensure_dir(work_dir / ENTITY_JSON_DIRNAME)
+    manifest = read_json(source_manifest_path)
+    source_base = source_manifest_path.parent
+
+    for entry in manifest["entities"]:
+        source_file = source_base / entry["file"]
+        dest_file = work_dir / entry["file"]
+        ensure_dir(dest_file.parent)
+        shutil.copy2(source_file, dest_file)
+
+    work_manifest = dict(manifest)
+    work_manifest["translation_target_language"] = "es"
+    work_manifest["translation_overrides_slot"] = "en"
+    work_manifest["translation_source_manifest"] = str(source_manifest_path.resolve())
+    work_manifest["translation_work_dir"] = str(work_dir.resolve())
+    write_json(work_dir / "manifest.json", work_manifest)
+    return work_manifest
+
+
+def compute_patch_hash(jp_text: str, zh_text: str) -> str:
+    return hashlib.md5((jp_text + zh_text).encode("utf-8")).hexdigest()
+
+
+def escape_patch_text(text: str) -> str:
+    escaped: list[str] = []
+    for char in text:
+        if char == "\\":
+            escaped.append("\\\\")
+        elif char == "\n":
+            escaped.append("\\n")
+        elif char == "\r":
+            escaped.append("\\r")
+        elif char == "\t":
+            escaped.append("\\t")
+        elif char == '"':
+            escaped.append('\\"')
+        else:
+            escaped.append(char)
+    return "".join(escaped)
+
+
+def unescape_patch_text(text: str) -> str:
+    chars: list[str] = []
+    i = 0
+    while i < len(text):
+        char = text[i]
+        if char != "\\":
+            chars.append(char)
+            i += 1
+            continue
+        if i + 1 >= len(text):
+            raise ValueError("dangling backslash in patch payload")
+        marker = text[i + 1]
+        if marker == "n":
+            chars.append("\n")
+        elif marker == "r":
+            chars.append("\r")
+        elif marker == "t":
+            chars.append("\t")
+        elif marker == "\\":
+            chars.append("\\")
+        elif marker == '"':
+            chars.append('"')
+        else:
+            raise ValueError(f"unsupported patch escape sequence: \\{marker}")
+        i += 2
+    return "".join(chars)
+
+
+def decode_corpus_text(text: str) -> str:
+    chars: list[str] = []
+    i = 0
+    while i < len(text):
+        char = text[i]
+        if char != "\\" or i + 1 >= len(text):
+            chars.append(char)
+            i += 1
+            continue
+        marker = text[i + 1]
+        if marker == "n":
+            chars.append("\n")
+            i += 2
+            continue
+        if marker == "r":
+            chars.append("\r")
+            i += 2
+            continue
+        if marker == "t":
+            chars.append("\t")
+            i += 2
+            continue
+        if marker == '"':
+            chars.append('"')
+            i += 2
+            continue
+        if marker == "\\":
+            chars.append("\\")
+            i += 2
+            continue
+        chars.append(char)
+        i += 1
+    return "".join(chars)
+
+
+def encode_text_like_source_style(*, source_text: str, logical_text: str) -> str:
+    encoded = logical_text
+    if "\\\\" in source_text:
+        encoded = encoded.replace("\\", "\\\\")
+    if '\\"' in source_text:
+        encoded = encoded.replace('"', '\\"')
+    if "\\n" in source_text and "\n" not in source_text:
+        encoded = encoded.replace("\n", "\\n")
+    if "\\r" in source_text and "\r" not in source_text:
+        encoded = encoded.replace("\r", "\\r")
+    if "\\t" in source_text and "\t" not in source_text:
+        encoded = encoded.replace("\t", "\\t")
+    return encoded
+
+
+def iter_patch_targets(entity: ParsedEntity):
+    duplicate_counts: dict[str, int] = {}
+    for sheet_index, sheet in enumerate(entity.sheets):
+        for param_index, texts in enumerate(sheet.params):
+            if len(texts) <= PATCH_REFERENCE_SLOT_INDEX_ZH:
+                continue
+            hash_key = compute_patch_hash(
+                texts[PATCH_REFERENCE_SLOT_INDEX_JP],
+                texts[PATCH_REFERENCE_SLOT_INDEX_ZH],
+            )
+            duplicate_index = duplicate_counts.get(hash_key, 0)
+            duplicate_counts[hash_key] = duplicate_index + 1
+            yield {
+                "entity_name": entity.entity_name,
+                "path_id": entity.path_id,
+                "sheet_index": sheet_index,
+                "sheet_name": sheet.name,
+                "param_index": param_index,
+                "hash": hash_key,
+                "id": duplicate_index,
+                "jp_text": texts[PATCH_REFERENCE_SLOT_INDEX_JP],
+                "en_text": texts[PATCH_SLOT_INDEX],
+                "zh_text": texts[PATCH_REFERENCE_SLOT_INDEX_ZH],
+            }
+
+
+def build_patch_target_index(entity: ParsedEntity) -> dict[tuple[str, int], dict[str, Any]]:
+    index: dict[tuple[str, int], dict[str, Any]] = {}
+    for target in iter_patch_targets(entity):
+        key = (str(target["hash"]), int(target["id"]))
+        if key in index:
+            raise ValueError(f"duplicate patch target generated for {entity.entity_name}: {key}")
+        index[key] = target
+    return index

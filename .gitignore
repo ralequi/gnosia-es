@@ -1,8 +1,10 @@
+__pycache__/
+.env
+.venv
+*..assets
+*.pyc
+env
 out
 tmp
-.venv
-.env
 venv
-env
-*.pyc
-__pycache__/
+work
