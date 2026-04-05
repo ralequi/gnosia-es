@@ -19,6 +19,7 @@ from gnosia_common import (  # noqa: E402
     inventory_localized_bundles,
     load_entities_from_manifest,
     load_replacements_from_manifest,
+    load_raw_data_for_path_ids,
     load_source_entity_raw_map,
     load_unity_env,
     normalize_saved_asset_bytes,
@@ -38,6 +39,12 @@ EXPECTED_SUMMARY = {
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Validate GNOSIA extraction/rebuild pipeline.")
+    parser.add_argument(
+        "--mode",
+        choices=("noop", "edited"),
+        default="noop",
+        help="Validation mode: exact no-op round-trip or edited corpus smoke test.",
+    )
     parser.add_argument(
         "--asset",
         type=Path,
@@ -96,43 +103,61 @@ def main() -> int:
     manifest, manifest_entities = load_entities_from_manifest(args.manifest)
     if summarize_entities(manifest_entities) != EXPECTED_SUMMARY:
         return fail("manifest-backed corpus summary does not match the source asset")
-    if manifest["source_asset_sha256"] != sha256_bytes(original_bytes):
+    original_sha256 = sha256_bytes(original_bytes)
+    if manifest["source_asset_sha256"] != original_sha256:
         return fail("manifest source_asset_sha256 does not match the source asset")
-    if [entity_to_dict(entity) for entity in manifest_entities] != [
-        entity_to_dict(entity) for entity in extracted_entities
-    ]:
-        return fail("manifest/entity JSON corpus does not match a fresh extraction")
-    print("TEST 2 OK: extraction artifacts rehydrate to the same structured corpus field by field.")
+    manifest_dicts = [entity_to_dict(entity) for entity in manifest_entities]
+    source_dicts = [entity_to_dict(entity) for entity in extracted_entities]
+    if args.mode == "noop":
+        if manifest_dicts != source_dicts:
+            return fail("manifest/entity JSON corpus does not match a fresh extraction")
+        print("TEST 2 OK: extraction artifacts rehydrate to the same structured corpus field by field.")
+    else:
+        print("TEST 2 OK: edited corpus preserves the expected entity/sheet/param/string counts.")
 
     if not args.replacements_manifest.exists():
         return fail(f"replacements manifest not found: {args.replacements_manifest}")
     _, replacements = load_replacements_from_manifest(args.replacements_manifest)
-    if any(source_raw_map.get(path_id) != blob for path_id, blob in replacements.items()):
+    changed_path_ids = [
+        path_id for path_id, blob in replacements.items() if source_raw_map.get(path_id) != blob
+    ]
+    if args.mode == "noop" and changed_path_ids:
         return fail("reconstructed blobs are not a no-op match against the source asset")
 
     if not args.repacked_asset.exists():
         return fail(f"repacked asset not found: {args.repacked_asset}")
     repacked_bytes = args.repacked_asset.read_bytes()
-    if repacked_bytes != original_bytes:
-        return fail("repacked asset is not byte-identical to the original sharedassets0.assets")
-    if sha256_bytes(repacked_bytes) != sha256_bytes(original_bytes):
-        return fail("repacked asset SHA-256 does not match the original")
-    print("TEST 3 OK: no-op reconstruction of sharedassets0.assets matches byte for byte.")
+    if args.mode == "noop":
+        if repacked_bytes != original_bytes:
+            return fail("repacked asset is not byte-identical to the original sharedassets0.assets")
+        if sha256_bytes(repacked_bytes) != original_sha256:
+            return fail("repacked asset SHA-256 does not match the original")
+        print("TEST 3 OK: no-op reconstruction of sharedassets0.assets matches byte for byte.")
 
-    env, serialized_file = load_unity_env(args.asset)
-    del env
-    raw_saved_bytes = serialized_file.save()
-    if len(raw_saved_bytes) != len(original_bytes) + len(WRITER_PADDING):
-        return fail("UnityPy raw save does not exhibit the expected +4 byte writer artifact")
-    if not raw_saved_bytes.endswith(WRITER_PADDING):
-        return fail("UnityPy raw save is missing the expected trailing 4-byte padding")
-    declared_size = int.from_bytes(raw_saved_bytes[4:8], "big")
-    if declared_size != len(raw_saved_bytes):
-        return fail("UnityPy raw save header size does not match the saved file length")
-    normalized_bytes = normalize_saved_asset_bytes(raw_saved_bytes)
-    if normalized_bytes != original_bytes:
-        return fail("writer normalization did not restore an exact no-op asset")
-    print("TEST 4 OK: writer normalization fixes the header size and trims the trailing padding.")
+        env, serialized_file = load_unity_env(args.asset)
+        del env
+        raw_saved_bytes = serialized_file.save()
+        if len(raw_saved_bytes) != len(original_bytes) + len(WRITER_PADDING):
+            return fail("UnityPy raw save does not exhibit the expected +4 byte writer artifact")
+        if not raw_saved_bytes.endswith(WRITER_PADDING):
+            return fail("UnityPy raw save is missing the expected trailing 4-byte padding")
+        declared_size = int.from_bytes(raw_saved_bytes[4:8], "big")
+        if declared_size != len(raw_saved_bytes):
+            return fail("UnityPy raw save header size does not match the saved file length")
+        normalized_bytes = normalize_saved_asset_bytes(raw_saved_bytes)
+        if normalized_bytes != original_bytes:
+            return fail("writer normalization did not restore an exact no-op asset")
+        print("TEST 4 OK: writer normalization fixes the header size and trims the trailing padding.")
+    else:
+        repacked_raw_map = load_raw_data_for_path_ids(args.repacked_asset, set(replacements))
+        for path_id, expected in replacements.items():
+            if repacked_raw_map.get(path_id) != expected:
+                return fail(f"repacked asset does not contain replacement blob path_id={path_id}")
+        print(
+            "TEST 3 OK:",
+            f"repacked asset contains the rebuilt blobs exactly ({len(changed_path_ids)} changed entities).",
+        )
+        print("TEST 4 OK: edited rebuild passed structural application checks.")
 
     inventory = inventory_localized_bundles(args.bundle_dir)
     if inventory["bundle_count"] == 0:
@@ -150,10 +175,18 @@ def main() -> int:
         replacements=replacements,
         output_asset=tmp_validation_asset,
     )
-    if saved_again != original_bytes:
+    if args.mode == "noop" and saved_again != original_bytes:
         return fail("save_repacked_asset no-op check did not reproduce the original asset")
 
-    print(f"ALL TESTS OK: sha256={sha256_bytes(original_bytes)}")
+    if args.mode == "noop":
+        print(f"ALL TESTS OK: sha256={original_sha256}")
+    else:
+        print(
+            "ALL TESTS OK:",
+            f"source_sha256={original_sha256}",
+            f"repacked_sha256={sha256_bytes(repacked_bytes)}",
+            f"changed_entities={len(changed_path_ids)}",
+        )
     return 0
 
 

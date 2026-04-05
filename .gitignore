@@ -1,2 +1,6 @@
 out
 tmp
+.venv
+.env
+venv
+env
