@@ -1,0 +1,45 @@
+{
+  "preservar": [
+    "Gnosia",
+    "Takashi",
+    "Setsu",
+    "SQ",
+    "Gina",
+    "Yuriko",
+    "Raqio",
+    "Kukrushka",
+    "Manan",
+    "LeVi"
+  ],
+  "roles": {
+    "Engineer": "Ingeniero",
+    "Doctor": "Doctor",
+    "Guardian Angel": "Ángel guardián",
+    "Guard Duty": "Servicio de guardia",
+    "Crew": "Tripulación",
+    "AC Follower": "Seguidor AC",
+    "Bug": "Bug"
+  },
+  "acciones": {
+    "Doubt": "Dudar",
+    "Agree": "Apoyar",
+    "Refute": "Rebatir",
+    "Defend": "Defender",
+    "Vote": "Votar",
+    "Don't Vote": "No votar",
+    "Freeze": "Congelar",
+    "Small Talk": "Charla",
+    "Seek Help": "Pide ayuda",
+    "Retaliate": "Replicar"
+  },
+  "estado_y_ui": {
+    "Cold Sleep": "Sueño frío",
+    "Data Reference": "Datos ref.",
+    "Crew Member Data": "Datos tripul.",
+    "Engineer Report": "Informe ing.",
+    "Doctor Report": "Informe doct.",
+    "Log": "Diario",
+    "Results": "Resultados",
+    "Setup": "Ajustes"
+  }
+}

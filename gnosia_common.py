@@ -11,11 +11,8 @@ from typing import Any
 
 try:
     import UnityPy
-except ImportError as exc:  # pragma: no cover - dependency guard
-    raise SystemExit(
-        "Missing dependency 'UnityPy'. Install with "
-        "'python -m pip install -r traductor_es/requirements.txt'."
-    ) from exc
+except ImportError:  # pragma: no cover - dependency guard
+    UnityPy = None
 
 
 LANGUAGES = ["jp", "en", "zh"]
@@ -259,6 +256,11 @@ def entity_from_dict(payload: dict[str, Any]) -> ParsedEntity:
 
 
 def load_unity_env(asset_path: Path):
+    if UnityPy is None:
+        raise SystemExit(
+            "Missing dependency 'UnityPy'. Install with "
+            "'python -m pip install -r traductor_es/requirements.txt'."
+        )
     env = UnityPy.load(str(asset_path))
     serialized_file = next(iter(env.files.values()))
     return env, serialized_file
