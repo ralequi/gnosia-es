@@ -40,11 +40,15 @@ UNCHANGED_ALLOWED = {
     "N/A",
     "OK",
     "???",
+    "Manual",
+    "Sushi",
+    "Ramen",
 }
 
 PUNCT_ONLY_RE = re.compile(r"^[\s\W_]+$", re.UNICODE)
 PLACEHOLDER_RE = re.compile(r"\{[^}]+\}")
 GLOSSARY_PATH = SCRIPT_DIR / "glosario_v1.json"
+LAYOUT_RULES_PATH = SCRIPT_DIR / "layout_rules.json"
 ENGLISH_LEFTOVER_RE = re.compile(
     r"\b(Engineer|Guardian Angel|Crew Member Data|Data Reference|Load|Save|Proceed|Goodnight|warp)\b"
 )
@@ -55,20 +59,14 @@ CHOICE_RESPONSE_RE = re.compile(
 CHOICE_OPTION_WHITELIST = {
     ("ScenarioTutorialText", "loop1"): {6, 10, 14, 22, 28, 32, 36, 84, 87, 90, 95, 98, 101},
 }
-CHOICE_WIDTH_CAPS = {
-    ("ScenarioTutorialText", "loop1"): 20,
-    ("ScenarioTutorialText", "loop2"): 20,
-    ("ScenarioTutorialText", "loop6"): 20,
-    ("ScenarioTutorialText", "loop7"): 12,
-    ("ScenarioTutorialText", "loop14"): 18,
-}
-UI_LABEL_WIDTH_CAPS = {
-    ("OthersText", "setting", 7): 10,
-}
 
 
 def load_glossary() -> dict[str, object]:
     return read_json(GLOSSARY_PATH)
+
+
+def load_layout_rules() -> dict[str, object]:
+    return read_json(LAYOUT_RULES_PATH)
 
 
 def load_glossary_map(glossary: dict[str, object]) -> dict[str, str]:
@@ -81,6 +79,41 @@ def load_glossary_map(glossary: dict[str, object]) -> dict[str, str]:
 GLOSSARY = load_glossary()
 GLOSSARY_MAP = load_glossary_map(GLOSSARY)
 ASCII_FALLBACK_PATTERNS = GLOSSARY.get("ascii_fallbacks", {})
+LAYOUT_RULES = load_layout_rules()
+
+
+def parse_entity_sheet_key(key: str) -> tuple[str, str]:
+    try:
+        entity_name, sheet_name = key.split("/", 1)
+    except ValueError as exc:
+        raise ValueError(f"Invalid Entity/Sheet key in {LAYOUT_RULES_PATH}: {key!r}") from exc
+    return entity_name, sheet_name
+
+
+def parse_entity_sheet_param_key(key: str) -> tuple[str, str, int]:
+    try:
+        entity_name, tail = key.split("/", 1)
+        sheet_name, param_index_raw = tail.rsplit("#", 1)
+        return entity_name, sheet_name, int(param_index_raw)
+    except ValueError as exc:
+        raise ValueError(f"Invalid Entity/Sheet#Param key in {LAYOUT_RULES_PATH}: {key!r}") from exc
+
+
+CHOICE_WIDTH_CAPS = {
+    parse_entity_sheet_key(key): int(value)
+    for key, value in LAYOUT_RULES.get("choice_width_caps", {}).items()
+}
+UI_LABEL_WIDTH_CAPS = {
+    parse_entity_sheet_param_key(key): int(value)
+    for key, value in LAYOUT_RULES.get("ui_label_caps", {}).items()
+}
+TEXTBOX_CAPS = {
+    parse_entity_sheet_param_key(key): {
+        "line_width": int(value["line_width"]),
+        "max_lines": int(value["max_lines"]),
+    }
+    for key, value in LAYOUT_RULES.get("textbox_caps", {}).items()
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -149,11 +182,19 @@ def max_len_for_tier(source_len: int, tier: str) -> int:
     raise ValueError(f"Unknown tier: {tier}")
 
 
+def is_allowed_unchanged(text: str) -> bool:
+    stripped = text.strip()
+    if stripped in UNCHANGED_ALLOWED:
+        return True
+    core = stripped.strip(" \t\r\n.!?¿¡…\"'“”()[]{}")
+    return core in UNCHANGED_ALLOWED
+
+
 def is_translatable(text: str) -> bool:
     stripped = text.strip()
     if not stripped:
         return False
-    if stripped in UNCHANGED_ALLOWED:
+    if is_allowed_unchanged(text):
         return False
     if PUNCT_ONLY_RE.match(text) and not PLACEHOLDER_RE.search(text):
         return False
@@ -166,6 +207,13 @@ def line_count(text: str) -> int:
 
 def max_line_length(text: str) -> int:
     return max((len(line) for line in text.split("\n")), default=0)
+
+
+def rendered_textbox_lines(text: str, *, line_width: int) -> int:
+    total = 0
+    for line in text.split("\n"):
+        total += max(1, math.ceil(len(line) / line_width))
+    return total
 
 
 def is_choice_option(
@@ -314,6 +362,18 @@ def main() -> int:
                 if ui_cap is not None and max_line_length(work_display) > ui_cap:
                     status = "hard_fail"
                     reasons.append("ui_label_overflow")
+
+                textbox_cap = TEXTBOX_CAPS.get(
+                    (source_entity.entity_name, source_sheet.name, param_index)
+                )
+                if textbox_cap is not None:
+                    rendered_lines = rendered_textbox_lines(
+                        work_display,
+                        line_width=int(textbox_cap["line_width"]),
+                    )
+                    if rendered_lines > int(textbox_cap["max_lines"]):
+                        status = "hard_fail"
+                        reasons.append("textbox_linecount_overflow")
 
                 budget = max_len_for_tier(source_len, tier)
                 if work_len > budget:

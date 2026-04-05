@@ -47,7 +47,9 @@
   "variantes_contextuales": {
     "Cold Sleep": {
       "ui": "Criogenia",
-      "long": "sueño criogénico"
+      "long": "sueño criogénico",
+      "personal": "congelar",
+      "state": "Congelado"
     }
   },
   "ascii_fallbacks": {

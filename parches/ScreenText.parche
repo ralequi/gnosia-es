@@ -1,5 +1,7 @@
+# AutoSaveScreen
 8e8b3bbc4b47dec23dff15b1876efd32:0:No hay espacio libre suficiente.\nLibera el espacio necesario para guardar\ny pulsa \"Siguiente\".
 211e570307cba3ed3e0b89b8ec9454ef:0:No se han podido guardar los datos.
+# CreateSlotScreen
 bf9c3cac9575f4100c85e512b4eeb6d5:0:Selecciona una ranura de guardado.
 b814eaf83f35e84794a1eb5497cb1480:0:------\nLoop--  Nv.--\n----/--/-- --:--
 f34c27a1f6c69d98b081773c1dacd8bb:0:Los datos de esta ranura se sobrescribirán.\n¿Quieres continuar?
@@ -9,23 +11,32 @@ c110a1da8ef28a1a54dfe25f09657a98:0:Se borrarán todos los datos de esta ranura.\
 8e8b3bbc4b47dec23dff15b1876efd32:1:No hay espacio libre suficiente.\nLibera el espacio necesario para guardar\ny pulsa \"Siguiente\".
 13df5ed070f4ba879e06824d922c7976:0:No se ha podido borrar la ranura de guardado.
 5797e99fdf19ea16c0236ab416fea170:1:No se ha podido crear la ranura de guardado.
+# DataDoctorScreen
 5c124f9fc66be93dac9064a0a6b61890:0:Los Doctores pueden determinar si quienes fueron enviados a criogenia eran Gnosia.
+# DataEngineerScreen
 039dfb00a4eec6cf40fa51ab93fc2ddb:0:Los Ingenieros pueden determinar si la persona que investigan es Gnosia.
+# DataJoinScreen
 1b072d73e3342c85ce40ca1735768044:0:Notas
 5502355d8619c94cb5315f10ebbeb193:0:Cada vez que aprendes algo sobre alguien en discusiones\no conversaciones privadas, sus aptitudes suben un poco.\nCuando se actualiza un Objeto especial, suben bastante.
+# DataLogScreen
 ed5e3ea19caa8da5c2978f38dbfcd75d:0:Repasa los comentarios, informes y eventos ocurridos.
+# DataScreen
 086e9111b5880a2726764caaf9c6e091:0:Nada
 086e9111b5880a2726764caaf9c6e091:1:Nada
 086e9111b5880a2726764caaf9c6e091:2:Nada
 086e9111b5880a2726764caaf9c6e091:3:Nada
+# DataVoteScreen
 729d3cd05e2349f319c214fe4f9df738:0:Día 
 c8d55b03cbdc020d7ac25632e3fe4bdc:0: - Revoto
 c8d55b03cbdc020d7ac25632e3fe4bdc:1: - Revoto 
+# EndRollTextScreen
 729d3cd05e2349f319c214fe4f9df738:1:Día 
+# FirstLoadScreen
 8709803c619e86e88fd0f40a1ca6d236:0:En casos en los que se haya confirmado una infección por Gnosia,\nla tripulación debe encontrar la forma de reducir el nivel de riesgo a cero.\nUn método que ha demostrado ser eficaz para reducir dicho riesgo es\nsometer a los sospechosos de infección a un procedimiento llamado \"criogenia\".\nEsto permite a la tripulación aprovechar en su favor la suplantación del infectado,\ny también evitar episodios de pánico colectivo que pueden producirse\ncuando se emplean métodos de contención más agresivos.\nSegún la tripulación, a menudo se recurre a la supresión militar para controlar la infección,\npero eso aumenta las probabilidades de violencia y muerte, como ocurrió en el caso Hengupus,\ny no debe utilizarse cuando el plan evaluado por la IA obtiene 0,78 o menos.
 e1a8c7fb0a512015b5df7f602370e968:0:Al aplicar la criogenia, primero debe informarse a la tripulación de que\nsu objetivo principal es reducir finalmente el riesgo de infección a cero,\ndeterminando quién tiene más probabilidades de estar infectado y enviándolo\nsistemáticamente a criogenia en cada transferencia Schrimpf.\nPara lograrlo,\nlos candidatos al tratamiento de criogenia deben decidirse mediante\nuna comunicación directa y clara entre los tripulantes.\nCuando se confirma la infección, las funciones de IA y embarque quedan muy\nlimitadas, por lo que la comunicación debe llevarse a cabo verbalmente y cara a cara.\nEsto también ayuda a desenmascarar mejor la impostura de un miembro infectado.
 2c102e3f84eb190524e7aeeb97e3d797:0:Además, cuando se confirma una infección a bordo,\nla IA actualiza automáticamente el destino de la nave al sistema solar\nalcanzable con el mayor número de transferencias Schrimpf,\ny acorde con los recursos actuales de la nave.\nSi se ejecuta la transferencia Schrimpf al sistema objetivo antes de que el nivel de riesgo\nhaya caído a cero, la nave se autodestruirá mediante compresión extrema.\nEsto, por supuesto, es para evitar que la infección se propague al sistema solar de destino.\nTeniendo en cuenta los sistemas Amanage y Handan, que siguen siendo una amenaza para la humanidad\nincluso después de su destrucción, este proceso de purificación mediante autodestrucción es\nlamentable, pero inevitable.
 1d028aea0466f0bf512874688c0b4715:0:El éxito o fracaso de la erradicación del riesgo será determinado y anunciado\npor la IA de la nave al completarse la transferencia Schrimpf. (Además, todas las\nnaves interestelares deben contar ahora con detección de infecciones, designación de destino,\nrestricción de acceso al control de navegación y funciones de\nautodestrucción por compresión como protocolo anti-Gnosia.)
+# GalleryScreen
 ffa2760820284eb4ee458e7f75c6a118:0:Cambiar página      
 c9691d3f4f706bbd5aff8440e25d4518:0:Elegir  Atrás  Ver 
 98c673a5e8f272f52d849d0f11283abc:0:Elegir         Recordar         Salir     
@@ -40,6 +51,7 @@ d3fa4ebb2300eb15ded1e2a7aa22583f:0:Ocultar IU            Siguiente            At
 022bdf9ad69de3cb31acbf405cb931df:0:Acercar/alejar         
 d2dfa243dd7c1fcb33420c4c59a9e832:0:Mover izq./der.        
 4b15ba2d8ba3a55ff72b6431fd632aee:0:Imagen alt.            
+# GameMenuHelpScreen
 088ab4e49c671339c53937b7930496d6:0:Reglas básicas
 63401c5cf6a2cacc1ac3c36a6863a9a7:0:Explicación de pantallas
 cfb20eb4c2cf3860c1f781dd4cae902c:0:Avanzar la historia
@@ -73,7 +85,7 @@ d3dffb63c3bd32148c03d0986f21804b:0:Informe ing.
 b4d1350e7f89b4b74be761181cc7bd55:0:Buscar eventos
 ccb888c49576be5bbbb24e7b1dea8e7d:0:Estrechar lazos
 de5d3f39ef17a3dc574c6ecc6c188f00:0:Me dicen que soy \"molesto\"...
-dd528cb4af98ef14be5f1dabf4656957:0:No paran de mandarme a criogenia
+dd528cb4af98ef14be5f1dabf4656957:0:No paran de congelarme
 ce2634e1545a163502c22458caeec069:0:Los Gnosia me han pillado otra vez...
 6815050814294668de5c033e5cc68363:0:¿Por qué me odia todo el mundo?
 b7880c45af792a338ade32321f0037ba:0:Nadie me escucha
@@ -94,16 +106,19 @@ e9cfa150fd5d59e840768d2bb1b51bda:0:Quiero descansar un poco. ¿Dónde guardo?
 c4e39be4b231937b00c0f94502e44e80:0:Estaría bien poder jugar con una mano...
 ae5f37e208a30b33875864e6db100705:0:Distribución del teclado
 e4ad0e398c894561717354f7f4783e25:0:Distribución del mando
+# GameMenuLoadScreen
 0e273c9b66a4b1cd6be0e2751ced9da5:0:Autoguardado
 0e273c9b66a4b1cd6be0e2751ced9da5:1:Autoguardado
 1f332c14cdf04889aafa13db6cf5f128:0:Antes del ataque de los Gnosia
 1f332c14cdf04889aafa13db6cf5f128:1:Antes del ataque de los Gnosia
 b6809db343f8ac4191999996cc2a9977:0:Día 
 8dde1fbd3cc3522ce0a09a1e9cf50d95:0:Error al cargar.
+# GameMenuScreen
 913b44001e90b581123300938e70dc04:0:Se ha desbloqueado la función \"Cargar\".\nPuedes usarla para volver atrás dentro de un loop.
 5d2d543427ef4cb9aa1860b65fa4b84b:0:Volverás a la pantalla de título.\n¿Quieres continuar?
 52626713a9645a31dde69901423f8c7e:0:Volverás al inicio de este loop.\n¿Quieres continuar?
 8dde1fbd3cc3522ce0a09a1e9cf50d95:1:Error al cargar.
+# GameMenuSkillScreen
 8bbfdcc7aa63423bb111bafed6f8bf27:0:Dudar
 eb9fbd0fe6dc9bbd47a7d303a47b5746:0:Apoyar
 0f3cadcaa58e7aa322be508aeed179f3:0:Rebatir
@@ -148,9 +163,12 @@ f54f89d2e2f74e6e1a3641fa34e2dd6a:0:Úsalo para señalar a alguien como\nenemigo 
 9df17cd28ca714616fd619a34e1cb58a:0:Una charla ligera puede hacer que\nlos Gnosia crean que no eres lo bastante\nimportante como para atacarte.\nAdemás de reducir las probabilidades de que\nte eliminen, también te acerca a los\ndemás participantes. Eso sí, puede hacer\nque los personajes más serios te tomen manía.\n\n\nSe puede usar una vez al día.
 890c944dab7c29d7a5d9f9dc52c4bcf3:0:Te permite proponer una alianza.\nSi funciona, puede ser de gran ayuda\npara ambas partes. Pero si le causas\ndemasiados problemas a tu compañero,\nromperá contigo.\nEntran en juego varias aptitudes, y un\nEncanto alto aumenta las probabilidades\nde que salga bien.\n\n\nUna vez por día, solo si aún no\nestás aliado con nadie.
 519e77d04cc398fdee467dade7f4da55:0:Haz que todos declaren que\nson humanos. Los no humanos se verán\nobligados a mentir,\nasí que quienes lo digan serán humanos o\nmentirosos, y quienes no lo hagan o traten de\nentorpecerlo probablemente sean enemigos.\n\n\nSe puede usar una vez por loop.
-169eee4a2701b11d129772b9483d283d:0:¿No quieres entrar en criogenia?\nEntonces, humíllate y suplica perdón.\nSi funciona, puede que te libres. Una Actuación alta aumenta las probabilidades de éxito.\n\n\nSe puede usar una vez por loop.
+169eee4a2701b11d129772b9483d283d:0:¿No quieres que te congelen?\nEntonces, humíllate y suplica perdón.\nSi funciona, puede que te libres. Una Actuación alta aumenta las probabilidades de éxito.\n\n\nSe puede usar una vez por loop.
+# InfoRScreen
 623dd6670912deb661194394e68669a9:0: SI            NO
+# InterfaceScreen
 729d3cd05e2349f319c214fe4f9df738:2:Día 
+# LoadSlotScreen
 d09f288683d8c2c2f89d508134d8a887:0:Selecciona una ranura de guardado.
 b814eaf83f35e84794a1eb5497cb1480:1:------\nLoop--  Nv.--\n----/--/-- --:--
 b814eaf83f35e84794a1eb5497cb1480:2:------\nLoop--  Nv.--\n----/--/-- --:--
@@ -160,6 +178,7 @@ b814eaf83f35e84794a1eb5497cb1480:2:------\nLoop--  Nv.--\n----/--/-- --:--
 b7ae16a914836f2beb19b2622c743be9:0:Borrar todos los datos de esta ranura también\nborrará los datos de completado y otros datos del entorno.\n¿Quieres continuar?
 8dde1fbd3cc3522ce0a09a1e9cf50d95:3:Error al cargar.
 13df5ed070f4ba879e06824d922c7976:1:No se ha podido borrar la ranura de guardado.
+# MakeLoopScreen
 623dd6670912deb661194394e68669a9:1: SI            NO
 cce476460bb73f29bc64e674c7e6c7a2:0:Tu rol
 d1ec6ed3c988ca5222b3d71f2b84c457:0:Ha habido un problema con la \"Llave Plateada\".\nNo se puede detectar la información.
@@ -185,6 +204,7 @@ de789c9bfd739e9b8b61acb7c4fcba82:0:Los Doctores pueden saber si una persona envi
 e91b56fe3c45e33fff1e0e858d185297:0:Los Seguidores AC son humanos, pero mentirán e intentarán ayudar a los Gnosia a ganar. Pueden hacerse pasar por Ingenieros y Doctores.
 dd935874f30728e3c75cd5f00c0e1791:0:Los Gnosia son enemigos de los humanos. Durante el salto elegirán un objetivo y eliminarán a los humanos uno a uno. Pueden hacerse pasar por Ingenieros y Doctores.
 0dad26e9f9d08600edf31275a555b8e0:0:Los Bugs son enemigos tanto de humanos como de Gnosia. No pueden morir, pero desaparecen cuando un Ingeniero los investiga. Pueden fingir otros roles.
+# Move2Screen
 84a543f78aba24734e4940454b1deac3:0:Una sala usada para reunirse.\nLa cabina está al frente, y una\nenorme consola al fondo.\nToda la información de la nave se centraliza aquí.
 cd00bddae99dbca73466126c2dbb5977:0:La habitación privada del protagonista.\nAquí puedes subir de nivel, además de\nconsultar tus atributos y otros datos.
 5e650466d24b71cf9cb59fa52986c791:0:La avanzada \"impresora de comida\" ofrece al instante platos sanos y equilibrados\nen nutrientes. Eso sí, el sabor podría mejorar.
@@ -209,14 +229,17 @@ acdb0436f4b378c6d99f677a1b51429f:3:Una habitación individual con\nunidades de a
 54caee9e8d1ee3e66e7d2795f0f351ed:1:Un grupo de camas encapsuladas que ofrecen\na duras penas algo de privacidad.\nLas persianas reducen la luz y el\nruido.
 018bc9fb7baeda6b8f08b010aa23eea1:0:En las zonas marcadas con un símbolo rojo \"!\"\npueden ocurrir eventos especiales.
 5f3f482609a15afb91184d639cca120d:0:Ahora ya puedes moverte a tu habitación.\nEn tu habitación puedes subir de nivel y\nmejorar tus aptitudes.
+# MyRoomScreen
 beb5670d55f70d4ffac43f06ed6b7287:0:Puedes usar EXP para subir de nivel.\nTambién puedes consultar tus aptitudes pulsando\n{0} durante las discusiones.
 c89d9f6d62adf8ffdd8dbcc967162879:0:Nueva habilidad: \"
 15cdb4e910190b1323cd3a292d19fe22:0:Enemigo seguro\" \"Humano seguro
 81eb82b475a99ff3e8d719cfdfdde917:0:\"\nya puede usarse.
+# ParamChangeScreen
 ce85e6c85ad5527765c11a19b14b6a5f:0:Puedes reasignar los valores de tus aptitudes. Algunas habilidades pueden\ndejar de usarse si bajas demasiado una aptitud,\npero volverán a estar disponibles si la subes más adelante.
 c89d9f6d62adf8ffdd8dbcc967162879:1:Nueva habilidad: \"
 15cdb4e910190b1323cd3a292d19fe22:1:Enemigo seguro\" \"Humano seguro
 81eb82b475a99ff3e8d719cfdfdde917:1:\"\nya puede usarse.
+# ParamChangeSkillScreen
 8bbfdcc7aa63423bb111bafed6f8bf27:1:Dudar
 eb9fbd0fe6dc9bbd47a7d303a47b5746:1:Apoyar
 0f3cadcaa58e7aa322be508aeed179f3:1:Rebatir
@@ -261,7 +284,8 @@ f54f89d2e2f74e6e1a3641fa34e2dd6a:1:Úsalo para señalar a alguien como\nenemigo 
 9df17cd28ca714616fd619a34e1cb58a:1:Una charla ligera puede hacer que\nlos Gnosia crean que no eres lo bastante\nimportante como para atacarte.\nAdemás de reducir las probabilidades de que\nte eliminen, también te acerca a los\ndemás participantes. Eso sí, puede hacer\nque los personajes más serios te tomen manía.\n\n\nSe puede usar una vez al día.
 890c944dab7c29d7a5d9f9dc52c4bcf3:1:Te permite proponer una alianza.\nSi funciona, puede ser de gran ayuda\npara ambas partes. Pero si le causas\ndemasiados problemas a tu compañero,\nromperá contigo.\nEntran en juego varias aptitudes, y un\nEncanto alto aumenta las probabilidades\nde que salga bien.\n\n\nUna vez por día, solo si aún no\nestás aliado con nadie.
 519e77d04cc398fdee467dade7f4da55:1:Haz que todos declaren que\nson humanos. Los no humanos se verán\nobligados a mentir,\nasí que quienes lo digan serán humanos o\nmentirosos, y quienes no lo hagan o traten de\nentorpecerlo probablemente sean enemigos.\n\n\nSe puede usar una vez por loop.
-169eee4a2701b11d129772b9483d283d:1:¿No quieres entrar en criogenia?\nEntonces, humíllate y suplica perdón.\nSi funciona, puede que te libres. Una Actuación alta aumenta las probabilidades de éxito.\n\n\nSe puede usar una vez por loop.
+169eee4a2701b11d129772b9483d283d:1:¿No quieres que te congelen?\nEntonces, humíllate y suplica perdón.\nSi funciona, puede que te libres. Una Actuación alta aumenta las probabilidades de éxito.\n\n\nSe puede usar una vez por loop.
+# ResultScreen
 fde47580a70071d80b4a7c0da3b7a3a8:0:Día 
 4d6748ec362e2578b8b683c8c51cd0c5:0:Has sido... aniquilado.
 90905d96f0309df9a662565f0efbc846:0:El Ingeniero descubrió que eras un Bug\ny te eliminó.
@@ -298,13 +322,17 @@ e50e25bc6f96567395b5581b1455eb67:4:Fin\n
 5b3180b29efcab67a0c5b093782eff90:0:¿De verdad quieres terminar la partida?
 b821a2fcb4f7e20c8b1a59e7c324e76d:0:Después del final, en el \"Diario\" podrás ver las intenciones\nocultas y las acciones secretas de todos.\nEl Diario puede consultarse desde \"Datos ref.\".
 8dde1fbd3cc3522ce0a09a1e9cf50d95:4:Error al cargar.
+# SelectTgtScreen
 f402cae5dba8b00f8f985588597e5f36:0:Humano\nGnosia
 01f34c0330e279ea37138396fee18d4a:0:Al hacerte pasar por \"Ingeniero\", elige sobre quién\nquieres informar y de qué forma.
 547dd2442f9524136cc512ff31ed2f85:0:Al hacerte pasar por \"Doctor\", elige qué persona en criogenia\nquieres declarar como Humana o Gnosia,\ny cuál quieres que sea el resultado del informe.
+# TakashiSetScreen
 dc8c054f8f9ad93b1b425f7efd677851:0:¿Está bien así?
+# TitleScreen
 76a6bfca1cef3c757802aff974f5958f:0:No se han encontrado los datos del sistema,\nasí que se han recreado.
 0f415c5262517db7944b197e9422d1b0:0:No se han podido guardar los datos del sistema.\nIntentando guardar una vez más.
 673d1a6bbcf279e89114cdcef3ef3796:0:No se han podido cargar los datos del sistema.
+# YakuKekkaScreen
 1733f96dc1ead20d8f049ca27fa69448:0:Anoche, tras ser atacado por los Gnosia,\n
 248f856aa2c6b806ecb2656fcd10212e:0:Anoche, 
 2de9348350a52401f80f7736c0d5aec6:0: desapareció.

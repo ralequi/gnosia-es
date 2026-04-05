@@ -98,7 +98,7 @@ def main() -> int:
         seen_keys: set[tuple[str, int]] = set()
         for line_number, raw_line in enumerate(patch_path.read_text(encoding="utf-8").splitlines(), start=1):
             line = raw_line.strip()
-            if not line:
+            if not line or line.startswith("#"):
                 continue
             hash_key, duplicate_id, payload = parse_patch_line(
                 raw_line,

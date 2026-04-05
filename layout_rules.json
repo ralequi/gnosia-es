@@ -1,0 +1,22 @@
+{
+  "choice_width_caps": {
+    "ScenarioTutorialText/loop1": 20,
+    "ScenarioTutorialText/loop2": 20,
+    "ScenarioTutorialText/loop6": 20,
+    "ScenarioTutorialText/loop7": 12,
+    "ScenarioTutorialText/loop14": 18
+  },
+  "ui_label_caps": {
+    "OthersText/setting#7": 10
+  },
+  "textbox_caps": {
+    "ScenarioTutorialText/loop1#168": {
+      "line_width": 67,
+      "max_lines": 3
+    },
+    "ScenarioTutorialText/loop1#189": {
+      "line_width": 67,
+      "max_lines": 3
+    }
+  }
+}

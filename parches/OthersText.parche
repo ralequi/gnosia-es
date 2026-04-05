@@ -1,3 +1,4 @@
+# config
 2a26b17b40583336fb66ff826a520fec:0:Punto de partida
 8bf73af21b74c5821aa44c763bfe283f:0:O bien, una mentira sincera
 45a419d4702866dd09d62b99c78b8a7a:0:Gina enamorada
@@ -54,6 +55,7 @@ e582e2197754f5d9baf43b1fd122e759:0:La presa
 10c5f7966dd904e2e230398afb1159c4:0:La determinación de Otome
 c77ffa27fbb1e7130be95de843415ccc:0:Engaña y serás engañado (2)
 f93b276ecfa8e21d8a42401fadc1f035:0:Lágrimas de SQ (2)
+# MessageLog
 cbc02e549b34d2eec3c4baac0e10c750:0:(Ya... no sirve. No recuerdo mas.)
 d8670ac991139d2036f712d0403b35fa:0:(Hasta aquí, vacío...)
 f0d1943f5f69086a38116f180ee2deec:0:(Eso es lo último que recuerdo bien.)
@@ -64,8 +66,10 @@ a93c0f765ef8f9cdd186a1f7d3083758:0:(Mi memoria se corta aquí.)
 c980c32da6c619ee236003c1d60bda26:0:(Mis recuerdos empiezan aquí.)
 14a4650400bcd27e394e5be9f76e552e:0:(Lo anterior seguramente sea inexacto.)
 633139a91bda2b1f9caf0e1d493df05a:0:(Mi continuidad parece romperse aquí.)
+# script_parser
 da2f132392b02ceae7e0c3759be47c6b:0: fue enviado a criogenia.
 d5bc467fe8925070da81c80682781700:0:\"Datos tripul.\" se han actualizado.\nPuedes verlos en \"Datos ref.\".
+# setting
 ec3b1dd8b3e14d95d17d4ee87c273b7a:0:Aleatorio
 4055aa636bc25bb97a1ed35697c322c8:0:Ingeniero
 a2ae8a3d24c81741635c8aab5de41135:0:Ángel guardián

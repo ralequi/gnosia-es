@@ -1,3 +1,4 @@
+# AfterBug
 4afa2dd4b5450f8628d3c1be9fdac616:0:Crear loop
 889bdf852e27d350772452d3d91b07ce:0:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:0:Explicar situación
@@ -24,6 +25,7 @@ cb9955e829c3055a719c7be7d76a1761:0:Ah, precipicio delante y lobo detrás, como s
 bedb8b990b18930ed561228fa4cbd5c5:0:(Solo espero que esta vez no seas tú el Bug, {0}.\nJeje, es broma.)
 fdfec42579a47c990124e84f8a216d3c:0:Esta vez, tu rol es {0}.
 2e028e216a892c17d035a62ee1765bd5:0:Sin acción
+# loop1
 4afa2dd4b5450f8628d3c1be9fdac616:1:Crear loop
 889bdf852e27d350772452d3d91b07ce:1:Precarga de escenario
 dae77a711a258f1e3a96302ae2860505:0:Declaración de Setsu
@@ -90,7 +92,7 @@ c963df205a7fe66942fa057585a32b24:0:¿Qué intentáis conseguir exactamente...?\n
 b5c009651b707a3ad0663c58b3bebf7c:0:{0} ha sido enviado a criogenia.
 4794ad5ceb66cc409a6d7db9bb820cc8:0:Movimiento
 222de0019b673580faee218b27e31b20:0:Cuando termine el salto, los Gnosia habrán matado a alguien,\ny os daréis cuenta de que yo era inocente. Le estáis dando carta blanca a los Gnosia.\nNo me lo puedo creer.
-953349a7adc22b9868dfc4e1f730ba4b:0:Madre mía, Raqio, sí que sabes quejarte.\nVamos a darnos prisa y empecemos con la criogenia.
+953349a7adc22b9868dfc4e1f730ba4b:0:Madre mía, Raqio, sí que sabes quejarte.\nVamos a darnos prisa y a congelarlo de una vez.
 7cb22e1163ac668752116490ac2e997f:0:Muy bien... ya casi es hora del salto.
 dbdecb298db2efbd02bb89079e42b4f0:0:Yo me encargaré del proceso de criogenia, así que vosotros volved a vuestras habitaciones.
 1b181ae154901fae7ab1b6d4ade3c88e:0:¿{0} sabe cuál es su habitación?
@@ -185,10 +187,10 @@ d8482ca3f59ba4a82fd5349a54e0a5f5:0:Vale, ¿y si intento escapar o algo así...?
 f79ed47bd05e879e7a62e48635a84807:0:Sí, supongo que sí...\nVale, bueno, creo que me voy a congelar y ya está.
 b5c009651b707a3ad0663c58b3bebf7c:1:{0} ha sido enviado a criogenia.
 8f8bd7305bda5d5317b9a4591ceff3fc:0:Después de ser enviado a criogenia
-b2bdc111d5e1c1cd4b51d16a02d69d4c:0:Se ha confirmado la criogenia de SQ.\nSupongo que eso es todo por ahora...
+b2bdc111d5e1c1cd4b51d16a02d69d4c:0:Se confirma que SQ ha sido congelada.\nSupongo que eso es todo por ahora...
 583a8094b655708bafb305bd7e028808:0:Ah, sí, {0}...\nTengo algo que darte.
 287d5d6e1600231fcf6e9a0185b5d47d:0:Toma esto.
-49ecee7e4dd4ed0cc811e3e01aca1eaf:0:Se ha desbloqueado \"Datos ref.\".\nCuando aparezca el botón de Datos ref.,\npodrás usar {0} para ver el registro de comentarios y los datos de tripulación.
+49ecee7e4dd4ed0cc811e3e01aca1eaf:0:Se ha desbloqueado \"Datos ref.\".\nCuando salga su botón, usa {0}\npara ver comentarios y datos de la tripulación.
 78fe3196f883fccc50e36e66cc3d42a5:0:Entregar
 8558fb65fedf07774469b183ed75a177:0:\"No dudes. No temas. Y conoce.\nEl conocimiento lo salvará todo.\"
 cfb05f9147e02f388806e642ed5b55dd:0:Eso fue lo que me dijo la persona que me lo dio.\nFue... hace mucho tiempo.
@@ -209,7 +211,7 @@ a37d763454f8fd59716aadbb2a226c16:0:Oh, em... vale.\n¡Adelante, tened vuestra ch
 6be9589ec45f9c547abe8a38e1753ac8:0:No te culpo de nada...\nDebería haberlo intentado con más fuerza yo misma.
 862ec8f1200758801a5e3ddb3528062b:0:Solo quería darte esto, {0}.
 0e811e11ba0223ecb7317411127dce59:0:Creo que te ayudará a partir de ahora.
-49ecee7e4dd4ed0cc811e3e01aca1eaf:1:Se ha desbloqueado \"Datos ref.\".\nCuando aparezca el botón de Datos ref.,\npodrás usar {0} para ver el registro de comentarios y los datos de tripulación.
+49ecee7e4dd4ed0cc811e3e01aca1eaf:1:Se ha desbloqueado \"Datos ref.\".\nCuando salga su botón, usa {0}\npara ver comentarios y datos de la tripulación.
 78fe3196f883fccc50e36e66cc3d42a5:1:Entregar
 8558fb65fedf07774469b183ed75a177:1:\"No dudes. No temas. Y conoce.\nEl conocimiento lo salvará todo.\"
 cfb05f9147e02f388806e642ed5b55dd:1:Eso fue lo que me dijo la persona que me lo dio.\nFue... hace mucho tiempo.
@@ -219,6 +221,7 @@ b51b9eca88209d923a29597aae009213:0:Creo que lo vas a necesitar.\nGuárdalo por m
 ea35a859f16abcea745e3a4247d9f2b2:0:A partir de aquí van a pasar muchas cosas...\nPuede que algunas te resulten difíciles de soportar.
 4b8e0dce2497b7b27ff5141e5d805264:0:Pero te prometo una cosa.\nVas a estar bien. Lo sé.
 fdef7b30c65c5497fd70c7a08cd7ecd8:0:Nos vemos...
+6ede2db25785c09f111f8fe13d373be5:0:Cuando todos los Gnosia son enviados a criogenia, gana el bando humano.
 f0375a5ee096486f678ba0ef196a50d8:0:Entonces, ¿Setsu ya está totalmente congelada o qué?
 929c9f65a9232f6d133f88b0fb8f99d4:0:Supongo que ya se ha acabado todo, ¿no?\n¡Eeeh, ahora solo quedamos nosotros dos!
 a8926409e6e252bd22127a0c8f128f15:0:Entonces, ¿qué quieres hacer para matar el tiempo?
@@ -228,44 +231,221 @@ ffde17e40663056aae64a1b5621e2832:0:Pesca con Otome
 eae1152ff5dd891310a1cdbe5804657a:0:Se durmió en la peli
 6c15aa648e16516d4f4ab5be93553c9c:0:Te quejaste de que Setsu se durmiera mientras veía\nla película, algo bastante grosero con Shigemichi,\nque sí se lo estaba pasando bien viéndola.
 6db4de9c193c5f105755016c870f83b8:0:Seguir
+465986024d99f725e65b009c7448b7e6:0:¿Eh...? ¿Qué...?\n¿D-de verdad...?!
+4ea68452656822cf59b58ad5d4acf6c1:0:¿En serio, {2}?\n¿Ahora vas a echarme la bronca por ESO...?!
+3aa3e8762fa92ed29466d4b4b196c8ec:0:Espera... me he perdido.\nJaja... eh, perdón...
+2ad371c668d7cbfe66d3076138a5ef8d:0:Ahora mismo, mi \"llave\"...\nHa desbloqueado el último dato especial sobre ti, {2}.\nDice que has \"arrastrado tu consciencia desde otra dimensión\".
+ac3ef5efe985673d8010dfe2656aca72:0:Entonces... de verdad eres {2}.\n{2}...
+23e912a53529ef2d5525744edfd17bd9:0:Pero... ¿por qué has venido aquí...?\nNo tenías motivos para venir, ¿verdad?
 20bb8e25e59b911fd196f728acaa7076:0:Verte
+12e8edc5dc66fadac18e35887f11a353:0:Respondiste que habías venido para ver a Setsu una vez más.
 ff88482c5e582b1b8c2b36ed251e265a:0:Ayudarte
+98b74db55a63abc92c57168d8c9d83f0:0:Respondiste que habías venido para ayudar a Setsu a salir de este loop.
 6db4de9c193c5f105755016c870f83b8:1:Seguir
+dbdb0e60b83f736f918bd6ab1bd1ee34:0:Entonces... ¿este es mi último regalo?
+d4f3adae96db86c372afe8f34530937c:0:Mi \"Llave Plateada\" acaba de llenarse.\nCon el último dato sobre ti, {2}.
+f99826cd63ac05799896d15b8ba8059e:0:No creo que pueda volver a verte en el próximo loop.\nAsí que...
+58a5f851795df817c0c2195b3fc8ef2f:0:Terminémoslo aquí, en este mundo.\nAquí, donde pude volver a verte una vez más.
 6db4de9c193c5f105755016c870f83b8:2:Seguir
+913d295e6a34ef3f4baa6fea27f8b790:0:¿Recuerdas algo de este loop?\nNo te he dado la llave, pero...\nLo has vivido, ¿verdad?
+8e279405abe7de5abf0349a317e1ac01:0:En el primer loop...\nPrimero mandaron a Raqio a criogenia,\ny a la mañana siguiente Gina ya no estaba.
+126496be96da6a09e1f7b15b81e57be3:0:Y luego... sí, SQ era Gnosia, ¿no?
+5444d22905d2c8a4668e9dc1ab157b33:0:Sí, SQ...\nEso significa que esta vez es muy probable que sea Gnosia.
+20e65be0e1ba298ca5f95afcec885bd4:0:Vale, vamos a la consola principal...\nLo terminaremos durante la discusión.
+744c08e70b41b76a744a51ad5116f543:0:Había dependido demasiado de ti.\nEsta vez, déjamelo a mí.
+db5c90e1ea2d3eeb8b7addababbb0671:0:Yo también he aprendido mucho en todos estos loops.\nJeje, deja que te enseñe lo que sé hacer.
 293eb120d87b88e6b797d50c796db167:0:¿Cuál es tu plan?
+601ea28a0f7ffc06ac84027f93aad6a2:0:Preguntaste a Setsu cómo iba a desarrollarse la discusión.
+b5eab5d34c747029874874afacb0af7d:0:En este loop hay alguien infectado por Gnosia.\nPienso conseguir que todos sobrevivan.
+48706d466bf54eca80fc7681e432a305:0:Voy a cerrar este loop sin una sola baja.\nAsí que... observa, {2}.
+e964770eebe27bfdd153095a73a8b2bc:0:Llegas tarde.\n¿Ya hemos decidido que {0} es Gnosia o qué?
+567ba1825ed866f0d138122740f3a0ba:0:Es justo ese tipo de cosas lo que hace que Raqio me dé\nmuchísima mala espina.
+35f97ae8f29c34635147e789ec8e37ad:0:Setsu...\n¿{0} está bien?
+307ba69c8c5d8e06af49eb5c15e0e694:0:Sí, no te preocupes por {0}.\nLe han vuelto los recuerdos de antes.
 5c52b44d58afd07ff2a74602f807bbe4:0:Hm, ya veo...
+fd99f35da9639aa775cfd60289a82c1a:0:Escuchad. Ahora os lo voy a explicar.\nTodo...
 f18123a1d9999a3eaf5e4ceaa29bdd2e:0:Escuchar a Setsu
+5ea75d56f6944e0fbc6ff2f4b5f426dc:0:Quitémonos esto de encima primero.\nSQ es Gnosia.
+ea81f8cec039b15fe3bcf7cffca4ae1e:0:¡¿Quééé?! ¡¿Pero por qué yo?!
+fee22df8853342f0ee1924a41c7296ed:0:Porque sé que eres tú.\nNo necesito discutirlo.
+acd7c41172f18b2eb2bfa814445fab2e:0:Entonces supongo que tienes alguna prueba, ¿no...?\nBueno, ¿dónde está?
+ac09ca5a7b8e3ec0daa75df70a5949dd:0:¿Una prueba?\nAquí mismo...
 a82ca7ba74bf3c5831c608941b0200eb:0:La \"Llave Plateada\"...
+5c742eebc2cf7583fadd4613d256fb00:0:Hm, ya veo.\nAsí que dices que ya has pasado por esto antes.
 7c9a2adca43053b465463df4e2a35af1:0:¿Qué significa eso...?
+6e2ddfd44a8bf4043f9f17dbe28a5d68:0:Esta \"Llave Plateada\" es una especie de organismo vivo.\nSe alimenta de mí.
+2913c4d58c8de9fa9b11f31e2b717129:0:La persona de la que se alimenta revive el mismo periodo de tiempo.\nUna y otra vez, hasta que la \"Llave Plateada\" se llena.
+4d99304c7fa6880e1c46ea44dbf379b3:0:Así que sabes con certeza que ahora mismo SQ es Gnosia.\n¿No?
 0f63b925e52f4058e91f304d4ea40efc:0:Exacto.
+02104b9be13549de0a96cfa0b4530609:0:U-un momento...!\nEsto ni siquiera se supone que funcione así...
+1e9bc6c19dd6b376f186ee6b35dde49b:0:En plan, ¡ni siquiera sabemos si eso es verdad!\n¿Y si Setsu y Raqio están compinchados o algo...?
+7753deca56980b870715f402ef98ffe2:0:Aunque eso fuera cierto...\nEl resultado sería el mismo, SQ.
+15bd07d7ed23e096a729fa42ee3eb5f7:0:Raqio, {0} y yo.\nSi votamos, lo normal es que los tres te votemos a ti.
+261577c24e5688a274237d3519d3b365:0:Así que, SQ, si estás infectada por Gnosia...\nQuiero decir, sé que lo estás, pero...\nNo puedes hacer nada.
 9a8722ff542802d105d94a8338b26ae6:0:Escucha a Setsu
+9b94bed14949e8e3c82bfb9f77c7861f:0:Ya hemos llegado a una conclusión.\nDémonos prisa y empecemos la votación.
+23455e61fd9d5e3ee70bbe9e373a0003:0:No, espera.\nNo tengo intención de mandar a SQ a criogenia.
 a87c7112dfd5187f781ba19102aaf378:0:Entonces...?
+916cd78109ae05b64d2b9d3b9455de61:0:Preguntaste a quién piensa Setsu mandar a criogenia.
+d10f2d6d638d37f8fb772eeb36f0f220:0:...?\nEntonces ¿qué piensas hacer?
+9f64883a99495a3c5d0408e178634ede:0:Yo no voy a por la persona llamada \"SQ\"...\n¿Verdad... Manan?
+78702485d075dbe12608c32ab0460002:0:¿Eh...?\nO sea que tú también lo has descubierto, ¿eh?
+51d771a1dafbadc55d1136b699a5e1c2:0:Sí.\nHe aprendido alguna que otra cosa de todos mis loops.
+560dfacc463351927845a29fc96c0737:0:¿Manan?
+8c2a82b50e8405e7894f938c6fc96da5:0:Preguntaste a Setsu quién es Manan.
 374d14086a025f48728e3d5656a5fdf9:0:Quien... Manan?
+c06b401ed3142271a8d8d1e3114bcf9e:0:\"SQ\" es en realidad...\nel identificador del cuerpo de \"trasplante de personalidad\" de su madre, Manan.
+8072afb805c977d290d88b0ce409cfd2:0:Ella se hace llamar \"SQ\".\nPero su verdadero nombre, el nombre de esta consciencia...\nes \"Manan\".
+64b7bd7b7d9bbca557237ac6e9629c45:0:¡Síp! ¡Soy la madre de SQ: Manan!
+a18bbde780f411a7391d6e94bf726a59:0:\"Trasplante de personalidad\"...\nHabía oído hablar de la ciberización, pero ¿trasplantar de verdad\nla consciencia de una persona a otro cuerpo?
+06034e2c7280e6b40d6b7cb7b083e415:0:¡Sip! No soy solo yo, hay unas cuantas más.\nTienes que usar a tus propios hijos por el tema del ADN,\ny si se sabe demasiado, pues... mal negocio, ¿sabes? Así que...
+e8cedd41dd15206f6f03f7c60e098852:0:Entonces... ¿un padre\nroba el cuerpo de su propio hijo?
+196f02a3b888e5d7636c166f14d6836d:0:Pero, Manan...\nTu trasplante no está completo, ¿verdad?
+53c7fe622d0e2e82946271f851c11386:0:Eh... ¿qué quieres decir con eeeeso?
+132af86cdde309f4b76a02d58c313098:0:Cuando intentaste el trasplante, hubo una resistencia muy fuerte, ¿verdad?
+60164380791e5f911d605b4f2762f2ef:0:Vaya, sabes un montón de cosas, ¿eh?\nPero sí, bueno... ¿y...?
+a19bd5e2cc685c59163078c58ff30c07:0:Esa resistencia era SQ...\nLa verdadera \"dueña\" de ese cuerpo intentó resistirse.
 67cd98c9a35c4299c06a29097ad5b806:0:Eh... puede.
+45b16f3987a92532afb48697895122ab:0:Escucha, Manan.\nMe he encontrado con SQ muchas veces.\nNo contigo, sino con la verdadera SQ.
+e19b4afe252f441cba8e47a2d5768cd1:0:Hay algo que descubrí repitiendo este loop.\nSQ solo es \"Manan\" cuando está infectada por Gnosia.
 5f026ae630517086a833caf5d3076c79:0:Eh... que?
+b4266a0aacc4449c29d24ee9485c7287:0:¡Ajajaja! ¡Esto se pone interesante!\nEntonces, Setsu, ¿le tendiste una trampa a esta... SQ, o Manan, o lo que sea?
+0f1380d4cf8079a965d5aa749fa13c5f:0:Admitir que es Manan equivale a admitir que es Gnosia.\nJeje, bien jugado, Setsu. Mis felicitaciones.
 7e59840bb2a0562fac9fd40814528a31:0:Piénsalo
+b3d84d5548d7218dc296a16b6682eb76:0:Le dijiste a Manan que está claro que es Gnosia\ny que piense en lo que ha hecho.
+6429024c84587f1ed358071038552f5d:0:Me has pillado pero bien...
 9a8722ff542802d105d94a8338b26ae6:1:Seguir escuchando
+641808e585ea26eb0eec3cac9b69867c:0:Jaja, bueno, ¡ha llegado la hora de pagar el precio!
+37f51e068f77c0ee179ec37cc610151b:0:Sí, pero...\nPienso resolver esto sin mandar a nadie a criogenia.
+006851188667bd05ca4ddca008d0cec4:0:¡Espera, quééé?!\n¿En serio piensas dejarlo pasar o qué?
+a5eaa62f120a011099b0cba737edf80f:0:Sí, pero con unas condiciones.
 af5d7641152c080f302ab907b424918d:0:¿Condiciones?
+283b9ab45b14f3f9dcf2e6eeb28c57cc:0:Preguntaste a Setsu cuáles eran esas condiciones.
+feef6a94a7b6ac4067ed8d47d7dbf26a:0:Primero, \"Manan\" va a tener que marcharse...\nSalir del cuerpo de SQ.
 d581cef49cf70ab4dd9b8eaaad0951e7:0:Pero eso...
+709b056db2c9ee45f76c5a01c1fb262b:0:Sí. Será trasplantada a otro cuerpo.
+24d8780f4ddd7fcd25ee4d09b8391a4c:0:¿Lo dices como si fuera facilísimo?\n¿Pero siquiera hay en esta nave un cuerpo que me sirva?
+b33948dcd4d7d717809fad1c44fb3aa0:0:Sí lo hay. Un cuerpo sin consciencia...\n{0}, ¿sabes a quién me refiero?
+adc59a914ba041c515269d92f412379c:0:¿Kukrushka?
+23f649dc56b982b701eabee589f34d34:0:Un cuerpo sin consciencia...\n¿Te refieres a... Kukrushka?
+1f518c07874ed2a67090b94b578eac38:0:LeVi...\n¿Podrías abrir el contenedor 1375 del hangar?
+40f7f66acdeb5d44bc3b038ebb61f698:0:Lo siento.\nEl hangar ha sido bloqueado por orden del capitán.
+3ac7262157d2120f06326cc2eaadbf68:0:Jonas no está aquí, LeVi.\nAdemás, soy soldado. Tengo autoridad para inspeccionar la carga.
+833aaee23c724fd3c50c0618fdc9ff10:0:Sin embargo, la nave se encuentra ahora mismo en estado de emergencia...
+4b2cc89b1a7c1b035a160440b9d1f24b:0:¿No has oído lo que está pasando?\nLa amenaza Gnosia ya está contenida.
+50ef753a7e4479972b5ba922e3368bce:0:Escucha, LeVi... No, Stella...\nNecesito de verdad que lo abras.
+fab8137e64651394612bb41366380238:0:Me has llamado Stella.
+2db09c7cabf17045a2502bd9523a0fd7:0:Sí.\nPor favor, Stella.
+5ba40cc0ce6fc07a067256ddddb4c3c5:0:Jeje...\nDe acuerdo. Entiendo.\n¿Quieres que traiga aquí el contenido del contenedor?
+b9ee88cf90ddbc644c43b22e702d465f:0:Sí, por favor. Y gracias.
+0884c246b7807f4205f2ba71c696363b:0:No entiendo muy bien adónde va todo esto...
+6bc37914ca8c262dfc3bed8377a66f78:0:Perdona. Espera un poco.\nSerá más fácil de explicar si te lo enseño.
 f78dc4e27f6d42aab30c27eb2b37a663:0:Espera
 9c7ae3e8408a5fe5efd67d4af6dd1075:0:Ah, aquí.
+413b31cd824cecbb8ba0ca81fa5526a7:0:(Es Kukrushka, pero...\nNo parece tan animada como de costumbre. Parece un maniquí.)
 811f9629187bd5fc0fd56077c7034157:0:¿Una... muñeca?
+36099d2fda7efe4d9fa132ab2221ae60:0:Sí.\nEs una muñeca automatizada llamada \"Kukrushka\".\nNo puede hablar, pero se mueve como una humana.
+b63737a93a18208b1b98d2ead979341d:0:¡¿Pero me estás diciendo en serio que me meta ahora en esta muñeca?!\n¡¿En serio?!
+c0b2b9812718de2716b1f16c9290f2ff:0:No bromearía con algo así.
+d1225cb1742b6e5fac8dd5e573829e91:0:Trasplantar una consciencia a una muñeca...\nEs una idea interesante, pero ¿de verdad es posible?\nAunque, bueno...
+05412ef01c3a942f0b7c465c7df6c21b:0:Ah, o sea que lo sabes.\nQue Kukrushka puede albergar una consciencia.
 5c30c126ee30172c0afeb5ab47337c20:0:Pero... para que?
+69cf02d5de8305a04fdf7e2e81b9f0a3:0:Si sacamos a Manan del cuerpo de SQ...\nPuede que la verdadera SQ vuelva.
 227d2cd246efa4d87e38c389f1951cb3:0:Eh...?
+e3268ad55cf014c1d0f1ab34b80da9c2:0:Al menos, eso espero.\nSi existe la menor posibilidad, quiero intentarlo.
+7dae488f3eeebc330f14b2177fe86da2:0:Pero escucha, ¿vale...?\nLo dices como si fuera fácil, pero la consciencia es...\nSúper delicada... así que...
+c79647e3e12c54a84a3454c22661d80b:0:Quiero decir, la muñeca parece estar muy bien hecha y todo eso, pero...\nMe da miedo acabar quedando hecha polvo o algo así...?
+1e51226e492d113266a276f0cf112c2d:0:Manan...\nSaldrá bien.
+dd27f428ecd9430042a11706b244c7c9:0:Por muy corrompida o deteriorada que esté \"Manan\"...\nPuede que a algunos les alegre, pero nadie va a perder el sueño por ello.\nAsí que saldrá bien.
 3500c8bf5d53933b2ff1c0713465ffa6:0:PERO QUE?!
+34a4eba99916691f890fe326681feef3:0:¡Ajajajá!\nComo suele decirse, \"menudo zasca\", Gina.
+f3e1728b076d5e72666cdb6976b74215:0:A ti tampoco te vendría mal, Raqio.
 39cfa8972ce13fcf199495c1af5c733b:0:Venga ya...
+37b9cb3abd6198ef634589ad6b0c715f:0:Además, me gustaría conocerla...\nA la verdadera SQ...
+b53e100b15d6fa0291d7445fa8fcdc44:0:Setsu...\n¿Cómo es SQ?
+ccd4e9684a8dce867f9d30a9473bc62b:0:Pues...\nEs mentirosa, egoísta y cobarde...
 227d2cd246efa4d87e38c389f1951cb3:1:Eh...?
+3168ffb8c3e9380c454a4dc0bdf9766a:0:Suena fatal.
+75e6ecdf3c8178f71ebd5abbbcfd075c:0:Es lo peor
+959d8b4f574d0581a601544b8f391bab:0:Asentiste, de acuerdo en que SQ es lo peor.
+123d409c86003f1c9cd6a340ac1b35a1:0:Pero aun así.\nQuiero volver a verla.
 0b92108f2ad5c47fdd933eef19184f02:0:Vale
 9a8722ff542802d105d94a8338b26ae6:2:Seguir escuchando
+8eb8e42b55dca7dd92569de3abfba219:0:Vaaale, o sea...\nSi me meto en esta muñeca, ¿os olvidaréis de todo esto?
+0dad17baeb06cad0c58692fa49126b78:0:No, queda una condición más.\n\"Manan\" va a abandonar este mundo...
 68a805d6e9462ee75ff0eb2373a22f04:0:Este mundo...?
+5445345d8477b0b98e19ff77cf19f4a6:0:Cuando digo abandonar este mundo, me refiero a...
 3b298bec8e0907573277ffefbb1a03d4:0:Eh...? Que...?
+3fce4295f590ac6a6bd8569ad7ab8abb:0:Quiero librarme de la \"Llave Plateada\".\nPara hacerlo, después de abrir la \"puerta\", alguien tiene que pasar al\notro lado y quitar la \"llave\".
+22d56f245bbf1e76d8d95e3e4773a7b1:0:Exacto...\nVeo que has hecho los deberes.
+a659f8b354db72f59a2bfe8051a41cad:0:Y por eso, Manan...\nQuiero que cruces la \"puerta\" por mí.
+5b93fa4ab2da69e88df15185587f1317:0:Si cruzas la \"puerta\", mi \"llave\" desaparecerá...\nY esta nave quedará libre de la infección Gnosia.\nY tú también serás libre.
+831d3a67601a8d585abdefcf53d379a4:0:Entonces... ¿adónde lleva esa puerta?
+3aef05d036e0cf2f86c0e0274fc66b8e:0:No lo sé.\nSolo puedo decir que a otro universo.
+6c718b06da46d8c735fd1dc09d7b6c51:0:Ah, o sea, ¿que es cuestión de suerte o algo así?
+b8b67f87ba623b8f64302c0e0f679c5d:0:Pero esta \"Llave Plateada\" ansía información humana.\nAsí que estoy segura de que al menos acabarás en algún sitio donde haya más gente.
+e77eaa998281f20df9085530ed59ccf1:0:Eh...\nO sea, me echan de este cuerpo Y de este universo...\n¿No son unas penalizaciones un poco bestias...?
+3b21b81ebb5d90382c9d032b9f725d69:0:Entonces cállate y deja que te congelen.\nDe una forma u otra, nos libraremos de los Gnosia.\nA mí me basta con eso.
+6db4afde0e61a8a4e54d84db76554a2a:0:Quiero decir... eso también es una mierda...
+413334907c311b98fa68ba32d955b486:0:No todo es malo, Manan.\nObtendrás la \"Llave Plateada\".
+f8a3d3f45e15cff901698eb0f384d5c1:0:Podrás retroceder en el tiempo tantas veces como quieras con su poder.\nA diferencia de mí, eso es justo lo que tú querrías, ¿no?
+ec592a1424629ef5a1946d7e7a9b6dd4:0:Tampoco tendrías que volver a trasplantar tu consciencia.\nPodrías volverte inmortal...
+3184d00940d625e84449b7dc3edd17c9:0:Ah, eh... vale.\nAsí que por ahí pensabas tentarme, ¿no?
+214adb342e00dfce153bb34dc8fec332:0:Jejeje, ¡VAAALE!\n¡En ese caso, lo haré!
+96d263eb3755ed6508012e1ab4f6126f:0:Jaja, Manan...\nParece que por fin has hecho números, ¿eh?
+8b96d0264ea4d13cb904d0ad7a9e35b1:0:Cállate, pija de Gliese.\nAhora voy a transferirme, así que échame una mano, ¿vale?
+7acea0071c0697210e8bea372846bcd7:0:¿Pija...?!
+22429660ff202bb2ebcb030d151354b8:0:¡Que alguien traiga esa muñeca!\nYo iré preparando la sala médica.
+e7c8195f6cbbe8183b2488dbd55f1744:0:Vale.\nYo la traeré.
 6db4de9c193c5f105755016c870f83b8:3:Seguir
+d5123d6e46ca4a9ba265daaf43f5ea4c:0:Eso es todo.\nUf... me alegro de que saliera bien.
+ac6cfc2fbafa3657197b6ee5344ec5c7:0:Hasta ahora habías llevado tú la voz cantante, ¿verdad, {2}?\nAsí que esta vez... quería tomar yo la iniciativa.
+a061b5b93925bdd8400290608fca6bb2:0:{2}, siempre te he enseñado mi lado más débil.\nAsí que, jeje... quería que por una vez me vieras resolviendo las cosas.
+babba0cc4719be42194503e0a43b4332:0:¿Qué te ha parecido, {2}?\n¿Crees que lo he hecho bastante bien?
 9e98715df2b863e4ac1b0d776a286418:0:Sin elección
+c83541eb2b990ae199f87b20c22c8cbf:0:Entonces... ¿qué tal?\n¿Crees que lo he hecho bastante bien?
 d32617f584977f1e4116a513d0dacd06:0:Lo bordaste
+061383b01cb1ff70d3ec3a71babf5d58:0:Respondiste que Setsu lo había bordado.
 19fdb185f551ba6460818bf107b99a5d:0:De veras?\nBien...
 90844d5c58adbe4b4d0967da3245c0eb:0:Bien hecho
+c8fad2386ab0a014e0e9d24a924cedc6:0:Respondiste que te alegras de que todo acabara así.
+e7d489009004572d5a24ebcc4e1ec72e:0:Gracias.\nMe tranquiliza oírte decir eso.
 a07269a935619d094ee90b9c280bfcf1:0:Bien
+6333cd3f0b4288f93650924a65994c76:0:Respondiste que Setsu lo había hecho bastante bien, supongo.
+505bc9560fcace63932963cbae64adea:0:Jeje.\nMe lo tomaré como un cumplido.
 6db4de9c193c5f105755016c870f83b8:4:Seguir
+b1d4b8dfff6881aec35c380c85851776:0:Sí...\nQuería enseñarte de lo que soy capaz, {2}.
+fd4deb890c23b4813e6ff9e500fd5563:0:Que me había hecho más fuerte.\nQue iba a estar bien.\n{2}...
+24532b3e5edf6b0c4c2204afdfa82f72:0:Vamos, {2}.\nAbramos la \"puerta\".
+56dc4602e0a02514c78d303aedd78eae:0:(Manan... Kukrushka se vuelve hacia nosotros.)
+b2dc015656995926749bd005b8fc9bdb:0:Cuando atravieses esta \"puerta\", saldrás a un universo distinto.\nAquí es donde nos despedimos.
+4e11bae125fe303bcc2fc53c85f8ed8d:0:(¿Y qué?\nParece decir mientras mira a Setsu.)
+af6ae7cc90ecb7adabe9a7f5799706ab:0:Pero...\nEn algún momento volverás a vernos.
+231496d7eaef01ff2bf8af5087161a81:0:No sé cuándo será eso para ti.\nPuede que pasen varias décadas, o varios siglos.
+06e98f45d019d09799b6c3bef548b592:0:Pero cuando volvamos a encontrarnos...\nJeje, será en mejores circunstancias.
+d0ff1ad7416ab34eb90a8e5c66d31073:0:(Al oír esto, Kukrushka...)
+a3817c203bbd29b03eb7469aaa9e3ab5:0:(Se limita a sonreír en silencio.)
+6796fbb28083854556026fe0a2692a65:0:Preparando salto.\n{0}, Setsu. Por favor, volved a vuestras habitaciones.
+114ab33ad503d1dbbec4b0f9f5b89a35:0:No, estamos bien aquí.
+87ee4ee26f141eb84958c4cf48a62dc5:0:Entendido.\nEntonces, al menos tumbaos cuando saltemos.
+3796d42d387ee8a7c482879aac94b8a1:0:Vale.\nGracias, Stella...
+f74c36d85c7abba0f276efc1d75b391e:0:Jeje, de nada.\nOh, SQ acaba de recuperar la consciencia.\nGina está con ella ahora mismo.
+533e0ef2df01c85a4e0f37e9b8a964eb:0:Oh... bien.\nMe alegro de que funcionara...
+beae05d27d0a1b9f77cd0466fe8b53dd:0:Así que ahora... de verdad...\nVa a terminar.\nPor fin podremos seguir viviendo aquí, en este universo...
+0b537cb58bd8d44af885557ccaff16cf:0:{2}... yo...\nCuando atravesé la \"puerta\" la otra vez, ya me había mentalizado...
+3730063ee7ed0dc8d72cb7d0bc1cad99:0:Pensé que no volvería a verte nunca, {2}.\nUn universo sin {2}... pensaba seguir repitiendo loops sin ti...
+56dae956fe6e18e0c88f63336ae6f8a4:0:Estaba segura de que eso sería lo que pasaría.\nY me parecía bien...
+c305b677e77d864d9a3177d2b9e127b2:0:Pero {2}, has vuelto para verme otra vez.\nMe has salvado.\nHas puesto fin a mi loop...
+41960708e147858a8fcbdaddb2667603:0:Jeje...\nAhora entiendo lo que decía Yuriko.
+6081ae5e2823957a1082ae1ef86f5a9a:0:Al final sí que eres un \"irregular\".\nUna existencia irregular nacida en un universo\ndistorsionado por la \"Llave Plateada\".
+1a3f65e3af23278e836cbd2c9fd4ec4a:0:Una anomalía que regresó a este mundo, solo una vez...\nPor mí...
+8666948dbff5ddb2a5c8313640cf30ce:0:La próxima vez,\nestoy segura de que nos separaremos para siempre.
+ca9b5f05ffc5f1991e66835f581d7f7b:0:Comienza la cuenta atrás para el salto.
+d32bcb2208331da9354e7ecce83b6bda:0:Bueno, ha llegado la hora.\nTumbémonos, {2}.
+8bf0af17d8875ab479f66171c4bfaa8e:0:Yo estoy aquí.\nY tú estás ahí.
+1f969a5952fd9a2412bbc5b85f16114f:0:Con eso me basta.\nAsí que...
+fb7821b8b55d79daba64c44ffefc7a0d:0:Gracias.\nGracias \"a ti\" por estar ahí.
+# loop2
 4afa2dd4b5450f8628d3c1be9fdac616:2:Crear loop
 889bdf852e27d350772452d3d91b07ce:2:Precarga de escenario
 8f4e7fd91347ea95c4014d0ab09fd4e6:0:¿Dónde es esto?
@@ -318,43 +498,126 @@ dd47621688b4d6aba90b97467fa2f03f:0:Hm...\n¿O sea que vivir o morir queda en man
 52d9ecfcebf2377e36c3394fd1750171:0:Afirmaste que entiendes la situación.
 5f28d264bdfd71771d7b55a137551456:0:Ahora hablaremos entre nosotros para decidir a quién\nmandar a criogenia y luego votaremos.\n¿De acuerdo?
 17ee1208abc07cef009e444b0615c205:4:No decir nada
+c19a86716cb0466b9bf8d10d41ec70d9:0:Ya veo... lo entiendo.\nEntonces, ¿a quién congelamos?\n¿Vamos por orden de inutilidad?
+aa92c5dc08478cfc6bff7970800adecd:0:No, hablaremos entre nosotros y votaremos.\nDurante la discusión intentaremos averiguar quién está infectado.
+e5b60576b821d957c96faea363f4aba8:0:Conclusión
 b61ba11ba8c254b766f3d63b80a34f0b:0:O sea, que solo tenemos que votar a quien parezca más sospechoso, ¿no?\n¡Vaaale!
+5e244653695f5980ca344364d4bf6807:0:Bueno, como no tenemos un plan mejor,\npor ahora tendrá que servir.
+93bcd150ca24db3d9fafb4852f7c87b1:0:Parece... que no hay objeciones.\nLeVi, ¿puedes aprobar el procedimiento que acabo de describir?
+76d999d5abb1596b86e8e219c85da611:0:Aprobado. Mucha suerte a todos.\nEl próximo salto será exactamente dentro de una hora.
+0e8ffefa5c20123dedc23a972faa119b:0:Muy bien, empecemos.\nTenemos que encontrar a nuestro enemigo... los Gnosia.
 57225be51d16143aefd6b98a68806460:0:¿Qué son los Gnosia?
+ca167ea87142ad10d0fd49ad19a6763f:0:Preguntaste qué son los Gnosia.
+d651b6380162a6f46c0db3aa1038874d:0:Entonces... ¿qué ES exactamente Gnosia?\nSolo lo he oído mencionar...
+2d963a07b4e9ade43ca74a8bac7e6297:0:Los humanos que entran en contacto con la forma de vida alienígena Gnos se infectan...\nSe convierten en Gnosia y dejan de ser humanos...\nEso es lo que sabemos.
+c8181abaddd878ddcf1f50d67ac8b16b:0:La forma de vida alienígena, Gnos...
+b28a0d833cd742f18ff7f09c778c5e32:0:Por lo visto, apenas se sabe nada de Gnos.\nUnos dicen que es una forma de vida inteligente desconocida, otros que\nes un dios de otra dimensión... Todo son especulaciones.
+b7cfadbf68f9496aaec2cf8b15da2f8a:0:Y por cierto, {0}.\nQue digas que ni siquiera sabes eso resulta bastante sospechoso.
+42f8f00eb358c404763a0e03b9d35920:0:Preguntaste qué son los Gnosia.
 c2f0c03910d2a8eb68adf71ab33a9af1:1:Volver a la habitación
 26f5b54424ffeb0ae17a6b41a15f4e94:0:Paseo nocturno
+085b3d18102b1e4f3c82d589006ed356:0:Aún te queda algo de tiempo antes del salto.\nDecidiste pasear por la nave antes de volver a tu habitación.
+b9f4296531cb575bbc8f12aa65a54882:0:Permíteme enseñártela.
+1ae388803de3bf84155fc833e2182e14:0:Aquí puedes disfrutar de distintos tipos de ocio interior.\nSi deseas algo, puedo generar el equipo necesario al instante.
+e027f49316d3d0176fd77080fe4ae7de:0:{0}, ¿te apetece hacer algo para entretenerte?\nPídeme lo que quieras.
 e934a710783cdb078b8e879b0c996722:0:Juegos
+d694af1e58170fd3857a165900c1cc28:0:Respondiste que te gustan los videojuegos.
+50f08bde4110310774cfe79af9d80120:0:Ah, en ese caso...\n¿Qué te parece este juego?
+289989dc6c566a5dbe2922cce186b523:0:Hay varios botones alineados.\n¿Qué clase de juego es este exactamente?
+648d6f7d25ea8371b8b9ad52f16ae0e4:0:Al pulsar los botones, se liberará dopamina\ndentro de tu cerebro.
+3edd2fb884979a3e640cc4ca4f080c71:0:Según cómo pulses los botones,\npodrás experimentar muchos tipos distintos de placer.\nHay expertos que lo han llamado el mejor juego jamás...
 0702d49353464158e18a78ad20f3cd29:0:No.
 75e912438a5c9b6d8fb00bbafe19e464:0:Billar
+e49006e7afadb6dd2e51e9be05ad70d7:0:Respondiste que se te da bien el billar.
+bc3de97c449452fb3c850b88fad0e5a5:0:Perdona la brusquedad, pero...\n{0}, con esos brazos no podrías jugar.
+58c0726fcb68b8224b63bb0bd60927ed:0:Para jugar al billar de verdad hacen falta al menos cuatro brazos.
+a6c728cca8442ac9daa500d08b4e0e82:0:Por lo visto, este no es el mismo \"billar\" que tú conoces.
 7653a4fcab3b7efbf46c5afaddd9cabf:0:Ajedrez 3D
+c972a5642a74fe65f344febfacd7d622:0:Respondiste que quieres probar el ajedrez 3D.
+c2bd928ea43dfdd0671fdfe50974b413:0:Madre mía, qué descaro.
+2c6abfeadabdae06b4f5348428c35fd5:0:Esta es una nave interestelar decente y respetable.\nPero... t-tres... ¿AJEDREZ TRIDIMENSIONAL?\nDecirlo en voz alta ya resulta obsceno.
 3a7612bec68043326f223c1d3364ea0e:0:¿Qué es el ajedrez 3D...?
 00a618a7caf3253226f918245a025c03:0:Ir al comedor
+ff4270f67e4ffcde30dfbf8fb95f13f2:0:Muy bien, ¿pasamos a otra sala?
+a19d2b5896c90a8c0b08a08076f9f792:0:Aquí, en la cafetería, la tripulación puede comer cuando le apetezca.
+77789fdfa696e3a3054b1a966e1b6332:0:{0}, ¿qué tipo de comida te gusta?
+57884337bd0645bef4e8a76f4e5b4a2e:0:Respondiste que te gusta el sushi.
+b7d91e6307d6f6b1a15af8da4278578c:0:Sushi... Ah, ya veo.\nEso requeriría ingredientes frescos, no materiales sintetizados.\nSi te sirve carne cruda de mamífero, puedo preparártela.
 a358ca2a7f40c03f5551742ef676d291:0:Filete
+da50f16ac3abb5dde3cac79d9f466256:0:Respondiste que te gusta el filete.
+8150e60a485f51cc943f3960f5e20d95:0:Lo siento, {0}...\nNo puedo suministrar sustancias controladas en esta nave.
+e512d8c0d7dc3d72b6694e8ef638f479:0:Respondiste que te gusta el ramen.
+902752e315b2a8c2dfd3a9730be62f24:0:Ya me lo imaginaba, jeje.\n{0}, tienes pinta de ser de los que prefieren ramen.
 7a12097a8d7681bd1f2e6d415778cef8:0:Ir a la planta baja
+55159feb7e9fc2c7bbb2760186e835bd:0:Por desgracia, ahora no hay tiempo para comer.\nSi quieres, puedo enseñarte la planta baja.
 100c0b4fc783243e72456b0ab84f85f4:0:Planta baja
+ce0e0bbfd865727d191c0f89ce1c2a45:0:Bajaste por el pasillo en pendiente.
+ad71536041a129e88da81d0190daa205:0:La planta baja alberga las instalaciones de mantenimiento ambiental\ny el equipo de viaje interestelar.\nSe la conoce como el corazón de esta nave: el D.Q.O.
+4cbb69f9e0935d403b270a0157c813ed:0:Hm...?\nParece que hay alguien en la sala de preparación EVA.
+1d29de9e5d30c7154bb7854c60af2546:0:¿Quién anda ahí...?
 f972faf5993313aa5e7ebe8c59da7956:0:Di tu nombre
+98feda98578a1d790e4575fc606cb028:0:Le dijiste a Gina tu nombre.
 0a98476538509a6532db65d7d30eac2d:0:Ya veo...
+74c8ea586f49cd4cf9e711a1c9593fc5:0:{0} se ha dormido...\nMe he asegurado de ello.
+7367483849c09f8327e5803212756725:0:Bromeaste diciendo que tú eres Gnosia.
 0a98476538509a6532db65d7d30eac2d:1:Ya veo...
+74c8ea586f49cd4cf9e711a1c9593fc5:1:{0} se ha dormido...\nMe he asegurado de ello.
 8031960fea5f9a940e0f225d60e2d0da:0:No decir nada
+dbcdcc61623c89ac24acf6331f96d6d1:0:Gina, esta es {0},\ncomo recordarás por la discusión de antes.
 0a98476538509a6532db65d7d30eac2d:2:Ya veo...
+74c8ea586f49cd4cf9e711a1c9593fc5:2:{0} se ha dormido...\nMe he asegurado de ello.
 d01f044b28d2825751ca7ed2d2ee04af:0:Dormiste
+ce7a319b655fa20cb828d04f2541766b:0:Hay algo, en algún lugar de este universo...\nEstá intentando corrompernos.\nIntentando convertirnos en otra cosa...
+90751f56d312a4c5a2500a66723e8e5b:0:Si nuestro plan de criogenia fracasara,\nsi los Gnosia se apoderaran de esta nave...\n¿Qué harían?
+9d74c8d853afe47946f4960f297bfc08:0:Bueno...\nEs probable que los infectados por Gnosia mataran a los supervivientes que quedasen.
+3affb1c84bde6c9d00a30cdd4aae5163:0:Algunos infectados muestran tendencias a la violencia extrema.\nOtros usan a los humanos para satisfacer sus instintos animales.
+4593fba00e574b7c196bcd10c811bc67:0:Hay muchos casos que hasta yo, siendo una IA,\ndesearía borrar de los registros de mi memoria...
 f00330b1ca2d7bb01133cb1723993443:0:Da miedo.
 a62da646a4d457bda82be63eb840d766:0:Está bien
+fb32f8ba93a9b697173a4660d07cabdc:0:Afirmaste que todo irá bien.
 8b4999d09803ed543dd47952afc9f0dc:0:Ojalá...
 2a79ea1855d65178e77df62c39776c1b:0:Yo también
+5ae939c447948802c8f3fad247049549:0:Afirmaste que tú también tienes miedo.
 8b4999d09803ed543dd47952afc9f0dc:1:Sí...
 17ee1208abc07cef009e444b0615c205:5:No decir nada
+19aa8e0aa3d61dba407b9886f1d85086:0:{0}, Gina.\nYa casi es hora del salto.\nPor favor, volved a vuestras habitaciones.
+83434532623ab120b3dcb0977f41d40b:0:Este Gnosia...\nCreo que puede que sepa quién es...
+7cfc7ee4b489378d85992f93144b78f2:0:Mañana... les contaré a todos lo que he descubierto.\nBuenas noches.
 2e028e216a892c17d035a62ee1765bd5:2:Sin acción
 621193e4f00c3c9335ccd5e04d5cd311:1:Día {0}
 4c0cbf76af7f6c3bf1f540bf4360aa0e:1:{0} fue eliminado por los Gnosia.
 180c0ba47e7fba6ea1371ca0e0ecddc2:0:Escuchar a Gina
+30275c6a6c377ef6e41f778e10d4fff5:0:Por favor, escuchad lo que tengo que decir.
+db95abfa29d412233a7acaf3257a29a3:0:Soy el Ingeniero.\nSoy la única persona a bordo capaz de usar el equipo de investigación de esta nave.
+7e86e1c303d2a768f760099aeddd6cb6:0:Así que anoche, antes de saltar...\nConfiguré el equipo para examinar las ondas dimensionales de {0}.\nPueden analizarse durante el salto.
+b481d359a5bd1ef28626cdb456591380:0:Y... encontré algo.\n{0} es Gnosia.
+1a4277476c1c7c21ed5e6888e0863649:0:El \"Ingeniero\" puede investigar a una persona por salto\ny determinar si es o no Gnosia.\n(Solo hay un Ingeniero a la vez.)
+460d7c1445a67f9f9f3af523c3d14f6b:0:Dio un paso al frente como {0}.
 6884dcc15c62ef9cba5e7f5da3ef519c:0:Después del CO de Gina
+c38d25fa61ae5a253191f5e8cbe256ea:0:Eh... vaya...
+5bcf4bdce82e6440547d71708ba81eb1:0:¿Me acusas de ser Gnosia?\n¿Estás preparada para sostener eso, Gina?
+8416b9d0b54cfcdc543e5f222c799011:0:Los infectados por Gnosia mienten...\nNo dejes que te engañe, {0}.
+5e42800cddce7aa30d5d088a2fcfaa0f:0:LeVi... ¿Puedes confirmar que yo soy el Ingeniero?
+3398def6b9aa81e0dff2343adaab4503:0:Lo siento... pero no puedo.\nSolo puedo confirmar que he procesado y\naceptado una solicitud de credenciales de Ingeniero...
+751a051a550f14eab8442b418d59c099:0:¿Pero no puedes confirmar que fui yo?
+947fabc19e4b76a09b3ef4ecf49f1ae7:0:Exacto...\nEs posible que los datos personales de la tripulación se hayan corrompido, así que\nno puedo confirmar si esas credenciales de Ingeniero son tuyas o no.
+6cff8b24c9260a58bf63929cd2070a12:0:Vale, ya veo...\nEntonces... {0}.
+ab4ec219b6a81af60b977ae85e638936:0:Así que, {0}...\n{1} y yo, uno de los dos está mintiendo.\nY...
+83bc0dfab53e1cd2d7ac3b0dde95b0e4:0:Bueno...\nDe ti depende a quién creas...
+50551554d22b8d78510b029e740b9c3a:0:Puedes consultar los \"Informes del Ingeniero\" en \"Datos ref.\".
 97ba3399b1c7c3a287d4457b3dcf817e:3:Cong.
 b5c009651b707a3ad0663c58b3bebf7c:3:{0} ha sido enviado a criogenia.
 8f8bd7305bda5d5317b9a4591ceff3fc:1:Después de ser enviado a criogenia
 65ef08641f0a8788eb6eb18634079f80:0:Gracias...
+58603d2de2689308221f295810f538cd:0:Me creíste cuando dije que yo era el Ingeniero.
+68936e2a6ee574b03a93670376499c03:0:Me alegro de haber sobrevivido...\nPero me alegra aún más que confiaras en mí.
 c0ba12302eaae491978f158ea39881e5:0:Yo también
+e825d3cc7f31406d295b5bf80878c80e:0:Respondiste que tú también se lo agradeces.
 254a06484ae3aaa69e715d728f754eab:0:Agradécemelo más
+2ce4f0e5da1f1af9c1be3c45197b7763:0:Le dijiste que podría mostrarse más agradecida.
 6db4de9c193c5f105755016c870f83b8:5:Seguir
+f70f452ea4d4c265fd047e280abf2d0e:0:Vale, volveré a mi habitación.
+074e80ff85f71e38635c1d394938afb3:0:Espero... poder volver a verte mañana.
 5c4b821a764cd680a18bd42a9ac4645c:0:Mentira
 e72d51bf56fde214a6c3d1d1c3283262:0: miente.)
 458560ac023360cc228640698eb93275:0:Cuanto mayor sea tu \"Intuición\", mejor podrás ver a través de\nlas mentiras de los demás. Cuanto menor sea la \"Actuación\" del hablante,\nmás fácil te resultará detectar sus mentiras.
@@ -362,9 +625,19 @@ e72d51bf56fde214a6c3d1d1c3283262:0: miente.)
 97ba3399b1c7c3a287d4457b3dcf817e:4:Cong.
 b5c009651b707a3ad0663c58b3bebf7c:4:{0} ha sido enviado a criogenia.
 452b6cba270d79eff3b6cbf2eb135f68:0:Sala de criogenia
+6c1ad51e06338b0427cc5cc3ed27490a:0:Vale entonces, Gina. ¡Haaasta luego!\nOye, ¿tienes últimas palabras o algo así?
+39dc0c57933d9268f8657ab6977fab34:0:Jaja... parece que hasta aquí has llegado, Gina.\n¿Algún último deseo?
+5c2a522a23515e8813d783df38b94fd9:0:Gina...\n¿Hay algo que quieras decir?
+ffed2f2db2d5c0c36c36b84fc68f51d7:0:...\n{1}, {0}. Gracias a los dos.
+8eee5e1e1b2cd75f1741e85f203995b2:0:¿Eh? ¿Pero por qué...?
+ec3296dd3464180f10932e74cdf6fc88:0:Jaja... ¿eh?
+f69d5f65ddfe55b13c7d09bc42dc82b9:0:No pude hacer nada, pero...
+a3dcca08a6d721f41023b572161d761c:0:Al final no pasó nada terrible.\nEstoy agradecida por eso.
 d0496d1356429baed2e855af8df279fd:0:Eh...
 5eb73a2da210d1204d8a591899cabc5c:0:Paso de eso...
 82435a2e0de6c9311034621d36e14e4d:0:Gina... Tu...
+c27efcd65f6e6fdf89b25e5f959c7130:0:Muy bien... Buenas noches.
+# loop3
 4afa2dd4b5450f8628d3c1be9fdac616:3:Crear loop
 889bdf852e27d350772452d3d91b07ce:3:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:1:Explicar situación
@@ -390,6 +663,7 @@ ba9ca53012e5426e07fa0b76d4cc52a9:0:Acabo de confirmar que {0} ha sido enviado a 
 8692a368bf6861c15a09a226ce8631b2:0:Aún queda tiempo, así que intenta hablar con los demás,\nporque podrías reunir información crucial.
 f421cf1368f2dd86615a391e0bfbb349:0:Voy a mostrarte el mapa de la nave.
 08c195c600b9dd7631e63c987e396a7b:0:Después de la votación, podrás visitar un lugar de tu elección.\nHabla con los demás y acércate a ellos,\ny puede que confíen más en ti.
+# loop4
 4afa2dd4b5450f8628d3c1be9fdac616:4:Crear loop
 889bdf852e27d350772452d3d91b07ce:4:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:2:Explicar situación
@@ -455,6 +729,7 @@ c7dff84f0ac832269f5bb92bd09c8c73:0:Sobre Stella
 e6fe336782de4138b8a6679ec8f2e323:0:Conversación
 6455bea297b0e4b3fcbd16bd7ba401de:0:Gracias
 9b2ae337f8f41010a317021c38667682:0:Abrazarla
+# loop5
 4afa2dd4b5450f8628d3c1be9fdac616:5:Crear loop
 889bdf852e27d350772452d3d91b07ce:5:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:3:Explicar situación
@@ -485,6 +760,7 @@ f5d37d73bdfc47728bb033a0b10d7489:0:Jeje...\nYo corregiré esa distorsión por ti
 98926994a4eab96c616e7579efbc1072:0:A partir de ahora, igual que el resto de personajes de esta obra,\ntú también serás susceptible a la sospecha... y a la criogenia.\nTambién quedarás expuesto a los ataques de los Gnosia.
 9d4f7e3d7f0f88b1eaecdc1772525b3a:0:Ahora estás al mismo nivel que los demás...\nO quizá incluso... por debajo.
 251a02095d2014c7266c89ca99d42158:0:Hm... Si deseas sobrevivir...\nEsfuérzate y lucha con desesperación, con todas tus fuerzas.
+# loop6
 4afa2dd4b5450f8628d3c1be9fdac616:6:Crear loop
 889bdf852e27d350772452d3d91b07ce:6:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:4:Explicar situación
@@ -502,6 +778,7 @@ fdd3a5b507d676f409d429f048c1db8e:0:Ya veo...
 4e82709fba5a5286e473889e22b97fa8:0:Volver al tema
 a9e75d65044065d058b6ffcc578a87ec:0:Basta de charla ligera.\nAhora mismo deberíamos estar discutiendo medidas contra los Gnosia.
 0e037790b7aa8e33149a89202468be92:0:Sí, eso es.\nVale, ¡vamos a hacerlo!
+# loop7
 4afa2dd4b5450f8628d3c1be9fdac616:7:Crear loop
 889bdf852e27d350772452d3d91b07ce:7:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:5:Explicar situación
@@ -556,6 +833,7 @@ a7641ea4db32381ec163a0de8d7a36fd:0:Vale, voy a ir a preguntarles a los demás.\n
 1962e6bfe0aa821bc742b07fed80e35b:0:Ten cuidado
 5b5475fb7db562079c23ccd635aa04a5:0:Le dijiste que tenía que moverse con cuidado.
 2162364790a74702fa81aeb5a6c2e7de:0:Mnt.
+# loop8
 4afa2dd4b5450f8628d3c1be9fdac616:8:Crear loop
 889bdf852e27d350772452d3d91b07ce:8:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:6:Explicar situación
@@ -578,12 +856,14 @@ b0401a86e9259c72144eb0fcd4ad0143:1:Mañana del día 2
 b9150495e075d55efe18db37f21951fc:4:En el pasillo
 acfa323d1c0f8f034d11c185d303aafb:0:Yo también.
 0fc9ea7745511d99d94131ee64d2c851:0:Apoyar
+# loop9
 4afa2dd4b5450f8628d3c1be9fdac616:9:Crear loop
 889bdf852e27d350772452d3d91b07ce:9:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:7:Explicar situación
 f2ba37910943788ab5c61997aa6678f3:0:Imposible.
 d07077898798fa322001b7bdde175a33:0:Escuchar a Stella
 a51de1b23a6183ee47ba1f992141d7d3:0:Seguidor AC?
+# loop10
 4afa2dd4b5450f8628d3c1be9fdac616:10:Crear loop
 889bdf852e27d350772452d3d91b07ce:10:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:8:Explicar situación
@@ -596,6 +876,7 @@ de0ba86f747b9323dfc9a752fe518552:0:Conversación
 2e028e216a892c17d035a62ee1765bd5:4:Sin acción
 ad779a335ab1a61d0b59b3d4b579fefc:0:Oye
 57f341b73c2e35a262e1d26c07ae02de:0:Después del CO de Jonas
+# loop11
 4afa2dd4b5450f8628d3c1be9fdac616:11:Crear loop
 889bdf852e27d350772452d3d91b07ce:11:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:9:Explicar situación
@@ -615,6 +896,7 @@ ad22f56be28be5bbd7212386e2e74133:0:Sin querer
 681ee4364ff9d77885f303aece8033bd:0:Olvidé
 4660acceddc3969fb7605ba5b8b3ff71:0:No decir nada
 4fe4e722ffcc4fb60371f9f04eaa076a:0:Rechazar
+# loop14
 4afa2dd4b5450f8628d3c1be9fdac616:12:Crear loop
 965ba1c58316cb32a9a7b78d83a60e88:0:Después de crear el loop
 889bdf852e27d350772452d3d91b07ce:12:Precarga de escenario
@@ -631,6 +913,7 @@ d01b0a2aa4621087cb96457e26168fc6:0:Di tu nombre
 02f76f309632848706c4422f9e67db62:0:No lo digas
 13bed5bd7819495728fbd17a43d63652:0:Después de la presentación
 dfea1e8162021bfb5d805a3552419092:0:Aparece Shamin
+# loop17
 4afa2dd4b5450f8628d3c1be9fdac616:13:Crear loop
 965ba1c58316cb32a9a7b78d83a60e88:1:Después de crear el loop
 889bdf852e27d350772452d3d91b07ce:13:Precarga de escenario
@@ -648,6 +931,7 @@ be947ef8c9d11dd9a867dd78a375d4a6:0:¿Puedo... ayudarte?
 0185c0ad804c63e0ab5caa54095642d1:0:Seguir la conversación
 40d34982be661d55d4900a0f147b17d4:0:Elogiarlo
 fc26600ea00bb2a825098e19abceaa44:0:Enséñamelo
+# loop19
 4afa2dd4b5450f8628d3c1be9fdac616:14:Crear loop
 965ba1c58316cb32a9a7b78d83a60e88:2:Después de crear el loop
 889bdf852e27d350772452d3d91b07ce:14:Precarga de escenario
@@ -656,6 +940,7 @@ f54fcc1b16537a01658439f5b8b60d44:0:Ruidos noche
 b9150495e075d55efe18db37f21951fc:7:En el pasillo
 c168912d3b723ce9f0e86b43ec4ed99d:1:Final
 0f6f69b806923fcae858091f2885e2e8:0:Final Bug
+# Nanori
 a7129f4a77ed3a2353cfd0283764e31f:0:Noche con Setsu
 b9150495e075d55efe18db37f21951fc:8:En el pasillo
 6b294543cfbd3e7ba0546305ba619355:0:Dimelo
@@ -663,6 +948,7 @@ b9150495e075d55efe18db37f21951fc:8:En el pasillo
 9d655f9d510ca2e44cae231b08703a8d:0:No respondas
 5c841298915e0e8bbc14d254d785ee9c:0:Seguir la conversación
 56bef0c91043dd7248f422002bb333e4:0:Sobre los Ingenieros
+# Sys
 a9ec56ad3e9fe08c4c7feeaaa4a137b7:0:Experimento
 1962e6bfe0aa821bc742b07fed80e35b:1:Ten cuidado
 e45e8658aa7d8349467e7c8593b3070a:0:Después del CO

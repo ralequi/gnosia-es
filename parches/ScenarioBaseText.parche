@@ -1,11 +1,15 @@
+# ScenarioEngine
 086e9111b5880a2726764caaf9c6e091:0:Nada
 0796f5a274bd2507ed300e1ff54d6583:0:Desconocido
+# AfterJinro
 2e028e216a892c17d035a62ee1765bd5:0:No pasó nada
 18d8128a53feffd4d48e6533aab66056:0:Día {0} - Noche
+# BeforeJinro
 2e028e216a892c17d035a62ee1765bd5:1:No pasó nada
 4032441cacfbc0a425c2852a1a452780:0:Día {0}
 4c0cbf76af7f6c3bf1f540bf4360aa0e:0:{0} fue eliminado por los Gnosia
 71c1a584b5778615e394be628a54f161:0:{0} ha desaparecido
+# Houkoku
 e53c02a4643f688eb146939793a9b698:0:Pedir informes
 298e2246ad0dbc0068c829182562430f:0:Informe
 a048009ead9704d51f292c4610a95694:0:Según la investigación, {0} era humano
@@ -24,6 +28,7 @@ e3f87b83985d5bca001875e354e570dc:1:Según el examen, {0} era Gnosia
 cf4844808299fa8d0ddd6bee265f63b0:0: y 
 e68036bf570c9956d5c9e10ba52710c6:0:Cuando desaparecen dos a la vez,\nuno fue atacado por los Gnosia y el otro era un \"Bug\"\nque el \"Ingeniero\" encontró y eliminó.
 2e028e216a892c17d035a62ee1765bd5:2:No pasó nada
+# Jinro
 8bbfdcc7aa63423bb111bafed6f8bf27:0:Dudar
 ba9f82948c953f54d1ba93101367f343:0:No me gusta {0}
 a46131e6337df31dacf6a45db5812e33:0:{0} resulta molesto
@@ -94,6 +99,7 @@ f83f1f9ea84cd28dc7e20b3ea90414bb:0:Empezar la votación
 41fbf6ef160fdd546208e7435a06a6b3:0:(Te diste cuenta de que {0} está mintiendo...)
 ba39f2d100f4983cf7cfd742b27f239c:0:humano
 cf4844808299fa8d0ddd6bee265f63b0:1: y 
+# JinroTohyogo
 97ba3399b1c7c3a287d4457b3dcf817e:0:Criogenia
 c067a7cf99ddba3824a60381d1e25c09:0:{0} va a ser enviado a criogenia
 7473a49ef6b5f4e1ab95dca3eae10918:0:Despedirse
@@ -114,9 +120,9 @@ b42067869e06abd8cc81000deba141e6:0:Nadie irá a criogenia
 0845d6193976007e3b189b4a9333ff8c:0:Se acabó el tiempo
 026c005a1e728cd4db56d63b67d720fd:0:No se pudo alcanzar una decisión...
 bc231d3662ffb1c31060d67870852ea9:0:Suplicar
-89d80fa7d62f56cc44b433b8539c4c50:0:¡Por favor! ¡No me mandéis a criogenia!
+89d80fa7d62f56cc44b433b8539c4c50:0:¡Por favor! ¡No me congeléis!
 bc231d3662ffb1c31060d67870852ea9:1:Suplicar
-89d80fa7d62f56cc44b433b8539c4c50:1:¡Por favor! ¡No me mandéis a criogenia!
+89d80fa7d62f56cc44b433b8539c4c50:1:¡Por favor! ¡No me congeléis!
 392e6f55692b6631d1a7ada393df02d7:0:Reaccionar a la súplica
 90e5b2682183b3544daff3d283247347:0:La súplica falló
 9f71b419396187563097de58a15fcc02:0:Se ha tomado una decisión.\nHabrá criogenia.
@@ -129,32 +135,43 @@ e886c5aa63d1b776104d4c900f796be8:0:¡¿De verdad...?!\n¡SÍ! ¡Eso quería oír
 2e028e216a892c17d035a62ee1765bd5:5:No pasó nada
 b9ba5cc514ab9afe66bc22854c296671:0:todos
 cf4844808299fa8d0ddd6bee265f63b0:2: y 
+# MakeLoop
 5dec66860bb60daf169ae7d3e0c90819:0:Creación de loop
 2e028e216a892c17d035a62ee1765bd5:6:No pasó nada
+# Move
 a3862fa02e1eeb17b23c1383692e07ff:0:Elegir destino
+# PreStart
 5dec66860bb60daf169ae7d3e0c90819:1:Creación de loop
 2e028e216a892c17d035a62ee1765bd5:7:No pasó nada
+# Result
 2e028e216a892c17d035a62ee1765bd5:8:No pasó nada
 97505cea90b2c8171118d80e6d44d77f:0:Todos los Gnosia han sido enviados a criogenia.\nSe mostrarán los resultados.
 5c1e8d44456a18aa057db557f3ec723a:0:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada. Se mostrarán los resultados.
 2e028e216a892c17d035a62ee1765bd5:9:No pasó nada
+# SelectEngineer
 4055aa636bc25bb97a1ed35697c322c8:0:Ingeniero
 fec0e2661296ed590d930f5f63dd0c0c:0:Investiguemos a {0}
 2e028e216a892c17d035a62ee1765bd5:10:No pasó nada
+# SelectGiso
 86ced6e24c9eef306976b6d00a764610:0:Ingeniero falso
 db872008170ad13f8b5bfa87d7200a74:0:Finjamos haber examinado a {0}
 2e028e216a892c17d035a62ee1765bd5:11:No pasó nada
+# SelectHunter
 e0a14010e128764e5740e0690d4697ae:0:Protector
 1480abdfe1e6f6aa23fcda11be56797d:0:Protejamos a {0}
 2e028e216a892c17d035a62ee1765bd5:12:No pasó nada
+# SelectJinro
 bfaeea5e722d9866ed69c4a76b9c5dc0:0:Hombre lobo
 29f2655a25f537342528c1ce1ad4d625:0:Se decidió atacar a {0}
 2e028e216a892c17d035a62ee1765bd5:13:No pasó nada
+# Talk
 f19445a74317bdfd5f95b978179ff115:0:Registro de conversación
 176547f74a072d1a3ddc71a1aca40c3e:0:Prep. charla libre
 b8e2ccd770b2df429f431b701697de0d:0:Conversación libre
+# Talk_Myroom
 5c6288e43cd7e60ab3cd286892410771:0:Ir a la habitación
 d91dae6f7e259f45c7277e6c5634842c:0:Elegir habitación
+# JinroSkill
 6720fd0cae5e2775d38b8db9a858276f:0:Decir que eres humano
 208cecf401080ffd7d8a36d84e00d66c:0:Prueba a decir que eres humano
 0c91893ffa3bf458baef4a57e83e791d:0:Fin
@@ -226,6 +243,7 @@ edb84025caa7428111f52ef366b3a37a:0:No te dejes engañar
 b1f9a6a933a6875156bf46124c4fdc8b:0:Haz que rebatan a {0}
 d506980bec9847875d234085fd9fbda0:2:Rechazar
 d506980bec9847875d234085fd9fbda0:3:Rechazar
+# Key
 ee1af714588d11d1888638e417f44b5d:0:boton A
 fca522e28abd0c6967738087a96eb264:0:boton Y
 a41d2a1ea4a5d2749da965c53cfe15ac:0:boton B
@@ -234,6 +252,7 @@ e01979c00b7f0a79d6d8f11691dcecc7:0:boton L
 c2d0f43f8d399970cf1aa92210925ff0:0:boton R
 83c23506845f3b37fa528cd8bc2bea8d:0:stick L
 636f46c825ad49680ebb5ca62b48a18a:0:boton +
+# Button
 ee1af714588d11d1888638e417f44b5d:1:boton A
 fca522e28abd0c6967738087a96eb264:1:boton Y
 a41d2a1ea4a5d2749da965c53cfe15ac:1:boton B
