@@ -66,6 +66,15 @@ def parse_patch_line(line: str, *, patch_path: Path, line_number: int) -> tuple[
     return hash_key, duplicate_id, payload
 
 
+def placeholder_sets(*texts: str) -> tuple[set[str], set[str]]:
+    decoded = [decode_corpus_text(text) for text in texts]
+    required = set(PLACEHOLDER_RE.findall(decoded[1]))
+    allowed = set()
+    for text in decoded:
+        allowed.update(PLACEHOLDER_RE.findall(text))
+    return required, allowed
+
+
 def main() -> int:
     args = parse_args()
     create_work_corpus_from_manifest(
@@ -118,9 +127,17 @@ def main() -> int:
             sheet_index = int(target["sheet_index"])
             param_index = int(target["param_index"])
             source_text = source_entity.sheets[sheet_index].params[param_index][1]
-            source_logical = decode_corpus_text(source_text)
+            required_placeholders, allowed_placeholders = placeholder_sets(
+                source_entity.sheets[sheet_index].params[param_index][0],
+                source_text,
+                source_entity.sheets[sheet_index].params[param_index][2],
+            )
+            translated_placeholders = set(PLACEHOLDER_RE.findall(logical_translation))
 
-            if PLACEHOLDER_RE.findall(source_logical) != PLACEHOLDER_RE.findall(logical_translation):
+            if (
+                not required_placeholders.issubset(translated_placeholders)
+                or not translated_placeholders.issubset(allowed_placeholders)
+            ):
                 raise SystemExit(
                     f"{patch_path}:{line_number}: placeholder mismatch for {entity_name} "
                     f"{target['sheet_name']}#{param_index}"

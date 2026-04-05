@@ -22,6 +22,24 @@ from gnosia_common import (  # noqa: E402
     summarize_entities,
 )
 
+CHARATEXT_COMMENT_LABELS = {
+    "Takashi": "Takashi",
+    "Cipi": "Chipie (Cipi)",
+    "Comet": "Comet",
+    "Gina": "Gina",
+    "Jonas": "Jonas",
+    "Kukulsika": "Kukrushka (Kukulsika)",
+    "Otome": "Otome",
+    "Rakio": "Raqio (Rakio)",
+    "Remnant": "Remnan (Remnant)",
+    "Setsu": "Setsu",
+    "ShaMin": "Sha-Ming (ShaMin)",
+    "Shigemichi": "Shigemichi",
+    "SQ": "SQ",
+    "Stella": "Stella",
+    "Yuriko": "Yuriko",
+}
+
 
 @dataclass(frozen=True)
 class ManualCommentBlock:
@@ -110,6 +128,12 @@ def load_manual_comment_blocks(
             pending_comments = []
 
     return blocks
+
+
+def comment_label(entity_name: str, sheet_name: str) -> str:
+    if entity_name == "CharaText":
+        return CHARATEXT_COMMENT_LABELS.get(sheet_name, sheet_name)
+    return sheet_name
 
 
 def main() -> int:
@@ -209,7 +233,7 @@ def main() -> int:
                     lines.extend(block.lines)
                     emitted_comment_orders.add(block.order)
             elif is_first_for_sheet and not orphan_blocks_by_sheet.get(sheet_name):
-                lines.append(f"# {sheet_name}")
+                lines.append(f"# {comment_label(source_entity.entity_name, sheet_name)}")
 
             lines.append(str(entry["line"]))
             seen_sheet_names.add(sheet_name)

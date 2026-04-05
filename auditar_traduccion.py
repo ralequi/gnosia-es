@@ -25,6 +25,7 @@ PHASE1_ENTITIES = {
     "ScreenText",
     "ScenarioBaseText",
     "ScenarioTutorialText",
+    "CharaText",
 }
 
 UNCHANGED_ALLOWED = {
@@ -74,6 +75,8 @@ CHOICE_RESPONSE_RE = re.compile(
 CHOICE_OPTION_WHITELIST = {
     ("ScenarioTutorialText", "loop1"): {6, 10, 14, 22, 28, 32, 36, 84, 87, 90, 95, 98, 101},
 }
+CHARATEXT_INTERNAL_NAME_RE = re.compile(r"\b(Cipi|Kukulsika|Rakio|Remnant|ShaMin)\b")
+CHARATEXT_NEUTRALITY_RE = re.compile(r"\b(?:no binari[eo]|nobinarie|elle|amigue|compañere|misme)\b", re.IGNORECASE)
 
 
 def load_glossary() -> dict[str, object]:
@@ -181,6 +184,19 @@ def classify_tier(entity_name: str, sheet_name: str, source_text: str) -> str | 
 
     if entity_name == "ScenarioTutorialText":
         if "\n" not in source_text and len(source_text) <= 12:
+            return "A"
+    return "C"
+
+
+def placeholder_sets(*texts: str) -> tuple[set[str], set[str]]:
+    required = set(PLACEHOLDER_RE.findall(texts[1]))
+    allowed = set()
+    for text in texts:
+        allowed.update(PLACEHOLDER_RE.findall(text))
+    return required, allowed
+
+    if entity_name == "CharaText":
+        if "\n" not in source_text and len(source_text) <= 24:
             return "A"
         return "C"
 
@@ -316,6 +332,31 @@ def editorial_reasons(entity_name: str, tier: str, source_text: str, work_text: 
     return reasons
 
 
+def voice_doc_reasons(entity_name: str, sheet_name: str, source_text: str, work_text: str) -> list[str]:
+    if entity_name != "CharaText":
+        return []
+
+    decoded_source = decode_corpus_text(source_text)
+    decoded_work = decode_corpus_text(work_text)
+    reasons: list[str] = []
+
+    if CHARATEXT_INTERNAL_NAME_RE.search(decoded_work):
+        reasons.append("name_consistency_review")
+
+    if sheet_name in {"Setsu", "Rakio"} and CHARATEXT_NEUTRALITY_RE.search(decoded_work):
+        reasons.append("voice_doc_mismatch")
+
+    if sheet_name == "Kukulsika" and decoded_source.strip().startswith("("):
+        stripped = decoded_work.strip()
+        if stripped and not stripped.startswith("("):
+            reasons.append("voice_doc_mismatch")
+
+    if sheet_name == "Otome" and "*Squeak" in decoded_source and "Chii" not in decoded_work:
+        reasons.append("voice_doc_mismatch")
+
+    return reasons
+
+
 def main() -> int:
     args = parse_args()
     source_manifest, source_entities = load_entities_from_manifest(args.source_manifest)
@@ -351,14 +392,21 @@ def main() -> int:
                     continue
 
                 summary[f"tier_{tier}"] += 1
-                placeholders_source = PLACEHOLDER_RE.findall(source_display)
-                placeholders_work = PLACEHOLDER_RE.findall(work_display)
+                required_placeholders, allowed_placeholders = placeholder_sets(
+                    decode_corpus_text(source_param[0]),
+                    source_display,
+                    decode_corpus_text(source_param[2]),
+                )
+                translated_placeholders = set(PLACEHOLDER_RE.findall(work_display))
                 source_len = len(source_display)
                 work_len = len(work_display)
 
                 status = "ok"
                 reasons: list[str] = []
-                if placeholders_source != placeholders_work:
+                if (
+                    not required_placeholders.issubset(translated_placeholders)
+                    or not translated_placeholders.issubset(allowed_placeholders)
+                ):
                     status = "hard_fail"
                     reasons.append("placeholder_mismatch")
 
@@ -408,6 +456,14 @@ def main() -> int:
                     for reason in editorial_reasons(
                         source_entity.entity_name,
                         tier,
+                        source_text,
+                        work_text,
+                    ):
+                        if reason not in reasons:
+                            reasons.append(reason)
+                    for reason in voice_doc_reasons(
+                        source_entity.entity_name,
+                        source_sheet.name,
                         source_text,
                         work_text,
                     ):
