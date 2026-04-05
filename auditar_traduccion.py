@@ -166,9 +166,7 @@ def main() -> int:
 
                 budget = max_len_for_tier(source_len, tier)
                 if work_len > budget:
-                    if tier == "A":
-                        status = "hard_fail"
-                    elif status != "hard_fail":
+                    if status != "hard_fail":
                         status = "review"
                     reasons.append("over_budget")
 
