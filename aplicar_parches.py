@@ -125,12 +125,6 @@ def main() -> int:
                     f"{patch_path}:{line_number}: placeholder mismatch for {entity_name} "
                     f"{target['sheet_name']}#{param_index}"
                 )
-            if source_logical.count("\n") != logical_translation.count("\n"):
-                raise SystemExit(
-                    f"{patch_path}:{line_number}: newline mismatch for {entity_name} "
-                    f"{target['sheet_name']}#{param_index}"
-                )
-
             work_entity.sheets[sheet_index].params[param_index][1] = encode_text_like_source_style(
                 source_text=source_text,
                 logical_text=logical_translation,

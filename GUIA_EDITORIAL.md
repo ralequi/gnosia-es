@@ -36,10 +36,15 @@ Cuando la UI no da espacio suficiente:
 Convenciones
 ------------
 
-- `Cold Sleep` se traduce como `Criogenia` en etiquetas y mensajes de sistema.
+- `Cold Sleep` se traduce como `Criogenia` en labels, resultados, salas y mensajes cortos.
+- En textos explicativos largos, `Cold Sleep` puede pasar a `sueño criogénico` o `procedimiento criogénico` si la frase lo pide.
+- `Gnosia` mantiene artículo en usos nominales o colectivos: `los Gnosia`, `un Gnosia`, `lo de los Gnosia`.
+- `Gnosia` puede ir sin artículo en usos predicativos o compuestos fijos: `era Gnosia`, `infectado por Gnosia`, `anti-Gnosia`.
 - `Data Reference` pasa a `Datos ref.` en labels cortas.
 - `Crew Member Data` pasa a `Datos tripul.` en labels cortas.
+- `Crew` pasa a `Pasajeros` cuando la UI es demasiado estrecha para `Tripulación`.
 - `AC Follower` pasa a `Seguidor AC`.
+- `Defend` se traduce como `Defender`; `Cover` se traduce como `Cubrir`.
 - Las cadenas puramente estructurales como `, `, `\n`, `.` o `...` se conservan.
 
 Alcance de esta fase

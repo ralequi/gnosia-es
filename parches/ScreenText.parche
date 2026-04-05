@@ -9,7 +9,7 @@ c110a1da8ef28a1a54dfe25f09657a98:0:Se borrarán todos los datos de esta ranura.\
 8e8b3bbc4b47dec23dff15b1876efd32:1:No hay espacio libre suficiente.\nLibera el espacio necesario para guardar\ny pulsa \"Siguiente\".
 13df5ed070f4ba879e06824d922c7976:0:No se ha podido borrar la ranura de guardado.
 5797e99fdf19ea16c0236ab416fea170:1:No se ha podido crear la ranura de guardado.
-5c124f9fc66be93dac9064a0a6b61890:0:Los Doctores pueden determinar si quienes fueron enviados a sueño frío eran Gnosia.
+5c124f9fc66be93dac9064a0a6b61890:0:Los Doctores pueden determinar si quienes fueron enviados a criogenia eran Gnosia.
 039dfb00a4eec6cf40fa51ab93fc2ddb:0:Los Ingenieros pueden determinar si la persona que investigan es Gnosia.
 1b072d73e3342c85ce40ca1735768044:0:Notas
 5502355d8619c94cb5315f10ebbeb193:0:Cada vez que aprendes algo sobre alguien en discusiones\no conversaciones privadas, sus aptitudes suben un poco.\nCuando se actualiza un Objeto especial, suben bastante.
@@ -22,8 +22,8 @@ ed5e3ea19caa8da5c2978f38dbfcd75d:0:Repasa los comentarios, informes y eventos oc
 c8d55b03cbdc020d7ac25632e3fe4bdc:0: - Revoto
 c8d55b03cbdc020d7ac25632e3fe4bdc:1: - Revoto 
 729d3cd05e2349f319c214fe4f9df738:1:Día 
-8709803c619e86e88fd0f40a1ca6d236:0:En casos en los que se haya confirmado una infección por Gnosia,\nla tripulación debe encontrar la forma de reducir el nivel de riesgo a cero.\nUn método que ha demostrado ser eficaz para reducir dicho riesgo es\nsometer a los sospechosos de infección a un procedimiento llamado \"sueño frío\".\nEsto permite a la tripulación aprovechar en su favor la suplantación del infectado,\ny también evitar episodios de pánico colectivo que pueden producirse\ncuando se emplean métodos de contención más agresivos.\nSegún la tripulación, a menudo se recurre a la supresión militar para controlar la infección,\npero eso aumenta las probabilidades de violencia y muerte, como ocurrió en el caso Hengupus,\ny no debe utilizarse cuando el plan evaluado por la IA obtiene 0,78 o menos.
-e1a8c7fb0a512015b5df7f602370e968:0:Al aplicar el sueño frío, primero debe informarse a la tripulación de que\nsu objetivo principal es reducir finalmente el riesgo de infección a cero,\ndeterminando quién tiene más probabilidades de estar infectado y enviándolo\nsistemáticamente a sueño frío en cada transferencia Schrimpf.\nPara lograrlo,\nlos candidatos al tratamiento de sueño frío deben decidirse mediante\nuna comunicación directa y clara entre los tripulantes.\nCuando se confirma la infección, las funciones de IA y embarque quedan muy\nlimitadas, por lo que la comunicación debe llevarse a cabo verbalmente y cara a cara.\nEsto también ayuda a desenmascarar mejor la impostura de un miembro infectado.
+8709803c619e86e88fd0f40a1ca6d236:0:En casos en los que se haya confirmado una infección por Gnosia,\nla tripulación debe encontrar la forma de reducir el nivel de riesgo a cero.\nUn método que ha demostrado ser eficaz para reducir dicho riesgo es\nsometer a los sospechosos de infección a un procedimiento llamado \"criogenia\".\nEsto permite a la tripulación aprovechar en su favor la suplantación del infectado,\ny también evitar episodios de pánico colectivo que pueden producirse\ncuando se emplean métodos de contención más agresivos.\nSegún la tripulación, a menudo se recurre a la supresión militar para controlar la infección,\npero eso aumenta las probabilidades de violencia y muerte, como ocurrió en el caso Hengupus,\ny no debe utilizarse cuando el plan evaluado por la IA obtiene 0,78 o menos.
+e1a8c7fb0a512015b5df7f602370e968:0:Al aplicar la criogenia, primero debe informarse a la tripulación de que\nsu objetivo principal es reducir finalmente el riesgo de infección a cero,\ndeterminando quién tiene más probabilidades de estar infectado y enviándolo\nsistemáticamente a criogenia en cada transferencia Schrimpf.\nPara lograrlo,\nlos candidatos al tratamiento de criogenia deben decidirse mediante\nuna comunicación directa y clara entre los tripulantes.\nCuando se confirma la infección, las funciones de IA y embarque quedan muy\nlimitadas, por lo que la comunicación debe llevarse a cabo verbalmente y cara a cara.\nEsto también ayuda a desenmascarar mejor la impostura de un miembro infectado.
 2c102e3f84eb190524e7aeeb97e3d797:0:Además, cuando se confirma una infección a bordo,\nla IA actualiza automáticamente el destino de la nave al sistema solar\nalcanzable con el mayor número de transferencias Schrimpf,\ny acorde con los recursos actuales de la nave.\nSi se ejecuta la transferencia Schrimpf al sistema objetivo antes de que el nivel de riesgo\nhaya caído a cero, la nave se autodestruirá mediante compresión extrema.\nEsto, por supuesto, es para evitar que la infección se propague al sistema solar de destino.\nTeniendo en cuenta los sistemas Amanage y Handan, que siguen siendo una amenaza para la humanidad\nincluso después de su destrucción, este proceso de purificación mediante autodestrucción es\nlamentable, pero inevitable.
 1d028aea0466f0bf512874688c0b4715:0:El éxito o fracaso de la erradicación del riesgo será determinado y anunciado\npor la IA de la nave al completarse la transferencia Schrimpf. (Además, todas las\nnaves interestelares deben contar ahora con detección de infecciones, designación de destino,\nrestricción de acceso al control de navegación y funciones de\nautodestrucción por compresión como protocolo anti-Gnosia.)
 ffa2760820284eb4ee458e7f75c6a118:0:Cambiar página      
@@ -73,7 +73,7 @@ d3dffb63c3bd32148c03d0986f21804b:0:Informe ing.
 b4d1350e7f89b4b74be761181cc7bd55:0:Buscar eventos
 ccb888c49576be5bbbb24e7b1dea8e7d:0:Estrechar lazos
 de5d3f39ef17a3dc574c6ecc6c188f00:0:Me dicen que soy \"molesto\"...
-dd528cb4af98ef14be5f1dabf4656957:0:No paran de mandarme a sueño frío
+dd528cb4af98ef14be5f1dabf4656957:0:No paran de mandarme a criogenia
 ce2634e1545a163502c22458caeec069:0:Los Gnosia me han pillado otra vez...
 6815050814294668de5c033e5cc68363:0:¿Por qué me odia todo el mundo?
 b7880c45af792a338ade32321f0037ba:0:Nadie me escucha
@@ -96,8 +96,8 @@ ae5f37e208a30b33875864e6db100705:0:Distribución del teclado
 e4ad0e398c894561717354f7f4783e25:0:Distribución del mando
 0e273c9b66a4b1cd6be0e2751ced9da5:0:Autoguardado
 0e273c9b66a4b1cd6be0e2751ced9da5:1:Autoguardado
-1f332c14cdf04889aafa13db6cf5f128:0:Antes del ataque Gnosia
-1f332c14cdf04889aafa13db6cf5f128:1:Antes del ataque Gnosia
+1f332c14cdf04889aafa13db6cf5f128:0:Antes del ataque de los Gnosia
+1f332c14cdf04889aafa13db6cf5f128:1:Antes del ataque de los Gnosia
 b6809db343f8ac4191999996cc2a9977:0:Día 
 8dde1fbd3cc3522ce0a09a1e9cf50d95:0:Error al cargar.
 913b44001e90b581123300938e70dc04:0:Se ha desbloqueado la función \"Cargar\".\nPuedes usarla para volver atrás dentro de un loop.
@@ -109,7 +109,7 @@ eb9fbd0fe6dc9bbd47a7d303a47b5746:0:Apoyar
 0f3cadcaa58e7aa322be508aeed179f3:0:Rebatir
 b83b970fb2fea22f0b619952955a030f:0:Defender
 ee4018a4ecfd922cddf7a64576b69e2c:0:Unirse a la defensa
-8847efebf7ad92f98c5e96067c271685:0:Cubre
+8847efebf7ad92f98c5e96067c271685:0:Cubrir
 1c4cdc15e0a2ff47cc87c3cdf09df34b:0:Cubrir en grupo
 4c908b8977aceb7a25180128f7c68239:0:Dar las gracias
 16f7d6b2112f451eb5f385c1959977bd:0:Disc.
@@ -141,14 +141,14 @@ d548456617c61a364f0273868dedf0fa:0:Tener un buen abogado detrás de ti\ncuando h
 c747529300680c29b8064c0625758ffd:0:\"¡La VERDADERA culpable es la persona\nque me ataca!\"\nDirige la atención hacia quien te ataca y\nhaz que todos se den cuenta de que miente.\nUna Intuición alta atraerá más atención\nsobre ella y hará más fácil detectar su mentira.\nLos efectos duran hasta que terminen los\ninformes del día siguiente.\n\n\nDespués de recibir \"Dudar\", etc.\n(Cuando eres Humano, solo si\nhas detectado una mentira.)
 5f9799ae4fed5d3e53132a54f2dbfc5c:0:\"¡La VERDADERA culpable es la persona\nque me ataca!\"\nDirige las sospechas hacia quien te ataca y\nhaz que todos se den cuenta de que\nmiente.\nUna Intuición alta atraerá más atención,\nhaciendo más fácil detectar su mentira.\nLos efectos duran hasta que terminen los\ninformes del día siguiente.\n\n\nDespués de recibir \"Dudar\", etc.
 8be43c92cf35a28c029534debce73c5a:0:Pide a todos que voten a alguien señalado\ncomo Gnosia en el informe del Ingeniero,\no a alguien que sabes que es enemigo.\nSi se sabe que el Ingeniero es falso,\nno funcionará, y el efecto termina tras\nun día. Además, usarlo con la persona\nincorrecta puede salirte mal, así que cuidado.\n\n\nPuede usarse una vez al día cuando se\ninforme de que alguien es Gnosia, o si\nse ha usado \"Enemigo seguro\" sobre esa\npersona.
-a8c8a7892611edfbb2c8994b3c2b9e52:0:Úsalo cuando alguien a quien necesitas\ncerca parezca que va a recibir muchos votos.\nA los Bugs hay que eliminarlos rápido, así\nque el orden en que la gente entra\nen sueño frío es importante.\nEl efecto termina al cabo de un día.\n\n\nPuede usarse una vez al día.
+a8c8a7892611edfbb2c8994b3c2b9e52:0:Úsalo cuando alguien a quien necesitas\ncerca parezca que va a recibir muchos votos.\nA los Bugs hay que eliminarlos rápido, así\nque el orden en que la gente entra\nen criogenia es importante.\nEl efecto termina al cabo de un día.\n\n\nPuede usarse una vez al día.
 46b57edab5cba9cd56bd960aa1b810e5:0:Úsalo cuando alguien que sabes que no es\nenemigo se esté quedando contra las cuerdas.\nLa persona sobre la que lo uses podrá\nevitar casi por completo las sospechas,\ny te lo agradecerá.\nTe hará destacar, y si te equivocas puede\ncostarte caro, así que cuidado.\n\n\nCuando sabes que alguien es Humano.
 f54f89d2e2f74e6e1a3641fa34e2dd6a:0:Úsalo para señalar a alguien como\nenemigo cuando sabes que está mintiendo,\no cuando su argumento no tiene sentido.\nUna Lógica alta te permitirá golpear\na tu objetivo con más fuerza,\npero un ataque tan potente también hará\nque destaques muchísimo.\nUsarlo mal hará que te odien, así que\núsalo solo cuando estés seguro.\n\n\nCuando estás seguro de que alguien miente,\no de que alguien es un\nenemigo.
 25790d9f012069cc440c5153bfe0b6df:0:Úsalo para acabar de golpe con varias\npersonas que reclaman el mismo rol.\nEs un poco excesivo, pero resulta eficaz\npara eliminar farsantes deprisa.\nLos efectos no se desgastan, así que los\nobjetivos seguirán siendo congelados uno tras otro.\n\n\nSe puede usar una vez por loop, cuando\nvarias personas reclaman el mismo rol,\nlo que implica que hay un farsante.
-9df17cd28ca714616fd619a34e1cb58a:0:Una charla ligera puede hacer que\nGnosia crea que no eres lo bastante\nimportante como para atacarte.\nAdemás de reducir las probabilidades de que\nte eliminen, también te acerca a los\ndemás participantes. Eso sí, puede hacer\nque los personajes más serios te tomen manía.\n\n\nSe puede usar una vez al día.
+9df17cd28ca714616fd619a34e1cb58a:0:Una charla ligera puede hacer que\nlos Gnosia crean que no eres lo bastante\nimportante como para atacarte.\nAdemás de reducir las probabilidades de que\nte eliminen, también te acerca a los\ndemás participantes. Eso sí, puede hacer\nque los personajes más serios te tomen manía.\n\n\nSe puede usar una vez al día.
 890c944dab7c29d7a5d9f9dc52c4bcf3:0:Te permite proponer una alianza.\nSi funciona, puede ser de gran ayuda\npara ambas partes. Pero si le causas\ndemasiados problemas a tu compañero,\nromperá contigo.\nEntran en juego varias aptitudes, y un\nEncanto alto aumenta las probabilidades\nde que salga bien.\n\n\nUna vez por día, solo si aún no\nestás aliado con nadie.
 519e77d04cc398fdee467dade7f4da55:0:Haz que todos declaren que\nson humanos. Los no humanos se verán\nobligados a mentir,\nasí que quienes lo digan serán humanos o\nmentirosos, y quienes no lo hagan o traten de\nentorpecerlo probablemente sean enemigos.\n\n\nSe puede usar una vez por loop.
-169eee4a2701b11d129772b9483d283d:0:¿No quieres entrar en sueño frío?\nEntonces, humíllate y suplica perdón.\nSi funciona, puede que te libres. Una Actuación alta aumenta las probabilidades de éxito.\n\n\nSe puede usar una vez por loop.
+169eee4a2701b11d129772b9483d283d:0:¿No quieres entrar en criogenia?\nEntonces, humíllate y suplica perdón.\nSi funciona, puede que te libres. Una Actuación alta aumenta las probabilidades de éxito.\n\n\nSe puede usar una vez por loop.
 623dd6670912deb661194394e68669a9:0: SI            NO
 729d3cd05e2349f319c214fe4f9df738:2:Día 
 d09f288683d8c2c2f89d508134d8a887:0:Selecciona una ranura de guardado.
@@ -179,8 +179,8 @@ df831464f775123c3bef88ee1c68943b:0:Gracias a la restauración de las funciones d
 939707052007e584d0b6799de6a1c015:0:Gracias a la restauración de las funciones de la \"Llave\", ahora puedes\nelegir el número de tripulantes y el reparto de roles.
 edc0e2a453f51b4427c5ab1a27585931:0:Gracias a la restauración de las funciones de la \"Llave\", ahora puedes\ndetectar ajustes que facilitan reunir información.
 76b435fcc24f07a7d0322d40e7ac83d1:0:Los Ingenieros pueden investigar durante el salto y saber si su objetivo es o no Gnosia. A veces otros fingen tener este rol.
-de789c9bfd739e9b8b61acb7c4fcba82:0:Los Doctores pueden saber si una persona enviada a sueño frío era o no Gnosia. A veces otros fingen tener este rol.
-43c3a6b1e501924280d50731330bdc01:0:Los Ángeles guardianes pueden elegir a una persona para protegerla del ataque Gnosia durante el salto. Este rol no puede fingirse.
+de789c9bfd739e9b8b61acb7c4fcba82:0:Los Doctores pueden saber si una persona enviada a criogenia era o no Gnosia. A veces otros fingen tener este rol.
+43c3a6b1e501924280d50731330bdc01:0:Los Ángeles guardianes pueden elegir a una persona para protegerla del ataque de los Gnosia durante el salto. Este rol no puede fingirse.
 8549ce5b130ba2cb6269c5da0eda3b76:0:Los Guardias (quienes están de servicio de guardia) pueden anunciar su estado juntos y demostrar que ambos son humanos. Este rol no puede fingirse.
 e91b56fe3c45e33fff1e0e858d185297:0:Los Seguidores AC son humanos, pero mentirán e intentarán ayudar a los Gnosia a ganar. Pueden hacerse pasar por Ingenieros y Doctores.
 dd935874f30728e3c75cd5f00c0e1791:0:Los Gnosia son enemigos de los humanos. Durante el salto elegirán un objetivo y eliminarán a los humanos uno a uno. Pueden hacerse pasar por Ingenieros y Doctores.
@@ -189,9 +189,9 @@ dd935874f30728e3c75cd5f00c0e1791:0:Los Gnosia son enemigos de los humanos. Duran
 cd00bddae99dbca73466126c2dbb5977:0:La habitación privada del protagonista.\nAquí puedes subir de nivel, además de\nconsultar tus atributos y otros datos.
 5e650466d24b71cf9cb59fa52986c791:0:La avanzada \"impresora de comida\" ofrece al instante platos sanos y equilibrados\nen nutrientes. Eso sí, el sabor podría mejorar.
 54caee9e8d1ee3e66e7d2795f0f351ed:0:Un grupo de camas encapsuladas que ofrecen\na duras penas algo de privacidad.\nLas persianas reducen la luz y el\nruido.
-8bffed23b970886c1f583ee5d3a07b52:0:Aquí se introduce y se saca a la gente\ndel sueño frío.\nLas cápsulas alineadas en las paredes le dan\nun aire un poco inquietante.
+8bffed23b970886c1f583ee5d3a07b52:0:Aquí se introduce y se saca a la gente\nde la criogenia.\nLas cápsulas alineadas en las paredes le dan\nun aire un poco inquietante.
 2ac915d87e5ab948a2dbff10af159077:0:Un enorme reactor de energía zumba en el\ncentro de la sala.\nLa puerta del fondo lleva a la\nsala de control de gravedad.
-c089a05b6d93ff2515d709c25cfa53ed:0:Las cápsulas médicas se encargan de todo,\ndesde diagnósticos hasta tratamientos.\nLos pacientes también pueden enviarse\ndirectamente a la sala de sueño frío.
+c089a05b6d93ff2515d709c25cfa53ed:0:Las cápsulas médicas se encargan de todo,\ndesde diagnósticos hasta tratamientos.\nLos pacientes también pueden enviarse\ndirectamente a la sala de criogenia.
 0bb448cce3735ca0f3fcf70a79efbca2:0:Aquí se pueden contemplar las estrellas gracias\na la cúpula del techo. El equipo de proyección\nvirtual también permite ver\ngran variedad de paisajes.
 b5fb9adffc69bc3bce0599259971e6f7:0:Una enorme planta capaz de sintetizar casi\ncualquier cosa, sin importar el material.\nEso sí, objetos como las armas requieren\npermiso especial para producirse.
 09549fdf97c6cacb5527439f36ff1a5c:0:Un espacio luminoso y relajante, perfecto para\nreuniones. El acuario automático\nestá lleno de pececillos, gambas, etc.
@@ -222,7 +222,7 @@ eb9fbd0fe6dc9bbd47a7d303a47b5746:1:Apoyar
 0f3cadcaa58e7aa322be508aeed179f3:1:Rebatir
 b83b970fb2fea22f0b619952955a030f:1:Defender
 ee4018a4ecfd922cddf7a64576b69e2c:1:Unirse a la defensa
-8847efebf7ad92f98c5e96067c271685:1:Cubre
+8847efebf7ad92f98c5e96067c271685:1:Cubrir
 1c4cdc15e0a2ff47cc87c3cdf09df34b:1:Cubrir en grupo
 4c908b8977aceb7a25180128f7c68239:1:Dar las gracias
 16f7d6b2112f451eb5f385c1959977bd:1:Disc.
@@ -254,20 +254,20 @@ d548456617c61a364f0273868dedf0fa:1:Tener un buen abogado detrás de ti\ncuando h
 c747529300680c29b8064c0625758ffd:1:\"¡La VERDADERA culpable es la persona\nque me ataca!\"\nDirige la atención hacia quien te ataca y\nhaz que todos se den cuenta de que miente.\nUna Intuición alta atraerá más atención\nsobre ella y hará más fácil detectar su mentira.\nLos efectos duran hasta que terminen los\ninformes del día siguiente.\n\n\nDespués de recibir \"Dudar\", etc.\n(Cuando eres Humano, solo si\nhas detectado una mentira.)
 5f9799ae4fed5d3e53132a54f2dbfc5c:1:\"¡La VERDADERA culpable es la persona\nque me ataca!\"\nDirige las sospechas hacia quien te ataca y\nhaz que todos se den cuenta de que\nmiente.\nUna Intuición alta atraerá más atención,\nhaciendo más fácil detectar su mentira.\nLos efectos duran hasta que terminen los\ninformes del día siguiente.\n\n\nDespués de recibir \"Dudar\", etc.
 8be43c92cf35a28c029534debce73c5a:1:Pide a todos que voten a alguien señalado\ncomo Gnosia en el informe del Ingeniero,\no a alguien que sabes que es enemigo.\nSi se sabe que el Ingeniero es falso,\nno funcionará, y el efecto termina tras\nun día. Además, usarlo con la persona\nincorrecta puede salirte mal, así que cuidado.\n\n\nPuede usarse una vez al día cuando se\ninforme de que alguien es Gnosia, o si\nse ha usado \"Enemigo seguro\" sobre esa\npersona.
-a8c8a7892611edfbb2c8994b3c2b9e52:1:Úsalo cuando alguien a quien necesitas\ncerca parezca que va a recibir muchos votos.\nA los Bugs hay que eliminarlos rápido, así\nque el orden en que la gente entra\nen sueño frío es importante.\nEl efecto termina al cabo de un día.\n\n\nPuede usarse una vez al día.
+a8c8a7892611edfbb2c8994b3c2b9e52:1:Úsalo cuando alguien a quien necesitas\ncerca parezca que va a recibir muchos votos.\nA los Bugs hay que eliminarlos rápido, así\nque el orden en que la gente entra\nen criogenia es importante.\nEl efecto termina al cabo de un día.\n\n\nPuede usarse una vez al día.
 46b57edab5cba9cd56bd960aa1b810e5:1:Úsalo cuando alguien que sabes que no es\nenemigo se esté quedando contra las cuerdas.\nLa persona sobre la que lo uses podrá\nevitar casi por completo las sospechas,\ny te lo agradecerá.\nTe hará destacar, y si te equivocas puede\ncostarte caro, así que cuidado.\n\n\nCuando sabes que alguien es Humano.
 f54f89d2e2f74e6e1a3641fa34e2dd6a:1:Úsalo para señalar a alguien como\nenemigo cuando sabes que está mintiendo,\no cuando su argumento no tiene sentido.\nUna Lógica alta te permitirá golpear\na tu objetivo con más fuerza,\npero un ataque tan potente también hará\nque destaques muchísimo.\nUsarlo mal hará que te odien, así que\núsalo solo cuando estés seguro.\n\n\nCuando estás seguro de que alguien miente,\no de que alguien es un\nenemigo.
 25790d9f012069cc440c5153bfe0b6df:1:Úsalo para acabar de golpe con varias\npersonas que reclaman el mismo rol.\nEs un poco excesivo, pero resulta eficaz\npara eliminar farsantes deprisa.\nLos efectos no se desgastan, así que los\nobjetivos seguirán siendo congelados uno tras otro.\n\n\nSe puede usar una vez por loop, cuando\nvarias personas reclaman el mismo rol,\nlo que implica que hay un farsante.
-9df17cd28ca714616fd619a34e1cb58a:1:Una charla ligera puede hacer que\nGnosia crea que no eres lo bastante\nimportante como para atacarte.\nAdemás de reducir las probabilidades de que\nte eliminen, también te acerca a los\ndemás participantes. Eso sí, puede hacer\nque los personajes más serios te tomen manía.\n\n\nSe puede usar una vez al día.
+9df17cd28ca714616fd619a34e1cb58a:1:Una charla ligera puede hacer que\nlos Gnosia crean que no eres lo bastante\nimportante como para atacarte.\nAdemás de reducir las probabilidades de que\nte eliminen, también te acerca a los\ndemás participantes. Eso sí, puede hacer\nque los personajes más serios te tomen manía.\n\n\nSe puede usar una vez al día.
 890c944dab7c29d7a5d9f9dc52c4bcf3:1:Te permite proponer una alianza.\nSi funciona, puede ser de gran ayuda\npara ambas partes. Pero si le causas\ndemasiados problemas a tu compañero,\nromperá contigo.\nEntran en juego varias aptitudes, y un\nEncanto alto aumenta las probabilidades\nde que salga bien.\n\n\nUna vez por día, solo si aún no\nestás aliado con nadie.
 519e77d04cc398fdee467dade7f4da55:1:Haz que todos declaren que\nson humanos. Los no humanos se verán\nobligados a mentir,\nasí que quienes lo digan serán humanos o\nmentirosos, y quienes no lo hagan o traten de\nentorpecerlo probablemente sean enemigos.\n\n\nSe puede usar una vez por loop.
-169eee4a2701b11d129772b9483d283d:1:¿No quieres entrar en sueño frío?\nEntonces, humíllate y suplica perdón.\nSi funciona, puede que te libres. Una Actuación alta aumenta las probabilidades de éxito.\n\n\nSe puede usar una vez por loop.
+169eee4a2701b11d129772b9483d283d:1:¿No quieres entrar en criogenia?\nEntonces, humíllate y suplica perdón.\nSi funciona, puede que te libres. Una Actuación alta aumenta las probabilidades de éxito.\n\n\nSe puede usar una vez por loop.
 fde47580a70071d80b4a7c0da3b7a3a8:0:Día 
 4d6748ec362e2578b8b683c8c51cd0c5:0:Has sido... aniquilado.
 90905d96f0309df9a662565f0efbc846:0:El Ingeniero descubrió que eras un Bug\ny te eliminó.
 e368c06108f11898ed5a40bd9f24430c:0:Has sido... eliminado por los Gnosia.
 ab0a8d08e29fcbe53cc812deeb918276:0:Muerto\n
-7b1e52098c933fe254084e999c8f1e0c:0:La tripulación ha decidido enviarte a sueño frío.
+7b1e52098c933fe254084e999c8f1e0c:0:La tripulación ha decidido enviarte a criogenia.
 e0746bb763d90619c9f161afc3814552:0:Congelado\n
 816cd16392273c821af8beb0636eb9ca:0:La amenaza de los Gnosia ha pasado,\ny no volverá a encontrarse jamás...
 1b81dcf3d40d83b33fbad21a1c20536a:0:Los Gnosia, que iban a llevarte con ellos...\nya no están.
@@ -300,7 +300,7 @@ b821a2fcb4f7e20c8b1a59e7c324e76d:0:Después del final, en el \"Diario\" podrás 
 8dde1fbd3cc3522ce0a09a1e9cf50d95:4:Error al cargar.
 f402cae5dba8b00f8f985588597e5f36:0:Humano\nGnosia
 01f34c0330e279ea37138396fee18d4a:0:Al hacerte pasar por \"Ingeniero\", elige sobre quién\nquieres informar y de qué forma.
-547dd2442f9524136cc512ff31ed2f85:0:Al hacerte pasar por \"Doctor\", elige qué persona en sueño frío\nquieres declarar como Humana o Gnosia,\ny cuál quieres que sea el resultado del informe.
+547dd2442f9524136cc512ff31ed2f85:0:Al hacerte pasar por \"Doctor\", elige qué persona en criogenia\nquieres declarar como Humana o Gnosia,\ny cuál quieres que sea el resultado del informe.
 dc8c054f8f9ad93b1b425f7efd677851:0:¿Está bien así?
 76a6bfca1cef3c757802aff974f5958f:0:No se han encontrado los datos del sistema,\nasí que se han recreado.
 0f415c5262517db7944b197e9422d1b0:0:No se han podido guardar los datos del sistema.\nIntentando guardar una vez más.
@@ -312,8 +312,8 @@ d7d4ed7d320113f225c56cbaa3c4d847:0:Anoche no atacaron a nadie.
 cc7506f22e95063bd90877b52851e8a4:0:La investigación reveló que 
 c15ab595fc82badc25d611c519c5244f:0: era Gnosia
 a6603edb53213b59c1681cae119319f3:0: era humano.
-5b2211a27c7f5e4500ca0948577117f7:0:El análisis del sueño frío de anoche reveló que\n
+5b2211a27c7f5e4500ca0948577117f7:0:El análisis de la criogenia de anoche reveló que\n
 42432806cf69f8741e80afaa6d9896bf:0:\nera Gnosia.
 a6603edb53213b59c1681cae119319f3:1: era humano.
-52ba52d4b0e5fef215b11984a47ab268:0:El análisis reveló que todos los enviados\na sueño frío anoche eran humanos.
-5b2211a27c7f5e4500ca0948577117f7:1:El análisis del sueño frío de anoche reveló que\n
+52ba52d4b0e5fef215b11984a47ab268:0:El análisis reveló que todos los enviados\na criogenia anoche eran humanos.
+5b2211a27c7f5e4500ca0948577117f7:1:El análisis de la criogenia de anoche reveló que\n

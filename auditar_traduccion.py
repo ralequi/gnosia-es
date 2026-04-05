@@ -45,30 +45,42 @@ UNCHANGED_ALLOWED = {
 PUNCT_ONLY_RE = re.compile(r"^[\s\W_]+$", re.UNICODE)
 PLACEHOLDER_RE = re.compile(r"\{[^}]+\}")
 GLOSSARY_PATH = SCRIPT_DIR / "glosario_v1.json"
-ASCII_FALLBACK_PATTERNS = {
-    "sueno": "sueño",
-    "frio": "frío",
-    "logica": "lógica",
-    "actuacion": "actuación",
-    "intuicion": "intuición",
-    "dia": "día",
-    "angel": "ángel",
-}
 ENGLISH_LEFTOVER_RE = re.compile(
     r"\b(Engineer|Guardian Angel|Crew Member Data|Data Reference|Load|Save|Proceed|Goodnight|warp)\b"
 )
 STYLIZATION_RE = re.compile(r"(s[uú]{2,}per|voo+y|superconfuso|supersospechoso)", re.IGNORECASE)
+CHOICE_RESPONSE_RE = re.compile(
+    r"^You (replied|answered|nodded|complained|asked|told|explained|affirmed|exchanged)\b"
+)
+CHOICE_OPTION_WHITELIST = {
+    ("ScenarioTutorialText", "loop1"): {6, 10, 14, 22, 28, 32, 36, 84, 87, 90, 95, 98, 101},
+}
+CHOICE_WIDTH_CAPS = {
+    ("ScenarioTutorialText", "loop1"): 20,
+    ("ScenarioTutorialText", "loop2"): 20,
+    ("ScenarioTutorialText", "loop6"): 20,
+    ("ScenarioTutorialText", "loop7"): 12,
+    ("ScenarioTutorialText", "loop14"): 18,
+}
+UI_LABEL_WIDTH_CAPS = {
+    ("OthersText", "setting", 7): 10,
+}
 
 
-def load_glossary_map() -> dict[str, str]:
-    glossary = read_json(GLOSSARY_PATH)
+def load_glossary() -> dict[str, object]:
+    return read_json(GLOSSARY_PATH)
+
+
+def load_glossary_map(glossary: dict[str, object]) -> dict[str, str]:
     flattened: dict[str, str] = {}
     for section in ("roles", "acciones", "estado_y_ui"):
         flattened.update(glossary.get(section, {}))
     return flattened
 
 
-GLOSSARY_MAP = load_glossary_map()
+GLOSSARY = load_glossary()
+GLOSSARY_MAP = load_glossary_map(GLOSSARY)
+ASCII_FALLBACK_PATTERNS = GLOSSARY.get("ascii_fallbacks", {})
 
 
 def parse_args() -> argparse.Namespace:
@@ -148,7 +160,69 @@ def is_translatable(text: str) -> bool:
     return any(char.isalpha() for char in stripped)
 
 
-def editorial_reasons(source_text: str, work_text: str) -> list[str]:
+def line_count(text: str) -> int:
+    return text.count("\n") + 1
+
+
+def max_line_length(text: str) -> int:
+    return max((len(line) for line in text.split("\n")), default=0)
+
+
+def is_choice_option(
+    entity_name: str,
+    sheet_name: str,
+    param_index: int,
+    source_sheet,
+) -> bool:
+    if param_index in CHOICE_OPTION_WHITELIST.get((entity_name, sheet_name), set()):
+        return True
+
+    source_text = decode_corpus_text(source_sheet.params[param_index][1]).strip()
+    if line_count(source_text) > 2 or max_line_length(source_text) > 30:
+        return False
+
+    next_index = param_index + 1
+    if next_index >= len(source_sheet.params):
+        return False
+
+    next_source = decode_corpus_text(source_sheet.params[next_index][1]).strip()
+    return bool(CHOICE_RESPONSE_RE.match(next_source))
+
+
+def choice_width_cap(entity_name: str, sheet_name: str, source_text: str, source_sheet) -> int:
+    explicit = CHOICE_WIDTH_CAPS.get((entity_name, sheet_name))
+    if explicit is not None:
+        return explicit
+
+    widths = []
+    for param_index, source_param in enumerate(source_sheet.params):
+        candidate = decode_corpus_text(source_param[1])
+        if is_choice_option(entity_name, sheet_name, param_index, source_sheet):
+            widths.append(max_line_length(candidate))
+    if widths:
+        return max(widths)
+    return max_line_length(source_text)
+
+
+def needs_dialogue_reflow_review(entity_name: str, tier: str, source_text: str, work_text: str) -> bool:
+    if tier not in {"B", "C"}:
+        return False
+    if entity_name not in {"ScreenText", "ScenarioBaseText", "ScenarioTutorialText"}:
+        return False
+
+    source_max = max_line_length(source_text)
+    work_max = max_line_length(work_text)
+    source_lines = line_count(source_text)
+    work_lines = line_count(work_text)
+
+    if work_lines != source_lines:
+        return True
+    if work_max > max(source_max + 8, math.ceil(source_max * 1.15)):
+        return True
+    return False
+
+
+def editorial_reasons(entity_name: str, tier: str, source_text: str, work_text: str) -> list[str]:
     reasons: list[str] = []
     decoded_source = decode_corpus_text(source_text)
     decoded_work = decode_corpus_text(work_text)
@@ -168,6 +242,9 @@ def editorial_reasons(source_text: str, work_text: str) -> list[str]:
 
     if STYLIZATION_RE.search(decoded_work):
         reasons.append("stylization_review")
+
+    if needs_dialogue_reflow_review(entity_name, tier, decoded_source, decoded_work):
+        reasons.append("dialogue_reflow_review")
 
     return reasons
 
@@ -209,8 +286,6 @@ def main() -> int:
                 summary[f"tier_{tier}"] += 1
                 placeholders_source = PLACEHOLDER_RE.findall(source_display)
                 placeholders_work = PLACEHOLDER_RE.findall(work_display)
-                newline_source = source_display.count("\n")
-                newline_work = work_display.count("\n")
                 source_len = len(source_display)
                 work_len = len(work_display)
 
@@ -219,9 +294,26 @@ def main() -> int:
                 if placeholders_source != placeholders_work:
                     status = "hard_fail"
                     reasons.append("placeholder_mismatch")
-                if newline_source != newline_work:
+
+                if is_choice_option(source_entity.entity_name, source_sheet.name, param_index, source_sheet):
+                    if line_count(work_display) > line_count(source_display):
+                        status = "hard_fail"
+                        reasons.append("choice_linecount_overflow")
+                    if max_line_length(work_display) > choice_width_cap(
+                        source_entity.entity_name,
+                        source_sheet.name,
+                        source_display,
+                        source_sheet,
+                    ):
+                        status = "hard_fail"
+                        reasons.append("choice_width_overflow")
+
+                ui_cap = UI_LABEL_WIDTH_CAPS.get(
+                    (source_entity.entity_name, source_sheet.name, param_index)
+                )
+                if ui_cap is not None and max_line_length(work_display) > ui_cap:
                     status = "hard_fail"
-                    reasons.append("newline_mismatch")
+                    reasons.append("ui_label_overflow")
 
                 budget = max_len_for_tier(source_len, tier)
                 if work_len > budget:
@@ -234,7 +326,12 @@ def main() -> int:
                     reasons.append("unchanged_translatable")
 
                 if status != "hard_fail":
-                    for reason in editorial_reasons(source_text, work_text):
+                    for reason in editorial_reasons(
+                        source_entity.entity_name,
+                        tier,
+                        source_text,
+                        work_text,
+                    ):
                         if reason not in reasons:
                             reasons.append(reason)
                     if reasons and status == "ok":

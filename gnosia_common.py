@@ -33,6 +33,7 @@ WRITER_PADDING = b"\x00\x00\x00\x00"
 PATCH_SLOT_INDEX = 1
 PATCH_REFERENCE_SLOT_INDEX_JP = 0
 PATCH_REFERENCE_SLOT_INDEX_ZH = 2
+LOCALIZED_BUNDLE_PATTERN = re.compile(r"^(help|pre|systm|title)_(jp|en|zh)_.*\.bundle$")
 
 
 @dataclass
@@ -405,14 +406,29 @@ def load_replacements_from_manifest(
     return manifest, replacements
 
 
-def inventory_localized_bundles(bundle_dir: Path) -> dict[str, Any]:
-    pattern = re.compile(r"^(help|pre|systm|title)_(jp|en|zh)_.*\.bundle$")
-    bundle_entries = []
-    for bundle_path in sorted(bundle_dir.glob("*.bundle")):
-        match = pattern.match(bundle_path.name)
-        if not match:
-            continue
+def parse_localized_bundle_name(bundle_name: str) -> dict[str, str] | None:
+    match = LOCALIZED_BUNDLE_PATTERN.match(bundle_name)
+    if not match:
+        return None
+    return {
+        "category": match.group(1),
+        "language": match.group(2),
+    }
 
+
+def iter_localized_bundle_paths(bundle_dir: Path) -> list[tuple[Path, dict[str, str]]]:
+    entries: list[tuple[Path, dict[str, str]]] = []
+    for bundle_path in sorted(bundle_dir.glob("*.bundle")):
+        metadata = parse_localized_bundle_name(bundle_path.name)
+        if metadata is None:
+            continue
+        entries.append((bundle_path, metadata))
+    return entries
+
+
+def inventory_localized_bundles(bundle_dir: Path) -> dict[str, Any]:
+    bundle_entries = []
+    for bundle_path, metadata in iter_localized_bundle_paths(bundle_dir):
         env, _ = load_unity_env(bundle_path)
         counts = Counter(obj.type.name for obj in env.objects)
         asset_names = []
@@ -426,8 +442,9 @@ def inventory_localized_bundles(bundle_dir: Path) -> dict[str, Any]:
             {
                 "bundle": bundle_path.name,
                 "path": str(bundle_path.resolve()),
-                "category": match.group(1),
-                "language": match.group(2),
+                "category": metadata["category"],
+                "language": metadata["language"],
+                "sha256": sha256_file(bundle_path),
                 "object_counts": dict(counts),
                 "has_text_assets": counts.get("TextAsset", 0) > 0,
                 "only_raster_localization": set(counts).issubset({"Sprite", "Texture2D", "AssetBundle"}),
@@ -439,6 +456,59 @@ def inventory_localized_bundles(bundle_dir: Path) -> dict[str, Any]:
     return {
         "bundle_root": str(bundle_dir.resolve()),
         "bundle_count": len(bundle_entries),
+        "bundles": bundle_entries,
+    }
+
+
+def materialize_localized_bundle_build(
+    *,
+    bundle_dir: Path,
+    output_dir: Path,
+    replacements: dict[str, Path] | None = None,
+) -> dict[str, Any]:
+    localized_entries = iter_localized_bundle_paths(bundle_dir)
+    localized_by_name = {bundle_path.name: (bundle_path, metadata) for bundle_path, metadata in localized_entries}
+
+    replacements = replacements or {}
+    unknown = sorted(set(replacements) - set(localized_by_name))
+    if unknown:
+        raise ValueError(f"unknown localized bundles declared for replacement: {', '.join(unknown)}")
+
+    ensure_dir(output_dir)
+    bundle_entries: list[dict[str, Any]] = []
+    for bundle_name, (source_path, metadata) in localized_by_name.items():
+        replacement_path = replacements.get(bundle_name)
+        action = "replace" if replacement_path is not None else "copy"
+        input_path = replacement_path or source_path
+        if not input_path.exists():
+            raise FileNotFoundError(f"bundle input missing for {bundle_name}: {input_path}")
+
+        output_path = output_dir / bundle_name
+        ensure_dir(output_path.parent)
+        shutil.copy2(input_path, output_path)
+
+        source_sha = sha256_file(source_path)
+        output_sha = sha256_file(output_path)
+        bundle_entries.append(
+            {
+                "bundle": bundle_name,
+                "category": metadata["category"],
+                "language": metadata["language"],
+                "action": action,
+                "source_path": str(source_path.resolve()),
+                "output_path": str(output_path.resolve()),
+                "replacement_path": str(input_path.resolve()) if replacement_path is not None else None,
+                "source_sha256": source_sha,
+                "output_sha256": output_sha,
+                "identical_to_source": output_sha == source_sha,
+            }
+        )
+
+    return {
+        "bundle_root": str(bundle_dir.resolve()),
+        "output_dir": str(output_dir.resolve()),
+        "bundle_count": len(bundle_entries),
+        "declared_modified_bundles": sorted(replacements),
         "bundles": bundle_entries,
     }
 

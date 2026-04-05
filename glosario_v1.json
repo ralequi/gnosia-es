@@ -16,7 +16,7 @@
     "Doctor": "Doctor",
     "Guardian Angel": "Ángel guardián",
     "Guard Duty": "Servicio de guardia",
-    "Crew": "Tripulación",
+    "Crew": "Pasajeros",
     "AC Follower": "Seguidor AC",
     "Bug": "Bug"
   },
@@ -25,6 +25,8 @@
     "Agree": "Apoyar",
     "Refute": "Rebatir",
     "Defend": "Defender",
+    "Cover": "Cubrir",
+    "Cover Together": "Cubrir en grupo",
     "Vote": "Votar",
     "Don't Vote": "No votar",
     "Freeze": "Congelar",
@@ -41,5 +43,20 @@
     "Log": "Diario",
     "Results": "Resultados",
     "Setup": "Ajustes"
+  },
+  "variantes_contextuales": {
+    "Cold Sleep": {
+      "ui": "Criogenia",
+      "long": "sueño criogénico"
+    }
+  },
+  "ascii_fallbacks": {
+    "sueno": "sueño",
+    "frio": "frío",
+    "logica": "lógica",
+    "actuacion": "actuación",
+    "intuicion": "intuición",
+    "dia": "día",
+    "angel": "ángel"
   }
 }

@@ -39,7 +39,7 @@ e605e5bc8275871fdcda08bb9ccd34ad:0:No, no quiero dudar de {0}
 fe8ca9e41e4b94664a3402f3ffb094cd:0:No, {0} está bien
 ee4018a4ecfd922cddf7a64576b69e2c:0:Sumarse a la defensa
 0f3cadcaa58e7aa322be508aeed179f3:0:Rebatir
-8847efebf7ad92f98c5e96067c271685:0:Cubre
+8847efebf7ad92f98c5e96067c271685:0:Cubrir
 e0941bbb19d530fba31beef0391d4864:0:{0} me cae bien
 97091e37c68299d1d67887e479bcfc48:0:Probablemente se puede confiar en {0}
 e4678e70c27d4ccf43636f0e9956e4c2:0:{0} parece de fiar
@@ -95,7 +95,7 @@ f83f1f9ea84cd28dc7e20b3ea90414bb:0:Empezar la votación
 ba39f2d100f4983cf7cfd742b27f239c:0:humano
 cf4844808299fa8d0ddd6bee265f63b0:1: y 
 97ba3399b1c7c3a287d4457b3dcf817e:0:Criogenia
-c067a7cf99ddba3824a60381d1e25c09:0:{0} va a ser enviado a sueño frío
+c067a7cf99ddba3824a60381d1e25c09:0:{0} va a ser enviado a criogenia
 7473a49ef6b5f4e1ab95dca3eae10918:0:Despedirse
 43f6d00edd9eab9b7e69728eb639dfc1:0:Congelar
 e1328d0fef0671e0be735dac0ce8b062:0:Revota
@@ -109,23 +109,23 @@ fa1c94dd1eee92034babb70a5f847567:0:Volver a votar
 e6c0af4a3fc7e01b32f7a28f16069a87:0:Aceptar el plan
 461772913391385b7f56ead1c6f71af3:0:Rechazar el plan
 ff6832497010ee54e6f5ed1cb7e2c1bd:0:Sacar conclusión
-cfbe4d9ff8b1269784be31ec5d1dcaa6:0:Todos irán a sueño frío
-b42067869e06abd8cc81000deba141e6:0:Nadie irá a sueño frío
+cfbe4d9ff8b1269784be31ec5d1dcaa6:0:Todos irán a criogenia
+b42067869e06abd8cc81000deba141e6:0:Nadie irá a criogenia
 0845d6193976007e3b189b4a9333ff8c:0:Se acabó el tiempo
 026c005a1e728cd4db56d63b67d720fd:0:No se pudo alcanzar una decisión...
 bc231d3662ffb1c31060d67870852ea9:0:Suplicar
-89d80fa7d62f56cc44b433b8539c4c50:0:¡Por favor! ¡Sueño frío no!
+89d80fa7d62f56cc44b433b8539c4c50:0:¡Por favor! ¡No me mandéis a criogenia!
 bc231d3662ffb1c31060d67870852ea9:1:Suplicar
-89d80fa7d62f56cc44b433b8539c4c50:1:¡Por favor! ¡Sueño frío no!
+89d80fa7d62f56cc44b433b8539c4c50:1:¡Por favor! ¡No me mandéis a criogenia!
 392e6f55692b6631d1a7ada393df02d7:0:Reaccionar a la súplica
 90e5b2682183b3544daff3d283247347:0:La súplica falló
-9f71b419396187563097de58a15fcc02:0:Se ha tomado una decisión.\nHabrá sueño frío.
+9f71b419396187563097de58a15fcc02:0:Se ha tomado una decisión.\nHabrá criogenia.
 c711b9ed507560791079fe8e1b2fd003:0:¡¿Qué demonios?! ...Capullos...
-013ded210d389a4e61f86c269e6d82d8:0:Al final, {0} irá a sueño frío
+013ded210d389a4e61f86c269e6d82d8:0:Al final, {0} irá a criogenia
 a77e7381a6debc1e492f15b5640833dd:0:La súplica funcionó
-5584f9a659126823eba86715643a9f34:0:Se ha tomado una decisión.\nSolo por esta vez, no habrá sueño frío.
+5584f9a659126823eba86715643a9f34:0:Se ha tomado una decisión.\nSolo por esta vez, no habrá criogenia.
 e886c5aa63d1b776104d4c900f796be8:0:¡¿De verdad...?!\n¡SÍ! ¡Eso quería oír!\nSí, me siento mal por ello. ¡Ya lo he dicho, no?!
-541e49c1db27eceb8bfcb8aeaff66344:0:{0} no irá a sueño frío
+541e49c1db27eceb8bfcb8aeaff66344:0:{0} no irá a criogenia
 2e028e216a892c17d035a62ee1765bd5:5:No pasó nada
 b9ba5cc514ab9afe66bc22854c296671:0:todos
 cf4844808299fa8d0ddd6bee265f63b0:2: y 
@@ -135,7 +135,7 @@ a3862fa02e1eeb17b23c1383692e07ff:0:Elegir destino
 5dec66860bb60daf169ae7d3e0c90819:1:Creación de loop
 2e028e216a892c17d035a62ee1765bd5:7:No pasó nada
 2e028e216a892c17d035a62ee1765bd5:8:No pasó nada
-97505cea90b2c8171118d80e6d44d77f:0:Todos los Gnosia han sido enviados a sueño frío.\nSe mostrarán los resultados.
+97505cea90b2c8171118d80e6d44d77f:0:Todos los Gnosia han sido enviados a criogenia.\nSe mostrarán los resultados.
 5c1e8d44456a18aa057db557f3ec723a:0:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada. Se mostrarán los resultados.
 2e028e216a892c17d035a62ee1765bd5:9:No pasó nada
 4055aa636bc25bb97a1ed35697c322c8:0:Ingeniero
@@ -176,7 +176,7 @@ ba4630cdc4f3539dd8d0e1afa92ed522:0:La conversación sobre comidas favoritas cont
 2aac96815179b7079c32fec5e727e5b8:0:La conversación sobre amor y romance continuó...
 3277bcd76b7ee091771d808e30e97994:0:La sesión de historias de miedo continuó...
 b5d9c3e33824c58e76624846957d63e8:0:Congelar a todos
-bcb62c64be859d312b6f05074ef1fab6:0:Enviemos a {0} a sueño frío
+bcb62c64be859d312b6f05074ef1fab6:0:Enviemos a {0} a criogenia
 04f8177b0736f93d00e5531e9ff0c059:0:Apoyar
 d44913d5f989871ab8ca319047f077a6:0:Discrepar
 37138a8297d47c9dd77ea6fedc740b9c:0:No, mejor no hagamos eso

@@ -17,12 +17,14 @@ from gnosia_common import (  # noqa: E402
     entity_to_dict,
     extract_entities,
     inventory_localized_bundles,
+    materialize_localized_bundle_build,
     load_entities_from_manifest,
     load_replacements_from_manifest,
     load_raw_data_for_path_ids,
     load_source_entity_raw_map,
     load_unity_env,
     normalize_saved_asset_bytes,
+    read_json,
     save_repacked_asset,
     sha256_bytes,
     summarize_entities,
@@ -75,12 +77,43 @@ def parse_args() -> argparse.Namespace:
         default=TMP_DIR / "sharedassets0.repacked.assets",
         help="Path to the repacked sharedassets0.assets copy",
     )
+    parser.add_argument(
+        "--localized-bundles-output-dir",
+        type=Path,
+        default=TMP_DIR / "validation" / "localized_bundles",
+        help="Directory where localized bundle validation copies are materialized",
+    )
+    parser.add_argument(
+        "--localized-bundle-replacements",
+        type=Path,
+        default=None,
+        help="Optional JSON mapping of localized bundle names to replacement bundle paths",
+    )
     return parser.parse_args()
 
 
 def fail(message: str) -> int:
     print(f"ERROR: {message}", file=sys.stderr)
     return 1
+
+
+def load_bundle_replacements(path: Path | None) -> dict[str, Path]:
+    if path is None:
+        return {}
+
+    payload = read_json(path)
+    if isinstance(payload, dict) and "modified_bundles" in payload:
+        payload = payload["modified_bundles"]
+    if not isinstance(payload, dict):
+        raise ValueError("localized bundle replacement JSON must be an object")
+
+    replacements: dict[str, Path] = {}
+    for bundle_name, replacement in payload.items():
+        replacement_path = Path(str(replacement))
+        if not replacement_path.is_absolute():
+            replacement_path = (path.parent / replacement_path).resolve()
+        replacements[str(bundle_name)] = replacement_path
+    return replacements
 
 
 def main() -> int:
@@ -168,6 +201,59 @@ def main() -> int:
         if not bundle["only_raster_localization"]:
             return fail(f"bundle contains non-raster localized objects: {bundle['bundle']}")
     print("TEST 5 OK: localized help/pre/systm/title bundles contain only Sprite/Texture2D data.")
+
+    try:
+        bundle_replacements = load_bundle_replacements(args.localized_bundle_replacements)
+        bundle_build = materialize_localized_bundle_build(
+            bundle_dir=args.bundle_dir,
+            output_dir=args.localized_bundles_output_dir,
+            replacements=bundle_replacements,
+        )
+    except Exception as exc:  # pragma: no cover - validation CLI guard
+        return fail(f"localized bundle build failed: {exc}")
+
+    if args.mode == "noop" and bundle_build["declared_modified_bundles"]:
+        return fail("localized bundle replacements were declared in noop mode")
+
+    unexpected_bundle_diffs = [
+        bundle["bundle"]
+        for bundle in bundle_build["bundles"]
+        if not bundle["identical_to_source"] and bundle["action"] != "replace"
+    ]
+    if unexpected_bundle_diffs:
+        return fail(
+            "localized bundle build changed undeclared bundles: "
+            + ", ".join(unexpected_bundle_diffs)
+        )
+
+    if args.mode == "noop":
+        differing = [
+            bundle["bundle"]
+            for bundle in bundle_build["bundles"]
+            if not bundle["identical_to_source"]
+        ]
+        if differing:
+            return fail(
+                "localized bundle no-op build is not byte-identical for: "
+                + ", ".join(differing)
+            )
+        print("TEST 6 OK: localized bundles rebuild in no-op mode with exact SHA-256 matches.")
+    else:
+        if not bundle_replacements:
+            differing = [
+                bundle["bundle"]
+                for bundle in bundle_build["bundles"]
+                if not bundle["identical_to_source"]
+            ]
+            if differing:
+                return fail(
+                    "localized bundles changed without being declared modified: "
+                    + ", ".join(differing)
+                )
+        print(
+            "TEST 6 OK:",
+            f"localized bundle build changed only declared bundles ({len(bundle_build['declared_modified_bundles'])} declared).",
+        )
 
     tmp_validation_asset = TMP_DIR / "validation" / "sharedassets0.noop.assets"
     saved_again = save_repacked_asset(

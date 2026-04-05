@@ -25,6 +25,8 @@ Qué contiene este repo
 - aplicación de parches ES sin guardar texto original del juego en Git
 - reconstrucción de blobs y reempaquetado de un asset listo para probar
 - auditoría técnica y editorial de la traducción actual
+- extracción de imágenes localizadas a PNG para revisión manual
+- build no-op estricto de bundles `help/pre/systm/title` por copia o reemplazo explícito
 
 Estado actual
 -------------
@@ -88,6 +90,10 @@ Scripts principales
   Reempaqueta un asset de prueba sin tocar la instalación original.
 - `validar.py`
   Comprueba integridad estructural del pipeline.
+- `extraer_imagenes_localizadas.py`
+  Extrae previews PNG y genera un catálogo de los bundles localizados por imagen.
+- `reempacar_bundles_localizados.py`
+  Materializa bundles localizados por copia exacta o por reemplazo explícito.
 - `GUIA_EDITORIAL.md`
   Criterio de estilo para la traducción ES.
 - `glosario_v1.json`
@@ -165,6 +171,26 @@ python validar.py \
   --replacements-manifest tmp/work_reconstructed/replacements.json \
   --repacked-asset tmp/sharedassets0.phase1_es.assets
 ```
+
+Imágenes localizadas
+--------------------
+
+Para revisar qué imágenes dependen del idioma:
+
+```bash
+python extraer_imagenes_localizadas.py
+```
+
+Esto deja un catálogo en `tmp/imagenes_localizadas/catalog.json` y previews PNG en `tmp/imagenes_localizadas/previews/`.
+
+Para materializar un build no-op de los bundles localizados:
+
+```bash
+python reempacar_bundles_localizados.py
+```
+
+Esto copia los 12 bundles `help/pre/systm/title` a `tmp/localized_bundles/build/` y deja un manifiesto con SHA-256 por fichero.
+Si en el futuro quieres modificar imágenes, el script solo permitirá diferencias en los bundles declarados explícitamente en `--replacements-json`.
 
 Qué valida el auditor
 ---------------------
