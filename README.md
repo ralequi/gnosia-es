@@ -84,6 +84,8 @@ Scripts principales
   Compara `work/` contra `out/` y actualiza `parches/*.parche`.
 - `auditar_traduccion.py`
   Revisa placeholders, saltos de línea, presupuesto de longitud y señales editoriales.
+- `cobertura_traduccion.py`
+  Calcula la cobertura de traducción por entidad y, opcionalmente, por `sheet`.
 - `reconstructor.py`
   Reconstruye blobs binarios desde el corpus materializado.
 - `reempacador.py`
@@ -143,6 +145,13 @@ python exportar_parches.py
 
 ```bash
 python auditar_traduccion.py --work-manifest work/manifest.json
+```
+
+Cobertura actual por fichero:
+
+```bash
+python cobertura_traduccion.py
+python cobertura_traduccion.py --details --entity ScreenText
 ```
 
 7. Reconstruir blobs:
@@ -256,4 +265,4 @@ Notas
 - `aplicar_parches.py` trata `parches/` como fuente de verdad y regenera `work/`.
 - `exportar_parches.py` exporta solo entradas donde `es != en`.
 - El repo no usa una librería de traducción automática para generar el castellano publicado.
-- La traducción sigue en progreso; el tutorial largo aún no está completo.
+- La traducción sigue en progreso; el tutorial y `CharaText` ya están cubiertos, pero aún quedan entidades de escenario y pulido editorial.
