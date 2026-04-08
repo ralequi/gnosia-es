@@ -25,6 +25,7 @@ Reglas globales
 - Mantener nombres propios ya fijados en el repo.
 - Si una línea obliga a marcar el género de Setsu o Raqio, reformular para evitarlo.
 - Evitar `-e` como solución por defecto.
+- Evitar `@`, `x` u otros marcadores gráficos; preferir reformulación natural o masculino genérico cuando no haya otra salida limpia.
 
 Voces
 -----

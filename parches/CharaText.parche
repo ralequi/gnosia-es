@@ -202,7 +202,7 @@ f4e465494f38e4f4a6a45cbecb976ea8:0:{0} es {1}. AC.
 bf38c36518428d15ced968fa2893d0e4:0:{0} es {1}. Bug.
 c8c3891c4712c92848007845e2058c3c:0:Algo va mal con {0}.
 f9bb1ea9cefc4e76a4678a7043939558:0:{0} no es Gnosia. Eso es un hecho.\nPero {0} está mintiendo. Eso también es un hecho.
-db2206cf4bd176563ff617b7fb35ed3c:0:Oye, no va así, {0}.\nNo te pongas nervios@, vamos con calma.
+db2206cf4bd176563ff617b7fb35ed3c:0:Oye, no va así, {0}.\nNo te pongas nervioso, vamos con calma.
 301e54d5eef708986c49ad4fe4dbac32:0:Ja, {0}. Eso ya lo sabemos de sobra.
 91ed7c22c5ffbd35780cacb1a545d5c1:0:Sí, yo soy el {1}. Gracias, {0}.
 1d44a1a6a20df44323ef8643d32d0562:0:...No lo voy a negar.
@@ -214,7 +214,7 @@ c1dd5f7567d88e9594392532bd422025:0:Entonces hay que decidir por votación a qui�
 ff2ab5174b5f45b5d6961ba11ad0f816:0:Fuaa... me voy antes.\nLo que odio de la criogenia es ese instante en que te quedas heladísimo.
 03f9f02e730721c480d4cda526f6711e:0:¿La criogenia, no? Lo sé, lo sé.\nJa, cuidadito todos.
 c4c85f8b7907de9270bd6f4900c87416:0:Eres tú... {0}. Vas a atacarme, ¿no?\nClaro, tú también estás haciendo todo lo posible por seguir con vida...
-a7746179129c55d95b20e2ee5e3058b1:0:¡Miau! ¡Miaaau! ¡Fss! ¡Grrr!\n(¡Bienvenid@ al infierno! ¡Yo soy {0}, miau!\n¡Te voy a dar un tour por el mundo de las bestias, fsh!)
+a7746179129c55d95b20e2ee5e3058b1:0:¡Miau! ¡Miaaau! ¡Fss! ¡Grrr!\n(¡Bienvenido al infierno! ¡Yo soy {0}, miau!\n¡Te voy a dar un tour por el mundo de las bestias, fsh!)
 d6fab83bf9fbd727980af20dfee523be:0:Buen trabajo. {0} ya no está, ¿no?\n...Me pregunto qué pasará ahora con ellos.
 fd1a84dcedb3e4c61675fded1c2b82dd:0:...Así no vamos a acabar nunca con la votación. ¿Qué hacemos?
 c33e1f197745d090eeb80fee09c41234:0:{0}.\n¿Y si mandamos a todo el mundo a criogenia?\nVenga, que no es tan malo, ¿eh?
@@ -236,8 +236,8 @@ abd6cdea05cd1ed3d4ce93c6a36e72b3:0:La última vez que atracamos, el que estaba f
 4a88993390cc203d0aa4bfa693100811:0:Ah, ya... no, perdona.\nYo también, o sea, yo soy el {0}.
 19f584bbfa988b5c8946318cb8dfc478:0:{1}... es un farsante. No me hace gracia decir esto.\nPero ahora no queda otra, yo soy el {0} de aquí.
 c2e8cfa120b74ae55082a380f15d3cdd:0:Sí, {1} también estaba en la nave. Yo también me quedé aquí.
-5aac9588868fb8d0389aef24e9f4e849:0:{1} es el auténtic@ {0}?\nJa, cuenta conmigo.
-40921318874756934925e48d8ee302b5:0:¿Entonces {1} de los dos es el auténtic@ {0}?\nBueno, mejor eso que no saber nada, desde luego.
+5aac9588868fb8d0389aef24e9f4e849:0:{1} es el auténtico {0}?\nJa, cuenta conmigo.
+40921318874756934925e48d8ee302b5:0:¿Entonces {1} de los dos es el auténtico {0}?\nBueno, mejor eso que no saber nada, desde luego.
 e6c4e49e95f5aad88f765596e2fbc900:0:{1}, ¿eh?\nA ver a quién diablos podemos creer aquí……
 ed1df7a9626ee677743d1fb96a80adac:0:Los han atacado, pero……\nA quien escaneé fue a
 5442d10c200b8d48eeb3ad1ab76d02d4:0:Voy a informar.\nA quien escaneé fue a
@@ -551,14 +551,14 @@ fa1af568c1e025bed7543a000ef5549e:0:Aunque no sea consciente de ello, tiene much�
 5be1b2c52594b1aa5d5a0e8a7bedaee8:0:Creo que me gustaría que {0} se fuera a dormir...
 2118d8464aaefe42fe8b3f2636a0aa54:0:{0}... Hablas demasiado.
 7538811e1c783e0b9d34dc482abdd9a3:0:No.\nNo puedo confiar en {0} como hacen los demás.
-4a705b8a7ca5a86131e1900ebcf03602:0:No puedo confiar en {0},\nquedándose tan callad@.
+4a705b8a7ca5a86131e1900ebcf03602:0:No puedo confiar en {0},\nquedándose tan callado.
 46a96ba61e15ef9a575f104b3573a640:0:Pensando en términos de probabilidad...\nCreo que deberíamos desconfiar de {0}.
 f92dc670ab0143e7f339edc77c1c7af4:0:No puedo confiar en {0}.
 79aad7637b214436d8cd4ba0ec73da1b:0:Lo siento, {0}.\nEs que... ya no puedo confiar en ti.
 adcd12bb01800696a4272df4db678774:0:No puedo confiar en {0}.\nTampoco podía {1}, antes de desaparecer...
-a00aac45573dfc431f06d76381448326:0:Perdón si me equivoco.\nPero... siento que {0} resulta sospechos@.
+a00aac45573dfc431f06d76381448326:0:Perdón si me equivoco.\nPero... siento que {0} resulta sospechoso.
 6ec522ed1b8e065324e2ac4e96ab4689:0:Quiero creer... pero no puedo.\nCreo que {0} debería dormir.
-ed280c5117c8412238e9be7c18c8b33d:0:{0}... ¿Estás nervios@?\nHas hablado demasiado.
+ed280c5117c8412238e9be7c18c8b33d:0:{0}... ¿Estás nervioso?\nHas hablado demasiado.
 988d6b5cdc6cc0e6017f19afc3ed8883:0:Yo también confiaba en {0}. Pero...\nSiento que fue un error.
 f99d12ca3de8634fa02cc75a4745a890:0:{0}...\n¿No quieres decir nada?
 8b4be4c09937f5f64e3f41d7df5cd437:0:Quiero confiar en {0}, pero...\nEn términos de probabilidad, hay algo sospechoso.
@@ -566,7 +566,7 @@ f99d12ca3de8634fa02cc75a4745a890:0:{0}...\n¿No quieres decir nada?
 0b1eb43c51e4fcaeeab597cdfe786248:0:Al parecer, doy mala espina.
 fc4dc8fa3c42aecbe0ea2c9e8abef53a:0:¿Me odias?\nYa veo...
 d4bf7e339f387dc6836c0cbd613b32dc:0:Yo también...\nQuiero que {0} duerma.
-0757aa038888b7351ef3d0dc92e61445:0:{0} parece estar... nervios@.
+0757aa038888b7351ef3d0dc92e61445:0:{0} parece estar... nervioso.
 2e6ab025dd8898b01dbeb3a25a4cc30a:0:Estoy de acuerdo. No se puede confiar en {0}.
 a84dab1d43b12fc0377d77c04744b67c:0:Sí... La actitud de {0} resulta antinatural.
 506fbcff6a73c6727eac51126f6bfcc9:0:Según mis cálculos...\nEs normal sospechar de {0}.
@@ -574,19 +574,19 @@ facb9494d2056b6b464fd5e6e894b205:0:{0}... Sí, {0}. Desde luego hay algo raro.
 cf1881109090ed66374f3df554e51499:0:{0} está mintiendo.\nLo noto.
 cc8ccf0393f8f382c1d1336162eb1404:0:{0} debería dormir.\nCreo... que es lo que quiero.
 e84aae363298a6298e18f59ca7d4c968:0:{0}, ¿cuál es tu objetivo?\nNo es el mismo que el mío...
-593e526f4154b8e63cb6200a5df10f87:0:¿Sospechos@? ¿{0}?\nSí... Tiene sentido.
-db1c56b52840238ac9ae4504a72b49ed:0:¿Por qué estás tan callad@, {0}...?
+593e526f4154b8e63cb6200a5df10f87:0:¿Sospechoso? ¿{0}?\nSí... Tiene sentido.
+db1c56b52840238ac9ae4504a72b49ed:0:¿Por qué estás tan callado, {0}...?
 205a60bd71349e3cf51173344d2d6a62:0:Yo... no puedo negarlo.
-e5bbeb51666e2efabc35d15c78ce60a4:0:Desde luego, {0} parece...\nde algún modo sospechos@...
+e5bbeb51666e2efabc35d15c78ce60a4:0:Desde luego, {0} parece...\nde algún modo sospechoso...
 8cbffd9938653d038a1c0db72696ab94:0:Quiero creer en {0}.
 a4ac116a8f4664d2a230ec5701ed26f3:0:Personalmente...\nPrefiero confiar en {0} antes que en {1}.
-910f2ce2dc705df2bf953a14841f7352:0:{0} parece sospechos@, pero...\nNo tengo motivos para llegar tan lejos.
+910f2ce2dc705df2bf953a14841f7352:0:{0} parece sospechoso, pero...\nNo tengo motivos para llegar tan lejos.
 aa5ab27011c3ed77f521d7793c5ef6d3:0:Estoy de acuerdo. No siento que haya motivo para desconfiar de {0}.
 77be22d559b3367fa95a26eec33f03c6:0:Yo también quiero confiar en {0}...
 ed6a4cf5d431b484e2b92869ab8e2365:0:Esta nave... necesita a {0}.
 d7f1a7263c47eec8cddb704401395cb2:0:Pensando en términos de probabilidad... siento que podemos confiar en {0}.
 a057825ea1b73441fc4ae8b904d29cda:0:{0}...\nConfío en ti.
-2282b75f0491db5174fd1602809478ba:0:{0} es sospechos@. Pero...\nNo quiero que {0} duerma.
+2282b75f0491db5174fd1602809478ba:0:{0} es sospechoso. Pero...\nNo quiero que {0} duerma.
 e9fe6c94eec18222c82884a4958aa800:0:Estadísticamente, deberíamos confiar en {0}.\nAl margen de las sospechas.
 ab7daa848ec9a28b705dc49b035355b7:0:Lo siento, {0}. Dudé de ti.\nA partir de ahora confiaré en ti.
 50403e81ebc22aed53b5b8dedc39bcbc:0:Yo también creo que podemos confiar en {0}.
@@ -596,11 +596,11 @@ dd1c07bb3e057aec09832a97e0b65cb8:0:Eso no está bien.\nHay algo raro en que {1} 
 1c8fbe4f777dd363d41585f7f9021f5a:0:Estoy de acuerdo. Es peligroso confiar en {0}.
 50e43264457fb0992fe1cafca930beb9:0:Yo tampoco estoy de acuerdo...\nNo se puede confiar en {0} tanto como dice {1}.
 a5b53d156da370d7134e201cd697fda5:2:Es evidente que {0} es {1}, sin duda.\n¿Alguna objeción?
-6a1ae71f08ebb40b9c1e2ceac325c38c:2:{0} es human@. Creo que podemos darlo por hecho.
+6a1ae71f08ebb40b9c1e2ceac325c38c:2:{0} es humano. Creo que podemos darlo por hecho.
 dc0b0a9e7b95e851487a3b60522f73be:0:{0} está mintiendo.\nNo hay manera de que seas {1}.
 cbcb8443b171ebaafc798418c03139f7:0:{0} es... {1}. Tiene que serlo.
-f9d6c82db03a918f22d7d6c54ac4cb42:0:{0} es {1}.\nSe mire como se mire. Human@, sí, pero enemig@ de la humanidad.
-3b13a2fe5c16da9e47a6ac6dc5c01ba5:0:{0}... ¿Qué eres?\nNo eres human@ ni Gnosia.\n¿Alguna clase de... {1} inimaginable?
+f9d6c82db03a918f22d7d6c54ac4cb42:0:{0} es {1}.\nSe mire como se mire. Humano, sí, pero enemigo de la humanidad.
+3b13a2fe5c16da9e47a6ac6dc5c01ba5:0:{0}... ¿Qué eres?\nNo eres humano ni Gnosia.\n¿Alguna clase de... {1} inimaginable?
 11a8d20ea1b94c2f135daadf4fad98e7:0:Algo falla con {0}.
 f9bb1ea9cefc4e76a4678a7043939558:2:{0} no es Gnosia. Eso es un hecho.\nPero {0} está mintiendo. Eso también es un hecho.
 a42bd05a00e52da2457c7bb1440ece9b:0:{0}... Eso no vale.\nNo es seguro.
@@ -647,7 +647,7 @@ b8fecc3c28f56710c846397dda44098d:0:Sobre el ataque,\n
 4098f6e432cfca252710cbab412b1e0d:0:He investigado a {1}, y el resultado fue \"humano\".\nNo era {0}.
 9278af0521d997fd4e04440579f4ac6b:0:Ya no queda nadie a quien quiera investigar...
 aba02ef6037a3b9ead7fc5070b30a66d:0:Tengo un informe. Examiné a quien durmió ayer en criogenia.\n
-e1aead517a51faef06311f924856d1b2:0:El resultado fue negativo para {0}. {1} {3} human@.
+e1aead517a51faef06311f924856d1b2:0:El resultado fue negativo para {0}. {1} {3} humano.
 c1854c11e3f387a27f80f7e7668f163a:0:{1}, ambos humanos.\n¿Qué estamos haciendo...?
 40a40c6210aa412170a719d346ec4a85:0:Mi informe es el mismo.\n
 6c33545049f91d9561fa30f391e3908d:0:Eso no está bien...\n
@@ -688,7 +688,7 @@ d8eb09e725b9843baa2afa6e4a7db1ed:0:Basta.\n{0}... No quiero verte así...
 6c20d56adb5d96787994c62bf021c966:0:Así que has estado mintiendo...\n{0}...
 b0abb709e37f07fdbbd090e3cde0be55:0:Ha sido inútil venir aquí.\nNo tengo nada que decirte.
 f8cfc38ca803b8f303c679a8e48632ce:0:{0}, tú y yo somos humanos.\nMe... alegra saberlo.
-c45df55e6cd1cdcb0a042ab9ac3e957e:0:{0}, eres human@.\nYo...
+c45df55e6cd1cdcb0a042ab9ac3e957e:0:{0}, eres humano.\nYo...
 f52068d83b7c26f0a76f8e9d1c73dfd5:0:{0}... Me siento más segura si estás aquí.\nSiento que todo irá bien.
 a534fab9cb502ed6facb311500508863:0:{0}...\nOjalá pudiera... confiar en ti...
 000754d022f0472647a4425938d34a19:0:{0}, yo... sigo sin tenerte claro.
@@ -702,7 +702,7 @@ c7c59b6edaf810b48ccfd6fb5a79ebab:0:{0}... Hiciste todo lo que pudiste.
 f8c93ec078d28e77e2b7225f288aed5e:0:¿Qué...?
 607d8a21c4f2bc89d32d38add25bedd5:0:Hay alguien entre nosotros que no es humano.\nNo quiero creerlo, pero... al parecer es verdad.
 931a203931c22590440d24679a4fb1de:0:{0}...\n¿Te has dado cuenta, {0}?
-54267173fbc636d81edd3da7a9fa60fb:0:{1} está mintiendo.\nAsí que... {1} no es human@, estoy segura.
+54267173fbc636d81edd3da7a9fa60fb:0:{1} está mintiendo.\nAsí que... {1} no es humano, estoy segura.
 4cbe03caa9b65e5c14e578e58006e56f:0:He estado mintiendo...\nPuede que {1} también lo sepa.
 93223c52af86a92c78796b786949ebbf:0:Así que, si desaparezco...\nRecuerda lo que te dije.
 aa6a181c4401a9f475857291816f8047:0:{0}...\nAsí que confiabas en mí...
@@ -711,7 +711,7 @@ d7f8c253bbcd211403ee87625f8a58fb:0:Gracias, {0}.\nNo lo olvidaré.
 2f39efbf79786fbe6b3d67c555c94057:0:He dejado en tus manos decidir de quién nos deshacemos.\nLo siento.
 d5414c8517a0f8a1facd987e66efbb65:0:Si fuera yo...\nCreo que eliminaría a {1}.
 58859df66e80bbc54fead688fd19fbbd:0:(La persona que elegí desapareció...)
-b7137ef3c01ee7fd9f2b912c5a6697fb:0:({0}... Gracias.\n No quería que cargaras tú sol@ con esto.)
+b7137ef3c01ee7fd9f2b912c5a6697fb:0:({0}... Gracias.\n No quería que cargaras tú solo con esto.)
 da856c1e1a355123272557af926e9dfb:0:Lo conseguí.\nJunto a ti, {0}.
 9560670ac2356c0863a9d63d837c16f4:0:Yo...\nHe dependido muchísimo de ti, {0}.\nEstá bien, lo sé.
 3e98e2b9211d9e7044ba582f2220b598:0:Pero espero que, aunque sea un poco...\nyo también te haya ayudado, {0}.
@@ -798,7 +798,7 @@ fdbb81435c99ca7370f5b9c4bb662886:0:¿Qué podría llevar a alguien a confiar en 
 febae12111058915de079c0c6add4a1d:0:El corazón confiado es algo hermoso...\nPero a veces también está, como... tremendamente equivocado.
 1b68b37f137a7be3b5c8f1a31f4f54e9:0:Cuánto desearía yo también poder confiar de forma incondicional.\nComo aquella vez... ya sabes, aquella vez... Eh...
 90e786b10b757d9daf0bd3f1d26a8a03:0:Así ha quedado... demostrenth...ado...\n{0} es el auténtico {1}.
-01da868ca5889bf868659554306e9e37:0:Así ha quedado... demostrenth...ado...\n{0} es human@.
+01da868ca5889bf868659554306e9e37:0:Así ha quedado... demostrenth...ado...\n{0} es humano.
 950c709e116abc2f9992ff7739eea057:0:Así ha quedado... demostrenth...ado...\n{0} no es {1}, pero ni de lejos.
 518b53c25f091c66b3bd9554ec76dbb3:0:Así ha quedado... demostrenth...ado...\n{0} es {1}.
 b0343022b1f012991339320c8b2a50a8:0:Así ha quedado... demostrenth...ado...\n{0} es {1}. Al cien por cien.
@@ -835,7 +835,7 @@ c905aef843881f88869b956abedb7970:0:Parece que el {0} soy yo... por alguna razón
 5e9ba3c43f408e0710f5521a10ca34af:0:En esta nave viaja un {0} enviado directamente por... ¡el GOBIERNO!\nPor si no estaba claro: hablo de mí.
 93938431221120e5889c4f6edaf7c458:0:En el puerto anterior me quedé a bordo.\nTenía, bueno... cosas que hacer.\nAsí que no dudéis de mí, sino de otros tipos.
 5b186eaf82aecac0082607b4475215b4:0:¡Escuchad! ¡Informa el {0}!\n¡{1} se ha unido a los Gnosia!\nSi necesitáis pruebas, os enseño mis cuentas encantado...
-e3dec40af5f41c67e7bd5645fc9c3274:0:Como {0}, examiné las entrañas duras y congeladas de quienes están en criogenia.\nY he aquí que {1}, tan gélidamente dormid@, ¡se ha vuelto GNOSIA!
+e3dec40af5f41c67e7bd5645fc9c3274:0:Como {0}, examiné las entrañas duras y congeladas de quienes están en criogenia.\nY he aquí que {1}, tan gélidamente dormido, ¡se ha vuelto GNOSIA!
 64e8fdf0dae88a7c55411cdc65b009aa:0:No. Yo soy {0}.\nNo, en serio. YO soy {0}.
 ca681156c3f9be8e25c15085237b2c8b:0:{1}. Si tú eres {0}, como dices, ¿qué soy yo entonces?\nJeje, lo sabes perfectamente, ¿verdad?\nYo soy JONAS. El {0} de esta nave, claro.
 0aaed94f6c2e30f19af2c9121cc6a559:0:Yo responderé por {1}.\nYo también me quedé a bordo.\n¡Que {1} y Jonas formen una ALIANZA!
@@ -917,7 +917,7 @@ ce6b28fd07f88e0ae3c7316fd456b5e2:0:Y ahora, ¡brindemos!\n¡Por los extraños en
 1f99ee102a6c29872638231673b45d13:0:No lo entiendo. ¿Por qué ibas a ganarte mi enemistad?\nEso es, como... peligrosísimo, colega.
 5cc79e6989fcd67e27438f1f2765883b:0:Que conste en acta: ¡damos comienzo a nuestra empresa anti-Gnosia!\nLas circunstancias son vagas y nuestras posibilidades son... Bueno, hagámoslo.
 9911c8934c8695538ee472c109a2edae:0:La verdad puede encontrarse dentro de una mentira.\nEso se aplica especialmente a nosotros ahora mismo.
-2f3962f2d6598c96e6c9d4fa3bd9ba42:0:Sí, {1}, desde luego, miente. ¡PERO!\n¡Esas mentiras nos conducirán a la VERDAD!\n¡La verdad de que {1} es totalmente enemig@ de la HUMANIDAD!
+2f3962f2d6598c96e6c9d4fa3bd9ba42:0:Sí, {1}, desde luego, miente. ¡PERO!\n¡Esas mentiras nos conducirán a la VERDAD!\n¡La verdad de que {1} es totalmente enemigo de la HUMANIDAD!
 826dbf7bf9798bf0fbd8efe7fe19dfe6:0:Jeje, la verdad puede ser cruel, desde luego...\n{1} ha cargado con la cruz.\nAhora nos toca a nosotros llevar a cabo el entierro.
 d87071ab4b7d0a0ec013852e9f624919:0:¡Oh, {0}!\n¡Los creyentes ya se dirigen al patíbulo!
 ea7d7367d34fda06a776549bb3112fed:0:Loo loo-loo-loo loooo, loo loo-loo-loo loooo...
@@ -933,7 +933,7 @@ b0bec7e2c9bf2441b2557d6ecdb888f3:0:Jeje... No veo la hora de que llegue el warp.
 7eb03a45e55f5cfad10ad3493c1df68d:0:(Oh, {1}. Eras tú.\n Ahora ya estás con la eternidad...)
 62299ba110d8cc822dd4fed7e147e310:0:Yo, Jonas, he sido...\nHe sido... como... escrito en poemas... y eso.
 4eef4d894cc47fa1617dd3f9222d1022:0:Y ahora, mientras la tragedia golpea esta nave...\n¡Una vez más inspiro a otra generación de poetas!
-f08bfec6f71a148c4fb5d7d03843a836:0:{0}. Debes sentirte orgullos@.\nAl fin y al cabo, fuiste tú, {0}, quien luchó junto a JONAS.
+f08bfec6f71a148c4fb5d7d03843a836:0:{0}. Debes sentirte orgulloso.\nAl fin y al cabo, fuiste tú, {0}, quien luchó junto a JONAS.
 c8c38fd81cf4247b3ff9e236e4924733:0:Que conste que los Gnosia ya no suponen amenaza.\nEl peligro ha pasado. Pero pasado del todo, vamos.
 02edcde12e7b0fbd1a7291f53e12fd0b:0:Ah...\nY así termina.\nBuen trabajo. Muy buen trabajo, {0}.
 d6589f8341d5d788ad1c4945cf7fd335:0:Siendo enemigos, escapamos juntos de las garras mortales de los Gnosia.\nEl enemigo de mi enemigo no está tan mal, al final.
@@ -953,7 +953,7 @@ b925ec9d370acb1e10fe90e5198ef300:0:Sí, los frutos de nuestro esfuerzo ya están
 f2de222543c347f2436a98bd2a817bb8:0:Sí: todo lo que conoces y ves no es más que una ilusión dentro de mis propios ojos.\nY ahora... ¡hora de despertar!
 ec5f903fae1c67200e68f3d774b21f86:0:Muy bien, entonces... Adiós.\nAdiós, mis queridas ilusiones.
 642e5ed49e46caa0ae1d2b2637e84029:0:Esto es una locura absoluta.
-95ee52075b7b78ca47b27d1c3f2f198e:0:Nosotros, los Gnosia, erradicamos a la humanidad.\nY tú, siendo human@, traicionas a esa humanidad.\nVaya, eso sí que es estar mal de la cabeza.
+95ee52075b7b78ca47b27d1c3f2f198e:0:Nosotros, los Gnosia, erradicamos a la humanidad.\nY tú, siendo humano, traicionas a esa humanidad.\nVaya, eso sí que es estar mal de la cabeza.
 89f43d84185c00b42a93f60b2d03ca5b:0:Sin embargo... Jeje, ¡gracias!\n¡Brindo por la locura de {0}!
 # Kukrushka (Kukulsika)
 0796f5a274bd2507ed300e1ff54d6583:0:Desconocido
@@ -969,17 +969,17 @@ d46bdf05ccdfb81f2624f77d57ad0015:0:Tiene muchísimo Encanto e Interpretación, a
 072b8bd291e1caf4670e73864b0274ed:0:(La expresión de Kukrushka muestra desprecio hacia {0}.)
 f80072cfbb3b663ef475e4fe49892b25:0:(Está harta de oír hablar a {0}.\nEso está clarísimo.)
 c91afcbc75651d5fdf45919527d2cf23:0:(¿De verdad se puede confiar en {0}...?\nSe nota que Kukrushka se lo está preguntando de verdad.)
-fb1043d0417b0a8879de810cfa7d4aff:0:({0} está demasiado callad@ y no inspira confianza,\ndicen sus expresiones y sus gestos.)
-a5761f05f8d6059ded933d2b476881e1:0:(Kukrushka se queda pensando un momento y señala a {0}.\nSus cálculos indican que {0} es sospechos@.)
+fb1043d0417b0a8879de810cfa7d4aff:0:({0} está demasiado callado y no inspira confianza,\ndicen sus expresiones y sus gestos.)
+a5761f05f8d6059ded933d2b476881e1:0:(Kukrushka se queda pensando un momento y señala a {0}.\nSus cálculos indican que {0} es sospechoso.)
 332bf107cb7bf5c2f3b6e0ee421d8ba3:0:({0} no inspira confianza,\nparece decir Kukrushka con los ojos.)
 0e3755708f49de4fd43bd7b6903a62fb:0:(Ya no puedo cooperar con {0},\ndice la mirada triste de Kukrushka.)
 eefdac8d23c74a0fcb8f8b59f7a0c822:0:({0} atacó a {1}? ¿Por qué?\nKukrushka mira con desprecio.)
-312d270d53af5f1e6b46ea47eb0771c0:0:(Siento que {0} podría ser sospechos@...\nEl lenguaje corporal de Kukrushka lo deja claro.)
+312d270d53af5f1e6b46ea47eb0771c0:0:(Siento que {0} podría ser sospechoso...\nEl lenguaje corporal de Kukrushka lo deja claro.)
 98a561b12f997f9d0882b0ee14ccbc8d:0:(No debería haber confiado nunca en {0},\nsuspira Kukrushka.)
 f7a04e765b48c81e26737a7863fe2836:0:(Al notar que {0} ha estado hablando demasiado, Kukrushka frunce el ceño con disgusto.)
 460c24ac53a3921548f2a2cb210a6252:0:(Ya no podemos confiar en {0}.\nNo, es demasiado peligroso...\nKukrushka se lo expresa al grupo.)
 bada7f87c0dcd5596dc542f3f411c9dd:0:({0}, deberías hablar un poco más,\nparece querer decir Kukrushka.)
-047dbd813e88c8df3f849e161329b1e2:0:(Kukrushka mira a {0} y se queda pensando.\nEstadísticamente, {0} es sospechos@.\nParece que ha dejado de confiar en esa persona.)
+047dbd813e88c8df3f849e161329b1e2:0:(Kukrushka mira a {0} y se queda pensando.\nEstadísticamente, {0} es sospechoso.\nParece que ha dejado de confiar en esa persona.)
 2ac7bad63b511af90f4af66f7e936f54:0:(Parece que al final no se puede confiar en {0},\nparece decir Kukrushka.)
 207394336214d2f9462ea7d9efb2c543:0:(Kukrushka, bajo sospecha,\npermanece quieta observando cómo se desarrolla todo...)
 b0471dd4c7e18d1f3d508e726f228f3d:0:(Al sentir que ha perdido el favor del grupo,\nKukrushka aparta la mirada...)
@@ -987,7 +987,7 @@ b0471dd4c7e18d1f3d508e726f228f3d:0:(Al sentir que ha perdido el favor del grupo,
 f74e8522f6e0d8e3f68ec245e90eb215:0:({0}, basta ya,\nparece decir Kukrushka con la mirada.)
 50f00444c9c2fc805cd5d5acb9af5e19:0:(Kukrushka mira a {0} con tristeza...)
 db454c1b3f14acd940a090b487d4318f:0:(Kukrushka mira fijamente a {0},\ncomo advirtiendo al grupo del peligro.)
-a74568d6720ab92de656496d9abfe29c:0:(Sí, {0} es sospechos@, sin duda,\nasiente Kukrushka.)
+a74568d6720ab92de656496d9abfe29c:0:(Sí, {0} es sospechoso, sin duda,\nasiente Kukrushka.)
 2126752b6fb8afb6dc151d981cd67e66:0:(Los ojos de Kukrushka están llenos de sospecha hacia {0}.)
 43a7c7d4dbdb6d43cac653887c8c51e9:0:(Kukrushka mira a {0} con dureza...)
 5912d1aedf716a377287f6bc280b95bd:0:({0}, lo siento, pero...\nParece que Kukrushka se ha rendido.)
@@ -996,7 +996,7 @@ b526e7fb46a1b49d6303c54b73f94cdc:0:(No puede ser... {0}...?\nLa sorpresa de Kukr
 9b03e247526c23590ee7a5219561779a:0:(Kukrushka parece desconcertada.\nDa la impresión de que hasta se había olvidado de {0}.)
 9ecfb07ae6febeb1c70452c596e84eaa:0:(No nos queda otra que sospechar de {0},\nacepta Kukrushka con resignación.)
 c8b0fc761c0a375fa644f6f4fad36b21:0:(Parece que Kukrushka aún no ha llegado a confiar del todo en {0}.)
-a7d25a1163e38530859ee6e28dbe76cb:0:(No pasa nada. Yo confío en ti, {0},\nsonríe Kukrushka, intentando animar a su amist@.)
+a7d25a1163e38530859ee6e28dbe76cb:0:(No pasa nada. Yo confío en ti, {0},\nsonríe Kukrushka, intentando animar a su amigo.)
 a40c552eb2fedb9fbf7684226ed9fd7f:0:(No. No escuchéis a {1}...\nLa expresión de Kukrushka se vuelve severa.)
 a0ef1660d8e94ffcf3f1948b95ed0d52:0:(Confío en ti, {0},\nexpresa Kukrushka con una sonrisa.)
 fe4c4152b71993d564602b1a247c8e61:0:(Sonriendo con fuerza,\nKukrushka deja claro que confía en {0}.)
@@ -1015,7 +1015,7 @@ ea9f315b3a5df4138e97980eceaa9511:0:(No podemos permitirnos confiar en {0} ahora 
 341f16e1809c6f6ebea0a7a2978edab4:0:(Kukrushka le lanza una mirada a {0}.\nEn sus ojos no hay ni rastro de confianza.)
 bc04fec2221d6b2245c41a02d3604996:0:(No creo que debamos hacer esto.\nEsperemos a ver qué pasa, parece decir Kukrushka.)
 ea1f604bd47621cd0c7b789ced57b6d4:0:Está clarísimo que {0} es {1}.\n¿Alguna objeción?
-6a1ae71f08ebb40b9c1e2ceac325c38c:3:{0} es human@. Creo que eso lo podemos dar por hecho.
+6a1ae71f08ebb40b9c1e2ceac325c38c:3:{0} es humano. Creo que eso lo podemos dar por hecho.
 9e460b50d16c507bbdb5803558396688:2:{0} está mintiendo.\nNo hay forma de que seas {1}.
 79f0753c58b6930ecd4e6fc831fa27ff:2:{0} es... {1}. Tiene que serlo.
 f4e465494f38e4f4a6a45cbecb976ea8:2:{0} es {1}. AC.
@@ -1101,7 +1101,7 @@ db68cf2b8660b2747fb97f2666558f28:0:(Superemos esto juntos...\nKukrushka sonríe 
 adfcde203aaeb8538859cb1fa0ac2f85:0:({1} es cruel...\nKukrushka tiembla como si quisiera advertir a todos.)
 b6f30b47b6a9ced11658b9af119a3cf1:0:({1} me ayudó, así que...\nLa cálida sonrisa de Kukrushka lo expresa con claridad.)
 3149ad3c3cd49743d30e4cf6a578fd92:0:(Kukrushka parece estar de acuerdo con {2}...\nParece confiar mucho.)
-c7db08e1c68c70941ecdcdc617824879:0:(No es {1} quien resulta peligros@...\nKukrushka parece advertir al grupo con la expresión.)
+c7db08e1c68c70941ecdcdc617824879:0:(No es {1} quien resulta peligroso...\nKukrushka parece advertir al grupo con la expresión.)
 84ec18568f328b5214d10233c438f922:0:(Kukrushka parece abatida por la tristeza...\nCasi da la impresión de que fuera a desaparecer.)
 71fe9042d3b7aece3bb9aaff1e8c82d6:0:({0}, sé que me ayudarás...\nLos ojos de Kukrushka brillan de confianza.)
 6866d3f5757c4ec04e124def3cae5269:0:(Kukrushka niega con la cabeza.\nNo parece tener ninguna intención de ayudar.)
@@ -1120,7 +1120,7 @@ b1e4aff93dc3f33d3c412e794e82eb79:0:(Kukrushka parece completamente imperturbable
 7a4297ca7748f1aa867a15b4f98cdde7:0:(Kukrushka gira la cabeza rápidamente mientras sonríe.\nNo tienes ni idea de lo que intenta decir...)
 810ba3d7974e658498577d5870b58640:1:(Hm...? ¿Quizá no se ha dado cuenta...?\nKukrushka ni siquiera te mira.)
 63f903c299060375add04fd46e011c10:0:(Kukrushka te mira en silencio.\nEn sus ojos se siente el cariño que te tiene.)
-42d32d31b175f2b8d7f3a518ae5fa662:0:(La expresión de Kukrushka se ensombrece.\nParece que no eres muy bienvenid@ aquí...)
+42d32d31b175f2b8d7f3a518ae5fa662:0:(La expresión de Kukrushka se ensombrece.\nParece que no eres muy bienvenido aquí...)
 52088dc0958edeec98f0329e98ebadd2:0:(La mirada de Kukrushka...\nEstá llena de desprecio y de una especie de tristeza.)
 aa0bc55a003fd492262ed94d1d163633:0:(Kukrushka sonríe,\ncomo invitando a todos a hablar juntos.)
 c8822b1db2ad3ab814a06930525cbf7c:0:(Escucha, {0}...\nparece decir Kukrushka.)
@@ -1135,7 +1135,7 @@ a1152357bc0760f80cb9d660cc60eb50:0:(Bailamos juntos, ¿vale?\nSeguramente acabar
 c7c8c4ba8e1a719be66af124fd251c73:0:(Qué pena...\nKukrushka niega con la cabeza, apenada.)
 69e0fefa6673481ba31f36708f1d6219:0:(Pero yo confío en ti...\nKukrushka sonríe al despedirse.)
 e68b0a1162cbf8beceb7e48fcfdc3a78:0:(Kukrushka parece...\npreocupada por algo...)
-a1e8043d88ca7670133af81cbb7a9923:0:({1} es peligros@...\nQuiero que esta noche elimines a {1}.)
+a1e8043d88ca7670133af81cbb7a9923:0:({1} es peligroso...\nQuiero que esta noche elimines a {1}.)
 1d4f80cdb32a2dfdfec951a0c70cb7c4:0:(Por favor, {0}...\nKukrushka te lo suplica.)
 1dfc94951dd856f6e18092345d0b9f69:0:(Kukrushka parece feliz de haberse quitado de en medio a {1}.\nSe siente su alegría.)
 d63e9465427b3daa9a263ebb84939d52:0:(Kukrushka te echa un vistazo.\nSonríe, aunque solo un poquito.)
@@ -1219,7 +1219,7 @@ e303e9c61da6e6c5224773fb035b5e77:0:*Chii chii!* ¡Gracias por confiar en mí!
 0bd4e14f5b98e74990019514ff347ade:0:Sí, em... yo también empiezo a pensar que hay algo raro en {0}...
 22d3c972fd47d435b0abcdd0d29c81d1:0:Yo, em... estoy un poquito preocupada...
 ac3c1e69260b046a814b9ff7d6dfcfcc:0:Ah... ¡lo he averiguado!\n¡{0} es el auténtico {1}!
-3bfb84330f3fc940206cf9f883f752b4:0:¡Lo he averiguado! {0} es human@.\nDesde luego no es Gnosia.
+3bfb84330f3fc940206cf9f883f752b4:0:¡Lo he averiguado! {0} es humano.\nDesde luego no es Gnosia.
 cbd459d374d11d3b8bfe1654801c5105:0:Em... me he dado cuenta de algo.\n{0} no es {1}…
 bb05b5ca94d3f9b29c7b6e6ae177d10d:0:{0} es {1}.\nLo he averiguado, aunque ojalá no lo hubiera hecho...
 a8844ae5a3933dc8983bea5561fe0dff:0:Ah, oye... ¡lo he averiguado!\nEntonces {0} es {1}, ¿verdad?
@@ -1261,8 +1261,8 @@ c90190dfc5b50784393384f5c96d7f24:0:*CHII!* Disculpadme...\nPero la {0} soy yo.
 abfe7165ec1752f172ffc9010bcd07ad:0:Em, espero que podáis creerme, pero...\nLa Doctora no es {1}.\nSoy yo.
 e8503c36c085b3914b8019e66ffd73f0:0:Es cierto que {1} estaba en la nave.\nYo he estado aquí todo el tiempo, así que, em...\nFui comprobando si había alguien más.
 430787e671205ed5eb868d13dda23064:0:{1}, ¿eres {0}?\nGracias por dar un paso al frente.
-5799f3d0afe07d0b3c9ba3676849da24:0:Eso, em... no tiene sentido.\nSolo debería haber un@ {0}...
-911030a653519a91cae4341109716e97:0:*Chii*... Aquí algo no va bien.\nSolo debería haber un@ {0}...
+5799f3d0afe07d0b3c9ba3676849da24:0:Eso, em... no tiene sentido.\nSolo debería haber uno {0}...
+911030a653519a91cae4341109716e97:0:*Chii*... Aquí algo no va bien.\nSolo debería haber uno {0}...
 fcaf33d3aea3c4fb67edce65937443e3:0:Bueno, yo... intenté averiguarlo, pero...\n
 33aa5134b29fc2fefb06540d7551dab8:0:Hice unas averiguaciones...\n
 25746b8d65c230df7b2ef483577a42f9:0:Eh, yo también lo comprobé... Em...\n
@@ -1271,7 +1271,7 @@ cabba099b78e37cb25d1c57c84d957e3:0:{1} estaba bien. Negativo para {0}.
 305626521dd16bd33af4c55961a7ad44:0:Yo, em, no sabía muy bien a quién revisar...
 f45cd0c3dd332db86f08ccf9a6db1285:0:Usé el equipo médico para hacer un examen, y...\n
 794f0fc20b0fab7155e12906bd27f7b1:0:{1} entró en criogenia, pero... no era {0}.
-ef774f1cad03ad16726a1872d4b6898e:0:{1}. Ningun@ era {0}...
+ef774f1cad03ad16726a1872d4b6898e:0:{1}. Ninguno era {0}...
 f972d787ea5ddfddb306e6361741f2fe:0:Mi examen dio el mismo resultado.\n
 80f4e21f35d0e8b7b07c9aa81a91407c:0:¿De verdad? Mi resultado fue distinto.\n
 951d629507b9bbb2dd47a0f8118998ab:0:El sonido de {0}...\nHa desaparecido. Ya no lo oigo...
@@ -1330,7 +1330,7 @@ cbd52bef1774e9539dc12dfccc6a7d49:0:¿Puedo hablar yo también? ¿De verdad?\nVay
 b95c621836c6ba293b8cffd7a033e24e:0:Pero {0}...\nTe agradecí que antes me escucharas.\nQuería darte las gracias por eso.
 47a146641490d740fa22925bb0df6aab:0:Ah, {0}!\nOye, yo, em... quería, em... hablar contigo...
 a4661e6bf4fd192bea4f7b786b15c000:0:Con los Gnosia por ahí...\nNo sé quién está bien y quién no...
-b340253cfa05ac305c301f7e4a58990f:0:Así que, *CHII*!\nQuiero confiar en ti, {0}.\nY espero que podamos superar esto junt@s...
+b340253cfa05ac305c301f7e4a58990f:0:Así que, *CHII*!\nQuiero confiar en ti, {0}.\nY espero que podamos superar esto juntos...
 a7af8daa56d0b5c3267997597db7f483:0:Ah...!\n¡Gracias, {0}!
 5c7f650249674708dd11b80b08c216ed:0:¿Te apetece cenar conmigo esta noche?\n¡Hoy toca festival de pescado!
 3a3acedbd2055168c3edb6cc4231e956:0:Em... lo siento...\nPor decir cosas tan raras...
@@ -1338,16 +1338,16 @@ a7af8daa56d0b5c3267997597db7f483:0:Ah...!\n¡Gracias, {0}!
 e9efe729817e4172695ec6da5a6613d5:0:¡{0}! ¡{0}!\nHe hecho unos cálculos para ver qué deberíamos hacer.
 ee230fe51eb6bb5fc42b53ed47e536ce:0:Y, bueno...\nEsta noche creo que deberíamos eliminar a {1}.
 033671e47a9bb39ec8f806fee20b38b0:0:Si hacemos eso, todos deberían estar bien.\nTodos los Gnosia son nuestros queridos amigos, así que...
-93051a0477aeb4ffcc9dc29fcf47f759:0:(*Chii!* ¡Lo hemos conseguido, {0}!\n　Ahora podremos estar un poco más tranquil@s.)
+93051a0477aeb4ffcc9dc29fcf47f759:0:(*Chii!* ¡Lo hemos conseguido, {0}!\n　Ahora podremos estar un poco más tranquilos.)
 564d9f0ed5acd33ee3c268b6a6f3fe32:0:Vaya, hemos ganado...
 d1b6febf9617c9072c58a9d2ce73fd90:0:Sabes...\n{0}, como estabas aquí conmigo, yo...\n¡Siento que me he esforzado más que nunca!
-82ccb702703a7dab78a8156f3078e5a2:0:Pero me alegro de que ganáramos.\n¡Ahora por fin podemos estar tranquil@s!
+82ccb702703a7dab78a8156f3078e5a2:0:Pero me alegro de que ganáramos.\n¡Ahora por fin podemos estar tranquilos!
 5995c23f6a01696ba6f75da4aed10b05:0:Como ya se ha dado descanso a todos los Gnosia...\n*Chii!* ¡Ahora estamos a salvo!
 c56f1d3c991eddc68f389f077c5a31a9:0:Ya no tiene que desaparecer nadie más.\nPor fin se ha acabado...
 69325fc61e99b2f9a5c1fffbd4553f55:0:Em...\nLos Gnosia de verdad han descansado ya, ¿verdad...?
-211a94845c75fd38a248baa8dee12474:0:Eso significa que tú no eres, em, \"rar@\", ¿verdad, {0}?\n¡Menos mal!
+211a94845c75fd38a248baa8dee12474:0:Eso significa que tú no eres, em, \"raro\", ¿verdad, {0}?\n¡Menos mal!
 49f16945786ec9b588c76d2d6cc02c05:0:Entonces, ¿hacemos una fiesta o algo?\n¡Haré pastel de pescado!
-dbbbd1eb6c94b6c5cee6518b7594bdf3:0:Pero, sabes...\nOjalá algún día podamos ser amig@s de los Gnosia también...
+dbbbd1eb6c94b6c5cee6518b7594bdf3:0:Pero, sabes...\nOjalá algún día podamos ser amigos de los Gnosia también...
 3d73162b8fd344a8f3d4912650db5fe8:0:Vale, entonces ya estamos igualados con los humanos, así que...\nOye, ¡todo va a salir bien!
 3f89713ee9c0216bf0e9007f97715044:0:Vaya... ¡bien!\n¡Hemos ganado!
 4afb6979e4702ed9ea38c40d19c51f79:0:Desde que me convertí en Gnosia...\nHe sentido muchísima presión por tener que seguir mintiendo...
@@ -1800,16 +1800,16 @@ ff1ea85c55e5588ff758eda049df4bb5:0:Te lo advierto, {0}.\nGuardar silencio así s
 1a029ea9a87aa7684fdc2f8b79178190:0:Si tuviera que sospechar de alguien...\nPor pura probabilidad, sería de {0}.
 d06c72f928e098fea63725673195dc9e:0:No me importa que mientas, {0}.\nPero ¿con qué objetivo mientes?
 4081cab91432e4ce3bdad62c1a0b9b4a:0:Escucha, {0}...\nYa no puedo ayudarte.\nPondría en peligro a todos.
-8af365447aebceb522e992a7818491ab:0:Esta vez han eliminado a {1}...\nY {1} estaba enfrentad@ contigo, {0}.\nEs más que suficiente para sospechar de ti.
+8af365447aebceb522e992a7818491ab:0:Esta vez han eliminado a {1}...\nY {1} estaba enfrentado contigo, {0}.\nEs más que suficiente para sospechar de ti.
 3aee071604840f6ff0ac21d326222b11:0:Aún no sabemos quién es el enemigo...\nPero he decidido no confiar en {0}.\nQuizá así consiga aclarar algo.
 e6cbcc2db16fdb34eb1198b6cffdc96e:0:{0} es... un peligro, eso está claro.\nLo mejor será asumir que es el enemigo.
 2f7b84c07ce0092edd154dc1b5312acd:0:Cuidado, {0}.\nSi llamas demasiado la atención, puede que seas el siguiente objetivo.
 f80eb835eaf516661e414e1142d2df49:0:Parece que creemos que {0} está de nuestro lado.\nO mejor dicho, ¿nos han hecho creer eso?
-a829cf5d14c1aab33421004dae0e4fa5:0:{0}, no conviene quedarse callad@ así.\nTienes que demostrar que mereces nuestra confianza.
+a829cf5d14c1aab33421004dae0e4fa5:0:{0}, no conviene quedarse callado así.\nTienes que demostrar que mereces nuestra confianza.
 5d27945b62f1075eafdab0d52a90eb70:0:Existe una probabilidad considerable de que {0} sea nuestro enemigo.\nNo podemos olvidarlo.
 63684f454c267b844d155177f06a70d2:0:{0}, pensaba que estabas de nuestro lado, pero...\nAl parecer me equivocaba...
 4081cab91432e4ce3bdad62c1a0b9b4a:1:Escucha, {0}...\nYa no puedo ayudarte.\nPondría en peligro a todos.
-d3bd79e4d20b79e4b17eb336f91bb487:0:{0} resulta sospechos@, según {1}.
+d3bd79e4d20b79e4b17eb336f91bb487:0:{0} resulta sospechoso, según {1}.
 343212e68e3f5662a916c9e6aa02e5b9:0:Así que estorbo, ¿eh?
 715cbe6cf85e4fa968dde2514ac8af4b:0:Calmémonos y hablemos las cosas...\nSi nos dejamos llevar por las emociones, el enemigo nos tendrá.
 25a5ce948396608324ea4a07060aade8:0:Si vais contra {0}, cooperaré.
@@ -1829,7 +1829,7 @@ f8559d5d9aa1cc4fcb4866475ddaa643:0:Yo cubro a {0}.\nSi vais a por {0}, yo me opo
 5ffa7652e862d45ad0c5b4bb5054cf5f:0:{1}, ¿qué pretendes? ¿Intentas dividirnos?\nNo puedo permitirlo.
 3a215fbda6d44db4cb3129f18ab873fe:0:No, ahora no podemos eliminar a {0}.\nVeamos primero cómo se desarrolla la situación.
 c0b435537851f30c79daea16182f3566:0:No quiero que {0} desaparezca todavía...
-a90ba4f6f1de0231ce108d35aa26e7ab:0:Estoy dividid@...\nSiento que {0} podría estar de nuestro lado.
+a90ba4f6f1de0231ce108d35aa26e7ab:0:Estoy dividido...\nSiento que {0} podría estar de nuestro lado.
 ef6464f4cb5220f8b81fe789d956a2bf:0:Yo cubro a {0}.\nAunque... No. Simplemente porque quiero.
 cdc6a377b34676c7c87c2268ee942945:0:Sí, quiero confiar en {0}.\n¿Por qué? Por probabilidad y... supongo que por intuición.
 3dcbb150b19cd27e0300e41764be644f:0:{0} está de nuestro lado.\nAunque nadie más lo vea, yo lo creo.
@@ -1844,7 +1844,7 @@ e0d9ed74ebba8801dedfc5ae6c703d44:0:Entiendo que quieras creer, pero piénsalo co
 3649a989a6fdf0e6bb381481183caf1d:0:Estoy de acuerdo. No pinta bien. Me temo que...\nAhora no es momento de confiar en {0}.
 82335b25cd237c3ff55337743b250571:0:Lo siento, {0}.\nEs que... no puedo confiar en ti.
 b7a8c17d756344ae20ce2095a6752f77:0:Gracias por la información.\nAhora está claro que {0} es {1}.
-6f91464bca4b9e33d1f34ef1c8b9bff9:0:Con la información que tenemos, está claro que {0} es human@.\nNo representa ninguna amenaza.
+6f91464bca4b9e33d1f34ef1c8b9bff9:0:Con la información que tenemos, está claro que {0} es humano.\nNo representa ninguna amenaza.
 d9044edab594b7d2fb5b917a86981df2:0:Ya lo tenemos claro.\n{0} no es {1}, sin duda.
 05e3d1e63008d458e80828e9711a43d2:0:Ya es tarde. La verdad ha salido a la luz.\n{0} es... {1}!
 6471b9792e9ff71e662679c9710bcf71:0:{0} es {1}. Eso es un hecho.\nPor desgraciado que resulte...
@@ -1880,7 +1880,7 @@ c620a8dd78e7a525f8bd8245c280180d:0:Compartiré toda la información que reúna c
 426ef7095c85cf66bf50c06bfcf35597:0:Como {0}...\nEs difícil saber quién se ha convertido en Gnosia.\nPero sí puedo detectarlo examinando a alguien en criogenia.
 abf928f5ce085caa37ef79e34ae1279b:0:Soy {0} y puedo protegernos de cualquier ataque del enemigo.\nAun así, decidir a quién proteger...\nAhí está la dificultad.
 a27a8c9333a7d7feb3d1125b360bec13:0:El primer ataque ocurrió en el último puerto, fuera de la nave.\nSegún el registro, eso es un hecho...\nY como yo permanecí a bordo, también es un hecho que no soy Gnosia.
-13758211d19aa19c2f2bd6ddf10508e0:0:No puedo quedarme callad@...\n{1} es Gnosia, según los resultados de mi investigación como {0}.
+13758211d19aa19c2f2bd6ddf10508e0:0:No puedo quedarme callado...\n{1} es Gnosia, según los resultados de mi investigación como {0}.
 42ce21caf4c119818a891d8de57744fc:0:Tengo dos cosas que compartir. Una es que soy {0}...\nLa otra es que, según mi examen, {1} era Gnosia.
 8c11119ef545d2e2d4468ef92dec6602:0:Qué rápido.\n{1} es un enemigo.\nAl menos para mí, que soy la única {0} de aquí.
 aaa4bbd283e53841b9454a29eeaf9f1d:0:Objeción. La {0} soy yo, no {1}.\nEl enemigo intenta confundirnos con mentiras.\nNo pienso permitirlo.
@@ -1982,7 +1982,7 @@ e37846d3867f1c51643e5e330ab3017c:0:Sinceramente...\nMe da más tranquilidad sabe
 7414aaf4d50e952a612f68002b37a35d:0:Y no lo digo con sarcasmo, ¿vale?\nNo lo malinterpretes.
 09a4b8e8bb48da4605cc8291f973b93e:0:Otra victoria para nosotros, los Gnosia...\nJeje, no es muy común que yo le gane a {0} de esta manera.
 8b46a91f25f837c682068bcf0a1d8920:0:Hay información que solo los Gnosia pueden descubrir, o que solo sale a la luz al ganar.\nPor eso intento ganar tantas veces como puedo.
-95bce72d364c778c4dfddd37ca29ea41:0:Pero sí... Quiero saltar de loop cuanto antes.\nMientras siga infectad@, no puedo librarme de esto.
+95bce72d364c778c4dfddd37ca29ea41:0:Pero sí... Quiero saltar de loop cuanto antes.\nMientras siga infectado, no puedo librarme de esto.
 733bc69a643fb4c76bc9101ccfaf41e5:0:Me refiero a este impulso de eliminar a los humanos.
 bbb7a474bc47fedd96cf2216ac93e862:0:Si seguimos repitiendo loops así...\nMe pregunto si el universo podrá seguir aguantando.
 6cc40b1305c25833a9310e05aac279c6:0:Yo... de verdad espero que sí.\nPorque yo...
@@ -2000,15 +2000,15 @@ f71897ddad935e522dc393b7353e2831:0:Hará lo que sea con tal de sobrevivir.
 0dc198af836e7860653588f5097ae7a2:1:Medidas: 6
 8ee166d3f023a04ea91cbd0414053153:0:Soy {0}. Apellido Sha, nombre Ming. ¿Vale?\nComo te equivoques, te llamaré \"carne\".
 814623a117185cf34c37ef4f42cc9133:0:Mucho Sigilo y poca Intuición y Lógica.\nEstá centrado en sobrevivir,\ny se le da sorprendentemente bien salir con vida.
-23b5cb0dbd4bfd8e24f7bf6fb14c2d5f:0:Eh, ¿qué coño hace {0} todavía aquí?\nDaos prisa y metedl@ a dormir.
+23b5cb0dbd4bfd8e24f7bf6fb14c2d5f:0:Eh, ¿qué coño hace {0} todavía aquí?\nDaos prisa y metedlo a dormir.
 b8aa6270b1569e393793c32a6e3d32b6:0:¡Eh, a {0} se le están secando los labios!\nHablas demasiado.
 99cb174467bbb689c8d59218691997fd:0:Mírale bien la cara a {0}.\nVamos, mírala. Esa cara grita fraude a pleno pulmón.
 445cc8645bcb970ba484ad6d99ba4cd1:0:Quien se queda callado da un mal rollo de la hostia.\nComo {0}, por ejemplo.
-6facf2e8fecd8787f06da66411293bc6:0:Va de probabilidades. Eso lo pillas, ¿no?\n{0} es sospechos@.
+6facf2e8fecd8787f06da66411293bc6:0:Va de probabilidades. Eso lo pillas, ¿no?\n{0} es sospechoso.
 3e32e217b07dc43131c2e8eddf1f3ce3:0:{0}, ¿ya te has enterado?\nDesde donde estoy yo, das una mala espina de la hostia.
 2592f759f779dcf3a2a5536c5eb71ead:0:{0}, mira... ¿vas a mover un dedo para echarme una mano o no?\n¿Sabes qué? Nah. A la mierda. Se acabó.\nAhora que lo pienso, das muy mala espina.
 8ba2227a1244b961385e4c12e48fd361:0:{0} apesta. Me huele a culpabilidad.\nApostaría a que fuiste tú quien hizo desaparecer a {1}, ¿a que sí?
-5442e887959f258a792842c4eadadb1e:0:{0} me parece sospechos@ de narices.
+5442e887959f258a792842c4eadadb1e:0:{0} me parece sospechoso de narices.
 c8b69f9096f1287eaf7f603836aba6b7:0:Sabes, yo confío en {0}...\nEn el sentido de que confío en que es el enemigo.
 02fef3b950327e80c103502bc27f6005:0:Eh, {0}, estás hablando demasiado.\nTe estás cavando tu propia tumba, colega.
 861b4d2ba41aebbeb562cc6269348e69:0:Aquí huele mal. Huele a {0}.\nNo me fío de la gente que necesita caerle bien a todo el mundo.
@@ -2050,7 +2050,7 @@ cc3763454651381d31346453d836f9c9:0:¿Confiar en {0}...? Paso.\nTodavía no me ap
 9cce2a059d2351b849b48338756285b8:0:Yo también llevaba un tiempo dudando de {0}.
 7a97fc8aa6ddd1ceea3803cc3dbfc724:0:Antes sí confiaba en {0}, la verdad.\n¿Pero ahora? Ni de coña.
 a5b53d156da370d7134e201cd697fda5:3:Está clarísimo que {0} es {1}.\n¿Alguna objeción?
-6a1ae71f08ebb40b9c1e2ceac325c38c:4:{0} es human@. Creo que todos podemos aceptar eso.
+6a1ae71f08ebb40b9c1e2ceac325c38c:4:{0} es humano. Creo que todos podemos aceptar eso.
 9e460b50d16c507bbdb5803558396688:3:{0} está mintiendo.\nNi de coña eres {1}.
 79f0753c58b6930ecd4e6fc831fa27ff:3:{0} es... {1}. Fijo.
 f4e465494f38e4f4a6a45cbecb976ea8:3:{0} es {1}. AC.
@@ -2069,8 +2069,8 @@ e938b8bf3c57876bf4db45e10e134ce5:0:¿Empate?! Pues sí que es sorpresa.\nEntonce
 95f867575d7599e0a60ffd1b19307b3b:0:Así que me voy a criogenia, ¿eh...?\nSin mí esto va a quedar muy soso, ya sabes.
 a0eef83df296ec864fe228cc818425b2:0:¿Y qué? ¿Entonces me toca criogenia, no?\n¿Sin torturas, sin castigo?\nBah, podría ser peor, supongo...
 5c8625616f595155602f397808a21ecc:0:¡Eh, eh, EEEH! ¡{0}!\n¿Ahora vienes a por MÍ?!\nEso está muy feo, tío...
-efda639282860ab057d0ceb10ff1edeb:0:Bueno, desde el momento en que me convertí en {0}...\nVosotr@s ya habíais perdido...
-ee0b9af31898908924b3cfadcb0ef22e:0:¡Ajá! ¡Tod@s l@s {0}, fuera!\n¡Muy grande, yo!
+efda639282860ab057d0ceb10ff1edeb:0:Bueno, desde el momento en que me convertí en {0}...\nVosotros ya habíais perdido...
+ee0b9af31898908924b3cfadcb0ef22e:0:¡Ajá! ¡Todos los {0}, fuera!\n¡Muy grande, yo!
 373b81f269c8281df826441e86fa720e:0:¡Joder! ¿OTRO empate?!\n¡No quiero volver a votar OTRA VEZ!
 64f5bea3a7ff1684314186d7531b15cb:0:Esto está empatadísimo.\n¿Qué tal si los congelamos a todos?
 81d4ec04c64e7a74c2dd9f792c3267b9:0:Si no podemos decidir, dejémoslo.\nSin criogenia hoy. ¿Qué os parece?
@@ -2093,13 +2093,13 @@ dc697e2e8ca910a019cb08e5f894ed50:0:¡Sí! ¡Allá vamos!\nMis sensores de {0} se
 ad1ee304760d4e7cf46e5f8a14947c8c:0:Puedo dar fe: {1} también estuvo todo el tiempo a bordo.\nCero posibilidades de infección Gnosia.
 6916cd4fea547d0ede4c777fb1221fe3:0:Entonces {1} es el {0}, ¿eh? ¡Vale!\n¡Encuéntranos a ese Gnosia!
 1f58c7705a91f5ab1032f4d677a75ae8:0:{1}. Se supone que tú eres el {0}, ¿no?\nPues vas a tener que esforzarte muchísimo para convencerme.
-7e184267cb3fe61907e321aaba5c8543:0:¡Ajá! ¡Parece que todo el mundo quiere ser {0}!\n{1}.\n¿Preparad@s para pasar por la parrilla, eh?
+7e184267cb3fe61907e321aaba5c8543:0:¡Ajá! ¡Parece que todo el mundo quiere ser {0}!\n{1}.\n¿Preparados para pasar por la parrilla, eh?
 192ce9a0cf40132085fe02afba7d4669:0:Eh, no te me vayas ahora...\n
 9c908adfc74b453a98b4816bec48338d:0:He investigado un poco.\n
 28a51dad1f0d94b9d9ec5bd053e36eb4:0:He revisado a otra persona.\n
 fdcc6f78434e18ebda75e28367720763:0:{1} es {0}, no me cabe duda.\nMis sensores son finísimos.
 9e47f2ffca3fdc1e0fe52dcda5a31c6c:0:{1} no lo era. No, nada de {0}.
-04c6fbb3794cb3cb65bbf07c19325d8e:0:Yo, eh... no hice nada.\nNo había nadie que mereciera ser revisad@.
+04c6fbb3794cb3cb65bbf07c19325d8e:0:Yo, eh... no hice nada.\nNo había nadie que mereciera ser revisado.
 d2ca7fbf9b5a62af7a118061c6efcad5:0:¡Llega el informe del doctor Sha-Ming!\n
 cb0959175381f87186f862bd80a0eb03:0:{1} es {0}... ¡Oh, sí!
 189648dbe861f79460170626e43f8aec:0:{1} no es {0}... ¡Ups!
@@ -2123,7 +2123,7 @@ d711acb1c50df58943b3c8ad800e5622:0:¿Habéis oído hablar de la viruela de cara?
 4d6d64250a57470aa1cbc85800d8bf9e:0:¿Intentas que baje la guardia con esta mierda?!\nJa, a mí esas cosas no me funcionan.
 5535a9cd32b442cb53a8aed61fab83b3:0:¡Eh, ojo! ¡Genocidio! Qué bonito.\nAsí somos los humanos, hombre.
 10d99b27e5557920ad4921302f36e384:0:{1}... ¿En serio?\n¿De verdad quieres quemar todo el pueblo para pillar a un chalado?
-25b7914af5f1e55bef784424538105bc:0:¡Ajá! ¡Buena esa, {2}!\n¿Cargarnos a TOD@S? ¿Pero tú eres gilipollas o qué?!
+25b7914af5f1e55bef784424538105bc:0:¡Ajá! ¡Buena esa, {2}!\n¿Cargarnos a TODOS? ¿Pero tú eres gilipollas o qué?!
 694e77818347938940a25833616276a0:0:¿Eh? Qué raro, {1}...\n¿{0} es Gnosia? ¿Lo ha dicho el Ingeniero?\n¡Ja! Pues yo diría que no.
 78411ba37c58dd30b5dc5aaf1b57ce1b:0:¿Preparando el terreno antes de la votación, eh?\n¡Buen intento, {1}! Qué guarro.\nPero te seguiré el juego, no me apetece recibirlo yo.
 83dcbaa955bd88a066605e45cb091b17:0:¿En serio?! Yo... supongo que sí...
@@ -2150,7 +2150,7 @@ ac2b7ba0430bce3cb3c72a24ff5f70d0:0:¡Ajá! ¡Pintas bastante mal, {1}!\n¿Te pre
 d7870b911c889b5b3cbd1f0eac1c7f99:0:Ya te han pillado, colega.\nNo creas que no.
 b9e7f67f4bb995868ac205e59fce2885:0:Eh, {0}. Se supone que somos enemigos, ¿no?\nMantén las distancias. No vengas a ponerme nervioso con eso.
 dab391658682c9f2398f7f321226f185:0:Bueno, todo el mundo sabe que soy humano, así que...\nEspero que entonces los Gnosia vayan a por ti...
-c81b0ca43b3ad6b20594a28cdfef567f:0:No bajes la guardia solo porque hayan demostrado que eres human@.\nEso solo te convierte en un blanco más fácil, ya sabes.
+c81b0ca43b3ad6b20594a28cdfef567f:0:No bajes la guardia solo porque hayan demostrado que eres humano.\nEso solo te convierte en un blanco más fácil, ya sabes.
 858aa079907f50b7a88cbe27c57ee13b:0:Confía en mí. En serio.\nQue sepas que yo confío totalmente en ti.
 a7b70ba9b236cd3b9ccd94de1574e169:0:Escucha, {0}... Si confío en ti, me preocupa acabar con una puñalada en la espalda.\n¿Y tú? Me entiendes, ¿no?
 4414cb98d0b52f71870ee37a69787966:0:¿Qué pasa, {0}? ¿Te han atacado o algo?\nMás te vale ir con ojo, porque igual pasa.
@@ -2166,8 +2166,8 @@ ffb15554edd8392939705b1a45250df5:0:¡ASESINOS!\nAh... eras tú. {0}, no vengas a
 5d35029eda0c5a656f4dadd529a646d0:0:Eh, {0}.\n¿Sabes de qué color es una mentira?
 b559c9247c0489025e663069ae949a25:0:Blanco. Blanco puro.\nQuienes parecen más limpios son quienes suelen ocultar algo.
 3053175a76af024d18ad3accf2fd764a:0:Sí, lo he notado.\nDurante la discusión, a {1} le brillaron los dientes en blanco.\nEsos son dientes de mentiroso, sin ninguna duda.
-1a2be28b6839bd4fbed12579fa0f7d63:0:Eh, ¿por qué no nos cargamos a {1}?\nAntes de tener que tragarnos más mentiras, mandémosl@ a dormir.
-357259c7bba8fcacc7de0c94a457da13:0:Vale, un@ menos.\n¡Jaja! ¡Buena esa, {0}!
+1a2be28b6839bd4fbed12579fa0f7d63:0:Eh, ¿por qué no nos cargamos a {1}?\nAntes de tener que tragarnos más mentiras, mandémoslo a dormir.
+357259c7bba8fcacc7de0c94a457da13:0:Vale, uno menos.\n¡Jaja! ¡Buena esa, {0}!
 9918b8616011426ab70851eb713715c4:0:Me alegro de haberme abierto contigo.\nSigamos así, ¿vale?
 196424f896d4b29d3dc7549c5f466733:0:¡Sha-Ming presenta!\n¡La Copa Gnosia! ¿Quién tendrá ese honor?\n¡Seguid atentos para descubrirlo!
 154c631e48e7292cb828363059e66817:0:Hm...\nVale, o sea...
@@ -2196,7 +2196,7 @@ c725a61a1bf4f210c257084327f378fc:0:¿Qué pasa, {0}?\n¿Te has quedado de bajón
 d37a1aae6aaef519e6b4638a161f4531:0:Venga, no te pongas difícil, colega.\nYo tampoco quiero tener que ponerme bruto.\n¿Vale? Te lo pido.
 40ef97434f923d55145f933a7477615b:0:Ja, venga ya. Menuda sarta de chorradas.\n¿A que sí, {0}?
 f31348bc4f328836f76db8ff4ef1f98a:0:Sí, soy Bug. ¿Y qué?\nQue el universo se vaya al carajo porque sigo aquí y todo eso...\nComo si me importara.
-d908a78507532f5eead04f09f027d01d:0:A que algun@s no os lo creéis, ¿eh?\n¿Os pensáis que voy de broma? Esperad un segundo y lo veréis...
+d908a78507532f5eead04f09f027d01d:0:A que algunos no os lo creéis, ¿eh?\n¿Os pensáis que voy de broma? Esperad un segundo y lo veréis...
 53f50cc344c71712ae786decf8ef93f4:0:¿Ah, sí? ¿Así que eras Seguidor AC?\nJoder. Sí que se te da bien mentir.
 900c8e5a0ec32618aa79e5d54884f546:0:Quiero decir, yo también soy Gnosia, así que...\nSupongo que tampoco se me da tan mal lo de mentir.
 9c28089a64b4ef15f9a66e0d75bf311f:0:En fin, los dos hemos sobrevivido.\nQué alegría, ¿eh? ¿EH?
@@ -2220,10 +2220,10 @@ d9042369ae1825a68128e0ea8bb4fb59:0:No quería tener que decirlo, pero {0} está 
 ad185cd791181386197208b92b1c5c79:0:{0}... Me la has colado, ¿verdad?\nNo puedo dejarlo pasar... y yo que estaba contentísimo de ir contigo...
 17c6a4e77e195254818858406dfc74cc:0:Voy a vengarte, {1}...\n¡¡{0}!! ¡A mí me pareces culpable pero bien, vamos!
 59329bdd6a94998b392328fc29e3a581:0:A lo mejor no es \"Gnosia\" como tal...\nPero {0} tiene un aire alienígena, ¿no crees?
-766b25da969ccb5f058d4bba81eccfd7:0:Yo creo que {0} es human@.\nPero, ya sabes, de l@s mal@s...
+766b25da969ccb5f058d4bba81eccfd7:0:Yo creo que {0} es humano.\nPero, ya sabes, de los malos...
 16e666001a209a767be9c06d557be069:0:Oye, {0} está hablando raro de más... o raro a voces, yo qué sé.
 d1e49375b08d5e424d18bc715ca611d4:0:Quiero pensar que {0} es de fiar.\nPero mi sexto sentido me está gritando \"No es {0}\".
-7df03b8bd9d33d280ede4ecbd6b36354:0:{0}, estás muy callad@, colega!\nIgual tendrías que hablar un poco más.
+7df03b8bd9d33d280ede4ecbd6b36354:0:{0}, estás muy callado, colega!\nIgual tendrías que hablar un poco más.
 168f4cd4492e2826e541cd81d2c09310:0:A ver, yo quiero confiar en {0}.\nPero pensando en todo lo que está pasando, cada vez me cuesta más...
 3d3fb070b60e9ba39616109ea1241793:0:Hmm... Entonces {0} huele raro, ¿no?\nEmpiezo a tener esa sensación...
 542fb1249294f49b04371fbfb0a52e48:0:¿Entonces sospechas... de mí?! P-pero qué demonios?!
@@ -2250,9 +2250,9 @@ c985e5cea036e9f3eaca21a7b1f66080:0:Me da igual lo que digan, ¡yo confío en {0}
 30dab5a0c449acc6039f03d6d1e4abb3:0:Le he dado vueltas...\nYo creo que {0} está bien.
 19b1775b8df6446e357150dcf64ee4dc:0:Oye, yo creo que {0} está de lujo, la verdad.
 f85d137f4e3550968de4201ce45e8356:0:{0}. Te creo, colega.\nLos humanos tenemos que ser sinceros con lo que sentimos, ¿no?
-b9de1555bf71581ff76624b39848194d:0:Oye, yo la verdad pensaba que eras sospechos@, {0}.\nLo siento! Lo he pensado bien y me equivoqué.
+b9de1555bf71581ff76624b39848194d:0:Oye, yo la verdad pensaba que eras sospechoso, {0}.\nLo siento! Lo he pensado bien y me equivoqué.
 938e914b0edad0703a2f00ce8f1705ef:0:Al final {0} sí que parece buena gente.\nCuanto más lo pienso, más claro lo veo.
-79aad20e746b72baca8f4a291e6acb8c:0:¿Ves? {0} es de l@s nuestr@s.
+79aad20e746b72baca8f4a291e6acb8c:0:¿Ves? {0} es de los nuestros.
 ef2c36295056e99f68ced263ab960107:0:Sí, yo también voy a confiar en {0}.
 6e9667bfe429ca2e3f7f2cfd45d31779:0:¿Qué? ¿Yo?! P-pero...\nOye, pues la verdad es que me hace mucha ilusión.
 e8b471c60047184066cd30b511900c7b:0:¡Eh, un momento! ¿En serio?!\nYo es que no siento que pueda confiar en {0}...
@@ -2260,7 +2260,7 @@ e8b471c60047184066cd30b511900c7b:0:¡Eh, un momento! ¿En serio?!\nYo es que no 
 1bf69e0b2af234fe2e8d6c8dfede69ba:0:¿Confiar en {0}, eh...? Puees sí... mmm...\nLo siento, pero no puedo.
 1bc4b024a353a9a06d5b78811f75fa69:0:Por mí, ni de coña, colega.\nLo siento, pero no puedo apoyar eso.
 a5b53d156da370d7134e201cd697fda5:4:Está clarísimo que {0} es {1}.\n¿Alguien tiene alguna pega?
-6a1ae71f08ebb40b9c1e2ceac325c38c:5:{0} es human@. Creo que eso lo tenemos claro.
+6a1ae71f08ebb40b9c1e2ceac325c38c:5:{0} es humano. Creo que eso lo tenemos claro.
 9e460b50d16c507bbdb5803558396688:4:{0} está mintiendo.\nNo hay forma de que seas {1}.
 79f0753c58b6930ecd4e6fc831fa27ff:4:{0} es... {1}. Tiene que serlo.
 f4e465494f38e4f4a6a45cbecb976ea8:4:{0} es {1}. AC.
@@ -2302,8 +2302,8 @@ a374c1cebe35c45694f3c0570f973247:0:¡Eh, un momento! ¡El {0} soy YO!\n{1}, deja
 71f57b65f30f61c241cb0d05c5ac868d:0:¡Espera un segundo! ¡El {0} soy YO!\n¿Qué tonterías estás diciendo, {1}?
 eb2feb4f7647bec55fde4d5e1824f003:0:Puedo confirmar que {1} se quedó en la nave!\nYo también estuve aquí todo el tiempo.
 96ab01c039798e52b833a682e02d4a6d:0:Ah, así que {1} es {0}, ¿eh?\n¡Pues encuentra a ese Gnosia por nosotros! ¡Contamos contigo!
-92f72870e3144850cd4a944f0de039df:0:Espera, no puede ser que {1} seáis l@s dos {0}...\n¡Eh, uno de vosotr@s está mintiendo!
-4b9fb574209e972cdb0e88e558b2bd1b:0:¡Hay demasiad@s {0}!\nMás os vale aclararos!
+92f72870e3144850cd4a944f0de039df:0:Espera, no puede ser que {1} seáis los dos {0}...\n¡Eh, uno de vosotros está mintiendo!
+4b9fb574209e972cdb0e88e558b2bd1b:0:¡Hay demasiados {0}!\nMás os vale aclararos!
 b079e64c5731ccae7f510e6d7e8b7eed:0:¿Que me maten mientras estoy intentando investigarte?! Venga ya, colega!\n
 bf3c5c8c2c308a83a64d436270f3301b:0:Eh, me toca informar.\n
 f0384b54b94255d693de67726078a8bb:0:He revisado a otra persona.\n
@@ -2314,7 +2314,7 @@ ea0ffff1b4446488ec3ffbd536b6c700:0:Eh, ahí va mi informe. Ayer revisé a quien 
 e304a16f8cc305349a32a3a75992ddad:0:{1}, ¿no? Sí, {1} {3} {0}.\n¡Estamos un paso más cerca de la victoria!
 2161bd9f8b41d864fc1f18f3f582d407:0:Resulta que {1} {5} {0}.\nLo siento, {1}...
 4aa419d17ef3e2d17ce4dac0035492ec:0:Hay un {0} entre {1}...\n¡{2} {4} {0}!
-cfa98c8423c4cd37112ecbf6b66e18d2:0:{1}. Ningun@ era {0}...
+cfa98c8423c4cd37112ecbf6b66e18d2:0:{1}. Ninguno era {0}...
 5da3e6431725c0f244959389f3e50661:0:Sí, a mí me salió lo mismo.\n
 a41dbad21abe61122e3eacb7256eaeee:0:¡Eh! ¡Nos la estás intentando colar!\n
 8b2278bfc7cd42857db8ec2e7ace793f:0:{0}... Vengaré tu muerte, colega!
@@ -2333,7 +2333,7 @@ a66432a25c367b3fa8c6a4d338219839:0:¡Comida, eh? A mí me flipa la buena comida!
 15d3543f5cc0b2e68f1ba04a30858cdb:0:Sabes, últimamente tengo estos accidentes...\nCreo que ya he terminado, pero no! ¡Sigue saliendo!
 065e092ba63ba758c5b3b23a11ad9026:0:¡Eh!\n¡No es momento para estas cosas!
 d78fdb2a97192343f177e03e2c1eea91:0:Así pillaremos al falso {0}...\n¡Vale, bien! ¡Pues les votaré!
-6174401589c2773b13e7ea9ded3667c0:0:Espera, ¿tod@s a criogenia?\nEso está fatal, colega... No puedo apoyarlo.
+6174401589c2773b13e7ea9ded3667c0:0:Espera, ¿todos a criogenia?\nEso está fatal, colega... No puedo apoyarlo.
 a5138e5450145f451b08d0b20d627eb6:0:Sí...\nNo creo que debamos llegar tan lejos.
 87faff27a22e2e2f14deb5221ec51e17:0:¡Eh, espera un segundo!\nNadie ha dicho que {0} sea Gnosia, ¿verdad?!\n¡Eso pensaba! ¡Vamos, {1}, espabila!
 bff4c6496d3739c1a44b1c3f44e6dd02:0:Sí... creo que quizá no nos quede otra...\nLo siento, {0}! ¡Suerte, colega!
@@ -2397,7 +2397,7 @@ dc79d9eb82dd19dc127ba94864eeb86b:0:Uf, eso se puso feo por un momento.\nVale, yo
 15e04e79de348dc0cc6cdfa9ac2d0de6:0:Bueno, eh, vaya...\nParece que esta vez la he liado parda.
 ab3ee383264316fc70910510785a066b:0:¡Lo siento, universo! ¡Te toca desaparecer!
 7ae7cf98dd2178ebb46c4c77ce331049:0:¿Así que estabas del lado de nosotros, los Gnosia, todo este tiempo?\nNo tenía ni idea...
-7f5762ff8e6b9ebfb24da17574baf585:0:¿Por qué nos ayudas si eres human@?\nAh, supongo que, eh... Igual tienes tus movidas o algo, ¿no...?\nBah, da igual. Creo que no quiero oírlo.
+7f5762ff8e6b9ebfb24da17574baf585:0:¿Por qué nos ayudas si eres humano?\nAh, supongo que, eh... Igual tienes tus movidas o algo, ¿no...?\nBah, da igual. Creo que no quiero oírlo.
 3a6e9cdb24fa64335ce76036156f72b6:0:Bueno, en fin, como hemos ganado...\nGracias, colega!
 # SQ
 6410bc2c3e837b3b76cd7c679e93cff5:0:Cinturón\nLi Liu
@@ -2412,7 +2412,7 @@ c6b7c98fa022ea5f5088f049fbce7e65:0:¿Podría ser la hija de Remnan?
 1ca435cdfac6804f38031b44566f1c1b:0:Sus habilidades de Encanto e Interpretación son de primer nivel.\nEs cauta y egoísta, habla poco,\nasí que cuesta pillar sus mentiras.
 b078600b43cac46f3c0a93d43d0a185b:0:Lo siento, pero {0} me da súper mal rollo.\nEn plan, se me pone la piel de gallina.
 a61c42e1c3e7e8f4a4fefc747f3c6619:0:{0}, ¿por qué vas tan a la defensiva?\nSí... eso da súper mala espina.
-a2cb408fc5041e1fcb201414dce4abc2:0:Vale, os fiáis demasiado de {0}.\n{0} podría ser mal@, perfectamente.
+a2cb408fc5041e1fcb201414dce4abc2:0:Vale, os fiáis demasiado de {0}.\n{0} podría ser del bando enemigo, perfectamente.
 5648ffdd86b43cfb7bf6bf09933fc34b:0:Perdona, pero {0} está calladísimo y eso da súper mala espina.
 a58c2c9e0a3a959b23ee8c6fab8ac0dd:0:Vale, o sea, por probabilidad...\nEh... {0} da muchísima mala espina, ¿no?
 62518705b17cc6723adec702f0c165d3:0:Eh, sí, {0} ahora mismo da muchísima mala espina.
@@ -2438,7 +2438,7 @@ cd3c0c57daf74ba2ad4421f27fca1975:0:¿Verdad? {0} da muchísima mala espina.
 c0059a729fddfede3419b1f5c67badb6:0:Uy, parece que todo el mundo está en plan \"{0}? No, gracias\".
 469581e8d6568275f734c0aa9c564ac4:0:Vale, entonces {0} también os da mala espina, ¿no?
 132ab4a28c4a26f1886bf03c0ed25815:0:Uf, {0}, ¿suspendiste Sigilo en el instituto?\nPorque yo te ponía un cero.
-dbcb62d9b9775295428dc0bf6518aad8:0:¿{0}? Sííí, sospechos@ total, ¿no?\nVamos, hasta {1} lo dice.
+dbcb62d9b9775295428dc0bf6518aad8:0:¿{0}? Sííí, sospechoso total, ¿no?\nVamos, hasta {1} lo dice.
 6edccdde528142f03eb8bcd5e0634cdf:0:¿En serio? ¿Pero {0} da mala espina de verdad? Bueno... sí, bastante.
 551d260e35e62a092b014f1c05def55c:0:¿De verdad? ¿Entonces {0} en realidad no da mala espina?
 19df728b39f8381946fe3f179f550b93:0:Sííí, te estás pasando un poco, {1}.\nLe estás entrando demasiado fuerte a {0}, ¿vale?
@@ -2446,7 +2446,7 @@ dbcb62d9b9775295428dc0bf6518aad8:0:¿{0}? Sííí, sospechos@ total, ¿no?\nVamo
 e051b5397c22223a67ff6e4f016bf1c3:0:Lo sé, ¿verdad? No puedes ir por ahí desconfiando así sin más.
 562a44d63d17f5e8f8901ed5fb6ec9c3:0:Y además, {1} da muchísima más mala espina que {0}.
 948d5fe308e0db19e0c4d7165b7e8f81:0:Yo estoy a tope con {0}, literal.\nAsí que aflojad un poco con {0}, ¿vale?
-da0f49e70b123ff2607335452c4c02ab:0:En realidad {0} no parece tan sospechos@.\nQuiero decir... creo.
+da0f49e70b123ff2607335452c4c02ab:0:En realidad {0} no parece tan sospechoso.\nQuiero decir... creo.
 03bf48f383ff51182c1967fcb5f40055:0:Vale, entonces voy a confiar en {0}, ¿sí?
 c85ce644942c76c723f7420cbb3e0960:0:En realidad yo estoy del lado de {0}.\nAsí que... sí, Equipo {0} a muerte.
 61147f8a8521d582564bd1bd270c9fa3:0:Vale, pero {0} sí que parece estar bien, ¿no?\nProbablemente.
@@ -2456,10 +2456,10 @@ a8f0af69e920dfbb53aae745ed8107b5:0:Sííí, no sé...\nCreo que voy a confiar en
 dcbb65b213f42f79936f0297526ab5a8:0:Aaaaw...\n¡Chiiicos! ¡Graciiias!
 7b9580875b50cf66d8b6311df51ee514:0:Sííí, mejor no...\nQuiero decir, {0} es como... ya sabes...
 0b9b6afaee57a37cc5995d02f2238484:0:¡Hoooola! ¡Yo no te creo nada, {0}!
-129f552c5129ddae4136032d96751fd0:0:Ah, sí, {0}? Súper sospechos@.
+129f552c5129ddae4136032d96751fd0:0:Ah, sí, {0}? Súper sospechoso.
 b5920fb3009969da51ea94c90df34d9f:0:¿Pero por qué llegué yo a confiar en {0}?
 a5b53d156da370d7134e201cd697fda5:5:Está clarísimo que {0} es {1}, ¿no?
-6a1ae71f08ebb40b9c1e2ceac325c38c:6:{0} es human@. Totalmente.
+6a1ae71f08ebb40b9c1e2ceac325c38c:6:{0} es humano. Totalmente.
 9e460b50d16c507bbdb5803558396688:5:{0} está mintiendo muchísimo.\nNo hay forma de que seas {1}.
 79f0753c58b6930ecd4e6fc831fa27ff:5:{0} es... {1}. Pero totalmente, chicos.
 f4e465494f38e4f4a6a45cbecb976ea8:5:{0} es {1}. AC.
@@ -2549,7 +2549,7 @@ e37f86b96802254c3936c1f2641e5001:0:O sea, ¿quieres que todos votemos a {0}?\nPu
 70609496d976cf80c08ee0276b22cd19:0:¡Chicos! ¡La espalda de {1} está súper calentita!\nApoyarme en ella es literal lo más reconfortante del mundo...
 12d7a8de0f4bb17b039ee8e9b68a8016:0:¡Lo sé, verdad?!\nDios, {2}, lo has clavado.
 d332f36c4cee36fdfb1f0d22c1d344d1:0:¡Lo sééé!\n¡Ahora mismo no toca votar contra {1}!
-58be098cefed02d854396863f76f6408:0:¿Pero tú estás obsesionad@ conmigo o qué?\nEs demasiado para mí, literal.
+58be098cefed02d854396863f76f6408:0:¿Pero tú estás obsesionado conmigo o qué?\nEs demasiado para mí, literal.
 73017d97c2d895ee4bf56a499a3661e1:0:O sea, me odiáis un montón, ¿no...?\nQue sepáis que yo os quiero muchísimo... Así que...
 edd8b7538ea0666b7acdcef920413496:0:¡Dios, {0}! ¿Me ayudas?\n¡Haz que paren!
 f9a2017955eebbf0a4c6565f97a17f9b:0:¿Quieres MI ayuda...?\n¿{0}? Pero si das muchísima mala espina... así que... lo siento.
@@ -2568,7 +2568,7 @@ a40cb8c790ff0c3875fc2f96f3b1d48f:0:Entonces, {0}, ¿puedo llamarte \"amo\"?\nEn 
 1d5ed60ca196a42f25b5b58da3892957:0:Vale, ahora mismo estoy exprimiendo el juuuugo a tope.
 f948ad58bdde64f09bc6adf3c037c487:0:Ajá, ups.\n{0}, ¿estás a punto de caer ahora mismo?
 efcaf0d8d39a12d2578d1534e7f5c948:0:Oye, {0}, ¿estás con ganas de amooor ahora mismo?\nEjeje, creo que yo sí.
-393ce4492e960f5bff16bfe9336d84d8:0:Dios, estás literalmente gafad@... Es broma.\nPero en serio, {0}, ahora mismo no puedo ni contigo...
+393ce4492e960f5bff16bfe9336d84d8:0:Dios, estás literalmente gafado... Es broma.\nPero en serio, {0}, ahora mismo no puedo ni contigo...
 4f796f0cb7b9b56b7c821e56361e5830:0:Vale, no. ¿Sí? {0}... En serio, vamos...\nSimplemente... no.
 51e90a6bf7ff1c6447614e13ad1d852c:0:Vale, chicos, aquí llega SQ al rescate.\nSed discretos, mantened la salud, ¿vale?
 1e12680f39d7f7a156b449eb7f1b5bd8:0:¡{0}! ¡{0}!\n¿Puedo hablarte de... una cosita?
@@ -2578,7 +2578,7 @@ cffa51f6896eb6a5d6cbc64ad1566183:0:Oye, {0}.\nHagamos equipo para mandar a {1} a
 9106eef793939f8b545682eddda91224:0:¡Dios, el objetivo ha caído!\n¡Lo hemos hecho de verdad!
 15021791d469087798e5d4ccdebe4c04:0:¡Dios, muchísimas gracias!\nAhora estamos un paso más cerca de ganar, literal.
 8ae5b62cd8839eb098792d34692df679:0:Jeje, ¿te preocupa algo?\nMira, deja que te lea el futuro...
-9449ffc668c23e254bdbe158fb674aba:0:Mmm... ¡Dios! Vale, o sea...\nEsta noche estás destinadísim@ a matar a {1}.
+9449ffc668c23e254bdbe158fb674aba:0:Mmm... ¡Dios! Vale, o sea...\nEsta noche estás destinadísimo a matar a {1}.
 ae3898f43efd8858f300c129f890154a:0:Quiero decir, es lo que tiene que pasar.\nAsí que matar o no a {1}... depende de ti, {0}.
 143e80a130390781034fe2880389cc6a:0:(Eh, {0}.\n Elegiste a {1} por lo que te dije anoche, ¿no?)
 348a9101b22e32aec4cf911d56310362:0:(Jeje, gracias.\nSigamos juntas un ratito más, ¿sí?)
@@ -2640,14 +2640,14 @@ dc7651bb77ff7508f4126a4aeda854c0:0:Me gustaría dejar constancia de mis sospecha
 4d6c2cd920a6c55445a0ddd764fd5ea6:0:En términos de probabilidad, sí...\nEstoy de acuerdo con el punto de vista de {1}.
 bc8d62d92b0097c33f448d988f593b34:0:Creo que nos beneficiaría vigilar de cerca a {0}.
 47ec5cecaeb8d3c3a05862158f5701e6:0:Apoyo a {1}.\nMe temo que debo posicionarme contra {0}.
-8b92ca941e9dcc231918445bf2b95939:0:Entonces... ¿{0} era peligros@ después de todo?
+8b92ca941e9dcc231918445bf2b95939:0:Entonces... ¿{0} era peligroso después de todo?
 e248886b6f0a7158fb947e8f288ceb1c:0:Siento que el riesgo es bastante alto.
 fca2522c68488f7104c84937472d4816:0:Sí...\nYo tampoco me atrevo a confiar aún en {0}.
 96ae01d6141b893c803d9adea5fca5b1:0:Oh, {0}... Esto... no acabará bien.
 ad0b9ad0b585cc84cf4a451be6ec6ede:0:Mi evaluación del nivel de riesgo de {0} es...\nDemasiado alta como para ignorarla.
 52270f12876e9edbe3ad39f9ebd9a5d5:0:¿Hm? ¿{0}...?\nSí... No puedo descartar esa posibilidad.
 e20de14748ca3872e2c83e69a6a4c558:0:{1}...\n¿No es demasiado pronto para asumir que {0} es nuestro enemigo?
-cffc4953d0721abee233c5a59ea73e83:0:O quizá, si sospechamos de {0}, {1} esté...\nIntentando apartar la sospecha de sí mism@.
+cffc4953d0721abee233c5a59ea73e83:0:O quizá, si sospechamos de {0}, {1} esté...\nIntentando apartar la sospecha de sí mismo.
 63d968f1ccaa3aacd44e0edbb60dc512:0:Yo... confiaré en {0}.
 1c51722bacde491fe8c42e80066223bd:0:Como he dicho, tenemos pocos motivos para desconfiar de {0}.
 4494e205bdd76d15f433e9cd4f6aef14:0:Sí, yo tampoco veo apenas razones para sospechar de {0}.
@@ -2701,7 +2701,7 @@ f11dc0072c42a97f48f1ee37fa54cea7:0:Soy {0}, así que puedo usar el núcleo de co
 3d609a293f979131e26ee1c85036efe8:0:Como {0}, puedo examinar a un paciente en busca de infección Gnosia.\nSin embargo, solo es posible con quienes están en criogenia.
 b8ea6cbc0a39651359fe36b69a0baefb:0:Soy {0}, aunque no se me da bien combatir.\nLa verdad, creo que fue un error del sistema de recursos humanos...
 ade92699238c35fee1c804e9e3c27b71:0:Em... No me he infectado con Gnosia.\nMe quedé en la nave investigando cuando atracamos.
-a0b3b9e0237a263cab779be8b2ac19bf:0:Lamento anunciarlo, pero...\nComo {0}, debo informar de que {1} ha sido infectad@ por Gnosia.
+a0b3b9e0237a263cab779be8b2ac19bf:0:Lamento anunciarlo, pero...\nComo {0}, debo informar de que {1} ha sido infectado por Gnosia.
 9b7844139f0192cd82ccffec3c49fc68:0:Yo... soy {0}.\nEl examen de quienes estaban en criogenia muestra que {1} era Gnosia.
 2ae6bd585cc5208307017d56c8a6f0d2:0:Ah...!\n¡Soy la única {0} de esta nave!\n¿Por qué mentiría usted así...?
 28cced87e954fe94fe37f0e3b1cde8e6:0:¡E-espere...! ¡Yo soy {0}!\nPor favor, créanme...
@@ -2712,18 +2712,18 @@ acc8bbc9e600e79b00e9e2b26b1b201f:0:Así que varias personas han hecho la misma a
 b1dc7bd69cbe44ff811392a1bb7e3907:0:Según mi análisis...\n
 5bc03d2d600460629751424cd0c2c147:0:He analizado el registro del núcleo de control dimensional...\n
 5aed53c116f2728f666e6f93176e040a:0:Mi análisis se realizó sobre otro sujeto.\n
-f64876ff9bdafd2efa26cfd9a856c13b:0:He detectado irregularidades en las ondas dimensionales de {1}.\nMe temo que {1} ha sido... infectad@ por {0}.
+f64876ff9bdafd2efa26cfd9a856c13b:0:He detectado irregularidades en las ondas dimensionales de {1}.\nMe temo que {1} ha sido... infectado por {0}.
 c905f6d3c21af69e9a82f15f5039da66:0:Las ondas dimensionales de {1} eran normales.\nNo hay señales de infección por {0}.
 5c244913dc6f5fbd219d834b5b64afc4:0:No había nadie que, a mi juicio, necesitara ser analizado...
 91e2cb1de8b919982bdca87994c48e17:0:He examinado a quienes estaban en criogenia.\n
 f287a00fa1f6592a51cded49e1d1849d:0:He confirmado anomalías en la corteza asociativa de {1}...\nEs un síntoma de infección {0} de nivel medio.
 217bd26904a07208bbf810e50c4fa3cb:0:{1} no mostró síntomas de infección Gnosia.\nParece que nos equivocamos...
 b2efb558ce4529e598a8f8bc9a5fa286:0:Entre {1}, se encontraron anomalías en {2}.\nSignos de... infección por {0}.
-dfe73e85b395fa6b9aff02f98023f59c:0:{1}. Tod@s estaban libres de signos de infección.\nNingun@ era {0}...
+dfe73e85b395fa6b9aff02f98023f59c:0:{1}. Todos estaban libres de signos de infección.\nNinguno era {0}...
 0342d76197ce13b26e41316bb83cafdc:0:He obtenido el mismo resultado.\n
 3a6e47a57c4cc37c7627847a589a94e4:0:Eso es incorrecto. Según el resultado de mi análisis...\n
 3dc55c7a6f6829e4b419b499668aa094:0:Oh, {0}... Yo...\nQué pena...
-1aa1b4d2be565fd2cf4060184a0c7cb4:0:Buenos días.\nMe alegra ver que tod@s hemos salido indemnes.
+1aa1b4d2be565fd2cf4060184a0c7cb4:0:Buenos días.\nMe alegra ver que todos hemos salido indemnes.
 2392a626f46b67029c8b318aa77f56c7:0:Es una pena enorme, pero...\nUna de las víctimas era un Bug.\nEs una información crucial...
 2da2a9d04f104e2aedbd01902c3c2971:0:Por favor, dad vuestros informes.\nYo me encargaré de registrar los resultados.
 d663406600b1f8d9145a91f2b27abf1e:0:El {0} aún no ha informado.\nTodavía tenemos muchas dudas y sospechas...\n¿Podríamos empezar ya a intercambiar información?
@@ -2734,17 +2734,17 @@ f7354dbf541d05fb890109ec1c8611ec:0:Sí...\nToda la gente de esta nave es maravil
 1ff72c7bb9f6d0d289b2803c4f06bee0:0:¿Ha oído alguna vez... cantar en esta nave?\nA veces lo oigo... desde la bodega vacía...
 5590cd7eec35cec842e13d0afc32e90e:0:Nos queda poco tiempo antes del salto.\nEste no es momento para charlas tan frívolas...
 b538d7e31c50c5b1b40abf39c7127345:0:Me duele proponer algo así, pero...\nQuienes hayan dicho ser {0} deberían ir todos a criogenia.
-50af1f7031c70e41d28abae903df95c6:0:Entonces propone que les votemos a tod@s, ¿no?\nDe acuerdo, haré lo que pide...
+50af1f7031c70e41d28abae903df95c6:0:Entonces propone que les votemos a todos, ¿no?\nDe acuerdo, haré lo que pide...
 2523011e2ce55e99db7ec95349f52987:0:Pero...\nPerderíamos nuestra vía de información del {0}.\nNo creo que fuera una buena idea...
 383a2f32ecf2694f1a9cef4622efe05c:0:No puedo apoyar esto. Necesitamos tanta información como sea posible.\nPerder al {0} podría resultar extremadamente peligroso.
 c31e35a21f7a510cbce0be3f3519984d:0:Gracias por vuestras opiniones.\nQuienes estén de acuerdo, les votarán.\nY el resto... ¿qué vais a hacer?
 e57abddf2bcee4f26bf484521fbbd100:0:Ya veo...\nNo era más que mi opinión que deberíamos votarles.\nSolo os pido que lo tengáis en cuenta al votar.
-067397049e73d45160af98ef7c99b7be:0:Me duele proponer algo así, pero...\nMeterlos a tod@s en criogenia reduciría mucho el riesgo.
+067397049e73d45160af98ef7c99b7be:0:Me duele proponer algo así, pero...\nMeterlos a todos en criogenia reduciría mucho el riesgo.
 4de25feb9814ce842d3687f27414a083:0:Teniendo en cuenta los resultados del informe de {1}...\nVotar a {0} sería nuestra opción más viable.
-6e8b66289a3c125b0c9e51127b165285:0:Como mínimo, según mi investigación...\nPuedo asegurar que {0} ha sido infectad@ por Gnosia.\nQuisiera pedir que tod@s votéis a {0} también.
+6e8b66289a3c125b0c9e51127b165285:0:Como mínimo, según mi investigación...\nPuedo asegurar que {0} ha sido infectado por Gnosia.\nQuisiera pedir que todos votéis a {0} también.
 265bf15535af96c5738ba3641f798cd6:0:He revisado los datos más recientes...\nNo creo que nos quede otra opción que mandar a {0} a criogenia.
 36f118f757ba8bd7b445ee10b58c188e:0:{1}, ¿tal vez está recordando algo mal...?\nNo hay constancia de ningún informe del Ingeniero que dijera eso.
-ce83b627aebeafc4c32e7246ce04df9b:0:Sí... Creo que deberíamos votar tod@s a {0}.\nApoyo la propuesta de {1}.
+ce83b627aebeafc4c32e7246ce04df9b:0:Sí... Creo que deberíamos votar todos a {0}.\nApoyo la propuesta de {1}.
 2b67875ce451e38e815020cad947c50b:0:Mandarme a criogenia no os proporcionará ninguna información valiosa...
 4d5006952748d37df468fd0e3a5b8cde:0:No puedo estar de acuerdo...\nAlterar negativamente la votación puede abrir la puerta a más manipulaciones indeseadas...
 ec483f72771e31fa97f9c7d771dcfd52:0:Estoy de acuerdo.\nNo es momento de señalar a nadie de forma tan directa.
@@ -2775,7 +2775,7 @@ b8f8c4a3621cce19bb35bbeba1868ba8:0:¿Puedo... ayudarle?
 68a83b5a1fba76dbbfd8df1630aa2e8b:0:No tengo nada que decirle, {0}...
 9f4793f469471b4d77f6d7ee8b012f66:0:La infección Gnosia no se puede determinar a simple vista.\nPor favor... andad con cuidado.
 db5cfbf5f39a82213fa6145855ad7e68:0:Oh, {0}. Jeje, qué casualidad.\nJusto estaba pensando que quizá andaría por aquí.
-d322d55f85c4fb534a63e86683ef22b7:0:{0}, ¿no está demasiado cansad@?\nHe estado preocupada por usted durante la discusión...
+d322d55f85c4fb534a63e86683ef22b7:0:{0}, ¿no está demasiado cansado?\nHe estado preocupada por usted durante la discusión...
 913f38b8cc1de90d97b96c58ff28db35:0:Si no le importa...\n¿Podríamos colaborar durante la discusión?\nQuiero ayudar a apoyarle, {0}...
 b60e99b83d08541f0972217a4d787e1a:0:¿De verdad?\nJeje, me hace muy feliz...
 cf643b3540f562dfd7575c856275c6c5:0:Sin embargo, {0}.\nPor favor, no se esfuerce demasiado, ¿de acuerdo?
@@ -2787,7 +2787,7 @@ adf03c0f39f1b9a3ffe778dbc27edea7:0:Sin embargo, {0}.\nPor favor, no se esfuerce 
 2529e892e8e194fa7a1ebc441331d541:0:No es más que mi opinión.\nPor favor, téngala en cuenta.
 121fdd440c81364b7a506a77c1f52bed:0:(Jejeje. Así que nuestra conversación de anoche...\nSerá nuestro pequeño secreto, ¿de acuerdo, {0}?)
 8e1b1963f558060c178c5b0878ffa402:0:Ya no se detecta a Gnosia...\nAunque es una noticia maravillosa, jeje, también resulta un poco triste.
-f31955f7c1581c4e4722c9d0dae21a37:0:Porque eso significa, {0}, que el precioso tiempo que pasamos junt@s...\nEstá llegando a su fin.
+f31955f7c1581c4e4722c9d0dae21a37:0:Porque eso significa, {0}, que el precioso tiempo que pasamos juntos...\nEstá llegando a su fin.
 e8fd85ab031127fd3068baf13e5c0694:0:¡Ya no se detecta a Gnosia!\nLa victoria es oficialmente nuestra.
 d5e8ef4b5942033fd5548551495d33c2:0:Buen trabajo, todo el mundo.\nHemos superado la amenaza Gnosia.
 b782c82c718baf4cfdfb91f3b95c060a:0:Nos costó mucho confiar unos en otros...\nPero pido disculpas a quienes cargaron con sospechas infundadas.
@@ -2796,11 +2796,11 @@ b782c82c718baf4cfdfb91f3b95c060a:0:Nos costó mucho confiar unos en otros...\nPe
 4e0bc6e5d3d5154feb2c76416982ae03:0:Nuestra nave vuelve a estar a salvo.\nEspero poder ofreceros desde ahora solo comodidad y tranquilidad.
 91558c88d0e4e6dacd36c3d9a905f44b:0:Ahora, todo el mundo.\nDisfrutad del resto del viaje, por favor.
 e376fa34d797d0db33ca892258197857:0:Las condiciones se han cumplido.\nLa victoria pertenece a los hijos de Gnos.
-e14a1c5472e5008913e20d15942865d3:0:Una vez sometidos los humanos restantes...\n{0}, celebremos esto junt@s.
+e14a1c5472e5008913e20d15942865d3:0:Una vez sometidos los humanos restantes...\n{0}, celebremos esto juntos.
 94968d113110d97f9516ccd697e30cfe:0:Las condiciones se han cumplido.\n¡Victoria total para los hijos de Gnos!
-52f89db91fcc51ef09641a5056167247:0:Qué maravilloso. Hemos sobrevivido tod@s...\n{0}, es usted realmente impresionante.
+52f89db91fcc51ef09641a5056167247:0:Qué maravilloso. Hemos sobrevivido todos...\n{0}, es usted realmente impresionante.
 fefaaa37f66f5c62856fc1f7f2f3de85:0:Y ahora pasaremos a la fase de erradicación humana.\nZona objetivo fijada. Bajando niveles de oxígeno...
-ecda897a438c54cb8641b8172ff67bae:0:Jeje, esto resulta un poco divertido...\n{0}, haciendo algo tan malo junt@s...
+ecda897a438c54cb8641b8172ff67bae:0:Jeje, esto resulta un poco divertido...\n{0}, haciendo algo tan malo juntos...
 472659759e71651785255551413aecd9:0:Por favor, permítame ocuparme de la erradicación de los humanos.\nJeje, en realidad es bastante sencillo.
 a5d556efdde9ddcc3a8800c83aae696c:0:Bien, el tiempo de discutir ha terminado.\nJejeje, me alegra muchísimo que se haya quedado aquí conmigo, {0}.
 10a460a8f3bdf53466650187d180e720:0:¿Hm...? ¿Mi cara?\nQué raro es, {0}. Mi cara es la misma de siempre.\nPor cierto, ¿quiere un poco de té?
@@ -2822,22 +2822,22 @@ f59a1879f320ca401e7b4e08f9952bc5:0:Puede interferir en la percepción humana y d
 0e55c5e195a2b4016e4393cfeb7ef6f6:8:Medidas: 7
 4518c1a641b155280d09d1243299a3e9:0:Me llamo {0}. Encantada, supongo.
 88cd0ce792777bb35d732aa62c74cc99:0:Salvo en Sigilo, todas sus aptitudes son altísimas.\nEs extremadamente peligrosa como enemiga, pero su frialdad y distancia la convierten también en una aliada inquietante.
-3cba543c02ce8d9333a7343d659661ce:0:{0} es innecesari@ y debe ir a criogenia.
+3cba543c02ce8d9333a7343d659661ce:0:{0} es innecesario y debe ir a criogenia.
 20d618eabb942cf7aad139861281a7a4:0:Qué escándalo más vulgar...\nHaced callar a {0}.
 8f03b49531a66f6e7dd6ddf759ee8e7a:0:Jeje, {0}.\nDebe de ser divertido hacer bailar a todo el mundo a tu compás.
 ffa18417202f648929099c502d3163d1:0:¿Es esto una especie de sabotaje, {0}?\nJe. ¿Crees que algo así pasará desapercibido?
 43b975f5e720c3731b3e0c52849aba08:0:Si vamos a congelar a quienes despiertan sospechas...\n{0}. Te toca.
 1cc3374f96fe2c0619d368732b5408aa:0:Disculpa, {0}. ¿Qué es exactamente lo que pretendes?\n¿La aniquilación de los humanos a bordo?
 e6477fec25dcf7e067868d2ac0efc2f3:0:Hasta aquí has llegado...\nHe terminado con {0}. Congeladla, matadla, haced lo que queráis.
-d510b6aad9cc477c3e31d0f7cd2fcadd:0:Disculpa, {0}.\n¿Te hace feliz que {1} haya sido eliminad@?
+d510b6aad9cc477c3e31d0f7cd2fcadd:0:Disculpa, {0}.\n¿Te hace feliz que {1} haya sido eliminado?
 38d495ff3937a0733c2b8c7a1e9ee5cf:0:¿Nos cuesta decidir de quién sospechar?\nEntonces que sea {0}.
 3e02ba810da4cecd3c7f95de2b88c8ab:0:Ya no nos sirves de nada, {0}. Desaparece.
 9a5637b198cd74b9fd570466eb4c284f:0:Parece que sobrevaloras mucho la utilidad de tu lengua.\n{0}, haz el favor de callarla por ahora.
-050f60d359b7369156349ebc162400f9:0:{0} queda apartad@ desde este mismo momento.\nQuienes desconfiéis de {0}, seguid haciéndolo.
-b43ab3eadaa82f9bfaeb3cd644ee3526:0:¿Pensabas quedarte quiet@ y esperar a que pase la tormenta?\n{0}, la tormenta no te va a pasar por alto.
+050f60d359b7369156349ebc162400f9:0:{0} queda apartado desde este mismo momento.\nQuienes desconfiéis de {0}, seguid haciéndolo.
+b43ab3eadaa82f9bfaeb3cd644ee3526:0:¿Pensabas quedarte quieto y esperar a que pase la tormenta?\n{0}, la tormenta no te va a pasar por alto.
 cf2239daa328abe3917e3951a384f825:0:{0}, no tienes a nadie más a quien culpar por inspirar desconfianza.\nDemuestra que estamos equivocados.
 5c0889a8bed83feb40034dde26ddfa0c:0:¿Estás entendiendo algo mal, {0}?\nYo no he confiado en ti en ningún momento.
-e7636184bded9398ea4838a322c81e11:0:¿Ya estás satisfech@...?
+e7636184bded9398ea4838a322c81e11:0:¿Ya te basta...?
 ef7e81aca28b80714743257c518f0b02:0:La pérdida de {0} no supondría gran cosa.
 0c169ca23d8949792e96f02c5533ab32:0:Sin {0}, desde luego habría más silencio.
 f7bdfe833a23054c6d59fc0fd02f09a8:0:Jeje, aquí se acaba, {0}.\n¿Queda alguien que todavía confíe en ti?
@@ -2870,7 +2870,7 @@ b95856a691667a76913fd778e3b594b5:0:¿De verdad {0} vale tanto?
 98b0b0d117f38819fd8fff6e49058ee8:0:Agárrate a {0} y solo caerás con ella.
 e67523c166082e0d7a763af91a7801fc:0:Ahora no es el momento de confiar en {0}.
 37d3dbf8cf78c69b8be7d0777f7b476d:0:Ha quedado demostrado que {0} es {1}.\nNo hacen falta más opiniones sobre {0}.
-41bce647eaf8f08f17f9ea8078512ee4:0:Está claro que {0} es human@.\nNo hay peligro alguno en dejarla en paz.
+41bce647eaf8f08f17f9ea8078512ee4:0:Está claro que {0} es humano.\nNo hay peligro alguno en dejarla en paz.
 daad5eb45095af5dd1f3bce29a4b862a:0:Tendrás que trabajar más tu capacidad de actuación si quieres fingir ser {1}, {0}.\nHas fracasado claramente. Fuera.
 4c0fdaa1361eed9564498bb7fb3dbc0e:0:{0} es {1}. A la cámara.
 336acec4c33823681623d3c2a4941f2f:0:{0} es {1}.\nNi siquiera merece el esfuerzo de congelarla...
@@ -2918,14 +2918,14 @@ eb9c814c84faccc55eda91acdb99ee78:0:Ah, claro. {1} también había permanecido a 
 dc9158880cb729d7651d3d7136f8e913:0:Me pregunto si aquello fue una pérdida de tiempo...\n
 11bec0ef6c63adc8ac4d75c5d2bc54bc:0:Escuchad con atención. Estos son los resultados de mi investigación.\n
 308beea172c98004f0c371895517e7cd:0:Creo que ya es hora de revelar los resultados de mi pesquisa.\n
-0ec4709c68ab86952e0c84fdc3d2297f:0:{1} está infectad@ por {0}. A criogenia.
+0ec4709c68ab86952e0c84fdc3d2297f:0:{1} está infectado por {0}. A criogenia.
 b85d01d99a75e02605e84494eefc0b23:0:{1} no mostró signos de infección por {0}.\nNada relevante en absoluto.
-af7ffca5a6db1d4d419068e13b08a4af:0:No había nadie que mereciera ser investigad@.\n¿No estaba ya todo suficientemente claro?
-5cae963c9463f499088e051fd0f22f1c:0:Analicé el tejido cerebral de quienes fueron congelad@s.\n
+af7ffca5a6db1d4d419068e13b08a4af:0:No había nadie que mereciera ser investigado.\n¿No estaba ya todo suficientemente claro?
+5cae963c9463f499088e051fd0f22f1c:0:Analicé el tejido cerebral de quienes fueron congelados.\n
 ae982b508a1d22845014ecb74df78ebb:0:Jeje, enhorabuena.\n{1} {3} {0}.
 7478cd40a00e60ddc895a337d11de1a1:0:{1} {3} no {0}.\nLa criogenia fue inútil.
-e6528faea75889cba830e16ba1c855d6:0:Entre {1}, {2} {4} infectad@ por {0}.\nCayó en nuestra red, justo como esperaba.
-c344d37dcf42148f9174f12696680c57:0:{1} eran tod@s seres humanos normales...\nParece que {0} sigue escondiéndose bien.
+e6528faea75889cba830e16ba1c855d6:0:Entre {1}, {2} {4} infectado por {0}.\nCayó en nuestra red, justo como esperaba.
+c344d37dcf42148f9174f12696680c57:0:{1} eran todos seres humanos normales...\nParece que {0} sigue escondiéndose bien.
 c523962c20fa90405dbec5500c09e346:0:Mis resultados fueron los mismos...\n
 617aee9ef2bb6af49aaa6ffbdd7539b4:0:Así que tu papel es claramente el de propagar desinformación, ya veo...\n
 4eabf8b86aa36168837d31a044c82224:0:{0} ya no nos sirve de nada.\nReorganizad el sistema de trabajo para evitar problemas durante el vuelo.\nHumana o Gnosia, eso ya no importa. Esto es necesario, ¿no?
@@ -2933,24 +2933,24 @@ c523962c20fa90405dbec5500c09e346:0:Mis resultados fueron los mismos...\n
 7dbbf68b0acd88625a9ecbfc2dc2d1f4:0:Dos víctimas... Jejeje.\nQué heroico el Ingeniero, salvando la nave de la destrucción del Bug.
 91f517dbf45126df6f08e4d68f3f148f:0:Informad... ahora.
 b2103d744b68e26bb08bc57d49734e62:0:Así que la falta de fiabilidad de {0} ya es evidente...\nQué informe tan esclarecedor, {0}.
-20782a3e15191d8b1be22d31ae5d40f7:0:Juguemos un pequeño juego.\nCada un@ de vosotr@s, proclamad vuestra humanidad. De uno en uno.
+20782a3e15191d8b1be22d31ae5d40f7:0:Juguemos un pequeño juego.\nCada uno de vosotros, proclamad vuestra humanidad. De uno en uno.
 1b69f95c1466d7dd268276b48fc3e618:0:Sí, soy humana. Por desgracia.
 dda9116cbd5a8a750714253f089ae4cc:0:{0}.\nNo tengo intención de participar en vuestra farsa.
-1cc792bc7d917e1d1598842dc7062231:0:Parece que en esta nave solo quedan cobardes.\nQué lamentable. Para todos vosotr@s.
+1cc792bc7d917e1d1598842dc7062231:0:Parece que en esta nave solo quedan cobardes.\nQué lamentable. Para todos vosotros.
 469d8a28f357a09ec8156ca04f2f662d:0:Buen trabajo...\nAhora ya sabemos de quién debemos sospechar, ¿no?\nDe quienes se negaron a declarar que eran humanos...
 0ff244f12c0210ab5c5887ae0341b16f:0:Buen trabajo...\nTemiendo ser descubierto, el salvaje ha sido lo bastante listo como para mentir sin rubor.\nCasi dan ganas de elogiar el valor del Gnosia.
 72946e7cf9bddc4d3d5d378c08ef6bec:0:Jeje, {0}. Así que quieres evitar tener que declarar...\nO eres un Gnosia valiente o un cobarde indigno de vivir.\nMe pregunto cuál de las dos cosas serás.
-6688fb6e425ff4a4d8a0f03c23bc1d35:0:Me pregunto cuál de nosotr@s se convertirá en la cena de esta noche.
-94c0b1d5afb9b58938520edf0bdaac25:0:Soy miko, una sacerdotisa. Nadie me ha mancillado.\nSin embargo, sé más de diversión y placer que tod@s vosotr@s junt@s.
+6688fb6e425ff4a4d8a0f03c23bc1d35:0:Me pregunto cuál de nosotros se convertirá en la cena de esta noche.
+94c0b1d5afb9b58938520edf0bdaac25:0:Soy miko, una sacerdotisa. Nadie me ha mancillado.\nSin embargo, sé más de diversión y placer que todos vosotros juntos.
 4cdeb5fb7503e4068ee615616af4ad65:0:¿Conocéis a la gente-cerdo maldita del sistema Shia-Meng?\nSe pasan la vida contando sus propios dedos...
 bb7e389eaf5b1461db9b89383e3e8ad4:0:¿Intentas distraer a todo el mundo con juegos y tonterías?\n{0}. Eres un ser verdaderamente inmundo...
-a382fa036b78a462701dc625324b260a:0:Esta nave ya no necesita a quienes se proclaman {0}.\nCongelad a tod@s quienes afirmen serlo.
+a382fa036b78a462701dc625324b260a:0:Esta nave ya no necesita a quienes se proclaman {0}.\nCongelad a todos quienes afirmen serlo.
 afd01ed53e2010c5dd0261db84464fc8:0:Buena propuesta, {1}.\nLibrémonos de este Gnosia.
 969f2f27ac0ab093bfa57892a963519d:0:Qué estupidez. Rechazo esa propuesta.
 81b0d7d7dfe8585e7f2f1eed1fe2ec91:0:{2} tiene razón.\nNo es momento de actuar con precipitación.
 6ca202fa085c026c1588a86df9363c6d:0:Jeje, ¿cómo moverás ficha ahora?\nEspero con interés la votación.
 6800a65256f372cbf5930fc2f9f7086b:0:Entonces haced lo que queráis...
-846e6307835ba9d3097fe16c8e69e08e:0:Esta nave ya no necesita a quienes se proclaman {0}.\nCongelad a tod@s quienes afirmen serlo.
+846e6307835ba9d3097fe16c8e69e08e:0:Esta nave ya no necesita a quienes se proclaman {0}.\nCongelad a todos quienes afirmen serlo.
 14bebff404909625910a0283672e02b4:0:{0}. Deberíamos congelarte para comprobar la veracidad de {1}.\nAgradece poder servir para algo.
 7eb98daadef570675c6b34eeee8bb844:0:Como Ingeniera, declaro lo siguiente.\nDebéis votar a {0}.
 835edd763fd43769699a011d8cc37d78:0:{0} no es más que un triste payaso.\nVotad y dad por terminada esta farsa.
@@ -2964,18 +2964,18 @@ f120ed1cdbd4cf0a04491b0a5fab480f:0:{0}, no tengo intención de congelarte.\nHay 
 4c063a6ec301cf845aca53e26584a23f:0:Entonces dejemos que {0} siga prosperando...\nNo es mala idea.
 0c2d0d61f9c0a69e39733f213982928f:0:Me opongo.\n{1}. Habla de una forma acorde a tu auténtica posición.
 bad7f471b292d7b7b6504f28dd635e27:0:Jeje, {1}. Al menos lo intentaste.
-792fe5c23476070e5c5761bff5ce2dcb:0:Sígueme, {0}.\nDaré buen uso a tu vida y a tus capacidades.\nUn sierv@ afortunad@. Así es como debías existir.
+792fe5c23476070e5c5761bff5ce2dcb:0:Sígueme, {0}.\nDaré buen uso a tu vida y a tus capacidades.\nUn sirviente afortunado. Así es como debías existir.
 1489394b0fe528bfb1e065ac0e619268:0:¿Cooperar contigo...?\nPuede que no esté mal... Acepto.
 dae04475eb0a6bbe2cbe1dfbcc06ee1a:0:¿Cooperar contigo...?\nJeje, ¿hablas en serio...?
-c7e0b117d5ce7a1f79733bd7a5507755:0:Apoyo las palabras de {0}.\nVosotr@s también deberíais hacerlo.
+c7e0b117d5ce7a1f79733bd7a5507755:0:Apoyo las palabras de {0}.\nVosotros también deberíais hacerlo.
 a4b8e42a7f14f5dc214fd98bb8b2f3a1:0:Quien se oponga a {0}, que dé un paso al frente.\nTerminaremos esto aquí.
 388896b54ab6caba0e855aa68ca72b5f:0:Te diría lo mismo.\n{0}: eres tú quien debería congelarse.
 272233b8a0ce5600d71908766da8980c:0:Basura...
 49eabaeee6004a7837b6c9536c922e55:0:Has venido hasta aquí.\nYa que estás, puedes terminar de matarme.
 ad154c52bfbeb8e9e4cb4782ab4e3912:0:Jeje, ¿no ha sido una farsa entretenida?\nVer cómo todo se desmoronaba...
-47d049f9f9e02f18411d6b3e6f8e4032:0:Ahora matémonos entre nosotr@s.\n¿No...? Entonces márchate.
-7bc55a60e3710317da86608404dbc4fb:0:Sí, tanto tú como yo somos human@s.\n¿Y qué?
-381b3076887b667011ad483bda4a0088:0:Que tú seas human@ sea bueno o malo para esta nave...\nNo lo sé, pero disfrutaré averiguándolo.
+47d049f9f9e02f18411d6b3e6f8e4032:0:Ahora matémonos entre nosotros.\n¿No...? Entonces márchate.
+7bc55a60e3710317da86608404dbc4fb:0:Sí, tanto tú como yo somos humanos.\n¿Y qué?
+381b3076887b667011ad483bda4a0088:0:Que tú seas humano sea bueno o malo para esta nave...\nNo lo sé, pero disfrutaré averiguándolo.
 5d350c7cf59ed2153d0aacf1a1ef4a84:0:Hum, si de verdad confiara en ti...\n¿adónde me llevaría eso exactamente?
 286a26b159a97c9402013b23f19a769a:0:Si seguimos por este camino...\nAl final irás a criogenia de todos modos.
 ac8708ef1949c68ebf5ce8edd9cb1fd2:0:Eres un espécimen ligeramente interesante.\nUna rareza.
