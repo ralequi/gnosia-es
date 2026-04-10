@@ -1,0 +1,51 @@
+# RE_ACWin
+05abf758461778e4e2c3f921f8691c09:0:Final reservado
+8a5f84a88102220014012b4405659b9d:0:Final
+236df3c9833c055b4fe756b26ad7c8c6:0:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada.
+c717540211711c06534d78677ce9130a:0:Se mostrarán los resultados.
+# RE_BugWin
+05abf758461778e4e2c3f921f8691c09:1:Final reservado
+8a5f84a88102220014012b4405659b9d:1:Final
+64b3ba35145f1d2295d5edf18cd05629:0:Se han cumplido las condiciones para el final.
+c78ab11ecff57ab628cd8f672643ac13:0:El universo ha sido destruido.\nSe mostrarán los resultados.
+# RE_Gnos
+05abf758461778e4e2c3f921f8691c09:2:Final reservado
+8a5f84a88102220014012b4405659b9d:2:Final
+236df3c9833c055b4fe756b26ad7c8c6:1:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada.
+8a5f84a88102220014012b4405659b9d:3:Final
+c717540211711c06534d78677ce9130a:1:Se mostrarán los resultados.
+# RE_Human
+05abf758461778e4e2c3f921f8691c09:3:Final reservado
+8a5f84a88102220014012b4405659b9d:4:Final
+39d9a13942d9ddcecf11a594acae0391:0:Todos los Gnosia han sido enviados a criogenia.
+8a5f84a88102220014012b4405659b9d:5:Final
+c717540211711c06534d78677ce9130a:2:Se mostrarán los resultados.
+# RE_HumanMake
+05abf758461778e4e2c3f921f8691c09:4:Final reservado
+8a5f84a88102220014012b4405659b9d:6:Final
+64b3ba35145f1d2295d5edf18cd05629:1:Se han cumplido las condiciones para el final.
+4e2780f465651b2784a00b28497f5ed2:0:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada. Se mostrarán los resultados.
+# RS_Kyoryoku
+f19445a74317bdfd5f95b978179ff115:0:Registro conversación
+de0ba86f747b9323dfc9a752fe518552:0:Conversación
+5ae409a8f3c6f159957b68eaa772fa68:0:Quiero colaborar con {0}.
+b6706fdf19270054e57e687c9675bc61:0:Colaborar
+76735c0d08b212e7111edd7ebb45d316:0:Le dijiste a {1} que quieres colaborar.
+184856e019f4e83b4e4f941d3d5b2ddb:0:Vale, trabajemos juntos.
+d506980bec9847875d234085fd9fbda0:0:Negarse
+fcdd3b4c4048fd1c610e7775e501052f:0:Te negaste, diciéndole a {1} que no puedes ayudarle.
+0848c62ecef3b89d47188b5be96f4cc5:0:{1} te pidió ayuda, pero...\npreferiste no responder.
+d506980bec9847875d234085fd9fbda0:1:Negarse
+# RS_Osou
+f19445a74317bdfd5f95b978179ff115:1:Registro conversación
+de0ba86f747b9323dfc9a752fe518552:1:Conversación
+29da5779b7dbffcdbed3aa933c381b5a:0:Ataca a {0}
+2a13e10a65285c74c75ae4b51fc9131f:0:Tras el ataque
+# RS_Uso
+f19445a74317bdfd5f95b978179ff115:2:Registro conversación
+de0ba86f747b9323dfc9a752fe518552:2:Conversación
+e4adc30177e5f9ce3cd9d6fdf84130ad:0: está mintiendo...)
+271c6be1c284dc88b6d269aa85589d23:0:{0} está mintiendo.
+1e5d501aa4d2c91404924ae6e6f16313:0:(Has descubierto la mentira de {0}...)
+ac6bdf0baea78125517853998e0bf508:0:Tras la criogenia
+403d7ef3956695dbabd178a9bab469e2:0:{0} ha sido enviado a criogenia.
