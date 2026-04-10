@@ -1,0 +1,295 @@
+# SQ1
+c16359212a251eb1db09c64513a37d17:0:Monólogo
+d7f44be0aabbd94b83c2cae5f62d92a3:0:¿Sería mejor volver a aliarse con SQ...?
+92fd65946be1f33021a833fbdbc5588a:0:Ejeje... o sea, ¿que no te apetece?
+f19445a74317bdfd5f95b978179ff115:0:Registrar conversación
+de0ba86f747b9323dfc9a752fe518552:0:Conversación
+76a88800d1ad0ab4a172b1f5b7ef316b:0:¡Hoooola! ¡Si es mi querido {0}!\n¡Te he echado de menos un montón!
+7701c1b2d4c5c04d9938ccc8ab281cd0:0:Oye, esta noche...\n¿Quieres llegar hasta el final conmigo?
+d122afca162c600da39d5cd7f3f29c78:0:Sí
+99504c8cee0b7df8f2d45f0882e52a26:0:Respondiste que sí, que te gustaría llegar hasta el final.
+b8d2999abb8c06b3d399bf347a6293a3:0:P-pero qué narices, {0}...?\nTienes como... una mirada súper seria...
+31564680e49a6c9ad92e2d492d1b0da5:0:Yo solo estaba bromeando, ¿vale?\nNo pensaba que ibas a ponerte tan lanzado conmigo.
+476767fad8309d29646be052ffa59e63:0:Respondiste que no, que así estás bien.
+be2441a7f322916e75e29fb2869f1f2a:0:¿Eeeeh? Qué pena.\nSupongo que tengo que pulir más mis encantos, ¿no?
+29fcab26301dc1815811dfe7e6a957fa:0:Bueeeno, ya vale de bromitas.
+6db4de9c193c5f105755016c870f83b8:0:Continuar
+ccaffd1c5842c68e130c4b0dd5491536:0:Pero en serio, ¡nunca pensé que fueras a aliarte conmigo!\n¡Vamos a arrasar pero muchísimo!
+f30cdf60b5c2c3ba04c09321829ca431:0:Pero... ¿te da miedo que te la juegue?\n¿De verdad confías en mííí...?
+479f9d8932a692e37f67005d771c310f:0:Confío en ti
+73df37ecfbf4e8f08c6c2678913ec98e:0:Respondiste que confías en ella.
+5b076ccc0986e71ab43d9332c5714989:0:Jeje, vale, ¡gracias! ¡Yo también confío muchísimo en ti!\nAsegurémonos de cubrirnos la espalda, ¿vale?
+fdcc51ebad87b4715e00a12ff1b236dc:0:Si me veo en un aprieto, voy a llamarte.\nNo me dejes tirada, ¿vale?
+00ba3a012aeadcf38be56b25c2146008:0:Ajaja, no deberías ir confiando así en la gente, ¿sabes?\n¡Aquí en el espacio todo va de espionaje, intrigas y esas cosas!
+0e1940891b92a67053d5e64a9586348c:0:Pero bueno, somos compañeros, así que...\nSupongo que te pediré ayuda si me veo en un apuro o algo.
+d18637f7880c1cf36344e9c6d2a3f980:0:No del todo
+25750a92251618fa73bddf2d483264a9:0:Respondiste que no acabas de confiar en ella.
+b700547fd9eecfc6813e5fed211028df:0:Ah, sí, o sea, mejor andarse con mucho ojo.\nDormir con un ojo abierto y todo eso.
+210e8d25621ec32343ae6adfcb2e45a2:0:Ajaja, o sea, que todavía no lo tienes claro, ¿eh?\nBueno, sí, lo entiendo muchísimo.
+0e1940891b92a67053d5e64a9586348c:1:Pero bueno, somos compañeros, así que...\nSupongo que te pediré ayuda si me veo en un apuro o algo.
+6db4de9c193c5f105755016c870f83b8:1:Continuar
+8b4b967337769907599830ed0ecfec2b:0:Así que, si te ves en apuros, llámame, ¿vale? ¡Yo te ayudaré muchísimo!\nPero si ya no tienes remedio... ¡ahí te las apañes!
+9a413c32e1709a13df759d6c6344870f:0:Vale, {0}.\n¡Vamos a superar esto juntos!
+604728ea0b648f4eb323be2a7c6c67ce:0:Habilidad \"Pedir ayuda\" adquirida
+e8d8f5e6bb917ec2d3f120ac7efd37e8:0:Has adquirido la habilidad \"Pedir ayuda\".\nCuando estén sospechando de ti, podrás elegir a alguien y\npedirle que te respalde. Requiere 30 de \"Carisma\".
+c168912d3b723ce9f0e86b43ec4ed99d:0:Final
+976aa4359035783bce934347d819c533:0:Sala de observación
+64b3ba35145f1d2295d5edf18cd05629:0:Se han cumplido las condiciones del final.
+c0fcd9c734b61c336854d2b34c5e3a00:0:Así que hemos sobrevivido...\nAjaja, qué suuuper suerte hemos tenido.
+28bde46d80ddf50fdf9116845affe3e9:0:O sea... ¿o quizá no?\nNo es que tenga suerte... ¡Es que tú me has salvado, {0}!
+8f2444e6041b069e9e3f358ab56934df:0:Oye, {0}...\nEntonces, ¿ya confías en mí?
+62bb9dee2ec92f72eae903cae0966db6:0:Oye, {0}...\nEntonces, ¿ya confías en mí?
+393d08ff0de1ceefcd77ae432b235b32:0:No decir nada
+9a74997195a7371e5040b557e4396748:0:Venga, dímelo ya...!\n¿Confías en mí o no?
+ab72ec42ef7c95f7178726b5a638ada7:0:Venga, dímelo ya...!\n¿Confías en mí o no?
+5196d5ebc73a3c5c0d1232c058abdf24:0:Sí
+f75beaabea2218be6e2dc0fdc1a44df9:0:Respondiste que sí, que claro que confiabas en ella.
+d06675b3725fae9958e5ece993e792fb:0:¡Oooomg, error!\n¡Ajaja, no deberías confiar tanto en la gente!
+b21e2d699838581df705afc701dbc42d:0:No del todo
+273bb452ba9a628bf8d4ae4d6a1c090c:0:Respondiste que sigues sin confiar demasiado en ella.
+51408949bd15a70e139786f9ffffe570:0:Ah, ¿sí, en serio?\nBueno, supongo que tiene sentido, así que...
+469604a6d46b287d593c3169bcf2cf56:0:O sea, yo soy Gnosia, así que sí.\n¡No deberías confiar en mí para nada!
+6db4de9c193c5f105755016c870f83b8:2:Continuar
+7015e193cd4b6027d899c548dfd9d487:0:Pero, {0}, tú te quedaste conmigo hasta el final.\nNo quiero limitarme a eliminarte ni nada...
+e86ded6d76d826847c949b7f52d17086:0:Así que te voy a dejar como mascota.\nToma, ponte esto. ¡Y no te lo quites! ¡Ajajaja!
+cc08f9e14a406c8244433843b0a1c1fa:0:Más de la mitad de los pasajeros son ahora Gnosia,\ny la nave ha sido tomada. Se mostrarán los resultados.
+5196d5ebc73a3c5c0d1232c058abdf24:1:Yo confiaba en ti
+f75beaabea2218be6e2dc0fdc1a44df9:1:Respondiste que claro que confiabas en ella.
+03152b96aafe6b939e626043ea7cb9fe:0:Ejejeje... Eso me hace feliz.\n¡Gracias, {0}!
+5d4f8c4342f7d3d7c3336ed1aa376ae6:0:Todo el mundo dice que soy una mentirosa, o que tengo pinta de mentirosa, o lo que sea...\nY, en serio, eso duele un poquito.
+377a5de6f67bac872ccc2391f59df2d9:0:O sea, sí, a veces miento.\nPero es porque... me da miedo, ¿sabes?
+b21e2d699838581df705afc701dbc42d:1:No del todo
+273bb452ba9a628bf8d4ae4d6a1c090c:1:Respondiste que sigues sin confiar demasiado en ella.
+9e5b32d79a406ea45f5b9a0ede9b7d9b:0:Sí, supongo que no, ¿eh?\nAjaja, bueno, ¡eso es culpa mía!
+2a95fb3e912ea3ba358f9bdedaeb7723:0:O sea, sí, a veces miento.\nPero es porque... me da miedo, ¿sabes?
+6db4de9c193c5f105755016c870f83b8:3:Continuar
+52da435b7a776e27ffe39ee7425f3bcc:0:No entiendo nada de nada.\nPero tengo que sobrevivir, o lo que sea.\nY para protegerme, tengo que mentir.
+00e1cf7cec0323d7379a1eed0f0d9550:0:No quiero tener que engañar a la gente ni nada...
+da09e10643a1a433ba938961be3bcab0:0:Vale, perdón, eso era mentira total.\nEngañar a la gente es hasta divertido...
+db98b30a33dc17f140bc0c9e5d838fcb:0:Pero lo de no entender nada, ¿vale? Eso sí que es verdad.\nQuiero decir, solo tengo un año, así que...
+8d691233bdd33ccf9af17ff3d6d149f9:0:¡Ni de broma!
+8689d8e934b06732420f033a728e9ba7:0:Le señalaste que lo de \"tener un año\" también es mentira.
+c044c8c187492c6e908ac408ac2a5529:0:¡No! ¡Que va en serio!\n¡Hasta el año pasado estaba metida en una cápsula de incubación!
+7c22085d8d61df1853e2913583ddd584:0:Y desde que salí de esa cápsula, hace como un año...\nhe estado totalmente sola, sin amigos ni nada.
+096ed54c78880b9a87c2a0efed4c73a2:0:Así que...\n{0}, cuando te aliaste conmigo, fui súper feliz.
+18e163a7d72fb95b603083123c3ba3ad:0:Ejeje...\nA tu lado me siento a salvo, o algo así.
+54ee98c0f18a793ab92122548fcd80a2:0:Quedémonos así.\nSi pudiéramos seguir juntos para siempre...
+137973a806cc4c5bcdcc063c3715c5bc:0:Datos tripul. actualizados: SQ
+97505cea90b2c8171118d80e6d44d77f:0:Todos los Gnosia han sido enviados a criogenia.\nSe mostrarán los resultados.
+# SQ2
+f19445a74317bdfd5f95b978179ff115:1:Registrar conversación
+de0ba86f747b9323dfc9a752fe518552:1:Conversación
+dbcd0c7e321fe8d2b24e7eec5075dc36:0:Te uniste a la conversación en la cafetería con Shigemichi y SQ.\nTe da un poco de déjà vu...
+00c45cb3faabc6bdec0a3bd7164cce55:0:¿Gnosia, eh?\nPues la persona que menos querría que fuera Gnosia sería Setsu, supongo.
+86160a73ee6e37b4cc5c526b30fc81ec:0:Quiero decir, Setsu mola, ¿sabes?\nNo es el tipo de persona del que quiera sospechar.
+a3e6bdd2f7454779808e105ca2ed2791:0:Setsu en plan Gnosia... Buf.\nPero, si lo piensas, también podría pasar perfectamente, ¿nooo?
+88c1f99e01c287fd44746fedf31ece53:0:Setsu y {0} siempre andan reuniéndose y planeando cosas, ¿no?\nJeje, ¡a SQ no se le escapa nada!
+bc2e81ca17feecb3263146293f2e3521:0:Hm, sí, supongo...\nEntonces, ¿qué pasa con eso, {0}?
+aa93b3a74c47f4e207f2c9c00117f4e5:0:Negarlo
+0e55ba8c7eba3b0411219880333cc3eb:0:Cambiar de tema
+6db4de9c193c5f105755016c870f83b8:4:Continuar
+ee699f6dcb696489071377a846a7f77e:0:No lo malinterpretes...
+7c26c78474fc48bb014fcf7790879edf:0:Anda, mira quién aparece.\n¿Y eso de que no lo malinterprete?
+dca1d04fc4d91cc81cfb600614896bce:0:Lo de mi relación con {0}.\nSolo somos... amantes.
+12aec57ba1bd6da3d5c50a4e5ed165ca:0:¿Coooomo?\nPero si a ti no te va nada el sexo y todo eso...?
+571971b1efa4d0d4188a6c481dc7aa79:0:Tenemos una conexión espiritual.
+54ada5d5e83a0aa455517806c05c010a:0:¡Eh, eh, eh, eeeeh!\n¡¿Así que estáis juntos, en serio?!
+77af599c70e3066243875a4b8380e757:0:En cualquier caso, voy a pedirle a {0} un momento.\nTenemos algo de lo que hablar.
+555c7cdc60333e9e353cbab5db0059f3:0:¡Oooomg! ¡Qué monos sois!\nVale, vale, ¡vosotros hablad!
+8fedaf9eb773d155c5b207862304568d:0:Vaya, colega...
+574dac12b0555657d9bf113106f1e32d:0:Jeje...\nParece que me libré por los pelos.
+eee944833c021ddf58be013606132509:0:SQ siempre acaba arrastrándome a conversaciones así.\nPensé que sería mejor salir antes de perder la calma.
+3093047fd83b0417bacaf37958815aa2:0:Y si SQ quiere intentar sembrar sospechas sobre nosotros en las discusiones...\nentonces nosotros contraatacaremos y le echaremos todo encima...
+9191510feb1cc43a4c4469ffe38ec4bb:0:Habilidad \"Contraatacar\" adquirida
+6de66f340c990cdb80dcc8132f356f15:0:Has adquirido la habilidad \"Contraatacar\".\nEsto te permite devolver la sospecha a quien sospecha de ti.\nRequiere 25 de \"Lógica\" y 25 de \"Carisma\".
+0b63f72869e0758caacab54a67886242:0:Por cierto...\n{0}...
+4f4bb735476f0016c44b297baa5cea25:0:Para sacarnos de ahí...\ndije, ya sabes, que éramos \"amantes\"...
+0dc4e9d282e02d7cf6fa21428af83080:0:Pero quiero decir, en cierto modo sí que somos compañeros, ¿no?\nMe pareció que negarlo por completo solo despertaría más sospechas.
+fa6a2bb2170539f79c5744e9b032c346:0:Pero espero no haberte hecho sentir mal.\nPerdona, ¿vale?
+fb79154b8814603b615b4c85fae207e7:0:Me hizo feliz
+72b14620b5b5e6b3c0b85ff716f498a4:0:Respondiste que te hizo feliz oír a Setsu llamaros amantes.
+9ab78eae06d8ba24b03c2cd1e4fe00b6:0:¿De verdad...?\nJeje, bien...\nMe alegro de que te haya alegrado...
+e882d2a10bd488842f4db0ab88683d14:0:Sí, no hagas eso
+892cc0dadad2ccd86432c4e0861ec9f4:0:Respondiste que comentarios así solo te traen problemas.
+a13c1cc379e9f6b899c5253268a93ae1:0:Sí...\nPerdona por decir algo así sin preguntarte antes...
+6db4de9c193c5f105755016c870f83b8:5:Continuar
+5a0a76015c2869b98c5f6a1966da4378:0:Vale, b-bueno... Será mejor que volvamos.\nYa casi es la hora.
+# SQ3
+86c8488b2d33ce56e7842be9b85f0d1a:0:Descubrir mentira
+1e5d501aa4d2c91404924ae6e6f16313:0:(Descubriste la mentira de {0}...)
+f19445a74317bdfd5f95b978179ff115:2:Registrar conversación
+de0ba86f747b9323dfc9a752fe518552:2:Conversación
+286ce96b6ae1ee90c2ac311128c9b421:0:Ah, si es {0}. Holiii.
+d50fdb3f3be5590da8cf8ec4b6a01c09:0:Oye, {0}, quería preguntarte una cosa.\n¿Te importaría venir conmigo un momento?
+f37d8e83c0ec788343af0c0c82906ea8:0:Vamos
+d2d12ef347f65502917de97e21e2ba16:0:Decidiste seguir a SQ.
+d6e6277e3b1f4e60eff93c4a745ec256:0:Ejeje, ¡graciaaas!\nVale, ven aquí. No quiero que nos oiga nadie.
+f44f1248b04405e2c29fecaa9e83ef65:0:Vale, aquí debería estar bien.\nY ahora, allá va mi pregunta...
+11c602cb87015b9f027b8774c4309004:0:Oye, {0}...\n¿Me estás ocultando algo?
+2c4d63c613ce035cbf3bcb41ec1ec717:0:Ahora no
+11d87e172249ad7258cfd42e45222d2e:0:Te negaste, diciendo que no tenías tiempo.
+afbe1323040a933cd476576295d9b9a1:0:Ah...\nAjaja, vale, no pasa nada.
+7baf54e6357535ad0c3d9b3f0796d21e:0:¡No te preocupes por eso!\nNos vemos mañana.
+17ee1208abc07cef009e444b0615c205:0:No decir nada
+294c0270ad925e6b19a6960aea9a6fdf:0:Bueno...?\nSolo quería preguntarte una cosa.
+ce111a3cd70c9002a0f669ee38126ec7:0:Respondiste que no le ocultas nada.
+4c14a6f95f44e0ba2b4a274bae0163b0:0:¿Eh? Pero tienes una pinta suuuper sospechosa...
+42510700a59e501ffb3cad469e2ebb1d:0:O sea, bueno...\nSupongo que hay cosas que uno no quiere contarle a nadie.
+ec49ce868f132609f870a7abddfecba8:0:Sí
+244b180a72782bb8af9aa4e6d741a67b:0:Respondiste que sí, que de verdad le ocultas algo.
+ed862233d419f2b26b473359f51f0341:0:¡Oooomg, así que {0} lo admite!\nVale, ahora tengo muchísima curiosidad...
+393d08ff0de1ceefcd77ae432b235b32:1:No decir nada
+b453d6ac58a5ad880475f7c951e0a376:0:Hmph, así que {0} se acoge a su derecho a no declarar...
+6db4de9c193c5f105755016c870f83b8:6:Continuar
+087073584036e21bb77cd37be5faee31:0:Vale, vale, vale, siguiente pregunta...\n¿Preparado?!
+51222e3132e260f0b1988302ba7053ad:0:Entonces, {0}...\nTú eres Gnosia, ¿o qué...?
+393d08ff0de1ceefcd77ae432b235b32:2:No decir nada
+a576640588d7800c6625c7303d86e3be:0:¿Y bien?\nEntonces, ¿eres Gnosia o no?
+a6811bd02e5143da902b2a7243bacab8:0:Lo negaste, diciendo que no eres Gnosia.
+56509397e3670763f60da6b54d0b1eaa:0:Ya, supongo que no, ¿eh?\nVale, entonces {0}, para nada Gnosia. Apuntado.
+35081ccb113cb943c56d38f24b844355:0:Eso significa que, en plan...\n{0} es {1}?
+5e533a8020d5913020ef9c6d4399f195:0:un Seguidor AC
+9c50d148a8831662969abbc978215083:0:un Bicho
+c3f840e3cb5ca612307f41b600239f68:0:un Seguidor AC o un Bicho
+8f4bf5e389b44d5312199f29a9e988e8:0:Soy Gnosia
+eea9e69428e594c33b3e710c9e015d5c:0:Respondiste que sí, que en efecto eres Gnosia.
+ec806f311afdc02f095995ba69d7ea39:0:¡Oooomg, así que al final dices la verdad!\nPero... ¿te parece buena idea admitir eso...?
+9c501b6a81e2b35d280c8386bfa28f02:0:Ja... ¡ni de coña!\nEntonces, ahora que sé la verdad, ¿vas a eliminarme?\n¡Noooo! ¡No quiero desaparecer!
+2a5ba28c61a2edef5e8de9861983a204:0:Vale, vale, pero bueno, ya basta de bromas o lo que sea...
+6db4de9c193c5f105755016c870f83b8:7:Continuar
+230115bdfb3f2c12cb47dc92e6837994:0:Jejeje, pues verás...\n¡Me di cuenta perfectamente de que estabas mintiendo!
+7355ffcea007fd2d9ad85a06a04b2c98:0:Y estaba pensando que podríamos hacer un trato.
+c22073e44533b10ed498c3c7c541557b:0:No le diré a nadie que eres {1}.\nY además intentaré cubrirte las espaldas y todo eso.
+cad21430f58353b61bbce2735949d749:0:mintiendo
+711739b567220dc3d1d290a98014f1ae:0:Así que...\n{0}, {1}, ¿trato hecho?
+798aaeb833caa1c5bec8746c206d8914:0:no me elimines
+02c39ea9310c7544375f6ec897ba8d92:0:déjame vivir
+ef2a0c9ea572486a72816abe2c0fe236:0:Aceptar
+d506980bec9847875d234085fd9fbda0:0:Rechazar
+6db4de9c193c5f105755016c870f83b8:8:Continuar
+8977b3042eb008963efac4084a085f0d:0:No hace falta que respondas.\nSolo quería que supieras que eso es lo que voy a hacer.
+18d6955f7fee33f796e2abc8cdc15bf0:0:Vale, pues eso es todo por esta noche.\n¡Nos vemos mañana!
+f19445a74317bdfd5f95b978179ff115:3:Registrar conversación
+de0ba86f747b9323dfc9a752fe518552:3:Conversación
+b5162cf9c6dc90d6ac697774d76783be:0:Hola, enemigo de la humanidad. Jejeje.
+efb31405982e9f2a25a52b65782a8291:0:¿Puedes venir aquí un segundo?\nVenga, acércate más...
+9861705baa5220ac0ea7eef49dac76d3:0:Hm... sííí...\nCuanto más te miro, menos lo veo...
+54a8cc2918d9fd31f02b23940e658cf5:0:En plan, no pareces nada peligroso.\nDe hecho eres hasta... mono, ¿no?
+9910882719721771bbd7675ecdd1fac1:0:Hm...\nQué difícil es todo esto.
+78099122027da095b8f1c65c86686d9f:0:O sea, me da igual que seas Gnosia o lo que sea.\n¡Hasta es divertido pasar el rato contigo!
+bfebe659a934b339f9775347e4a53047:0:A veces desearía que...\nsolo estuviéramos tú y yo en esta nave...
+84c354a31ed8256f02e7515f1b0c77a7:0:A veces desearía que...\nsolo estuviéramos tú y yo en esta nave...
+e5b89985ded73f7205b3e566a9d80955:0:Hagámoslo
+95d163b0c55c19df8e9d50370a81dc5b:0:Respondiste que entonces deberíais quedaros solos los dos.
+0d505ef2bff0c9ee7177ef0d70097ca9:0:¿Eh...? ¿En serio?\n{0}... ¿lo dices de verdad?
+6db4de9c193c5f105755016c870f83b8:9:Continuar
+26bb6c6877bd00d69294b452552ad174:0:¡Ajaja! ¡Era broma!\nBueno, en fin, ¡nos vemos luego!
+4a23d3b29b48512bd0bebe3e86808d39:0:¡Yo también pondré de mi parte!
+6db4de9c193c5f105755016c870f83b8:10:Continuar
+eca2f6fb11e2dbfcfc180e3354157973:0:O sea, traicionar a todo el mundo...\ny que solo sobrevivamos nosotros dos...
+1df4e7ca70b99852f673cb11d2f62ef9:0:Ese es nuestro objetivo ahora.\nEs egoísta y horrible... ¡me encanta!
+1c33f3de6ee60d988d934f04265a782d:0:Gracias, {0}.\nMe alegro de tenerte como cómplice.
+b8e2ccd770b2df429f431b701697de0d:0:Charla libre
+015da631c60d54768bae014539b83c20:0:Jeje...♪
+b8e2ccd770b2df429f431b701697de0d:1:Charla libre
+33811cc02835f0ff0c1a0628dc8e7615:0:Ejeje... {0}.\nVamos a sobrevivir juntos, tú y yo.
+7473a49ef6b5f4e1ab95dca3eae10918:0:Despedirse
+629e0e19d3eb3f2ecd8ce1f8397c0ecd:0:Lo siento, {0}.\nEstoy súper asustada...
+45b4ca59d3425ca7261724a9b7da61ce:0:Estaba pensando: \"Oooomg, ¿y si a {0} ya no le gusto?\"\nAsí que, bueno... acabé votando...
+3811a616cf58ab89ada7018bff59e967:0:Vale, pues eso, ¡adiiiiós!\n¡Te quiero, o algo así!
+c168912d3b723ce9f0e86b43ec4ed99d:1:Final
+faf234a0399d4500d2b46d7513e93455:0:Consola principal
+618ee3537bfa7d273a2cdeec967a1c20:0:Más de la mitad de los pasajeros son ahora Gnosia,\ny la nave ha sido tomada.
+ba08b4f051b545dbbe6237863ae12986:0:¡Hoooola! Ajaja.\nAl final sí que nos hemos quedado solos...
+eca76b14d46736b7a7366dde016d7deb:0:Ah, mira, parece que ya se ha terminado todo.
+91f224ebe9e495066436b94e646ecdea:0:Bueno, entonces...\n¿Qué hacemos ahora?
+3e0157304639e0a2c0e938f805c0df51:0:Oye, {0}, ¿qué quieres hacer?\nTú eres Gnosia y todo eso, así que... ¿vas a matarme?
+393d08ff0de1ceefcd77ae432b235b32:3:No decir nada
+94db6af10f19e93e5ada2451842085cc:0:¡No te preocupes por mí!\nSolo dime qué quieres hacer.
+c26b8d3f5ed38b8c4d83eb2d664203ce:0:Eliminarte
+6da6b4249b5609d467aa015be0c764d7:0:Respondiste que, como Gnosia, piensas eliminarla.
+e82838bcdeea4b5867c46b5427a6a35a:0:Hm...\nSi eso es lo que quieres hacer, me parece bien.
+2bd60271e8b48904a8dec13828fc1000:0:Espera un momento.\nAntes de desaparecer, quiero decirte una cosa, {0}.
+dd6a30c9e06a3d434f66dd6620e15931:0:Es un poco fuerte, pero...\nEjeje, necesito decírtelo...
+5a0a70da9336a4c4c3489117e70ed9a4:0:Verás, yo en realidad...\nnací como una especie de recipiente para que mi madre transfiriera su conciencia.
+0e2c1438747b02aa1ed88efd1b239652:0:Un cuerpo nuevo para que mi madre volviera a ser joven.\nSoy su cuerpo de repuesto número 511,\npor eso, en orden alfabético, me llamo \"SQ\".
+724f18afdce72156e39b386d8b36655f:0:Desde que nací estuve en una cápsula de incubación.\nLos cuerpos de repuesto no necesitan personalidad ni nada, ¿sabes?
+7757a4a318aa511356b52f435f1500db:0:Pero cuando mi madre intentó transferir su conciencia...\npor alguna razón, el repuesto desarrolló su propia conciencia.
+fffbf860d11449f3cfd9e2004d26c0a4:0:Así que la transferencia falló.\nDentro del repuesto quedaron una conciencia nueva y\nfragmentos de la memoria de mi madre, todo mezclado...
+29e52f99efc235d3f216ae1d51eed902:0:Y al chocarse todo eso unas con otras...\nasí nací yo.
+e6dd604b3cdec80ab93492e30e996f97:0:Así que esto era solo un cuerpo de repuesto, y encima defectuoso.\nBásicamente estoy fingiendo ser humana, o algo así.
+234ba126dbcd6840f2d78350792480f9:0:Pero, ¿sabes qué...?\nTú me elegiste, ¿verdad?\nMe elegiste y seguiste a mi lado...
+7f174e62f08b97f7d2663a9cfa190c4a:0:Pero, ¿sabes qué...?\nNo me eliminaste, ¿verdad?\nY te quedaste conmigo todo este tiempo...
+10eb35e7b3e6e2477dc42fa50f554f53:0:Así que me da igual lo que pase.\nYa me has dado muchísimo. No necesito nada más.
+2036a414f48210388870935b46d7ecf2:0:Vale, eso era todo...\nJejeje, ¿has notado todo el amor de SQ?
+57174e0b96c17df1899416cbacea18f5:0:Ya puedes eliminarme.\nAdioooós, {0}!
+137973a806cc4c5bcdcc063c3715c5bc:1:Datos tripul. actualizados: SQ
+c717540211711c06534d78677ce9130a:0:Se mostrarán los resultados.
+82ba814bfd6a329a512aa06b3e6e15b3:0:Voy a loopar
+79c09eb1b60f3dbe3789b47d49d9d702:0:Le dijiste que vas a entrar en loop,\ny que tendrás que repetir todo esto otra vez.
+52d1aafa9e8d44c3509bb9c289491aee:0:Eh... ¿qué?\nNo tengo ni idea de qué me estás hablando...?
+2a1d1f01eff5e5747326acf0ff1a0a3c:0:Le explicaste a SQ que llevas experimentando el mismo loop\nuna y otra vez.
+ccc021afd7273233d2ccc366d5c7a2db:0:Ah, ya veo...\nSuena durísimo, la verdad...
+8f762b0743fecf8d866ac8d414c78e23:0:Entonces ya me has visto siendo Gnosia, ¿no?\nSeguro que sería una Gnosia malísima...
+745c971bd50c5f2c2d0b98246f2bb200:0:Por cierto, en un loop anterior se mencionó que\nRemnan era el padre de SQ, pero...
+211d0af6cd1f1b2e0b44672903756afc:0:¿Eh? ¿De verdad?\n¿Remnan es mi padre?
+52cf5ebe5e3c263e088d166a6eb878f2:0:Le contaste que la SQ Gnosia llamó padre a Remnan.
+5f4d861242860673a1c612ab225ae0cb:0:Hm...\nNo creo que yo mintiera con algo así, así que...
+846258c04c518c11286eae901770fd55:0:Espera un momento...\nA lo mejor era que...
+ba662ef4f523096f012b0ae099232804:0:Cuando loopeas, la gente cambia y cada vez los Gnosia son otros, ¿no?\nAsí que el pasado también cambia un poco cada vez, ¿verdad?
+71fcc329e3621baea3a3f1609a100e1f:0:Entonces, la SQ que conociste aquella vez...\n¿Y si no era esta SQ en absoluto?
+ae8215730a067b3ccbf1b0d1f9273166:0:Vale, esto es un poco fuerte, pero...
+5a0a70da9336a4c4c3489117e70ed9a4:1:Verás, yo en realidad...\nnací como una especie de recipiente para que mi madre transfiriera su conciencia.
+0e2c1438747b02aa1ed88efd1b239652:1:Un cuerpo nuevo para que mi madre volviera a ser joven.\nSoy su cuerpo de repuesto número 511,\npor eso, en orden alfabético, me llamo \"SQ\".
+724f18afdce72156e39b386d8b36655f:1:Desde que nací estuve en una cápsula de incubación.\nLos cuerpos de repuesto no necesitan personalidad ni nada, ¿sabes?
+7757a4a318aa511356b52f435f1500db:1:Pero cuando mi madre intentó transferir su conciencia...\npor alguna razón, el repuesto desarrolló su propia conciencia.
+fffbf860d11449f3cfd9e2004d26c0a4:1:Así que la transferencia falló.\nDentro del repuesto quedaron una conciencia nueva y\nfragmentos de la memoria de mi madre, todo mezclado...
+010d14330031d6dbbc3b6e81dfd23a17:0:Y al chocarse todo eso unas con otras...\nasí nací yo.
+f84e4c2e3db96f96310077b385eff612:0:Pero si el pasado cambia...\na lo mejor la transferencia de mi madre sí que funcionó...?
+94c6930b170b9146f9f87dfc7e2cf412:0:Entonces, a lo mejor...\n¿la SQ Gnosia era en realidad mi madre?\nOooomg, eso da muchísimo miedo...
+e9dd332db015932f2dcc91807e226310:0:Todavía me quedan algunos recuerdos de mi madre...\nLa mayoría son súper sangrientos...
+137973a806cc4c5bcdcc063c3715c5bc:2:Datos tripul. actualizados: SQ
+a036ddd723460090af7c92d4cd02300e:0:Entonces, {0}, vas a loopar otra vez, ¿no?\nEn ese caso, déjame advertirte.
+abb6e0fbb0e2adf0e422516e28524949:0:Escucha bien.\nNo confíes jamás en SQ, ¿vale?\nEsa chica es una mentirosa patológica.
+a6b096c2e3a5f06781b039a6c3f06d33:0:Es rarísimo decir esto de mí misma, pero...\nEn serio, ten mucho cuidado, ¿vale?
+aaa66064b5e52b68ac129dfcdadb839d:0:No vuelvas a dejarte engañar...\nNo por una mentirosa total como SQ...
+070b97c11591f1546e09a80e5f853c8f:0:Tendré cuidado
+35d5a67098e23f39d623696e86a46fd5:0:Respondiste que tendrás cuidado con SQ.
+fbc974ac740df73c59a835c6961ac1b4:0:Vale...\nAjaja, bien.
+ab19ca746e521b8ddf991401d4d02a92:0:...\nEntonces supongo que aquí nos despedimos, ¿no?
+2eab4fac32f719609acd97add4b31b48:0:Vale, ¡adioooós!\n¡Nos vemos en el siguiente loop!
+c717540211711c06534d78677ce9130a:1:Se mostrarán los resultados.
+f8e6710c38c2aa73893b859ee51e6b3a:0:Adiós...
+9b2ae337f8f41010a317021c38667682:0:Abrazarla
+643714ff5657755c55e3f7a139c24cf3:0:La abrazaste con suavidad.
+c007b74fcc3331aac27421ab1763c01b:0:Oye, pero qué narices, ¡eso no vale!\n¡Si te acabo de decir: \"¡No te acerques a SQ!\"!
+6e4a920791ffe6526cfc00919bd7c844:0:Y ahora tú...\nte vas a...\nir...
+fee4e9fd928d53732620d395fb04f3cb:0:Eso no vale...\nHacer llorar así... a una chica...
+311300fa03c3d70325b49da20229379c:0:¡Buaaaah! ¡Noooo!\n{0}, ¡quédate conmigo! ¡Buaaaah!
+e631fdf997daa85ca6e5fada76d7ca66:0:¡No, no, no, noooo! ¡Eso no valeee!\n¡Quiero irme con {0}!
+8a0a8c6c36cc5e16993353829f17562a:0:¡Buaaaah! ¡Buaaaah!\n{0}! {0}...!
+ab6459d3025f6f5a9e93433a3d502258:0:*Sniff*... ¿{0}...?
+b877b2bd02b3ab68e1cf712fa0018ba2:0:Oye, {0}...\nSolo quiero pedirte un favor.
+c0950b6dd668f8b3f8a4e389d8238539:0:Después de loopar...\nNo te olvides de la SQ de este universo, ¿vale?
+8057c2f77416b7f801942d45c5531488:0:Vale...\nEso era todo...
+d410a883c05acd9ade56609a23d8e898:0:Con eso me basta...\n¡De verdad! Venga, vete ya, {0}.
+05ea82b765350f5ca5f2e1f5fed21ec1:0:¡Vamos, vete! ¡Date prisa!\n{0}... {0}... yo...
+c717540211711c06534d78677ce9130a:2:Se mostrarán los resultados.
+0a32ad5649ba15f15ccf46b2d180ba2e:0:{0}... ¡te quieroooo!
+# SQ4
+889bdf852e27d350772452d3d91b07ce:0:Precarga de escenario
+fe09eb1c7c6b0911d0e2e21d1dc27504:0:Explicar situación
+c779711af60c245e3a28948bef86c54f:0:Jejeje, ¡ya ha empezado!\nVale, camarada {0}, mucha suerte o lo que sea.
+dcd6d9bd029660fc4ead0783563cb61f:0:Ah, y puedes decidir tú a quién eliminamos.\nPero preferiría que no mates a Remnan.
+79fa755433c60acb86d0d11d41676ffa:0:Es mío. Siempre lo ha sido.\n¿Verdad, Remmy...?
+080f54e7ba326bc178c3f01d34f04bb1:0:Datos tripul. actualizados: SQ/Remnan
+43c5d516365cc244592f91b018cae3dd:0:¿Qué pasa, Remnan? Tienes cara de puro terror.\nBueno, en realidad... siempre tienes cara de asustarte por algo, ¿no?\nAsí que nada, da igual.
+5369d94214a82438013dc23a4ad784e3:0:¿Eh? ¿Qué...?!\nSí, por favor... n-no... me... tenga en cuenta...!\nEs que... he tenido un mal presentimiento...
+76bc442c8301663a91d3d4c48eace3a6:0:Victoria
+bff16bfc74b6c76e5c7b3bde3b1aa548:0:En el vestíbulo
+6a1a8e6972f3f9b58da26e352b98e52c:0:Más de la mitad de los pasajeros son ahora Gnosia,\ny la nave ha sido tomada.
+48debddd153ec8f4e3913fe25116e6fe:0:Hoooola, {0}.\n¡Gracias por hacer lo que te pedí!
+e6831d4a8d617fb6d8a704c1650bfcdb:0:Le has perdonado la vida a Remnan por mí, ¿verdad?\n¡Muchísimas gracias, {0}! ¡Te lo agradezco un montón!
+7cb51e12632264b64be4ae68f8272cc5:0:Vale, entonces...
+b9f9653efc8e3ad92865477fc86c8d0c:0:Ejejejejeje... Reeeemmyyyyy...\nAhora, ¿qué debería hacer contigo primero?
+c717540211711c06534d78677ce9130a:3:Se mostrarán los resultados.

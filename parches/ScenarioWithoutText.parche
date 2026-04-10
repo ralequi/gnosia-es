@@ -1,0 +1,325 @@
+# MainWithoutG
+889bdf852e27d350772452d3d91b07ce:0:Carga preintro
+fe09eb1c7c6b0911d0e2e21d1dc27504:0:Informe
+fb30432678327d856f50fe43dd009337:0:El hecho de que estés aquí, en este universo... ¿significa que...\nTu \"Llave Plateada\" ya está llena?
+ac08ad35fa41fd1cb4720e5cb23e87c7:0:Está llena
+af17ca5dcc78f8e658f5b695fdae0fe8:0:Respondiste que está llena.
+a80e8e4fcc29ba6f844ab2b997f2edc2:0:{0}...\n¿Por qué contar una mentira tan absurda?\n¿Qué sentido tiene?
+c58873e4c3d6be8d452cb4883c2e48db:0:Escucha.\nMientras la \"Llave Plateada\" no esté llena, venir aquí no resolverá nada.
+a468bc15a26fecfb49bd0dd66e9b7da8:0:Todavía no
+8d66a811366d953a0ef5682f7f903613:0:Respondiste que todavía no.
+31b85fbc58966c183ae023f7051b14dc:0:Ya veo.\nEn ese caso, es demasiado pronto para que vengas aquí.
+e176578b1be647e8ccd9416ebd1ad975:0:Parece que no...\nEn ese caso, aún es demasiado pronto para que vengas aquí.
+6db4de9c193c5f105755016c870f83b8:0:Continuación
+3f2263e9814a2e4e3818f48e75643f22:0:Debido a la superposición de tu existencia con la de otro {0}...\nEste universo va a dejar de existir.
+70f31e093027ac565111202f8bc0f5dd:0:{0}. Reúne toda la información que puedas.\nDe cualquier universo y de cualquiera que encuentres.
+0ac2a0a5d80cc3ea4e571e9da9c40498:0:Para ello, prueba a experimentar con varios factores.\nTu propio rol, tus decisiones y demás.
+ee824368c6963d07d7845a520d9c4549:0:Y cuando hayas reunido toda la información necesaria...\nVuelve aquí, al universo libre de infección Gnosia.
+33ac5d65fb695baaaab54ed55b76b052:0:¿De acuerdo?\nEstaré aquí, esperándote...
+092a86ce456fa6dc18edc83dc2dac17e:0:Debido a un error fatal, este universo ha sido aniquilado.
+# WithoutGafter
+5dec66860bb60daf169ae7d3e0c90819:0:Crear loop
+889bdf852e27d350772452d3d91b07ce:1:Carga preintro
+fe09eb1c7c6b0911d0e2e21d1dc27504:1:Informe
+54142cf9bee2be8da763eb49a2031d0c:0:No veo nada.\n¿Qué es...?
+de1e63e53ef96f683e21b11fe4601647:0:Este mundo es terriblemente inestable.
+8193ebd29abfedcc756a9a91e0610b85:0:Por lo visto hemos acabado aquí por la desaparición del universo.\nNo creo que aguante mucho más.
+6bee5c3362e44f0d687db0ea2d17ff8c:0:Puede que esto sea una buena oportunidad...\nHablemos y ordenemos las ideas.
+21037ea02b56dd3234e9e74aca79f35d:0:En ese último loop, en el mundo sin Gnosia, había otro \"tú\".\nEntonces... ¿qué significa eso exactamente que seas *tú*?
+cd6c9524151a91d9a4544ed14d052b09:0:¿Eres el verdadero {0}? ¿Un clon?\n¿O quizá... un impostor que finge ser {0}?
+9e98715df2b863e4ac1b0d776a286418:0:Nada seleccionado
+d8dc09ef259fcf4bdf5dbe0fa87ba0b4:0:Bien, dime qué piensas.\n¿Eres el verdadero {0}, un clon,\no eres un impostor?
+c468c2b515f96a7d9388e7440f75a65d:0:El auténtico
+0948c27cfa8ba889e7b0e1cfe1fa33d2:0:Respondiste que eres el auténtico.
+ed2023218398ec961bbeddca742b0a63:0:Sí...\nTú y otro \"tú\". Ambos sois el \"auténtico\" {0}.\nEso es lo que yo creo.
+5bdaa821e57ed6755b49811dc16d70d2:0:La superposición de existencia causó una inconsistencia, y eso a su vez está provocando la aniquilación del par.\nSeguramente eso es lo que hizo desaparecer el universo.
+1e823fe71efd7ba4ed6eb1301a32a86d:0:Un clon
+84a67b252f984d21a0fd9c75bf040960:0:Respondiste que quizá seas un clon humano.
+265c52925624a98e6aa179c5a940a28d:0:¿Eso crees?\nYa veo...
+9370597ce6522d66a221203072d5e2fc:0:Espera, pero no tienes recuerdos, ¿verdad?\nEscúchame...
+1fb6cb8d4b17e75143cae45c3c009582:0:Teniendo en cuenta el momento... Tú y el otro {0}...\nEsa doble existencia causó una inconsistencia y provocó la aniquilación del par.
+9a088f461d9ef7bef11a5d48dbf9526a:0:Puede que esa sea la causa de la desaparición del universo.\nPor eso... creo que es seguro asumir que tú eres el {0} \"auténtico\".
+a93e5713310e592d25f1a773c474fb87:0:Un impostor
+9cb29bdd3d3ac5e1f5ffabf4c8892d95:0:Respondiste que quizá seas un falso {0}.
+265c52925624a98e6aa179c5a940a28d:1:¿Eso crees?\nYa veo...
+9370597ce6522d66a221203072d5e2fc:1:Espera, pero no tienes recuerdos, ¿verdad?\nEscúchame...
+1fb6cb8d4b17e75143cae45c3c009582:1:Teniendo en cuenta el momento... Tú y el otro {0}...\nEsa doble existencia causó una inconsistencia y provocó la aniquilación del par.
+9a088f461d9ef7bef11a5d48dbf9526a:1:Puede que esa sea la causa de la desaparición del universo.\nPor eso... creo que es seguro asumir que tú eres el {0} \"auténtico\".
+6db4de9c193c5f105755016c870f83b8:1:Continuación
+913cc87d58214bc8ef39a298c6f66f15:0:En ese caso... Entonces, en los universos de los loops que has vivido hasta ahora...\n¿También había allí otro {0}?\n¿Qué crees?
+9e98715df2b863e4ac1b0d776a286418:1:Nada seleccionado
+68fc0a464e36c3316e2a4fde2255f198:0:Veamos...\n¿Crees que había otro {0} en el universo anterior?
+29596b54c4eb1c1bdecbba77ee16a4a9:0:Sí
+e4789c372b00daa830264b687042daa2:0:Respondiste que probablemente sí.
+26dabb9ed9c96103ad9170b8eb3dab03:0:Hm. Entonces eso significa...\nQue, tal como dijo Raqio, había otro {0} a bordo de la nave.
+edf66d960945c5fb22e0e966345d2e5f:0:Respondiste que probablemente no.
+dbfe0eeea135608e04af8ac65f07d5d1:0:El universo tal como lo conocíamos no ha desaparecido.\nPor tanto, no había otro {0}.\nQuizá... aunque...
+36d9c71ad1df52915aed3f9e67b8c80c:0:Intenta recordar.\nLo que dijo Raqio antes.\nQue había otro {0} a bordo de la nave.
+6db4de9c193c5f105755016c870f83b8:2:Continuación
+c1d5bc7801f9d3ea1b133e0951c08ddd:0:Y entonces... ¿qué le ocurrió al \"otro\" {0}?\nRaqio también habló de eso. ¿Lo recuerdas?
+79e1db62406affa51f2c9116efc76599:0:Desapareció
+b40eb7bfd02d11d70fa712a809969eca:0:Respondiste que Raqio dijo que desapareció.
+c10c4792ed92ab2b10cecdeb0920f3be:0:Exacto.\nDesapareció antes de que despertáramos tras volver en el loop.
+7f608ac483055609190eb98aa7cc1cf7:0:En ese caso...\n¿Quién borró al otro {0}?
+81cf6ba5da45e66365911ec9d06b775f:0:Lo olvidé
+d13e74baf843c7904ab0ba26bd130809:0:Respondiste que no lo recuerdas.
+94eea03aa029249ee2bd1fd81252ef52:0:Según Raqio, el \"otro\" {0} desapareció...\nAntes de que despertáramos tras volver en el loop.
+7f608ac483055609190eb98aa7cc1cf7:1:En ese caso...\n¿Quién borró al otro {0}?
+9e98715df2b863e4ac1b0d776a286418:2:Nada seleccionado
+cee19da03abc6f929ae8f3c210ef36a1:0:Entonces, si el otro {0} fue borrado...\n¿Quién crees que lo hizo?
+65740b979e7d0c8a5c8ecfe76b5e4c53:0:Respondiste: Gnosia.
+b8dc59397e9c9605fe10acae484cd776:0:Exacto.\nLos Gnosia de la nave borraron al otro {0}.
+12144031e505057d4157813dffaacf6f:0:Gracias a eso, con tú y el otro {0}...\nel problema de esa existencia superpuesta no había llegado a producirse.
+11ac65fefefbbcf18bf2fa42b1d1ea72:0:Pero sin nadie infectado por Gnosia...\nel universo desaparece.
+ea0c8b6734e52d1433b60347981dcffa:0:Por eso hasta ahora solo habíamos podido loopar a universos donde había Gnosia.\nEra el único tipo de universo en el que se nos permitía existir.
+62448e589cf6dac379732934806ba1f8:0:Cada universo al que entrábamos en loop tenía Gnosia.\nCreo que es porque solo allí podíamos seguir existiendo...
+bf5b7a23dd0ff74460eea4c1c8ed4a1c:0:Escucha, {0}...\nSe me ocurrió algo cuando estábamos en el universo sin Gnosia a bordo.
+437374d4c88d1d9fcd6464379396c8bb:0:Si fuera posible... En ese universo...\nDonde nadie tendría que sacrificarse y todos teníamos esperanza...\nYo quería terminar allí el loop.
+cd53919e38d521c847f9efb5f36d710b:0:Así que...
+18dee078b84552950ba06e7867e1b059:0:{0}, la \"Llave\".\nNecesitamos la \"Llave\" para resolver esto.
+ad1cac43c396eb4a8ac4899bdab25c11:0:La \"Llave Plateada\" tiene que llenarse.\nReúne toda la información que puedas.\nInformación que aún no sepamos, sobre todos a bordo, sobre todo...
+b32a31e463438aa0687041da2cfa16d5:0:Si puedes hacer eso, entonces estoy seguro de que...\n{0}...
+ecbdca8e9706178009cfa16ae66ecd80:0:Este universo se ha derrumbado.
+# WithoutGfirst
+889bdf852e27d350772452d3d91b07ce:2:Carga preintro
+fe09eb1c7c6b0911d0e2e21d1dc27504:2:Informe
+f7e0de8a7e5fc87ecc75f86cbd6042ff:0:Este lugar...
+7a4855d6539b5694523cea7f0a1da615:0:Un universo fuera del alcance de los Gnosia.\nEl único universo en el que no hay ni un solo pasajero infectado.
+c4715e918face7d4c7df0620e2155835:0:{0}, así que tú también has llegado aquí.\nA este... mundo de ayer.
+744b3572681288fee8744bb2d73b1542:0:Exacto. Este loop empieza un día antes de nuestro punto de partida habitual.\nAunque no sé por qué.
+84c0b4e7a4702c14912331cea361df8e:0:Bien, {0}.\nVeamos qué sucede...
+9a94131c6994d8ec0cb7651270bf71bc:0:¡Eh, {0}!\nYa estás despierto.
+054e66c8a42a813717d356b980760a6c:0:Y Setsu también, ¿eh?\nTodo el mundo está comiendo en la cafetería.\n¿Venís los dos?
+15e957c596c238f7976ed910349bb116:0:Ah, eh... sí, gracias.\nVamos a echar un vistazo, {0}.
+6db4de9c193c5f105755016c870f83b8:3:Continuación
+8796cc0fd234a285c049a10d5783ff61:0:La mesa de la cafetería está llena de toda clase de platos.
+b777e6672849a47669f017b74185cad9:0:Eh, ya están aquí {0} y Setsu.\nSentaos y picad algo.
+94e281f3fb5fcac8518b5aa8669f8095:0:¡Eh, Setsu!\nEn realidad quería darte las gracias.
+3be61f8811e43fb411a7af8562a76093:0:¿Hm?\n¿He hecho algo para que me las des?
+22febe5741bc2ff8aeab2578ccdfaa38:0:¡¿Pero qué dices?!\n¡Nos salvaste, colega!
+59a44c34f6452c32a1e7d071052557f5:0:¡Sí!\n¿\"Liu-An\", era? ¡Ese planeta estaba plagado de Gnosia!
+44199e7cffb557d622f61b6467f8f627:0:Si no nos hubieras guiado fuera,\nnos habrían aniquilado.
+f71b55f283dd738e677c85f707c4c50f:0:Sí...\nGracias, Setsu.
+9f1c101f3b0d934ee0b973475022719d:0:Ah, claro...\nJeje, supongo que sí lo hice.
+3ce1e740e8392b3fbe3267bbca6eaa85:0:Hasta yo te lo agradezco, ¿sabes?\nSolo que mi gratitud se convirtió en deseo, nada más.
+21531ac54e6eb81c4023dbada04c6479:0:Ya sabes lo que dicen.\nAlgo de un ahogado agarrándose a un clavo ardiendo o algo así.
+2077ed58ba208cceb8b61f98b826fefb:0:Oye, Setsu...\n¿No deberías haber dejado también a Sha-Ming tirado?
+4cda3647aae7c5fefbd38a24538f0e4e:0:En serio.
+46cc8d9f73f5aa5074b30838e17f3843:0:Todo el mundo come y charla con calma.\nHasta Setsu esboza alguna sonrisa de vez en cuando...
+2caee80b4c413f89610b58351ddf8f8b:0:{0}...\n¿Se te están curando bien las heridas?
+e049d4e845591615dd99a213b6198fbb:0:¿Heridas...?
+8714089d89dd89480654c0889e2b3fe0:0:Ah, claro, {0}, te llevaste una buena, ¿eh?
+93341b928ad882031ca555f2ac2db115:0:Sí, fue bastante grave.
+bff0b2ab84bcf5be6301b6383dbbac8b:0:¡Yo pensaba que {0} iba a acabar hecho como yo...!\nEn fin, me alegro de verte bien, colega. ¡Va por ti, campeón!
+02552acfd518b1df609cf3e65a229f6d:0:Después de quedaros un rato, Setsu y tú salís de la cafetería.
+ee71565f5e76d9ce13f2d9f51937093b:0:{0}, no tenía ni idea de que habías resultado herido.\nPero... los demás parecen saberlo.
+9d2964e23b77b077ad2ce8b63aef6d76:0:No es solo que aquí no haya Gnosia.\nEste loop parece completamente distinto de los otros.
+b58458f8fb6d295c8244f668583393d8:0:Además, jeje, es extraño.\nHasta ahora todos se acusaban y se mentían...\nVerlos llevándose así de bien resulta raro.
+17f1b4d00fcf28c2aa87932cdac24400:0:...\nSi... si seguimos así...
+b213bf3c004385c43e60f60ddc630451:0:Perdona, da igual.\nVamos, {0}.\nDeberíamos hablar también con el resto.
+6db4de9c193c5f105755016c870f83b8:4:Continuación
+2e65f945d26881dbd285e3dad4b99e6d:0:¿Cuántas veces tengo que repetirlo?\nPoner rumbo a Gliese es claramente la opción más eficiente.\n¿Por qué no puedes entenderlo?
+05c846ebb5a63b0eccdfefec444379fe:0:Raqio...\nYa basta, ¿vale...?
+3b5fdb86f71e534f82f5f75fe85f5a47:0:Pero yo, ¡JONAS!, como capitán de esta nave, digo que...\n¡Ah! Jeje, hablando del rey de Roma...
+3f9e30bc2868431884d7dd7024e5c174:0:¿Hm...?\n{0}...?
+a7e62b7200e9c377dd6493faeef98743:0:Setsu. Estábamos discutiendo los planes de futuro para esta nave.\nDado que tienes vínculos con el ejército, permíteme preguntar...
+38dcfd6e91aa9b028f807779cac059e8:0:Nosotros, que escapamos de la galaxia de Liu-An infestada de Gnosia, somos refugiados.\nY parece que no hay más supervivientes.
+586366069302c1773f00ea3f49c2d58f:0:Por lo tanto, es nuestro deber informar del estado de Liu-An a las autoridades competentes.\nSostengo que deberíamos dirigirnos a la Base Oudan, que no está lejos, pero...
+0f237a0aa32c802d5b614a62f7d64611:0:Eso es una necedad.\nQuién sabe cuánto nos retendrían entre informes y exámenes\nsi fuéramos directos al ejército. No lo tolero.
+145f03c551bb592e60d72f7974e5854b:0:Como ves, esta es la situación actual.\nSetsu, ¿qué opinas?
+2aa108ee8de069aa99f394a9beca0244:0:Ya veo...
+e623bbbfe328c73d8aa9e99be7de46aa:0:Sí, creo que Setsu debería decidir por nosotros.\nNo hace falta que nos peleemos así...
+3ae7c188f0e3872215fb0fe99f951a3d:0:(Kukrushka asiente de acuerdo.)
+cce5114d1282d5edded32d90f9892cb5:0:Yo presentaré un informe sobre lo ocurrido en Liu-An.\nAsí no hará falta ir hasta la base.
+f4da1f310c109c08cb6c4c77f8d1a2c3:0:¿Os parece aceptable...?\nSegún las normas de viaje interestelar, cuando se descubre una infección Gnosia,\ndebe informarse de inmediato a...
+aa2b6a0d3d5b66f667c3d21f30bc6bb8:0:No pasa nada.\nMientras sepamos que nadie a bordo está infectado, podemos ignorar las normas.
+25fa7963eb28ada272a083977166c554:0:Ja, ¡qué sorpresa!\nSetsu, tienes la cabeza muy bien puesta.
+f0c11de2f34429e61df1bb1a6d26d66b:0:Hmph...\nEntendido. En ese caso, pondremos rumbo a Gliese, como quiere Raqio.
+f5f7e036a2de94e7b748929a266cc4f8:0:¡Genial...!\nGracias a todos. Y también a ti, Raqio...
+7b889b48dbaa1865a89547f37df47807:0:No tienes que darme las gracias.\nSolo quiero volver a Gliese cuanto antes.
+16c9e153cf5c1973d4c7be59eeb0f99f:0:No, yo... ya lo sé.\nEs solo que, si fuéramos a la base, tendría que ver... eh...\nEn fin, gracias por pensar en mí, Raqio.
+fecf8a6b6c0da8c8893f4b3244e4baac:0:Muchos de vosotros lo entendéis mal,\npero Raqio es... en realidad una muy buena persona.
+919a03f3c00b0c76a6fadd8c39652942:0:Estoy seguro de que todos aquí estaríais de acuerdo.\nRemnan, me estás poniendo los pelos de punta.
+fcf9966faf79f5ce1b6d093080e8a373:0:Eh... ¿Jonas?\nSi vamos hacia Gliese, te agradecería que me dejaras de camino\nen el planeta Nada.
+f067d2c8c884c77ed53fb118f8a7f634:0:Mi hogar está en Nada, así que...
+56e0e904660a07808b689a5fe3ebd20e:0:Claro que sí, no habrá ningún problema.\nJeje, al fin y al cabo, acompañar a una dama es deber de todo caballero.
+01d8e0e5a551f59147bb0fce59172863:0:¡Bien! ¡Gracias!\nMe pregunto cómo estará el doctor Yoshikado...
+d61fcf1ae144fe958473a807051be0b8:0:(Kukrushka sonríe a Otome,\ncomo si dijera: \"Me alegro por ti\".)
+732aabf256661960ae58f7f090a812c1:0:Ah, cierto, Kukrushka.\n¿Qué harás a partir de ahora?
+457564a4f5ee6b4985e3e32902290cdd:0:(Kukrushka mueve la mano lentamente.)
+45254e9ffab4f9d4b65979f6e1447c92:0:Otome.\n¿Qué ha dicho Kukrushka?
+b9d2245dff677e86aa2e189d150b30b6:0:Eh...\nDice que espera dormir un poco, despertarse y divertirse hasta morir.
+a9470065a8445fd25c7787ac845b1330:0:Ah, ya veo...
+966b0ec32ff5bf8dbcc0ee6c710a4c19:0:*¡Chii!* ¡Ah, claro!\nKukrushka, ¿te gustaría venir a Nada conmigo?
+fed90956d7995002340ecab0184eecf4:0:¡Seguro que allí podrás hacer un montón de amigos!\n¿Qué te parece...?
+4cb7919d2517d9faf0cbb179679678d6:0:(Kukrushka se limita a sonreír en silencio...)
+292c047175b14ff65f47a4817a3e7ecd:0:\"A partir de ahora\", ¿eh...
+6db4de9c193c5f105755016c870f83b8:5:Continuación
+745c5ddcb42a635a142f89cc6a7e4b5f:0:Tenemos un futuro por delante, ¿verdad?\nJeje, casi lo había olvidado. Era algo que siempre quedaba fuera de mi alcance.
+f474c004f771d49706bede6a86fd259b:0:Así que, {0}.\nSi logramos detener el loop...
+1ecce05f08907a1e5ba43a283c5d3d97:0:Quiero detener el loop aquí, en este mundo.\nEn este mundo sin Gnosia.
+62cb973cd80c2e25946b355e62b979e6:0:En este mundo,\ntodos tenemos un futuro por delante...
+6753c370c93939125ebf2d74d5da0a19:0:Pero, {0}...\nTú no tienes futuro.
+9984685ca06402d371c6fcbbeb0ede2a:0:¿Yuriko...?
+32773b038306bdda3a705fbce9f6f05e:0:¿Sabes por qué, {0}?\nPorque eres algo que no debería existir en este universo.
+220a146aec989b30a6170374858f4d84:0:¿Qué te pasa, Yuriko?\n¿Por qué dirías...?
+537f4726b8f75915f4571faf35932e50:0:No, Setsu.\nYuriko tiene razón.
+fece23edd1eb52df4573a0b8a7ec249b:0:¡¿Eh?!\n¿Stella? ¡¿Tú también?!
+818cb86d4156bae89ec4ef587b2cd229:0:Cuando escapamos de Liu-An, {0} resultó gravemente herido en un accidente.\nDesde entonces le hemos estado tratando en la cápsula médica, pero...
+f1a57e3cc249406a6ee9b00e6e02a66f:0:El tratamiento ha terminado, y ahora estamos aquí.\nEso es todo, ¿no?
+50e0d770b465738b8b863f355ae8ad0a:0:Pero...
+0ef13aef1e984095700ad4c66e1cf5a0:0:Hmph, Setsu. Solo con una explicación no lo entenderás.\nMíralo con tus propios ojos.
+0d105c4910e752e0b2334561230f9666:0:Bien...\nVamos a comprobar la cápsula médica, {0}.
+6db4de9c193c5f105755016c870f83b8:6:Continuación
+0d152a20be39baabf4c53b2e545b5446:0:Aquí está...\nHay alguien dentro de esta cápsula...
+3e8efe19aad836bd72e8dda67dd83782:0:El estado indica... \"En tratamiento\". Parece que casi ha terminado.\nEsperemos aquí.
+d64d22f50d7901c339cb2d67f5e0a928:0:Para ser sincero... tengo miedo.\nPero... ¿lo recuerdas?
+8558fb65fedf07774469b183ed75a177:0:\"No dudes. No temas. Y conoce.\nEl conocimiento salvará a todos.\"
+eb7acf122925a2492ec8238808ff9de2:0:Tú me lo dijiste, {0}, hace mucho.\nY estoy de acuerdo. Tenemos que saberlo.
+0ea2b4f8e8d7a718888bbe205ec162a0:0:Pero...\n¿Eso fue lo que me dijiste en el primer loop...?
+2a39034217e49437c49a15c10e374d8c:0:¿Eh...?\n¿Tú... no lo recuerdas...?
+ab7a38d61a5c1513e939d3bbf82fcab8:0:Ah, ya veo...\nJeh, jejeje. Ya lo entiendo.
+64e837884ece87f16290797697e771dc:0:No, no es nada. Olvídalo.\nMás importante aún, mira...
+3ec048436ef7f8e0bc5b45c373a07e55:0:Parece que el tratamiento ha concluido.\nLa cápsula... se está abriendo...
+730a30d56ccd8018f180c0b2945f737e:0:{0}, si tú fueras...\nLo que sea que puedas ser...
+4652f29dd98ff4c52bf26c99a8df1b89:0:Yo...
+634f3aa357d3b1afa6805e7da223049c:0:Dentro de la cápsula había...\nOtro \"tú\".
+2399fc1b64e0ae7b674033b5a245d62c:0:Y entonces...\nen el instante en que ese otro \"tú\" abre los ojos...
+29c0ef659132202ee3f33f63ec855c30:0:Debido a un error fatal, este universo ha sido aniquilado.
+# WithoutGlast
+889bdf852e27d350772452d3d91b07ce:3:Carga preintro
+fe09eb1c7c6b0911d0e2e21d1dc27504:3:Informe
+e5a8e0deb6d7082c7e2e42e2aa6c86bc:0:¡SEÑORAS Y SEÑORES!\n¡YA ES... HORA DE FIESTAAAA!
+625867033286f2327d94ee88dbcbeede:0:¡¿Q-qué?!\n¿Una fiesta...?
+a1299d7a28014dfce89b3226c81cc765:0:Bien, y para dar inicio a todo esto...\n¡CAPITÁN JOOONAAAAAS!\n¡Silencio, todo el mundo! ¡SILENCIO! ¡SÍÍÍÍÍ!
+ba76475eff532c67227a45b7576498c6:0:Tranquilízate, colega.
+ae0da48d73a8fd6f41b8650390961a5d:0:Bien, ¿estamos todos aquí?\nEjem, entonces ¡EMPECEMOS!
+9d7db8e1ef8e11e3adee375d974c80fc:0:Obviamente todos me conocéis, pero permitidme presentarme una vez más.\nSoy Jonas. ¡NO! ¡El capitán Jonas! ¡De esta misma nave!
+1574548bacc38515651126aa12051776:0:Ah, vale... ¿Una \"fiesta\"...?\nAsí que esto es lo que pasa cuando no hay Gnosia de los que preocuparse.
+655ab568cd72655bf0c5baf1b2ae7c58:0:Jeje, bueno, ya que estamos.\n{0}, vamos a divertirnos un poco, ¿hm?
+b6f0e60b3f78e4c38bb2ea2c4e9b1bfe:0:En este día, os he reunido a todos para un acontecimiento increíble...\n¡Se podría decir incluso que es... UN MILAGRO!
+6ddac1d429749d185568cb94ebf0ff41:0:¡Venga ya, tío!\n¿Podemos comer de una vez?
+9d96b2e0b79087e51b504f3c34618b19:0:De acuerdo...
+34d8968ed20f072bb855baa2c6b5cf9b:0:¡SÍ! ¡Así es como estábamos destinados a reunirnos!\n¡Yo, en mi humilde persona, creo de verdad que...!
+a051d9890f9ca38a18582e901647fb23:0:¡SALUUUD!
+88a3c1a11247cc4c574ceca11d7959a9:0:Todos salvo Jonas brindan.
+d7460540c8e7a497c77dd557eb261d95:0:(Quizá intentando hacer que Jonas se sienta mejor,\nKukrushka le da unas palmaditas en el hombro.)
+652dc07d5a65674cc976fa2b0d5f7c36:0:Hmph... Celebraciones.\nSigue siendo demasiado pronto para bajar la guardia así.\nNo sabemos qué peligros nos esperan más allá, ¿verdad?
+07e9d2680ee04df8678a6752666f3c5a:0:Ja, ya nos preocuparemos del \"después\" cuando llegue.\n¡Ahora vamos a divertirnos!
+bf9fb6cca1f97475e784b492bfa73295:0:¡Sí! ¡Venga, Raqio, come!\nMira, esto que parece cerebro está bastante bueno.\nHasta igual te vuelve más listo.
+edcb7a21238337b042dbc5655db24c76:0:{0}, tú también come.\nVoy a traerte algo.
+0b647232444de7eb05f484fd9b795bee:0:Jeh, Gina es súper amable y esas cosas.\nEn plan, toda atenta y todo eso.
+8de1ab57e319e1a360c51fc9d34e5b0f:0:Yo solo engordo a la gente.
+b3e199c49fea536f59c7107b28903f7f:0:Oooomg... ¿eso es como un fetiche o algo?
+0ab68eab8c06102475d913800f4790e7:0:No.\nSimplemente me gusta engordar a la gente. Eso es todo.
+943248bc37d5c87e13ad91048315e1a6:0:Ah, eh... bueeeeno...
+5981a6f83a6acb1f6752e7e056814c48:0:*Ñam ñam*... Pero hablando en serio...\nEs gracias a Setsu que podemos relajarnos así.
+d129a0454abc99af7caf9309a3a9f0cc:0:Sí... yo también...\nAgradezco mucho la ayuda de Setsu...
+2401894c6b6a93672967993b88e098b3:0:Cuando Setsu nos salvó, en Liu-An.\nFue increíble...\nSimplemente... inimaginable...
+d444524285a60550e1ac4e536067cf76:0:Jeje, gracias.\nPero yo solo cumplía con mi deber como soldado.
+739baf71ab1e19a718cf1d4f3f6e8817:0:Pero, Setsu, ¡de verdad eres nuestro salvador!\nAlgún día quiero devolverte el favor...
+34970171109abf259896168205997454:0:No pasa nada, olvídalo.\nQuiero decir... de todos modos acabarás olvidándolo, la verdad...
+498255091eb179ccc838a83fc55f5881:0:*¡Chii!*...?
+e3dbf4a0b8bc0930632d16edfb81922a:0:Perdona, {0}.\nYo...
+1b0f59d8afad037e52795c4144f34e6d:0:Eh... {0}.\nOdio hacer esta pregunta en un momento así, pero...
+6b6ebd97a4994e70a1dc298831dba1b5:0:¿Por qué hay dos {0}...?\nEso es lo que quieres preguntar, ¿verdad?
+7cf3c9467f432fd55e191260a3bb6838:0:Eh...!\nSí, Setsu... eso mismo.
+4354fb982743ce793380c56c894e8b4e:0:No te preocupes.\nAhora vamos a encargarnos de ese problema.
+cbd5b2ad41bed6329529df2d9c9f2765:0:Pero...
+9f673a150566d6ee447841495ab5870b:0:Está bien, Stella.\nPor favor, confía en mí.
+0f244a0b74b28494394df1e05428cba3:0:...\nEntendido. Te lo dejo a ti.
+69b9e7a657d4b034cb8b021885c706fa:0:Gracias, Stella.\nBien, entonces vamos, {0}.
+3d2d26c470157858d203c7298003232b:0:Ah, claro...\nAntes de cerrar el loop aquí, en este universo...
+3d688edbdd5c9e5057a9624db5cf8501:0:Hay una cosa de la que tenemos que ocuparnos primero.\nMira...
+6db4de9c193c5f105755016c870f83b8:7:Continuación
+703f437aa05ad4d42cae42484eca25d1:0:En esta cápsula...\nHay otro \"{0}\".
+bd5a8505644499a7f3bec17d85cd9aa1:0:Si existen dos versiones de mí, este universo será aniquilado...
+e5a5bf66702ed855a4ed0e2476f8b1ad:0:Exacto. Y por eso...\nVamos a enviar al otro {0} a otra dimensión.\nUsando la \"Llave Plateada\".
+e0aeaa1eefaf1b4c800af22a69d35d77:0:¿Otra dimensión...?
+661717062f31637a9fbed7047ef90e54:0:¿Recuerdas lo que dijo Raqio?\nQue con una \"llave\" llena de información se puede abrir una puerta interdimensional.
+8dbba5fe4d6cec2954b2027e74268383:0:La \"llave\", buscando un nuevo huésped y nueva información...\nse transferirá a la siguiente dimensión.\nAl mismo tiempo, el huésped anterior queda liberado de su loop.
+390595c1dccee1bc090cc46d6db86ede:0:¿Lo entiendes?\nSi enviamos al otro {0} a través de la puerta, se resolverán tanto el loop como\nel problema de la superposición de tu existencia.
+a031d32ac721a4729922fc2633e2e5c4:0:Aquí, en este universo sin Gnosia...\nPor fin podemos poner fin al loop.
+e26590587a0cfb9f0058f8fb0ece2e8b:0:Bien, primero usaremos tu \"llave\".\nImagina una puerta...
+ac9d5abac8ad1319d50877e8d7709367:0:Una puerta... una puerta...
+db72c3b0cad2b84406417140d68f24ec:0:¡Se ha abierto...!\nEste es el portal interdimensional...
+981d19d5607ed452f194c04827375a05:0:Entonces...\n¿el loop terminará?
+38a239e5b8409642585be7af3bb93f79:0:Sí.\nTu loop termina aquí.
+9571013f7985c9782b84c93bba939311:0:Y ahora...\nNuestros caminos se separan.
+26fe0bcc4ea43ce98c47c8be86664ac6:0:¿Setsu...?
+82361f7b80c21a8e0c0d543dc516ad87:0:Pensabas que podríamos\nescapar juntos del loop aquí, ¿verdad?
+4a59d7b88fc64b6306368fcc8a41f277:0:Pero, bueno...\nNo tengo intención de dejar este loop.\nO, mejor dicho... no puedo irme.
+a1b54de5ae7e79dbbd73981261c1e99b:0:Porque mi \"Llave Plateada\"...\nTodavía no se ha llenado.
+57bc3f6e6d0a040afcb6e7a918b7dc8c:0:Escucha, {0}.\nRecuerda antes de que empezara el loop.\nYo te di una \"llave\", ¿verdad?
+3bc859587466d48d9001cefe41f98e25:0:Pero yo... quiero decir, \"este yo\"...\naún no te ha entregado la \"llave\".
+7ff158956f45145239989490e26edfa4:0:Exacto. Tengo que dártela.\nAl... otro \"tú\"...
+e972ebd3a8bfbe6f045a17c0128d645e:0:Quizá Raqio ya te lo dijo...\nLa \"llave\" no desaparece solo por abrir la puerta.
+a73b6b04f5c576d64ee8208f900a2916:0:Después de cruzar esa puerta y cerrarla desde el otro lado...\nEs entonces cuando tu \"llave\" desaparecerá por fin.\nJeje, siempre te dicen eso de \"cierra la puerta cuando la abras\", ¿no?
+72bebdad30641e34dcdf35e06902090a:0:Pero, ¡Setsu...! Tú vas a...
+753def1530869b008e1762a4ab63e70f:0:Sí.\nVoy a llevarme al otro \"tú\" conmigo, al otro lado de la puerta.
+aec3f8e94fb8e6ad0fdc1681f4d05091:0:Entonces tu loop terminará.\nAquí... donde tú y los demás tenéis un futuro por delante.
+0e9a79e8ee551204c518eff13fd20e43:0:Pero entonces... tú...\n¡Te quedarás atrapado en el loop al otro lado de la puerta...!
+2e17771c03270b37bccb33551fe46619:0:Bueno, sí...\nAsí es como funciona.
+f446a3bd9b5326d14535b6ffda6ee49e:0:Pero no pasa nada.\nEs lo que tengo que hacer.
+388b750497b86550fba4dd2d68a65d80:0:Te daré la \"llave\" al otro lado de la puerta...\nY entonces, por fin, todo encajará.
+e722380ba4f46ffce1cf465f75d0e6ba:0:Sabes, {0}...
+e74b5744bf950bdf1cced4be5e56a60b:0:No quiero que este loop,\nel que he pasado contigo...\nsea algo que no hubiera ocurrido.
+aff89af6b18af89146a982927e51eedc:0:¿Lo entiendes, {0}? Voy a sonar como Shigemichi, pero...\nEs gracias a ti que ahora estoy aquí, ¿sabes?
+8ac650e17215b2df6cc1187571ed53ea:0:Tú me salvaste.\nGracias a ti he podido sobrevivir hasta ahora.
+c46123acfad101067b97bbe3995f8e52:0:Y por eso... Ahora voy a devolverte ese favor.
+55cadeb70655c7da4fc6523c4de0293d:0:Con este mundo, con tu futuro... Para ti, de mi parte...
+d7e43b654ae6912d5486adba4d3c41a9:0:\"Gracias por todo, {0}.\"
+dd27aa390061b5d28cf396a4965b68b4:0:Gracias por todo, {0}.
+6db4de9c193c5f105755016c870f83b8:8:Continuación
+051f9a00e5f106042913064f44270f9e:0:¡Eh, {0}! ¡Ya has vuelto!\n¡La fiesta todavía no ha terminado!
+3e8c59e46f7c3c8932bff152b487deea:0:Tras aterrizar, SQ se quedó un tiempo con Gina.\nDespués de pasar una temporada de vuelta en el instituto,\nacabó haciéndose detective privada... por alguna razón.
+c46939bd0db009ee76a65335702b1758:0:¡Madre mía, {0}, tienes un aspecto horrible!\nNo sé qué ha pasado, pero da igual: ¡come!
+5979e3063f9ef62a6749d79e16912d4d:0:Después de vender su \"slime\" a un traficante del mercado negro que conoció a través de Chipie, usó el\ndinero para comprarse por fin su propia nave.\n\nEn un planeta cubierto de \"slime\"...\nLa aventura del propio traficante del mercado negro está a punto de empezar...
+47e1d8714a32fe71a211563d80674abd:0:¡Eh, {0}! ¡Gracias por todo, colega!\nYa sabes, en Liu-An. ¡Cuando me salvaste el pellejo!\nEspera... ¿no fuiste tú...? Entonces, ¿quién fue?
+1acfd7c535bdc2282056473a0761308b:0:\"¡Que te lo digo! ¡Soy un 'Little Grey'! ¡De verdad!\"\nCon esas misteriosas últimas palabras, nunca más se volvió a saber de Shigemichi.
+36fd7e20bb10548378cc72239b44fd8e:0:Sí... alguien nos ayudó...\na escapar... una sola persona...\nPero... lo siento. No logro recordarlo.
+2fd0d7d552109fafe2b45db861e3a22c:0:Tras volver a Gliese con Raqio,\nRemnan se convirtió en el líder de un grupo rebelde de oposición.\nSus enemigos temían su tenacidad inquebrantable\ny su negativa absoluta a dar cuartel o perdón.
+8fec54f815d0cde8e987a092262965be:0:¿Setsu? Espera, ¿quién era?\n¿El de aquella tienda de ramen? ¿Eh? ¿No?\nPues entonces no, no me acuerdo.
+13c31829255e954926a00c21e2111d13:0:Sha-Ming acabó convirtiéndose en un famoso zoólogo.\n\nLa comunidad animal que creó, así como sus métodos asombrosamente invasivos de \"examinar\"\na sus sujetos, provocaron reacciones enormemente divididas\nen la comunidad científica.
+7fd1d505928b0a956f476bf289d1efd8:0:No ha sido más que un SUEÑO, buen {0}. ¿No es así?\n¡SÍ! ¡Sueños a la realidad, y la realidad... A LOS SUEÑOS!\nJe, jejeje...
+0866794ec80cfb732a4ece2416905e74:0:Jonas siguió vagando por la galaxia y murió solo.
+b7bdb46ddabb81c607daffb6ac101a29:0:Eh... ¿\"otro\" {0}?\nLo siento, pero... ¿a quién te refieres exactamente...?
+1be6813209eea59d1a030736e82d1609:0:Tras ocuparse del cadáver de Jonas, Stella entró en su propio sueño, junto a la nave.\nEspera el beso que la despertará...
+dc386713012f6af08bce16e3c5f2bb6b:0:¿Adónde lleva la puerta que abre la \"Llave Plateada\"?\nNo tengo ni idea. De verdad. No lo sé absolutamente todo, ¿vale?\nQuiero decir, entiendo que lo parezca, pero aun así.
+b9e456470b3605e117584a0730bd6717:0:Tras volver a Gliese, Raqio, decepcionado con el rígido régimen,\ninició una revolución junto con Remnan.\nLa estatua de un Raqio desnudo que hoy se alza en\nla Plaza Conmemorativa de la Revolución de Gliese sirve como popular punto de encuentro.
+2698027a8d61c8df5b94052f3cc44e91:0:Por favor, no pongas esa cara...\n{0}, si hay alguien a quien de verdad deseas volver a ver...\nEstoy segura de que os reuniréis algún día...
+50505250c4e00724c7abe67eb6122920:0:Tras aterrizar, Gina volvió a su puesto de controladora aérea.\n\nLlevando una vida buena y positiva, fue muy querida por mucha gente.
+919968acbcf9723914b4e120b340ab52:0:¡Tomátelo con calma!\n¡Ja, ya no tenemos nada de qué preocuparnos!\n¡Ve adonde quieras y haz lo que te dé la gana!
+ad1d9ddb592ecf30314471bf01cd560c:0:Chipie se sometió a la felinización completa y se convirtió por fin en un gato.\n\nSe dice que Comet la Aventurera llevaba siempre\na un único gato negro a su lado allá donde iba.
+6198a29632b0c51bbb433b5d42ba2965:0:*¡Chii!* ¡Exacto!\n{0}, ¿por qué no te vienes conmigo de vuelta a Nada?\n¡Te presentaré a mis amigos!
+da504d89aefe88b77589b453574db032:0:Tras volver a Nada, Otome participó en diversos proyectos de investigación.\nConocida como la \"Madre de la Intelectualización\", se convirtió en un símbolo de integración entre humanos y animales.
+15293044ea6f5834b037f3153481bf98:0:(Kukrushka...\ncomo si quisiera expresar que lo sabe todo,\nse limita a sonreír.)
+48ffa58bfb025777555696a4aac6e56e:0:Kukrushka se fue con Otome a Nada y,\ntras pasar allí una temporada descansando,\ndesapareció de repente.\nNadie sabe dónde terminó.
+ca19ea0c274ff3ac9922302e7c9bf9dc:0:                                                                                      Desarrollo\n                                                                                     Petit Depotto\n\n                                                            Productor ejecutivo: Mezukare (Toru Kawakatsu)\n                                                     Escenario/Desarrollo: Shigoto\n                                                                                    Arte: Cotori\n                                                                                     Sonido: Q flavor
+8f010fa08bde44fd66d2f159cf7e0573:0:Publicación\nPLAYISM\n\nShunji Mizutani / Taku Yamanaka\nAlex Passera / Asuka Bailey / Elaine Wong\nHelene Fessard / Hideyuki Nagakura / James R. Mountain\nKevin McVay / Mario Maqueo / Nana Iba\nSayuri Murabayashi / Shoya Kido / Takahiro Nogita\nTsen Wesley / Yasuyuki Ohara / Yoshio Tsujimoto / Yukako Miyamoto\nJJ Shinji Futami
+bb839ee9ccf60190c08057c769de20b1:0:Localización/LQA\n\nJames R. Mountain\nKevin McVay\nZhang Zheng\nYu Kong
+e124a81ddbfb447d8d24e7cc124e63b2:0:Depuración\nEntertainment Support, Inc.
+798391b393ab0b2a20bfd0bdb6bec3b6:0:Agradecimientos especiales\nKosaku Akano
+11ff2ac875ecf817b86eab2747fd5020:0:Has cerrado tu loop.\nHa caído el telón. Pero...\nJe, me pregunto si habrá bis...?
+a8b4441979fac629c1b5d3e82e82cfb3:0:Desconocido.
+# GnosMax
+4afa2dd4b5450f8628d3c1be9fdac616:0:Crear loop
+889bdf852e27d350772452d3d91b07ce:4:Carga preintro
+fe09eb1c7c6b0911d0e2e21d1dc27504:4:Informe
+5ed1a2838e146ca0057d76ddfe5d55a7:0:Ah... Entonces esto es...
+c2a0d35095040ee98aaf183bc5668172:0:Así que... parece que estamos aquí otra vez.\nEn este \"loop\".
+5a43661c197b9299d93e8a30643fbb61:0:Y... {0}.\nTu \"Llave Plateada\" parece estar brillando.
+b508c7f27cfee1c380f7dcfaa63858fa:0:¿Eso significa...\nQue la \"Llave\" ya tiene toda la información?
+6d8d697927f733a7575d49f6a94454c7:0:Bueno, he conseguido reunir toda la información sobre la tripulación, pero...
+1887416f55f1a1f385d3366ee8635d25:0:Ah, ya veo...
+1233cace4fa89663b12938303a1f6038:0:¿De verdad?! ¡Eso es increíble, {0}!\nAhora la puerta se abrirá. ¡Por fin podremos acabar con el loop!
+e362dd6d60da42f0618e341581921898:0:¿El loop... terminará?
+fd1ee2427c64ebd51c91f73c17a81b2a:0:Ha sido largo.\nNos ha costado muchísimo llegar hasta este punto...
+62b63b618856e675d24a03cc53e10eb2:0:Por fin.\nYa puedo devolverte esto.
+c6077608e3b95845bc7fde48c47ff2f4:0:¿Lo recuerdas?\nYo en realidad... estaba destinado a morir.
+87a213beebc2f0470bcf6246ea203934:0:Pero tú me salvaste.\nGracias a la \"Llave\" que me diste, sigo aquí.
+c20a8dcdf2b7d8037a34b1421df8fef6:0:Pero que yo te diera la \"Llave\" fue lo que hizo que quedaras atrapado en este loop\nen primer lugar...
+6a2dd7914652e4fc555e184f8918c6fa:0:No, no pasa nada.\nEscucha, {0}.\nMe alegro de que haya ocurrido así. De verdad.
+fe69d750f1bd38e0dc7d149f237f22e8:0:Porque desde entonces...\nHe podido seguir aquí contigo,\nen este universo que me diste.
+bb893854a7b306d815f955614992cc02:0:Y por eso...\nAhora me toca a mí.
+ac803faa1496f64d545c2e0c6f5a0b35:0:Terminemos con esto. Abramos la puerta.\nA un mundo sin Gnosia...

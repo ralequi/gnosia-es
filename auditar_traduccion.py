@@ -26,13 +26,16 @@ PHASE1_ENTITIES = {
     "ScenarioBaseText",
     "ScenarioTutorialText",
     "CharaText",
+    "ScenarioSetsuText",
 }
 
 UNCHANGED_ALLOWED = {
     "Gnosia",
     "Takashi",
     "LeVi",
+    "Yu... Yuri...ko?",
     "Allacosia",
+    "Agh...!",
     "Base 52",
     "Chipie",
     "Kukrushka",
@@ -57,13 +60,22 @@ UNCHANGED_ALLOWED = {
     "Doctor",
     "dammy",
     "Hangar",
+    "Hmph...",
     "Loop",
+    "Setsu CS",
     "N/A",
     "OK",
+    "No",
     "???",
+    "Ah...",
+    "Aaah...!",
     "Manual",
+    "Mm...",
     "Sushi",
     "Ramen",
+    "Uuugh... *Sniff*",
+    "Yuriko CS",
+    "Zzz... zzz...",
 }
 
 PUNCT_ONLY_RE = re.compile(r"^[\s\W_]+$", re.UNICODE)

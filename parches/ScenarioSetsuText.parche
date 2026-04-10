@@ -1,0 +1,388 @@
+# Setsu1
+f19445a74317bdfd5f95b978179ff115:0:Registrar conversación
+de0ba86f747b9323dfc9a752fe518552:0:Conversación
+c28b080bbf0d92269c26ebf34445c05a:0:Te uniste a la conversación en el comedor con Shigemichi y SQ.
+fcf040c6ac0ff619a1f0dc451c498c12:0:Gnosia, ¿eh?\nPues la persona a la que menos querría ver como Gnosia sería a Setsu.
+86160a73ee6e37b4cc5c526b30fc81ec:0:Quiero decir, Setsu mola, ¿sabes?\nNo me apetece nada tener que sospechar de alguien así.
+d637899d3c36ecead272a41846d3ac28:0:Setsu como Gnosia... Buf.\nPero oye, si lo piensas, tampoco sería tan raro, ¿noooo?
+88c1f99e01c287fd44746fedf31ece53:0:Setsu y {0} siempre estáis juntos, como tramando algo, ¿no?\nJe, a SQ no se le escapa nada, ¿eh?
+bc2e81ca17feecb3263146293f2e3521:0:Bueno... supongo.\nEntonces, ¿qué pasa con eso, {0}?
+aa93b3a74c47f4e207f2c9c00117f4e5:0:Negarlo
+0e55ba8c7eba3b0411219880333cc3eb:0:Cambiar de tema
+6db4de9c193c5f105755016c870f83b8:0:Continuar
+722ae4c06bc05341ff87403c718485e1:0:No te preocupes por {0} y por mí. ¿Qué pasa contigo, SQ?
+7a42e73beae30a83dc931ca1fc8f6a2d:0:Ah, eh, hola, Setsu...\nJeje, así que lo has oído, ¿no?
+3cfd60d7a5db44c27dd991bade6f9d68:0:Aquí la sospechosa eres tú.
+a5b00b0bfba439093e46f5d9690f94c0:0:Bueno, a ver...\n¿Qué tienes que decir a eso, SQ?
+8cb5eff8d416c38abd25fd7f99093969:0:¡¿Pero qué dices?! ¡Setsu se está poniendo superborde ahora mismo!\n¡No te pongas así ni nada!
+4f7a94f09b2f212bc371cd9b32ff838b:0:No estoy enfadado.\nSolo digo que, si vas a intentar poner bajo sospecha a {0} y a mí,\nmás te vale estar preparada para que sospechen de ti también.
+4e85264cb2c2da5b5b8dcaa484e17562:0:¡Que síii, que estás superpicado ahora mismo!
+2ca7f32cac2e9c997e29d09e4e897711:0:Entonces SQ estaba intentando hacernos parecer sospechosos, ¿no?
+9595592ea658dc6aaa8e10921308696d:0:SQ tiene mucho talento para jugar con la percepción de la gente.\nExagera, dramatiza,\ny trata de sacar partido de la situación.
+e1f87d069ad875664360136b6ec5105c:0:A mí se me da fatal hacer algo así.\nPero, si aprendes a usarlo bien, puede ser un arma muy útil.
+32c9ed080bae33f8b33d140b9e5381af:0:Has adquirido la habilidad \"Exagerar\"
+4d21389cff37f30f3a098836facd5c9e:0:Has adquirido la habilidad \"Exagerar\".\nExagerar comentarios e historias aumenta el efecto de\ntus intervenciones. Requiere 15 de \"Actuación\".
+d7aa4e5a9095b815d9e3a15b69595cff:0:Uf... Me he dejado llevar un poco por las emociones.\nNo por mí, sino por verte bajo sospecha así, {0}...
+06287a8bc737721b6fc68ccccd1f0b5c:0:Pero ahora que lo pienso...\nPodría haberlo manejado mejor.
+d7ba5de6e2b0bc333bda387f34e0dc86:0:Maldición, aún me queda mucho por mejorar.\nTengo que mantener la calma y no perder la sangre fría.
+# Setsu2
+05abf758461778e4e2c3f921f8691c09:0:Final reservado
+8bbcb7ddf28b657b4ff6da0ca6c3e178:0:Pasillo
+c431f036dd3afe1d25ae3b30e442c087:0:Todos los Gnosia han sido enviados a criogenia.
+6a1a8e6972f3f9b58da26e352b98e52c:0:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada.
+e1aafb41e914b7363019b35ebde0917d:0:Hola.\nPues ya está. Parece que hemos ganado.
+28eeb19d1ce5ab837ef726eaeaec1ed7:0:Esta vez no ha habido accidentes raros ni nada parecido.\nYa sabes, como aquella contaminación biótica o el incidente de Kukrushka.
+b28ee24ea957320e2d608d6633b3d3e4:0:¿Biótica?
+d40f77e7cd36ac238cb38dfc70eaffe2:0:Le preguntaste a Setsu qué quería decir con \"contaminación biótica\".
+fdccb5d07df5fec1458aff8418c71b06:0:¿Eh?\n{0}, fuiste tú quien me habló de eso...
+4622b2441f0e765cd32c7e2da14eb521:0:Le preguntaste a Setsu qué quería decir con \"el incidente de Kukrushka\".
+fdccb5d07df5fec1458aff8418c71b06:1:¿Eh?\n{0}, fuiste tú quien me habló de eso...
+6db4de9c193c5f105755016c870f83b8:1:Continuar
+13e56ebb6c385d529b4386ade4f2fd5c:0:Ah... ya veo lo que pasa.\nEl \"{0}\" de este loop aún no ha pasado por eso.
+faa32ae49dad23aa6d45129c3e60802f:0:A veces se me olvida...\n{0}, tú y yo vivimos los loops en distinto orden.
+1426a584527a1a7973dd364c96c6c9cc:0:Entonces, {0}, para ti este es... Ah. O sea, que este es el loop {1}, ¿no?\nQué curioso. Yo también voy por el loop 61.
+ecfff61800dcd3db0bf623c552f376ee:0:Je, jejeje...!\nPerdona, es que eso me ha hecho un poco feliz.\n{0}, esto es rarísimo, ¿sabes?
+395fc1f5c382a50597ca9d718f4a6381:0:Casi nunca coinciden así nuestros órdenes de loop.\nEl \"{0}\" que me encuentre en mi loop 62 podría ser totalmente distinto...\nPor ejemplo, podría ser el \"{0}\" del segundo loop.
+1fe818abf9915b7c4643fd144be1e005:0:Entonces, {0}, para ti este es... ¿el loop {1}?\nYo estoy en mi loop 61.
+b86e6daed1f98b71b138a2662e379582:0:Y el \"{0}\" que me encuentre en mi loop 62 podría ser totalmente distinto...\nPor ejemplo, podría ser el \"{0}\" del segundo loop.
+e0df403652797bf0b026c2b8e1e7a085:0:A mí me costó muchísimo olvidar mi loop 31, pero...\nPrefiero no decir nada sobre ese.\nEs mejor no entrar con ideas preconcebidas.
+2f27240afdc97c26a725cc337f291df4:0:Ah, y una cosa más.\nLo mejor es probar configuraciones distintas en Ajustes.\nPor lo visto, así es más fácil que se den condiciones especiales.
+7b086c42f8bf95cc95eee5b48333d0f5:0:Tu propio rol es especialmente importante.\nConviene probar también Gnosia y Bug, no solo Humano.
+a4fe46b5a1ea5e25e8cfd072cece6de3:0:Las condiciones especiales aumentan las probabilidades de conseguir información crucial.\nEse tipo de información que cuesta sacar si te limitas a encadenar loops\nsin más, dejándolos pasar.
+0a13576202231f628154be315d1c15b0:0:Vale, parece que pronto volveremos a empezar otro loop...\nCuando llevas tantos como yo,\nempiezas a notar cuándo toca, ¿sabes?
+92d9c44fade4e7d3c16cfb55f73b9c39:0:Vale, cuida bien del próximo \"yo\", ¿vale?\nJe, es una forma rarísima de despedirse, ¿no?
+1fd7355e9fec7b327387f7b5a6652e51:0:Datos tripul. actualizados: Setsu
+c717540211711c06534d78677ce9130a:0:Se mostrarán los resultados.
+# Setsu3
+889bdf852e27d350772452d3d91b07ce:0:Precarga de escenario
+fe09eb1c7c6b0911d0e2e21d1dc27504:0:Explicar situación
+7b42b963f1860cce1174c9fdbeebb107:0:¿Eso ha dicho Yuriko...? ¿De verdad...?
+f7e8d2b75f5b3db1210e49277d86af8a:0:¿Que la infección Gnosia empezó a aparecer por tu culpa?\nNo entiendo qué pretende decir con eso...
+0c8c54766dc95e871cb5504e5c900a38:0:Pero bueno...\nAveriguar qué era Gnos ha sido un gran avance.
+5e57846796b20c27c93269834bb28720:0:Una agregación de mentes humanas ciberizadas...\nEn realidad, si pudiéramos evitar la infección...\nNo, en cualquier caso, aún necesitamos más información...
+1a4235006b9533172fe9c9840d5f9534:0:Ah, por cierto...\n{0}, ¿eres... el \"{0}\" que sabe lo de la \"Llave\"?\n¿Ya has hablado con Raqio?
+d892e6b8016a9c22b77cfc5e10773a70:0:Llave?
+2f3b2c2e502c8d6f16270224e55dd568:0:Le preguntaste a Setsu qué era esa \"Llave\"...
+2a98631d7768982d9cfe6f0c0d10347c:0:¿Lo has olvidado...?\nEsto...
+235a14acd63b1e987f0c97217d584b0a:0:Le preguntaste por qué había mencionado de repente a Raqio.
+8575aa194acb28b8817df4e6a7ec5b02:0:Habla con Raqio y lo entenderás.\nPregúntale por la \"Llave\".
+6db4de9c193c5f105755016c870f83b8:2:Continuar
+9d60bd9506f4c2dc0b20cedb3c61f398:0:Ya veo... Parece que no.\n¿Recuerdas algo sobre la \"Llave\"? Esto...
+c9808522129a0587f4020d2ad78607c4:0:Me lo contó el \"{0}\" del futuro.\nLo de esta \"Llave Plateada\"...
+834c617cb00835eab818fea5d97f09bb:0:Primero intenta acercarte a Raqio.\nNo suele escuchar a nadie,\nasí que puede costar arrancar la conversación, pero...
+047874a5bac2572202267af97dc22cc7:0:Es algo que tendrás que hacer tarde o temprano, {0}.\nNo lo olvides. Habla con Raqio sobre la \"Llave\".
+55e55a05981fd814d86212745af5fea2:0:Je...\nY ya que estamos, deberíamos intercambiar información también.
+f589ea832191f0f5a42e1fcaefdf45d7:0:Intercambiaste información con Setsu.\nEsta vez, Setsu es \"{0}\".
+# Setsu5
+889bdf852e27d350772452d3d91b07ce:1:Precarga de escenario
+fe09eb1c7c6b0911d0e2e21d1dc27504:1:Explicar situación
+54ca54fe0e98a32e8ec7fa4703936344:0:\"La Llave Plateada\"...\nUn parásito que se alimenta de información...
+ceadc8d297d11c564730fa6833c249ca:0:Entonces, cuando termina de reunir información, se abre una \"puerta\", ¿no?\nVale, al menos ahora tenemos un objetivo claro.
+9e1a464b1f3c11772c89f8295ac43133:0:Nos acercaremos a todos y reuniremos toda la información posible.\nAsí que... lo mejor será poner el número de tripulantes lo más alto que podamos.
+204fab4ce9a490bb672830c8336257b1:0:En cuanto a la \"puerta\", de momento no hace falta preocuparse.\nDemos prioridad a cumplir las condiciones de liberación de la \"Llave\".
+18622a0d762d5cfb17b07e17e8ff876f:0:Pero, {0}...\nHa debido de costarte bastante conseguir que Raqio soltara toda esa información, ¿no?
+a2c86676ebcf736dc3a193ccbe24075e:0:Sí, fue duro
+050377c221568a8b79785449fc733fcf:0:Respondiste que sí, que costó bastante.
+b5fe43049ac7587e8a8e287c0245b1b4:0:Ya... me lo imagino.
+35770a0b570580f45294345a2b7b4309:0:Todo por ti
+44f638a5e234b563760e521d1ac1a2e1:0:Respondiste que te alegra haber podido ayudar.
+e6656d71fd7747cbf6127a1a7e0885a9:0:...\nYo también quiero hacer todo lo posible por ayudarte, {0}...
+6db4de9c193c5f105755016c870f83b8:3:Continuar
+06b97541b8f394f2cd7aae7737f94ea0:0:Gracias, {0}...\nJe, parece que te debo otra más, ¿no?
+f589ea832191f0f5a42e1fcaefdf45d7:1:Intercambiaste información con Setsu.\nEsta vez, Setsu es \"{0}\".
+# Setsu6
+889bdf852e27d350772452d3d91b07ce:2:Precarga de escenario
+fe09eb1c7c6b0911d0e2e21d1dc27504:2:Explicar situación
+79506f36e90ffed567f33f8ee2b7e30a:0:Me pregunto si este loop llegará a terminar de verdad alguna vez...?
+cc1cf34a843fb048d273762bb2293005:0:¿Cuántas veces lo hemos repetido ya?\n¿Cuántas veces hemos luchado contra infectados por Gnosia?
+3883bf4072a0fbc62133b3953ddf9713:0:¿A cuánta gente he eliminado yo mismo siendo un infectado?\nYa ni puedo recordarlo...
+ec349978792040d2010938cad66a0fb4:0:Yo, je...\nSiento como si hubiera envejecido muchísimo.
+5d16a0ce7808c847a7e8dd91da21bc4e:0:Uf...
+b401daf456d0cef882276f6970d356c3:0:¿Cuántas veces más...?\n¿Cuántas faltan para poder salir de este loop?
+668ceaf743f0e2b771354ec7e23a446f:0:No lo sé.\nYa no sé qué hacer...
+9ff47ad5280fcbc3b2c00d85004fbc79:0:El agotamiento se refleja en el rostro de Setsu.\n¿De verdad acabará saliendo todo bien...?
+8d08e94d6cda27e0b991a3146c86b23f:0:Podemos hacerlo
+4003103e880309c24bada8ff3bb6ec4f:0:Le dijiste a Setsu que, si trabajáis juntos, todo saldrá bien.
+994735dca73aabb3706a9104041e81a0:0:Sí... tienes razón.
+fbec122b58872fa30bc6869133588395:0:Perdona. Me he venido abajo.\nVamos a hacer lo que podamos una vez más.
+d5e63f8f5125391ab06af66616c704c0:0:Esta vez...\nY la siguiente, y la de después, y la otra...
+9e98715df2b863e4ac1b0d776a286418:0:No responder
+00de695147dc1648240971c3541310ba:0:Perdona...\nNo te preocupes por mí. Limitémonos a hacer lo que podamos.
+d5e63f8f5125391ab06af66616c704c0:1:Esta vez...\nY la siguiente, y la de después, y la otra...
+5039451c9f15dae1b58966ab7f0ae993:0:Vamos a divertirnos
+81ecda634b48b966b49c86c72c015cfa:0:Le dijiste a Setsu que os olvidarais de los Gnosia por un rato y os divirtierais.
+ba86521cb03a8e3937b83b3d2a932643:0:¿Eh?\nPero... ¡¿qué?!
+2484b6f6277e164b389f7e9aa7b6a70b:0:Agarras a Setsu de la mano y sales de la sala.
+a318ddf2dada7654de5c8ff5dce324af:0:¿Adónde vamos?
+120e5c5a8cff002daba555941b508b4d:0:{0}, espera.\nYa se está reuniendo todo el mundo.\n¡No podemos irnos por nuestra cuenta así!
+34a66988997540a5d15c8cc6c645688b:0:¿En qué parte de la nave podríamos tomarnos un pequeño respiro...?
+9e98715df2b863e4ac1b0d776a286418:1:No responder
+47bdcf5d1c53a541f1fdf49e8cd96211:0:Oye, ¿me estás escuchando?
+65536b5295d7daf664b2ab9534c0a359:0:Entonces, ¿qué hacemos?
+7b933d7544938ed0b49f8f833e8d5c99:0:Ir a pescar
+c5c5813d1f610a349a2379743202fe56:0:Oye, vamos a pescar.
+ce0abbed0e117c47dbe5607630dfb4bd:0:Sí, vayamos a la discu... espera, ¿eh?\n{0}, ¡vamos en dirección contraria...!
+1b80a57a92f7c9b74fc64685fd49e1d6:0:Oye, no tires así de mí...!\nVale, vale. Voy, voy.
+ae066c9564e2e1aa215635724d8d64f4:0:¡Eh, he pescado otro!
+5908bf5bfd5e0f9ebe652566ad824846:0:Habéis soltado peces sintéticos en la sala de control de agua y os habéis puesto a pescar.\nPero...
+f07a029e72898a2a6acc24ad8a5ed909:0:Vaya, pescar es bastante divertido, ¿eh?\n¿Qué tal lo llevas, {0}?
+ca161ae4f49ff1c5d849a8f93bfde3e8:0:Aún no he pillado ni uno...
+a7ab6a1f8d25f91cc3ba884c06464d2a:0:Ah... sí. A veces pasa, ¿sabes?\nPero no te vengas abajo...\nAnda, mira, ¡parece que yo tengo otro!
+b3e8c72c639bb3f52651ec271a9312b4:0:¡Eh, mira esto, {0}! ¡{0}!\n¡Creo que este es grande!
+4e4b981b9ba6937d88465268f69ec0c6:0:Ugh... no pienso... dejarte... escapar...!\nVale, un poco más... y...
+3dc5dd80f96c50fac791fcd3abc87d78:0:¡¡¡ES ENORME!!!
+0caeca6661cf93dede76a85ffab12429:0:Me has asustado...
+8cb2831e02787085b1603254f0b5e08b:0:¡La que se ha asustado soy yo!\nOtome, ¡¿qué haces dentro de ese tanque?!
+17071af06e3e38aa5abdb55540b1b3e4:0:Bueno... había un montón de peces, y...\nMe entraron ganas de nadar yo también, y no pude contenerme...
+b151af49775e60249f08d8ec5b8ad427:0:A-ah... eh...\nPerdona, Otome. ¿Te importa que usemos el tanque un poquito más?
+9f26550a6c27eb674a4ec4e633cc38bb:0:Oh, claro.\nPero, eh... um...
+141cd91ef8bf869f14aaf329a8f13a9c:0:¿Qué pasa?
+a7da48d730884e1ded11dac7a2145ee9:0:Hace un rato todos lo estuvimos hablando,\ny, eh... Setsu y {0}...
+73e242cd48129b8c3cc657a6a80424b8:0:Ah.\nO sea, que van a mandarnos a criogenia, ¿no?
+a74a1f27ca91ec8c3bbc8a6e0b715265:0:Sí...\nLo... lo siento mucho.
+785041343bd5d7fa65986024d7d42960:0:No tienes nada por lo que disculparte.\nEn realidad somos nosotros quienes deberíamos pedir perdón.
+6db82c7bd3f1a95b95c038da90bb9c14:0:Bueno, {0}.\nPesquemos unos cuantos más antes de entrar en criogenia.
+6562a6a0df6966909e24f03d6d7bd8d7:0:Jeje, creo que le estoy cogiendo el gusto a esto de pescar.\nAdemás, ya se me da bastante bien.
+dbc979733ac11491923440467a8d9b13:0:Mira, ¿vale?\nNi siquiera hace falta cebo.\nSolo tienes que mover despacio la punta de la caña, así...
+7f02572f75248a26ca2b736183c18c6f:0:Y cuando notes que el anzuelo se engancha a un pez, haces...
+06182875c66cd5562e57c58177bf5871:0:¡Así!
+27da2c0fa9d21cd0956a02f5f4079af5:0:Ver una película
+3eef3cb2c658cc49af0cd6fb17b739f4:0:Vamos a relajarnos y ver una película juntos.
+ce0abbed0e117c47dbe5607630dfb4bd:1:Sí, vayamos a la discu... espera, ¿eh?\n{0}, ¡vamos en dirección contraria...!
+1b80a57a92f7c9b74fc64685fd49e1d6:1:Oye, no tires así de mí...!\nVale, vale. Voy, voy.
+bf3f7f883ff26288ab3fd06e2ec79566:0:Oye, {0}...
+b156f8c0137da467315c4bdbe3555816:0:Es la primera vez que veo una de estas cosas en vídeo.\nAsí que no entiendo muy bien qué está pasando, pero...
+555237849ab68f4abc8f636ba875ad2d:0:¿Esto es interesante?
+a8624a92aa55a6ab03a8390a30e974bd:0:¡¿Pero qué dices?!\n¡Claro que es interesante!
+71cc089c7bb593edc19b8be699455970:0:¿D-de verdad?\nY, eh... ¿en qué momento Shigemichi...?
+8edc5a0e14dfd5224480708a08166648:0:¡Esto es una de las mayores obras maestras de la Tierra!\nTío, me impresiona vuestra elección. ¡La habéis clavado!
+6911c5931a659e750e3aab6727f00b24:0:Ah...\nY esos zombis que no paran de salir, se supone que son...\n¿algo irónico o qué?
+4406b92aaf5869548c8bf6ecffd9b263:0:La gente seguía siendo muy supersticiosa por aquella época.\nAl parecer de verdad creían que monstruos así existían.
+c4ea0471f5d40fcd6158f06b0ba4b75d:0:¿Y qué pasa con esas \"amas de casa\"?
+4eeed755581782841eb63e0d0ca67ac0:0:Otro tipo de monstruo.
+9357a22d7b45a62fe881c3a3f39ec2e8:0:Ah, ya veo... Pues la verdad es que estoy aprendiendo bastante.
+58ba05b46d7f92bc16ddf422450f417d:0:Eh, un momento, ¿cómo que no os estáis cogiendo de la mano?!
+f97e88b4ce07dc7d8b3b3b76c4631d9f:0:¿Eh...? ¿Cogernos de la mano...?
+697cb91960d9a5bc8e14902365793f37:0:¡Vamos, colega! ¡Eso es etiqueta básica para ver películas!\n¡Tienes que coger de la mano a la persona de al lado!
+ad44f7a252d02a7e9f0524f93854eeec:0:A-ah, ya veo...\nVale entonces, {0}...
+4b4af24dcddfae7017efb593ebdd0690:0:Coges la mano de Setsu con la derecha y la de Shigemichi con la izquierda.
+391080430225b7872b084183898325e4:0:¡Oh, ya llega el clímax!\nTío, cada vez que la veo me parece todavía mejor!
+812d8d10e0958d5322341beb4fa9164e:0:La mano de Shigemichi está empapada de sudor...
+654c5b1d84d322508129c73bd2cd995f:0:Setsu se quedó dormido...
+50255451963dc35a876a004d0af0100d:0:Mm...\nCreo que me he dormido durante casi toda la película.
+3625abc54db246693c1ff169deb30508:0:Vaya, qué desperdicio...
+94f3aea8e77deb7d1f168fe53b8bc733:0:Shigemichi...\n¿No tendrás algo que decirnos?
+45c6f4fa8cbfc99911264f26dd73e57d:0:Eh... ah.\nBueno, sí, supongo...
+e852f6e1f74fc040387fe4da67cfaf6c:0:Tú estabas en las discusiones, ¿no?\n¿Cómo han ido?
+159693e447f5c23f000d313e0ff1fe61:0:Personalmente no estoy de acuerdo.\nPero dicen que tenéis que ir a criogenia, o algo así...
+43167445ee9a2da430187fad71f0f5bb:0:No, no pasa nada.\nGracias, Shigemichi.
+3cc0a26659c93e5af45e0ab8c981ce88:0:No he hecho nada como para que me des las gracias.\nQuiero decir, yo...
+9b8821ca3ccd30ac42b52ab0f4f55fda:0:Bueno, esperaste a que terminara la película para decírnoslo, ¿no...?\nEres un buen tío, Shigemichi. De verdad.
+3725242c9bea048adb82407aae396db3:0:Vamos, colega, para ya...\nSi dices cosas así... voy a... llorar...
+c573a0a867714dadb046a91506ce5870:0:Je...\nVale, vamos, {0}.
+6db4de9c193c5f105755016c870f83b8:4:Continuar
+cadce1d755f133cc93780bd3c7a6dd47:0:Gracias, {0}.
+837a51fd18571c2a2e4f0e5970b6762c:0:Me has traído aquí porque sabías que estaba de bajón, ¿verdad?\nJe, de verdad voy a tener que devolverte\ntodo lo que has hecho por mí, {0}.
+95716aa73d209e21b0fcc6d1ca5d273d:0:No te preocupes
+21ff3350b9bc929a376588bd30229c30:0:Le dijiste a Setsu que no se preocupara por eso.
+73b89fdc262e8069d0b0ba69d1dc8ff6:0:Claro que sí.\n{0}, si tú no estuvieras aquí, yo tampoco estaría.
+454cdc0802f13422a66764072958f705:0:Ya me devolverás
+03cf0c28b2e13a075e56c4f3ad938fb8:0:Le dijiste a Setsu que piensas cobrarte esas \"deudas\" en algún momento.
+23f60657aa6a67af7672ead57d883d87:0:Sí, claro.\nTe lo devolveré, sin falta. En cuanto tenga ocasión.
+6db4de9c193c5f105755016c870f83b8:5:Continuar
+96183872eb2ab4726ee3b6f30b19b728:0:Vaya...\nHoy ha sido realmente divertido...
+2cfc350ea329ab5a4c1441d243611990:0:Jeje, ¿cuántas veces acabé pescando a Otome?\nCuando terminamos, tenía la boca llena de sangre.
+6251979ffda73b6a498762c6bffb14b8:0:Vaya...\nHoy ha sido la primera vez en mucho tiempo que he podido relajarme de verdad.
+13f47c471570e07aab519993ac314c84:0:Probablemente la primera desde que empezó todo esto de los loops.\nHacía mucho que no dormía así de tranquilo.
+395484949689a30e3fc5c2b4f8339263:0:Me estuviste cogiendo de la mano todo el tiempo mientras dormía, ¿verdad?\nJe, eso de las \"películas\" está bastante bien, ¿no?
+cca4f43bcc0fc8fa49c922ee99975c85:0:Disculpad, pero ya casi no queda tiempo.\nDebemos empezar a prepararos a los dos para...
+312171587d4ef7f01369d5f1f4dfb3aa:0:Sí, ya lo sé.\nOye, {0}...
+ae87285673c8671aebd55e2935ca8edd:0:Hoy he pensado una cosa.\nSi al final conseguimos salir de este loop...
+bb9c8c224d001a2a9308ae6c244e7fbf:0:Cuando eso pase, quiero que todos los de esta nave se salven.\nQuiero poner fin al loop de una forma en la que\nnadie tenga que sufrir.
+ef40c441db981c1480fad54966b2c011:0:Pero bueno... Je, supongo que todavía es un poco pronto para eso.\nCreo que aún nos queda bastante camino.
+4a379d77e2cdc2a1e069077fe08e5cc1:0:Vale, dejémoslo por hoy.\nTenemos que seguir avanzando...
+1fd7355e9fec7b327387f7b5a6652e51:1:Datos tripul. actualizados: Setsu
+c717540211711c06534d78677ce9130a:1:Se mostrarán los resultados.
+99be9e9396b62380afc909524d6fce39:0:{0} fue enviado a criogenia.
+# Setsu7
+889bdf852e27d350772452d3d91b07ce:3:Precarga de escenario
+fe09eb1c7c6b0911d0e2e21d1dc27504:3:Explicar situación
+288fb3282056fd94cd7d43a98e0f119e:0:{0} ha... desaparecido?\n¿De qué estás hablando...?
+e76f21ff8d30267ddae0811341c734cd:0:No, que yo recuerde, no ha pasado nada así...\nPero...
+355b37a4e83ec87a56e094ad2d579985:0:A lo mejor falla mi memoria.\nQuizá sea eso...
+e937df8f63e19e663706535fdc353393:0:LeVi... ¿puedes investigarlo?
+88239398ba66ced1b2e49037ff9ad492:0:No puedo confirmar que {0} haya desaparecido.\nSin embargo, he detectado cierto grado de desajuste.
+a75175b65136dcf0d0201541ee57da56:0:Se ha borrado parte del registro del proceso de confirmación de infección Gnosia.\nO eso, o...
+f1f3623e6f09d88554d95821adced772:0:Ya veo.\nEntonces ayer alguien fue eliminado por los Gnosia.\nNo podemos descartar esa posibilidad, ¿verdad?
+3897e798f17e27c15ab9bcf2180233c1:0:Y si es así...\n¿Por qué no nos dimos cuenta antes...?
+1a89c17e7f696d1aa435e7c7cb6b73f1:0:{0}... Esto es información muy importante.\nVoy a seguir investigándolo por mi cuenta.
+b32927f1f755f0cb4b0a3fa72e76d8af:0:Me pondré en contacto contigo si averiguo algo.\n{0}, quiero que tú sigas centrándote en las discusiones, como siempre.
+# Setsu7b
+05abf758461778e4e2c3f921f8691c09:1:Final reservado
+8bbcb7ddf28b657b4ff6da0ca6c3e178:1:Pasillo
+c431f036dd3afe1d25ae3b30e442c087:1:Todos los Gnosia han sido enviados a criogenia.
+6a1a8e6972f3f9b58da26e352b98e52c:1:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada.
+bbd47df1b0674560fefe384937cbd334:0:Hola, {0}.
+6f8166d54830e5d199ddd42bb7e2a5cf:0:Las discusiones han ido bastante bien.\nPero mi investigación... no ha avanzado gran cosa.
+80987967b67b2abfb5e9b88a7a3b35b4:0:Sobre la posibilidad de que alguien desapareciera antes del primer día,\nparece que nadie recuerda nada, ni siquiera los infectados.
+675d1bd063befa9df3dcaed24ecf3393:0:Incluso intenté preguntárselo a Yuriko, pero... fue perder el tiempo.\nNo hace más que esquivar todo lo que le pregunto.
+96a8c2f6656d399f7c7aa2e1c1f0d6ff:0:Seguiré investigando esto en próximos loops.\nPero... no me hago muchas ilusiones.
+dbdc4614543410bae1eee750b93aad5d:0:Esta vez hemos vuelto a ganar, pero...\nSeguimos sin saber cómo salir del loop.
+daa0eab72cf90c4fdab21a8fa32a716f:0:Estamos muy cerca. Lo noto.\nSi tan solo averiguáramos qué es lo que tenemos que hacer...
+78ea7e15fbfec1aff7a99cef43240375:0:No creo que la respuesta esté en estos loops \"normales\".\nNecesitamos algún tipo de condición realmente especial...
+c717540211711c06534d78677ce9130a:2:Se mostrarán los resultados.
+# Setsu8
+889bdf852e27d350772452d3d91b07ce:4:Precarga de escenario
+fe09eb1c7c6b0911d0e2e21d1dc27504:4:Explicar situación
+d8d3a1177d14fbc0a8ee17a2296467dd:0:Setsu está caminando por el pasillo.\nVamos a hablar con Setsu.
+505536a1d5a8a7ca269c4bcae3f17294:0:Tú...
+269c48d678b007cc019a8ffa85346452:0:Eh... ¿quién eras tú?
+56ebb342d8105b33f1480a95935cf35d:0:La reacción de Setsu ha sido...\nComo si te hubiera olvidado por completo.
+b1b54eaece2ad78074bf7eca9c5ad6ed:0:Y bien...?\nAunque tengamos Gnosia a bordo, ¿qué se supone que debemos hacer?
+8f1f15d5f8ec4a40ea18f226ecf942ef:0:Si no encontramos una solución, entonces...\nPara evitar que la infección siga propagándose,\nla nave se autodestruirá.
+63cb9b87be6bdc56bd7e33a5e3592941:0:¡Jodeeer! Menuda mierda.\n¡Tenemos que hacer algo, gente!
+704924f9660bf859f391552726e57cea:0:En un loop normal, Setsu propondría empezar la votación\ny llevaría el debate, pero...
+f0ce899112b54f1bbda09042804f39e8:0:Hmph, esto es ridículo.\nMuy bien. Les sacamos el cerebro a todos y...
+dfac2563250308f33b9a58f9169fe19e:0:Setsu. Eres militar, ¿no?\nOcúpate de esto como es debido.
+add6dac421e7ff73812198526f1a72d8:0:¿Eh? O sea, no es tan sencillo...
+fe3d2826850ef271a7df3938bf8605d7:0:Pero quizá... hm...\nEl protocolo oficial para tratar una infección Gnosia en\nun entorno cerrado dice que...
+1eac357870c7b60a611acebed077fd9a:0:El proceso habitual de debate y votación ha acabado por arrancar.\nAun así, la actitud de Setsu resulta algo inquietante...
+1fd7355e9fec7b327387f7b5a6652e51:2:Datos tripul. actualizados: Setsu
+a7129f4a77ed3a2353cfd0283764e31f:0:Setsu de noche
+b9150495e075d55efe18db37f21951fc:0:En el pasillo
+eb0d3ddda03863b862b9fb9eab568c84:0:Sí, al final hay que investigarlo.\nEs hora de hablar con Setsu en el pasillo.
+cc033080466fbf9c6df1b71648b29302:0:Ah, {0}... ¿verdad?\n¿Puedo ayudarte en algo?
+b881c1da00fb97cf46efa478b8ffbca3:0:Le preguntas si de verdad no te recuerda,\nni recuerda nada de los loops anteriores.
+f8c049279e707c136961fae3b9aab451:0:{0}, subiste a la nave después de aquella evacuación, ¿no?\nEso es todo lo que sé de ti, claro.
+4e1e6d6217d5a67f1eae6ee6584126fd:0:¿Y qué es ese \"loop\" del que hablas?\nLo siento, pero me temo que no sé de qué estás hablando.
+a514cba032ebf8f774637f54d2541c97:0:Setsu no parece saber nada.\n¿Qué está pasando...?
+6b8870292ee7d02f8f48f69380ac2a23:0:Lo siento, pero tengo que irme.\nNecesito pensar cómo manejar todo esto de los Gnosia.
+41e368998a88b871ccb5edc51473b828:0:Desde luego, ha sido una conversación interesante.
+f3c9507c7c72fea7a3e7e6b8a17171ae:0:¿Raqio...?\nParece que ha estado escuchando vuestra conversación con Setsu.
+635a2f34a274fa09295828076d27c844:0:No perdamos el tiempo con acusaciones inútiles, ¿hm?\nEn fin, ven conmigo. Quieres saber qué está pasando, ¿no?
+edbdd894c1b1ae445a005943f51220ab:0:Hmm, ¿loops, eh?\nEntonces doy por hecho que lo tienes en tu poder, ¿no?
+002d4bb1650b09a147349031f59ab9b1:0:\"La Llave\"...
+67eca4032124a25c3ea91dbfe261dfe1:0:Para que lo sepas, yo no estoy entrando en loops.\nMi \"Llave Plateada\" está inactiva.
+c1f7080d0ece1992dedb38a2eb0e76f2:0:Bien, entonces.\nEnséñame la tuya.
+393d08ff0de1ceefcd77ae432b235b32:0:No decir nada
+25e769ae56ef7e593d339633b7617e6d:0:¿Cómo dices? ¿No me has oído?\nHe dicho... saca. La. \"Llave\".
+463680dc2c39df19f25606c3df3debb5:0:Sacar la \"Llave\"
+6db4de9c193c5f105755016c870f83b8:6:Continuar
+971f18fb21dc380d05e1c7e3dc293015:0:Sacaste la \"Llave\", como te pidió Raqio.
+43ca1087912184df23ed126f491a936e:0:Ja, justo como pensaba.\nQuién me iba a decir que conocería un ejemplar vivo de verdad.\nQué suerte tan absurda.
+13240c3dae7ce63df877756f5c2c40db:0:Bien, entonces...\nPor si acaso, vamos a comprobar una cosa...
+8558fb65fedf07774469b183ed75a177:0:\"No dudes. No temas. Y conoce.\nEl conocimiento salvará a todos.\"
+37b6a7a5c1b32ed3297f38bb75dc0d20:0:Al final no ha reaccionado...\nEstá claro que se te ha fijado a ti, {0}. Ja, mi más sentido pésame.
+f508ee25a3b7c3f158518b11b67e9974:0:\"No dudes. No temas. Y conoce.\"\nSetsu dijo exactamente esas palabras en el primer loop...
+5cc572905449f3502bc1c79e5d21c81c:0:Bien, supongo que tendré que explicártelo.\nEso de \"No dudes...\" es una especie de palabra clave. Recitarla hace que la\n\"Llave Plateada\" se fije por completo a su huésped.
+b0c29504c5aac21cd9075fd75322fa1d:0:Así que ahora vas reuniendo información hasta que la \"Llave Plateada\" queda satisfecha.\n¿Cómo se siente uno siendo esclavo de una llave? Ni me lo imagino.
+1cf3cc7319bd07068031ddeb0eaf2b00:0:Bueno, habla. Hay algo que te preocupa, ¿no?\nEmpieza por explicarme tu situación. Y sé breve.
+d07ee7bce014a51d98bb6ce2a3be295b:0:Le cuentas a Raqio todo lo que ha pasado, lo de Setsu y todo lo demás.
+78ccb53697aa715eb26b3938444d6b9b:0:Hmm... ya veo.\nLo suponía, pero parece que tenía razón.
+b259cd360fcc1778702d90e3aa5b33d0:0:Bien...\nSi damos por hecho que Setsu realmente no recuerda nada, podría ser porque...
+2db1dd13c57e093947859ca5b20e71df:0:¿Tal vez Setsu nunca estuvo entrando en loops para empezar?
+9a57b2027e96e277d05a24746bee688e:0:Setsu te ha estado mintiendo todo este tiempo, fingiendo entrar en loops.\nIntentando ganarte como aliado, vaya.
+bce036757983189bed88738886422df4:0:¡¿Setsu me ha estado mintiendo todo este tiempo?!
+fda7668437944df7f669b9e6e64079a8:0:No, claro que no...\nJa, es broma. No te lo habrás creído de verdad, ¿no?
+15494a054e3e92b17ff40550c319249a:0:Ni siquiera suena creíble.\nEn fin, la verdad es bastante más simple que eso.
+8d18625a52d0c40b1ad694fc33679433:0:Es fácil.\nSetsu todavía no tiene la Llave.
+89efcb9f0bd9b2e133663ba35e63ce62:0:El Setsu que tienes aquí delante...\nes Setsu de antes de verse arrastrado a todo esto de los loops.
+7a63349a6bfc32ad9ae174b778ddc3b0:0:En resumen, Setsu está a punto de empezar el loop...\nCasi seguro...\nusando mi \"Llave Plateada\".
+006cf25e80ac87aa80e26264483a9234:0:Setsu quería escapar de este loop, ¿verdad?\nPues esta puede ser la única oportunidad del Setsu actual.
+d24f714b12a298399682a7c0138dd505:0:¿Y si el Setsu actual nunca llegara a ser parasitado por la \"Llave Plateada\"?\nEntonces su loop nunca empezaría.\nY se acabó.
+683985923cf1b0c15a3a5657f39150ea:0:También desaparecería el hecho de que Setsu te entregó la \"Llave Plateada\".\nNadie entraría en loops, y todos ganan, ja.
+8860a86abb84c3899859c540c1348263:0:Si la \"Llave Plateada\" nunca llega a usarse...\nEntonces Setsu, y yo mismo, ¿podríamos escapar del loop...?
+e6bab55c111b84442c81b13edb81a220:0:Quiero decir, no deja de ser una teoría.\nPero, ¿no te parece bastante razonable?
+b843e3b38b529dcf6b7abf02dc48fdd9:0:Se acerca la hora del salto.\n{0}, vuelve a tu habitación, por favor.
+cca54a8752870820c433e6684f92b3c2:0:Vaya, llevamos bastante rato hablando, ¿no?\nEn fin... ya te he dicho lo que pienso.
+d59bcc82a23e8cd9511870ac7248f2a9:0:Así que, ¿Setsu queda atrapado en el loop o logra librarse?\nJe. Creo que ya sé la respuesta. Pero haz lo que quieras.
+a64e95011a29ca57ca6b390e51ba2b58:0:Gina/Stella de noche
+de0ba86f747b9323dfc9a752fe518552:1:Conversación
+1fa15eb41e5e646d188e93ab48a09b48:0:Se oye a Gina y a Stella hablando en el vestíbulo.
+3062fe799a0cbdd14f4f06993d6e58d2:0:...después de eso pondremos rumbo a Allacosia.
+c00787f7ed2b4fcd32967bf234fd68bf:0:Tienes la sensación de haber oído esta conversación antes...
+b8e2ccd770b2df429f431b701697de0d:0:Charla libre
+34dc1c44bfd0e73828ba108b21c4239b:0:No tengo nada más que decirte.\nHaz lo que quieras.
+b8e2ccd770b2df429f431b701697de0d:1:Charla libre
+ebf0dabafa6fd35a11227c37bf6c6a10:0:¿Puedo... ayudarte en algo?
+8ed11d71d833d97a3acc2dc354a05fac:0:Setsu parece estar a la defensiva contigo.
+7a1112c721588b8bfd8af27f84348e42:0:Voy a ser claro...\nNo confío en ti, {0}.\nAsí que no pienso darte información personal.
+213220994d8edc3b1f237e28426a4e72:0:Parece que no hay conversación posible...
+c38a6926f6ba2cad899a0b038cde1ffd:0:Lo siento, {0}...\nNo tengo ninguna información que quiera compartir contigo.
+c168912d3b723ce9f0e86b43ec4ed99d:0:Final
+814d040479a21212d84f205d5ae4706e:0:Forzar fin de noche
+e6da6656e6b5580e5631b20e65b54cda:0:Desde la habitación
+f2fd40cd9ca4b0e94ca1ee1a6b9a802f:0:Atención.\nLa nave está sufriendo una avería.
+f7419da738873adb14952804300158bd:0:Los escudos han dejado de funcionar y corremos el riesgo de sufrir daños por el impacto de escombros.\nSiguiendo el protocolo de emergencia, pónganse los trajes espaciales.
+8ca8ae87e0f77f6833900cf77078f95a:0:¡Ah, {0}!\n¡Rápido, por aquí!
+a787c8047a445fc147cb15d4ba7bc35f:0:Han evacuado a todos a la sala EVA de abajo.\nEntra y ponte un traje espacial. ¿Entendido?
+952e76f12c7435abda748713fa868a51:0:LeVi, la presión del aire está cayendo aquí.\nCierra el mamparo de la rampa.
+f8d459d2cf25227fa30a8a1ff8f3b470:0:Entendido. Cerrando mamparo de la rampa.
+3fea8a490bb614e9ced7ddd2a238ff43:0:Vale, {0}, sigue tú.\n¡Corre...!
+d291bf7b3cc3ecd2728ebe3b4353935c:0:¡¿Qué ha sido ese ruido?!\nY... ¡Setsu ha desaparecido!
+db9d92123bf88a21831576ac2b1802d3:0:¿Setsu sigue al otro lado del mamparo?\n¡Tengo que volver...!
+be796c3b43fb4165ec31c7fadd39b1c4:0:Te deslizas por debajo de la compuerta mientras se cierra.\nY entonces...
+32db5b2c546fdc8222d40d32b3b539c9:0:Seguramente tras haber recibido de lleno el impacto de escombros...\nel cuerpo de Setsu está...
+a80ca2d666ba37a2976f5b944ba3bdb9:0:Tú... idiota...\n¿Por qué... has... vuelto...?
+a2c8f4560be53dd5ed08817379dfed23:0:Es... demasiado... yo...\nBaja... baja ya...
+c1f12c764bb2e62a95f1c84ef23ac2a2:0:Esto pinta muy mal...\nPero si Setsu muere aquí y ahora...
+90e19b74b374cc18dd8d192bce6f6ac7:0:¿Y si el Setsu actual nunca llegara a ser parasitado por la \"Llave Plateada\"?\nEntonces su loop nunca empezaría.\nY se acabó.
+b6ffc890aaad45d602249f0310c22e33:0:El loop de Setsu nunca habría empezado.\nY se acabó.
+06011c34be883ab8ec9e808de5be4d88:0:¡La muerte de Setsu sería definitiva!\nSi Setsu muere... todo termina aquí...
+1b150ea0c67bf18aff27c0a2ca14d4be:0:¡La muerte de Setsu sería definitiva!\nNo quedaría ni un solo futuro en el que Setsu siguiera con vida...
+317ca25032b48843a3895488358335c0:0:¿Qué... haces...?\nVete... *COUGH*... Ya...
+3219181083c85255faab518d9b22b78e:0:¡¿Qué hago?!\n¿Cómo salvo a Setsu?!
+17ee1208abc07cef009e444b0615c205:0:No decir nada
+3219181083c85255faab518d9b22b78e:1:¡¿Qué hago?!\n¿Cómo salvo a Setsu?!
+7ab74976ed98ce4bd10cd31bd7c504df:0:Ir a la habitación de Raqio
+79b8ec5a91f7f7e716be5a1286b03c96:0:Eso es, ¡Raqio tiene la \"Llave Plateada\"!\n¡A la habitación de Raqio!
+1c9c25045805cd53578bbf46d71516a6:0:\"La Llave Plateada\"...\nPor alguna razón, está colocada en un sitio muy oportuno...
+e1223e26b2158395d1e4f9a970c286a1:0:Han dejado un mensaje junto a la Llave...
+90ad82cfa71874d23f65e995fcb52e19:0:\"Vas a necesitar usar esto en una emergencia, ¿verdad?\nAgradéceme que te haya ahorrado el esfuerzo de buscarla.\"
+7c10aecd8cfeb8a9eca5704b743d1bb0:0:...\n¡Has cogido la Llave! Y ahora...
+5ac7c8b289a7b1c24b619b5a261c3f32:0:¡Setsu...!
+c9068b152da67696a7c5d4614cfcf34b:0:Esto es peligroso. Los niveles de oxígeno están bajando.\nNo hay tiempo...
+d7551b36e7203f4256dd76733d8effd5:0:No decir nada
+71d911083892b76ca39c7566897aab94:0:¡No hay tiempo...!
+2d305ae8a6c12ccd6e5729a45d49c655:0:Usar la \"Llave\"
+7ce3fcd130b056801755079b33209442:0:Colocas la \"Llave Plateada\" junto a Setsu.
+8558fb65fedf07774469b183ed75a177:1:\"No dudes. No temas. Y conoce.\nEl conocimiento salvará a todos.\"
+e25c97fd05c146ee819baafaeac5a058:0:Q-... ah...
+bdbf594c5b72369a21fda5c817e246a4:0:\"La Llave Plateada\" desaparece dentro de Setsu...
+2c1b482f628b950dbd6615940db3ef4c:0:Y ahora, el loop ha atrapado a Setsu para siempre.
+b83f29358d17bf29a2599a454e77c8af:0:Ahora mismo nada logrará hacerle reaccionar.\nAsí que...
+840d139f4e1d5f5fbb895e8d49530f34:0:Lo único que haces es sostener a Setsu.
+1fd7355e9fec7b327387f7b5a6652e51:3:Datos tripul. actualizados: Setsu
+c717540211711c06534d78677ce9130a:3:Se mostrarán los resultados.
+# Setsu9
+889bdf852e27d350772452d3d91b07ce:5:Precarga de escenario
+fe09eb1c7c6b0911d0e2e21d1dc27504:5:Explicar situación
+a2515be303aead7b9f99551fac170373:0:Sha-Ming debería estar aquí, pero no lo veo...\nNo... no puede ser...
+69848fab258dc836090961fba189f08b:0:Lo siento...\nNo he podido contenerme... Yo... lo hice...
+919aa6e1352be29a194fa059cf4d1e59:0:...\nSí... he vuelto a hacerlo...
+722c14099127c47843bf24abc026588e:0:Ya no tiene remedio...\nSha-Ming ya no tiene ningún papel que cumplir, pero... es hora de empezar el debate.
+1fd7355e9fec7b327387f7b5a6652e51:4:Datos tripul. actualizados: Setsu
+be9627f5a1e69892600c72e224d70cce:0:Sha-Ming... ha muerto.
+# Setsu10
+f19445a74317bdfd5f95b978179ff115:1:Registrar conversación
+1bc7b3c129edde722889c71f3cad5781:0:Conversación
+bbb9627eb1e3557f0490bd6691271c98:0:Ah, {0}.\n¿Tú también estás reuniendo información?
+10452e44f85767816f57b7ad740a3bdf:0:Por cierto, {0}...\nDurante las discusiones, SQ te pidió que la ayudaras, ¿verdad?
+80b9b0d044dbb7053b138c2e70ad8bfb:0:Por cierto, {0}.\nAhora mismo no estás colaborando con nadie, ¿verdad?
+1827c86b459861be9c2e3beb9c6b9670:0:Solo puedo hablar por experiencia propia, pero...\nEstablecer relaciones de cooperación puede venir muy bien para reunir información.
+e3fc6baa2490dd2dacb9bcac66ae5da0:0:Sobre todo con gente que no enseña fácil sus cartas.\nSi cooperáis y sobrevivís juntos hasta el final,\na menudo es entonces cuando por fin se abren contigo.
+ff3d467fda4a7f11e969b7fc61826144:0:En especial alguien como SQ, que tiene esa doble cara.\nEn un loop anterior, por fin...
+64aaaa0c2269ae6b39df932167f97123:0:¿Quééé?\n¿Estáis hablando de mí o qué?
+f25f4cafed760354a2a5c328ed8e5f17:0:Ah, eh...
+eee9b3ffb0cd5dd8ffbf7577d3a05e03:0:Pero bueno, ¿de qué estabais hablando?
+76aa843ce04aaacd42d2bda6ad965079:0:Solo estábamos diciendo que, bueno...\nqueremos saberlo todo sobre ti.
+ccda542283bc437087afa0155a52fc8b:0:¿Estabais diciendo guarradas o qué...?
+10f44b0b1ebab96f8c23bb52089f8c55:0:Sí
+84bb060fc3ee43bb9003d415400e481e:0:Respondiste que sí, que queríais saberlo todo.\nHasta el último centímetro de su cuerpo...
+8ae8b820fcdfb77dce51d9ee70dd2129:0:Jeje, pueeesss...\nigual podría contarte unas cuantas cosas, a lo mejor...
+be5128cef81406f859cbbfdb29b7aae2:0:Respondiste que no, que no era nada sexual.
+d4a8d38b98456273eae7c5edaef6f1a8:0:¿Ah, sííí?\nNo hace falta que lo ocultes ni nada, ¿sabes...?
+6db4de9c193c5f105755016c870f83b8:7:Continuar
+d4a8d38b98456273eae7c5edaef6f1a8:1:¿Ah, sííí?\nNo hace falta que lo ocultes ni nada, ¿sabes...?
+7f29eea5027f279d5997cecd931570aa:0:En fin, {0}...\nRecuerda que las relaciones de cooperación son importantes.
+5af0427cb16a7055eba78288e739d5d0:0:¿Pero quéee? ¿Eso era todo?\n¿Y las guarradas qué?
