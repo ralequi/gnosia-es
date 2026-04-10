@@ -7,7 +7,9 @@
     "ScenarioTutorialText/loop14": 18
   },
   "ui_label_caps": {
-    "OthersText/setting#7": 10
+    "OthersText/setting#7": 10,
+    "ScreenText/CreateSlotScreen#0": 24,
+    "ScreenText/LoadSlotScreen#0": 24
   },
   "textbox_caps": {
     "ScenarioTutorialText/loop1#168": {

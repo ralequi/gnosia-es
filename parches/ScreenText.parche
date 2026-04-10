@@ -2,7 +2,7 @@
 8e8b3bbc4b47dec23dff15b1876efd32:0:No hay espacio libre suficiente.\nLibera el espacio necesario para guardar\ny pulsa \"Siguiente\".
 211e570307cba3ed3e0b89b8ec9454ef:0:No se han podido guardar los datos.
 # CreateSlotScreen
-bf9c3cac9575f4100c85e512b4eeb6d5:0:Selecciona una ranura de guardado.
+bf9c3cac9575f4100c85e512b4eeb6d5:0:Elige una ranura.
 b814eaf83f35e84794a1eb5497cb1480:0:------\nLoop--  Nv.--\n----/--/-- --:--
 f34c27a1f6c69d98b081773c1dacd8bb:0:Los datos de esta ranura se sobrescribirán.\n¿Quieres continuar?
 c110a1da8ef28a1a54dfe25f09657a98:0:Se borrarán todos los datos de esta ranura.\n¿Quieres continuar?
@@ -169,7 +169,7 @@ f54f89d2e2f74e6e1a3641fa34e2dd6a:0:Úsalo para señalar a alguien como\nenemigo 
 # InterfaceScreen
 729d3cd05e2349f319c214fe4f9df738:2:Día 
 # LoadSlotScreen
-d09f288683d8c2c2f89d508134d8a887:0:Selecciona una ranura de guardado.
+d09f288683d8c2c2f89d508134d8a887:0:Elige una ranura.
 b814eaf83f35e84794a1eb5497cb1480:1:------\nLoop--  Nv.--\n----/--/-- --:--
 b814eaf83f35e84794a1eb5497cb1480:2:------\nLoop--  Nv.--\n----/--/-- --:--
 8dde1fbd3cc3522ce0a09a1e9cf50d95:2:Error al cargar.
