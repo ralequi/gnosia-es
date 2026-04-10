@@ -4,18 +4,18 @@ de0ba86f747b9323dfc9a752fe518552:0:Conversación
 2faf3f639c834348ee2716f4ad94228d:0:...sería horrible.\nAsí que...
 4a9888432ee52cd5232c586428d26eb2:0:Del vestíbulo llega una voz.\nVamos a ver qué pasa...
 7ac64edf8c934150c9e7e20155bdbeec:0:Gina está sola en el vestíbulo.\nParecía que estaba discutiendo con alguien...
-4c31f598a7170196c3457c0710aabc4c:0:¿Con quién hablabas?
+4c31f598a7170196c3457c0710aabc4c:0:¿Con quién?
 a844dc952dab2f311195cc2249e7a48d:0:Le preguntaste a Gina con quién estaba hablando.
 1077a367592c07979a848d010a44e345:0:No puedo decirlo...\nLo siento.
 bdcf95ec610ed89d715186b01cbeff44:0:No responder
 0fcc37b1d6edb0e7d6bfbd8e830be0be:0:.........\nComo los dos guardáis silencio, el ambiente se vuelve muy incómodo.
 564331957ce91ea53f3b1c26a0f9d176:0:Nosotros...
 4d029438251966331656296cca561de6:0:Esta nave...\nMe pregunto adónde se dirige.
-c9e296e466d6792a944e68d73da0163b:0:Alguna estación espacial
+c9e296e466d6792a944e68d73da0163b:0:Una estación
 3181a778b4186a633fcf2440785c7343:0:Respondiste que probablemente se dirige a alguna estación espacial cercana.
 2e507a9424d7f04536fd683cb8806b84:0:Sí... probablemente.\nEspero que lleguemos.
 2d17ec7301933b7241f1433efb98017a:0:Buenas noches...\nHasta mañana.
-d6934c3f60f6b70df18e849be08e00ae:0:Los confines del espacio
+d6934c3f60f6b70df18e849be08e00ae:0:Borde espacial
 8168542f38c347f95e1dc14d15da99a9:0:Respondiste que quizá acabe perdiéndose en las profundidades del espacio.
 8b854f773b7575aca9ce31496eeb5c70:0:Me... pregunto.\nPuede que al final no podamos ir a ninguna parte.
 2d17ec7301933b7241f1433efb98017a:1:Buenas noches...\nHasta mañana.
@@ -243,7 +243,7 @@ e64119ac76562eac3475e51e546742ec:0:Si es posible...\nQuiero protegerte, {0}.
 3dad201ff28fbaae61f2d84e45474261:0:Respondiste que protegerías a Gina.
 9fffeab9276c3bfd5ee396d3f23ce9b1:0:No...\nQuiero que pienses en ti antes que en mí.
 b1fc781a411bb33de7b4820e1fb89655:0:Así es como quiero que sea.\nAsí que... por favor, sigue con vida.
-e6bbc83c2cfc946e0484e1495d55070d:0:Sobrevivamos juntos
+e6bbc83c2cfc946e0484e1495d55070d:0:Sigamos vivos
 ed6116d831dd1cc71ea042c2d6ea3c5a:0:Respondiste que querías seguir vivos juntos,\nocultando que tú desaparecerías con el loop...\nUna pequeña mentira.
 b9225f33532043785ad90826da46e7a5:1:De acuerdo...
 1e5d501aa4d2c91404924ae6e6f16313:0:(Descubrió la mentira de {0}...)

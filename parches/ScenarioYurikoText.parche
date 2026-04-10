@@ -95,7 +95,7 @@ fd1ebd3490bd132c64154586b671a44c:0:Bien...\nHabéis conocido un secreto que no d
 2a4340893041b61d3f4619e83e43f07c:0:Jejeje, ahora ya lo sabéis...
 # Yuriko3
 889bdf852e27d350772452d3d91b07ce:0:Precarga de escenario
-fe09eb1c7c6b0911d0e2e21d1dc27504:0:Explicar situación
+fe09eb1c7c6b0911d0e2e21d1dc27504:0:Expón situación
 e1ecd67e29876d251715171fc364b43a:0:Intercambiaste información con Setsu.\nEsta vez, Setsu es \"{0}\".
 d3675bdc3a5e99c41330ecef958010e5:0:Así que, {0}, vas por el loop número {1}.
 a96fc0c036eb8991b6a5588890c9e099:0:Ya te estás acostumbrando a esto, ¿verdad?\nA la situación en la que nos encontramos.
@@ -178,11 +178,11 @@ d138849bb3716f973d6342a0821b98cb:0:Respondiste que quieres saber más sobre Gnos
 6db4de9c193c5f105755016c870f83b8:2:Continuar
 ad04499f1b7cebe06a70b49f27812f36:0:De acuerdo.\nEntonces, antes déjame preguntarte algo.
 a970087ae198a54b3599523f01d31e9a:0:Gnosia elimina a los humanos.\n¿Por qué crees que lo hace?
-18e936b0195af01f1475b3d6e4b2db0f:0:Odian a los humanos
+18e936b0195af01f1475b3d6e4b2db0f:0:Detestan humanos
 7eec71e62f6829801227be12973b83d3:0:Respondiste que crees que los eliminan por odio.
 d96c01bf9c4656fb4d3aff9356c6f391:0:Jeje, una motivación completamente humana.\nEso es incorrecto. Gnosia no conoce el odio.
 18e6c69bd322a76143b8b810510c1a58:0:Lo que Gnosia sí posee es un sentido de misión.\nLiberar a la humanidad de este universo físico, hacia un mundo mejor...\nPretenden llevar a la humanidad a Gnos.
-b93272902bdb46a763c860e6498bf888:0:Para salvar a la humanidad
+b93272902bdb46a763c860e6498bf888:0:Salvar humanidad
 f22621cfe34e02d619eaf87d63b2542d:0:Respondiste que crees que intentan salvarnos llevándonos\na un mundo mejor... al mundo de Gnos.
 8578a9cd717ed3b386c024d0de81d5b3:0:Tus conocimientos sorprenden.\nEs casi como si tú mismo hubieras vivido siendo Gnosia.
 d7551b36e7203f4256dd76733d8effd5:0:No decir nada
@@ -242,7 +242,7 @@ b0cfacb43c37ba1b74e5623ca19ff280:0:Se acabó.
 72be6dfc45fa7ef7e6b1caa8402f33d1:0:Bien... jeje.\nQuerías saber acerca de Gnos, ¿verdad?
 a9c69954a004fdd6b86fd42f159b8a6e:0:Entonces, antes déjame preguntarte algo.\n¿Qué crees que es Gnos?
 c717540211711c06534d78677ce9130a:0:Se mostrarán los resultados.
-255e227e0efddc7436ef968b071dfeec:0:Un invasor alienígena
+255e227e0efddc7436ef968b071dfeec:0:Alien invasor
 067b799470fa718607450d091b711f87:0:Respondiste que crees que Gnos es un invasor de una galaxia desconocida.
 f48c0091d6f1ef2f70e7458d1dcaee52:0:Jeje, ¿un invasor?\n{0}, en realidad tienes bastante imaginación.
 4ccaa9125ffe772b6b89123da427a110:0:Por desgracia, en este universo...\nlos humanos son la única forma de \"vida inteligente\" que existe.

@@ -1,0 +1,132 @@
+# Cipi1
+889bdf852e27d350772452d3d91b07ce:0:Precarga de escenario
+fe09eb1c7c6b0911d0e2e21d1dc27504:0:Explicar situación
+6e7b113d4970315ee22e772ec46af2cc:0:¿Miau, prrr, fss?\n(¿Te gustan los gatos?)
+93d9206b78b9c1ac20e568ce7dc638d8:0:Jaja, ¡no te asustes!\nLas modificaciones corporales son bastante normales hoy en día, ¿no?
+161fb4d10420e637f800c34d4457ab3a:0:Aunque tampoco hay mucha gente como yo, supongo, ¿eh?\nNo es que tenga este aspecto tan raro porque quiera, además.
+fd4e31b254cead5fa728891cc8df54a8:0:Solo quiero convertirme en gato.\nDe hecho estoy en mitad de la transformación, por cirugía.\nEs una técnica conocida como \"felinificación\".
+87dce25733f2a8b9429238c643378236:0:Pero bueno, jaja.\nAntes de poder convertirme en gato, me convertí en Gnosia.
+a07204ee75504114a619e9b940140861:0:En fin, los dos hemos dejado de ser humanos, así que trabajemos juntos, ¿eh?
+80ce2915deb7aa4ee73830700f599000:0:Datos tripul. actualizados: Chipie
+71b84ddc4dbf552e9fe0fa63e4c85be0:0:Tras aceptar
+b7beaf9e1611a8aca5fd6de305e0f6d5:0:Jaja, gracias.\n¡Tengo ganas de trabajar contigo!
+96480b76157ceb8c6831479725dae85e:0:Chipie pretende engañar y usar a {1}...
+f19445a74317bdfd5f95b978179ff115:0:Registrar conversación
+de0ba86f747b9323dfc9a752fe518552:0:Conversación
+d175e730432cdc30e2447ff823cd4e41:0:La caza ha empezado...
+58e67091776e42aea149ac19ad6bacb6:0:¿Eh? ¿No lo estarás entendiendo mal?\nNosotros no cazamos humanos.
+835ea9987dd5da23e05ccd2888cd655e:0:Los Gnosia somos la presa.\nPiénsalo. Solo podemos eliminar a una persona cada vez.
+f353640ee156a3dad081d433aac6d5a6:0:Y mientras avanzamos poco a poco, los humanos nos dan caza.\nJaja, nos llaman enemigos de la humanidad. No somos nada del otro mundo, en realidad.
+67e5a03065af0da5c834364eac455b7c:0:En cualquier caso, es un fastidio para todos, ¿eh?\n¿Cómo se supone que vamos a sobrevivir así?
+f19445a74317bdfd5f95b978179ff115:1:Registrar conversación
+de0ba86f747b9323dfc9a752fe518552:1:Conversación
+e89030edae26147f7b3bd81f78004802:0:¿Hm...? ¿Qué pasa?\nAh, ¿{1}?
+ce719e76ba04670480bb09a9d237b61a:0:Jaja, diría que hay un cincuenta por ciento de posibilidades de que funcione.\nMenos mal que conseguí aliarme con {1}.
+c9ef9cb82185a1fd64d43372b31d40de:0:Me sabe mal mentirle a {1}.\nPero para sobrevivir hay que hacer lo que haga falta.
+594b4e9c0ca1d534e282ff1c020dc4f1:0:Habilidad \"Colaboremos\" adquirida
+0a3c7e10d2e8b332a61c5beb53c2076d:0:Has adquirido la habilidad \"Colaboremos\".\nSi tiene éxito, puedes formar una alianza con otra persona.\nRequiere 15 de \"Carisma\".
+76bc442c8301663a91d3d4c48eace3a6:0:Victoria
+bff16bfc74b6c76e5c7b3bde3b1aa548:0:En el vestíbulo
+7f494466192bc9ab378cdd0ae0bcecfa:0:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada.
+cb167eca5f4c9152392d43470b0db5c9:0:Eh.\nAl final los dos hemos sobrevivido.
+8d6ecfe07835f2c9515f8490d3e7b7ed:0:He tirado a los supervivientes al hangar.\nLo he hecho con cuidado, eso sí... la violencia no va conmigo.
+417b2a70fe6f55e8d0f06b13d9ae94bf:0:*Bostezo*\nAhora por fin voy a poder echarme una buena noche de sueño.
+6594bf8b763c3c9d63dc430686f1606d:0:Vivir, comer y dormir: eso es el paraíso.\nJaja, ¿no te parece?
+c717540211711c06534d78677ce9130a:0:Se mostrarán los resultados.
+# Cipi2
+f19445a74317bdfd5f95b978179ff115:2:Registrar conversación
+de0ba86f747b9323dfc9a752fe518552:2:Conversación
+e31b11f3ba5ef82b081f2931360027f9:0:Eh, {0}.\n¿Has venido tú también a hacer algo de ejercicio?
+1bb05b9dbac2947c3bf3dbfcb8512490:0:Vamos a sudar un poco.\n¡Tanto hablar y dormir te deja hecho polvo!
+5b4d6a4ac6486e395a7510c2290642d5:0:Ya sabes.\nPara alguien que vive del trabajo físico como yo, esto es cuestión de vida o muerte.
+e82bb4e46238a8a637d860febbea5b3c:0:¿Tu trabajo?
+6a697556467534e1834b5e0b2010f7dd:0:Le preguntaste a Chipie a qué se dedica.
+621c07337553fcec563146651cbcbaca:0:Trabajo en la tripulación de un carguero.\nBueno, perdí mi nave en Liu-An, pero aun así.
+17ee1208abc07cef009e444b0615c205:0:No decir nada
+ca4a9cdd28eb5a6fd2374b53c5624c43:0:Pero, Chipie, perdiste tu trabajo.\nAhora estás en paro, ¿recuerdas?
+46a78dbd5d368d06f53803cf1ee9a545:0:Jaja, sí, supongo.\nTrabajo en la tripulación de un carguero...\nBueno, trabajaba hasta que perdí la nave en Liu-An.
+bfa285cb47a87bab1cb35a6976263109:0:Reunirse
+203f9a2004f32f6a5df5923061702a35:0:Con todo este lío de los Gnosia, no se podía evitar.\nY además tu nave era una birria.\nCasi has tenido suerte de no volver a subirte, la verdad.
+c3e0727e6b1de51e8658a550126d4715:0:Oye, ¿pero qué demonios...?\n¿Le dices eso al tío que te dejó subir a su nave?
+de3ab6681635f84fc0ab351935d3b23d:0:Escucha, {0}. La nave de Chipie era una chatarra.\nA mí me metieron en una caja junto con mineral.\nY encima me congelaron también.
+6e98a3c456f0303ef9fe07c623fd2c43:0:Eso es porque te estaban pasando de contrabando.\nYa fue bastante lío sacarte de tu planeta\nsin que nadie se enterara, ¿sabes?
+07a6e2e802206ed496dbacf237acefa7:0:En fin, de eso hace ya mucho tiempo.
+171afbed992c46806c9d7bdb71d7417c:0:Bueno... Supongo que mejor así...
+1a9a2442ec923d0d34e4b6ce6f7d3cc3:0:Datos tripul. actualizados: Chipie/Comet
+# Cipi3
+c16359212a251eb1db09c64513a37d17:0:Monólogo
+56ae8a04c3843e512dd7fc94c012fcf4:0:¿Sería mejor... colaborar?
+9c288e925bf11e2fe7129e295a55c0cd:0:¿Confundido?\nJaja, en realidad no es tan complicado.
+f19445a74317bdfd5f95b978179ff115:3:Registrar conversación
+1bc7b3c129edde722889c71f3cad5781:0:Conversación
+a1ddc349e741df6e5230bbaf5e0baa69:0:Ah, hola, {0}.
+667bb5df5245ab904f80f420b670ce31:0:Chipie y el gato que le crece del cuello están haciendo ejercicio.
+f13ef178f13cb0b0e5603e6e47a09642:0:Perdona, dame un minuto.\nSolo quiero terminar esta carrera.
+eaaa9ca3f6cc402effa713f2a49130fe:0:Vale...\nSí, con eso basta.
+be5b3476a5448a45966e8d2e376da061:0:Jaja, ¿te he sorprendido?\nBueno, así es como soy.
+e1715156537b27b6deaf72b27c07a165:0:¿Qué eres?
+00c705e968707d6bffca6d40be174b68:0:Le pediste que te explicara lo del gato que le sale del cuello.
+0f5c56f186a4637361b28cddb3177949:0:\"¿Esto\"?
+00c705e968707d6bffca6d40be174b68:1:Le pediste que te explicara lo del gato que le sale del cuello.
+17ee1208abc07cef009e444b0615c205:1:No decir nada
+eb56e7cde4248f6214b6a264c77dd4c1:0:Resumiéndolo mucho, quiero convertirme en gato.\nEn un gato de verdad, quiero decir.
+0d2dcfd9cb088e93629860c46ccc82e0:0:Así que fui a ver a un médico clandestino y me sometí a esta cirugía.\nSe llama \"felinificación\".\nPor desgracia, hará falta más de una operación.
+d0e8161baf796e298417a5c4d439ae6b:0:Para convertirme en un gato de verdad, antes tenía que fusionarme con uno\npara que mi cerebro se acostumbrara primero.
+3bb60413add1193bb7b2d34f1f981f2b:0:Por eso tengo este cuerpo.\nCuando termine este viaje, voy a separarme de este colega.
+3ffc0ff597b5f7bf5072379c3210718a:0:Por cierto, aparte de a Comet, no se lo había contado a nadie.\nPero pensé en hacértelo saber a ti también.
+413d97157f7961bf4f3aa399db164713:0:Jaja, ya que nos hemos aliado y eso.\nSin secretos, ¿vale?
+32fffa78ac0e8bd822aac9064109196e:0:Detectar mentira
+e4adc30177e5f9ce3cd9d6fdf84130ad:0: está mintiendo...)
+1e5d501aa4d2c91404924ae6e6f16313:0:(Has descubierto la mentira de {0}...)
+bfa285cb47a87bab1cb35a6976263109:1:Reunirse
+80ce2915deb7aa4ee73830700f599000:1:Datos tripul. actualizados: Chipie
+76bc442c8301663a91d3d4c48eace3a6:1:Victoria
+faf234a0399d4500d2b46d7513e93455:0:Consola principal
+c431f036dd3afe1d25ae3b30e442c087:0:Todos los Gnosia han sido enviados a criogenia.
+5b6884304e0e5eea55d3b76e9ac366e6:0:Hola.
+6a935a015a36f9caa6864300a8e9c155:0:Deberíamos llegar a una estación espacial dentro de unos días.\nJaja, ¡ya queda poco para el día en que por fin me convierta en gato!
+c554281692cc68ce328b810396ca5b55:0:Oye, ¿quieres tenerme de mascota?\nQuiero decir, cuando ya me haya convertido en gato.
+c717540211711c06534d78677ce9130a:1:Se mostrarán los resultados.
+76bc442c8301663a91d3d4c48eace3a6:2:Victoria
+faf234a0399d4500d2b46d7513e93455:1:Consola principal
+64b3ba35145f1d2295d5edf18cd05629:0:Se han cumplido las condiciones para el final.
+f0d640872a74a6707956a4bf8bb78ecc:0:Eh, parece que todo ha terminado.
+83d90c4a613161fa6441777d11be5fed:0:Pensé que debería decírtelo.\nPuede que ya te hubieras dado cuenta, pero...
+9c4bec9a6f872f4f493ae307509d4c70:0:En realidad soy {1}.\nJaja, lo siento.
+c717540211711c06534d78677ce9130a:2:Se mostrarán los resultados.
+9f26f0b48c72222b0cd3782833d81cd1:0:Lo sé
+6ad97d4ac2b6e254f2e2dfc052d15ee2:0:Le dijiste a Chipie que sabías que estaba mintiendo.
+1f0b4ded06eb7cc4ffb81470df4e4047:0:¿Qué...?
+14a62ccad00ea1edae46d5b38b5c4f08:0:Bueno, si es así, entonces ¿por qué has...?!\nBah, da igual. No quiero saberlo.
+a10fd60911839e23e412cb0caf001641:0:Joder, esto es una mierda...\nAsí me lo vas a poner difícil.
+82ca372b65f41e803834e9a7443ed051:0:Madre mía.\nSupongo que no debería haberme aliado contigo en primer lugar.
+c717540211711c06534d78677ce9130a:3:Se mostrarán los resultados.
+# Cipi4
+f19445a74317bdfd5f95b978179ff115:4:Registrar conversación
+1bc7b3c129edde722889c71f3cad5781:1:Conversación
+f309e84f148323e400506953a8e59632:0:¡{0}!\n¡Setsu... Setsu...!
+1db81845f4461db3aacc5029bb5c9cf6:0:¡Setsu ha dicho que le gustan los gatos!\n¡Es increíble!
+51b4c050b035ed68ca5fec31166c55ab:0:Felicidades
+c6b9d6b5f5148905bdad5d966fbf0c09:0:Respondiste que eso está muy bien.
+1070e46485dfa8844ba2930b5a91a70c:0:Eh, gracias.\nSupongo que eso significa que ahora Setsu está de mi parte, ¿no?
+17ee1208abc07cef009e444b0615c205:2:No decir nada
+b45d70a7ff397d6303234d89d850ba4e:0:Quiero decir, yo solo he dicho, ya sabes... que los gatos son bastante monos...
+0d846f40a6949aac2d48c751ff2fa8d2:0:Lo de los gatos de Chipie ya se pasa un poco, la verdad.\n¿De dónde ha salido esa obsesión tan rara?
+ae90fca9525647dfbf7b77dd7324540e:0:Bueno...\nCuando era pequeño siempre jugaba con los gatos callejeros del barrio.
+3ea57359d0ba8f4d9134695701f07e4b:0:Siempre he estado mucho más unido a los gatos que a la gente.\nSinceramente, siempre me he preguntado por qué nací humano y no gato.
+3c1158a22dcac1441565f35097b36979:0:Anda...\nOye, espera, ya sé... Está ese planeta de gatos, ¿no?\n¿Tú no serás de allí o algo así?
+97304a5eb06b8fa98475276907eae820:0:No, nací y crecí en un planeta normal y corriente.\nAdemás, la gente que vive en ese planeta de gatos\nsolo va por ahí con orejas de gato falsas, ¿no?
+0c9dc974996fef32dd19ea93bfedc9f6:0:La gente gato del planeta Tara.\nHe oído que alteraron su ADN y cambiaron la forma de sus ojos y sus orejas.
+e99dc5d80f8fd80a2ef21cd656c7eea2:0:¡A mí eso me da un mal rollo de narices!\nToquetear el cuerpo que te dieron tus padres no está bien.
+625105e5526b23f77f1454292bca2776:0:¿Sí, Shigemichi?
+943fb04cd889a6c807afa796ec936ef7:0:Respondiste algo así como: bueno, ¿y lo tuyo qué...?
+bfa285cb47a87bab1cb35a6976263109:2:Reunirse
+fabef8f8d22fe05a943b526bd75fc3ab:0:Eh, ya...
+a7105aabdba328cf9f691a921d740e0d:0:Vamos, Shigemichi.\n¿Piensas sermonearme tú con ese aspecto?
+47588f4a779925d421f2969ed83acd45:0:¿Yo? Lo mío no tiene remedio.\nTuve un accidente hace mucho.\nTodo esto es piel artificial, ¿sabes?
+f93775f1c91e2168efe1558b43a2c25f:0:Ya veo...\nPero ¿por qué una forma tan, eh... \"peculiar\"?
+51c8df88edc709f52fa8f1e961b136f9:0:De pequeño me flipaban los alienígenas.\nDespués del accidente, mi padre dijo algo como: \"Bueno, ya que estamos,\naprovechemos la ocasión\", y me puso esta piel.
+86db7401969866eccb0070db8b869a27:0:Mola bastante, ¿a que sí?\nJeje, convirtió una tragedia en algo genial.
+85787125d4ba589731eb9db26ccbfe31:0:Ya... sí...\nBueno, supongo que cada uno tiene sus... cosas.
+fb32b1762968220765bf67292ef970a6:0:¿Insinúas algo con eso...?
+91c4e32a3bf7684e65c9ab2f9330d7a3:0:Datos tripul. actualizados: Chipie/Shigemichi
