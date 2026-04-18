@@ -29,12 +29,13 @@ d7ba5de6e2b0bc333bda387f34e0dc86:0:Maldición, aún me queda mucho por mejorar.\
 05abf758461778e4e2c3f921f8691c09:0:Final reservado
 8bbcb7ddf28b657b4ff6da0ca6c3e178:0:Pasillo
 c431f036dd3afe1d25ae3b30e442c087:0:Todos los Gnosia han sido enviados a criogenia.
-6a1a8e6972f3f9b58da26e352b98e52c:0:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada.
+6a1a8e6972f3f9b58da26e352b98e52c:0:Más de la mitad de los pasajeros son ahora Gnosia,\ny la nave ha sido tomada.
 e1aafb41e914b7363019b35ebde0917d:0:Hola.\nPues ya está. Parece que hemos ganado.
 28eeb19d1ce5ab837ef726eaeaec1ed7:0:Esta vez no ha habido accidentes raros ni nada parecido.\nYa sabes, como aquella contaminación biótica o el incidente de Kukrushka.
 b28ee24ea957320e2d608d6633b3d3e4:0:¿Biótica?
 d40f77e7cd36ac238cb38dfc70eaffe2:0:Le preguntaste a Setsu qué quería decir con \"contaminación biótica\".
 fdccb5d07df5fec1458aff8418c71b06:0:¿Eh?\n{0}, fuiste tú quien me habló de eso...
+adc59a914ba041c515269d92f412379c:0:Kukrushka
 4622b2441f0e765cd32c7e2da14eb521:0:Le preguntaste a Setsu qué quería decir con \"el incidente de Kukrushka\".
 fdccb5d07df5fec1458aff8418c71b06:1:¿Eh?\n{0}, fuiste tú quien me habló de eso...
 6db4de9c193c5f105755016c870f83b8:1:Continuar
@@ -61,7 +62,7 @@ f7e8d2b75f5b3db1210e49277d86af8a:0:¿Que la infección Gnosia empezó a aparecer
 0c8c54766dc95e871cb5504e5c900a38:0:Pero bueno...\nAveriguar qué era Gnos ha sido un gran avance.
 5e57846796b20c27c93269834bb28720:0:Una agregación de mentes humanas ciberizadas...\nEn realidad, si pudiéramos evitar la infección...\nNo, en cualquier caso, aún necesitamos más información...
 1a4235006b9533172fe9c9840d5f9534:0:Ah, por cierto...\n{0}, ¿eres... el \"{0}\" que sabe lo de la \"Llave\"?\n¿Ya has hablado con Raqio?
-d892e6b8016a9c22b77cfc5e10773a70:0:Llave?
+d892e6b8016a9c22b77cfc5e10773a70:0:Llave
 2f3b2c2e502c8d6f16270224e55dd568:0:Le preguntaste a Setsu qué era esa \"Llave\"...
 2a98631d7768982d9cfe6f0c0d10347c:0:¿Lo has olvidado...?\nEsto...
 235a14acd63b1e987f0c97217d584b0a:0:Le preguntaste por qué había mencionado de repente a Raqio.
@@ -203,7 +204,7 @@ ef40c441db981c1480fad54966b2c011:0:Pero bueno... Je, supongo que todavía es un 
 4a379d77e2cdc2a1e069077fe08e5cc1:0:Vale, dejémoslo por hoy.\nTenemos que seguir avanzando...
 1fd7355e9fec7b327387f7b5a6652e51:1:Datos tripul. actualizados: Setsu
 c717540211711c06534d78677ce9130a:1:Se mostrarán los resultados.
-99be9e9396b62380afc909524d6fce39:0:{0} fue enviado a criogenia.
+99be9e9396b62380afc909524d6fce39:0:{0} ha pasado a criogenia.
 # Setsu7
 889bdf852e27d350772452d3d91b07ce:3:Precarga de escenario
 fe09eb1c7c6b0911d0e2e21d1dc27504:3:Explicar situación
@@ -221,7 +222,7 @@ b32927f1f755f0cb4b0a3fa72e76d8af:0:Me pondré en contacto contigo si averiguo al
 05abf758461778e4e2c3f921f8691c09:1:Final reservado
 8bbcb7ddf28b657b4ff6da0ca6c3e178:1:Pasillo
 c431f036dd3afe1d25ae3b30e442c087:1:Todos los Gnosia han sido enviados a criogenia.
-6a1a8e6972f3f9b58da26e352b98e52c:1:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada.
+6a1a8e6972f3f9b58da26e352b98e52c:1:Más de la mitad de los pasajeros son ahora Gnosia,\ny la nave ha sido tomada.
 bbd47df1b0674560fefe384937cbd334:0:Hola, {0}.
 6f8166d54830e5d199ddd42bb7e2a5cf:0:Las discusiones han ido bastante bien.\nPero mi investigación... no ha avanzado gran cosa.
 80987967b67b2abfb5e9b88a7a3b35b4:0:Sobre la posibilidad de que alguien desapareciera antes del primer día,\nparece que nadie recuerda nada, ni siquiera los infectados.

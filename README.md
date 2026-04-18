@@ -84,6 +84,8 @@ Scripts principales
   Compara `work/` contra `out/` y actualiza `parches/*.parche`.
 - `auditar_traduccion.py`
   Revisa placeholders, saltos de línea, presupuesto de longitud y señales editoriales.
+- `auditar_consistencia.py`
+  Genera reportes de QA editorial para localizar duplicados divergentes, pérdida de matiz y riesgos de género/número en placeholders.
 - `cobertura_traduccion.py`
   Calcula la cobertura de traducción por entidad y, opcionalmente, por `sheet`.
 - `reconstructor.py`
@@ -154,6 +156,14 @@ python cobertura_traduccion.py
 python cobertura_traduccion.py --details --entity ScreenText
 ```
 
+QA de consistencia editorial:
+
+```bash
+python auditar_consistencia.py --report-dir tmp/qa_consistencia
+```
+
+El reporte puede incluir fragmentos del corpus original para dar contexto, así que debe quedarse en `tmp/` y no subirse al repositorio.
+
 7. Reconstruir blobs:
 
 ```bash
@@ -166,20 +176,26 @@ python reconstructor.py \
 
 ```bash
 python reempacador.py \
+  --asset ../Gnosia_Data/sharedassets0.assets \
   --manifest work/manifest.json \
   --replacements-manifest tmp/work_reconstructed/replacements.json \
   --output-asset tmp/sharedassets0.phase1_es.assets
 ```
+
+Si el asset instalado ya está parcheado porque estás probando la traducción, usa aquí la copia original, por ejemplo `--asset ../Gnosia_Data/sharedassets0.assets.bak`.
 
 9. Validar la build editada:
 
 ```bash
 python validar.py \
   --mode edited \
+  --asset ../Gnosia_Data/sharedassets0.assets \
   --manifest work/manifest.json \
   --replacements-manifest tmp/work_reconstructed/replacements.json \
   --repacked-asset tmp/sharedassets0.phase1_es.assets
 ```
+
+Igual que en el reempaquetado, si el asset instalado no es el original, valida contra el backup original con `--asset ../Gnosia_Data/sharedassets0.assets.bak`.
 
 Imágenes localizadas
 --------------------

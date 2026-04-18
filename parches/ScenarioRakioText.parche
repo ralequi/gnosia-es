@@ -195,13 +195,13 @@ d341bd98efcf81790d4b5551c16fa4be:0:Jaja, en realidad es muy simple.\n¡Los manda
 # Rakio7
 f19445a74317bdfd5f95b978179ff115:6:Registrar conversación
 de0ba86f747b9323dfc9a752fe518552:5:Conversación
-f589ea832191f0f5a42e1fcaefdf45d7:0:Has intercambiado información con Setsu.\nEsta vez, Setsu es \"{0}\".
+f589ea832191f0f5a42e1fcaefdf45d7:0:Intercambiaste información con Setsu.\nEsta vez, Setsu es \"{0}\".
 04e27411d12c8b79ce1e9982b88407d6:0:Me pregunto cuántas veces habremos intercambiado información así a estas alturas...\nYa va siendo hora de empezar a encontrar respuestas.
 d92fd2113edcd12f049c2cc05ecdbad5:0:{0}, gracias por todo.\nSupongo que solo nos queda ver qué trae mañana.
 7866da35f0f2e05b4e6768b873d760ac:0:¿Qué estáis cuchicheando los dos?
 d36901ffc116192f980fbe9bace758aa:0:Parece que tú y Setsu ocultáis algo, ¿hm?\nJa, ese tipo de cosas conmigo no cuelan, ¿sabes?
 06ee98f6b877ef6603dde2a9b2ecfd50:0:Raqio sospecha...\n¿Debería hablar del loop para evitar algún malentendido?
-1d91024cfa54f4519a1a0c445eef01f0:0:Yo soy {0}.
+1d91024cfa54f4519a1a0c445eef01f0:0:Soy {0}.
 8e6c6926e9c052094f53145e6cd8820c:0:Hablar con Raqio
 4459d3068dad381bc945b0f46b6388a8:0:Le contaste a Raqio cómo tú y Setsu habéis estado pasando por los loops.
 48459f5f3dd8b8d88d20f9ae933dca52:0:Hm... Eso es bastante interesante, desde luego.
@@ -322,7 +322,7 @@ ce6a9372211145f33bc8b907182648eb:0:Lo siento, pero solo verte me revuelve el est
 b4880c5d2f2fdffd1e831064cf770e32:0:Como era de esperar, te dio la espalda de inmediato...\nQuizá puedas volver a preguntarle una vez se haya erradicado a los Gnosia.
 05abf758461778e4e2c3f921f8691c09:1:Final reservado
 faf234a0399d4500d2b46d7513e93455:0:Consola principal
-6a1a8e6972f3f9b58da26e352b98e52c:0:Más de la mitad de la tripulación es ahora Gnosia,\ny la nave ha sido tomada.
+6a1a8e6972f3f9b58da26e352b98e52c:0:Más de la mitad de los pasajeros son ahora Gnosia,\ny la nave ha sido tomada.
 c431f036dd3afe1d25ae3b30e442c087:1:Todos los Gnosia han sido enviados a criogenia.
 108bd1fb3bede525cce6ef77fbf27e0a:0:Vaya, al final sí has conseguido sobrevivir hasta el final...\nPero por desgracia, esta nave terminará siendo tomada igualmente.
 71f58601621afd68e60f51aa7a61f2b2:0:Al final no he podido deshacerme de ti...\nQué inútiles son estos Gnosia.

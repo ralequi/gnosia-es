@@ -1423,11 +1423,11 @@ d16baa2f89064a2060541089757163f2:0:Yo, desde luego, no tengo ni un solo motivo p
 426b7a5d84e04ac4329622c679ef60c8:0:¿Qué es exactamente \"confiar\"? ¿Algún tipo de término religioso?
 0f79165c4b290f781d2a5ca36a3bc07c:0:¿De verdad crees que tendría algún motivo para seguir a {0}?
 7aec9391edb82baa779ffb9c7a1f06cd:0:Es evidente, pero creo que podemos afirmar sin problema que {0} es {1}.
-2b0d602da06b31849aa422ed230c26f4:0:Bien, ya no hace falta seguir dudando de {0}.\nPor anticlimático que resulte, {0} es humano.
+2b0d602da06b31849aa422ed230c26f4:0:Bien, ya no hace falta seguir dudando de {0}.\nPor anticlimático que resulte, {0} no es Gnosia.
 548c7d8e453213497c6e2a1ebaf75fee:0:Vamos, ya os habréis dado cuenta, ¿no?\nEs imposible que {0} sea {1}.
 c5e70ff390658a010bfab930d9f5d649:0:{0} es {1}.\nJa, ¿pensabas que algo así se me iba a pasar por alto?
 0f94d5b4cfc3a0358f8f7f0071bd15f5:0:Vaya, pensar que {0} es {1}.\nOye, {0}. Yo no lo entiendo, pero ¿es divertido vivir obedeciendo una ideología?
-e033410f3048931595cf26b12b73a219:0:{0}... ¿Qué demonios eres?\n¿Un {1}...? ¿Pretendes sumir el universo en el caos...?
+e033410f3048931595cf26b12b73a219:0:{0}... ¿Qué demonios eres?\n¿{1}...? ¿Pretendes sumir el universo en el caos...?
 6aeb79e3354c5db00b73cf835f67a738:0:Ja, la has fastidiado, {0}.\nTu argumento no tiene ningún sentido.\nSe acabó para ti. ¡Ajajajá!
 17ca154ef025f406332ed12a8f244ed7:0:Ah, ya veo. Entonces, {0}.\nAsí que eres Seguidor AC o Bug.
 fb738e8eb70c01d784e466d681a66183:0:Te estás esforzando muchísimo, {0}.\nPero te equivocas en todo, ja.
@@ -1435,7 +1435,7 @@ fb738e8eb70c01d784e466d681a66183:0:Te estás esforzando muchísimo, {0}.\nPero t
 3cecc1d495ca77146ea0e46b32f188df:0:¿De verdad os habéis dado cuenta solo ahora de que soy {1}?\nJa, no. Claro que no, ¿verdad?
 ac17fac69e4f2081f4018cf986734984:0:Parece que os subestimé. Y aquí estamos.\nNo me enfada; sé que ahora debo aceptar mi destino con calma.\nDe hecho admiro la destreza con la que me tendisteis la trampa.
 5b980e06fec8e5dc73df4d34fcaf9f8c:0:{0}, me has decepcionado.
-09b4842d83f3fefb51511506941f49f1:0:Creo que el {0} debería darse a conocer ya.
+09b4842d83f3fefb51511506941f49f1:0:Creo que quien tenga el cargo de {0} debería darse a conocer ya.
 09ce852e0919eef97a733e4c0e54f8b5:0:Ya no tiene sentido seguir debatiendo.\nCreo que deberíamos pasar a la votación.
 36a4585734e2b4ce03d9f4fd7df982ed:0:Dejemos la discusión y votemos.\nLarga vida a la democracia, ja.
 60771648dda9dc85b75ee03ed7436f80:0:Así que ya tenemos el resultado...\nVolveremos a votar entre {0}.
@@ -1843,7 +1843,7 @@ e0d9ed74ebba8801dedfc5ae6c703d44:0:Entiendo que quieras creer, pero piénsalo co
 3649a989a6fdf0e6bb381481183caf1d:0:Estoy de acuerdo. No pinta bien. Me temo que...\nAhora no es momento de confiar en {0}.
 82335b25cd237c3ff55337743b250571:0:Lo siento, {0}.\nEs que... no puedo confiar en ti.
 b7a8c17d756344ae20ce2095a6752f77:0:Gracias por la información.\nAhora está claro que {0} es {1}.
-6f91464bca4b9e33d1f34ef1c8b9bff9:0:Con la información que tenemos, está claro que {0} es humano.\nNo representa ninguna amenaza.
+6f91464bca4b9e33d1f34ef1c8b9bff9:0:Con la información que tenemos, está claro que {0} no es Gnosia.\nNo representa ninguna amenaza.
 d9044edab594b7d2fb5b917a86981df2:0:Ya lo tenemos claro.\n{0} no es {1}, sin duda.
 05e3d1e63008d458e80828e9711a43d2:0:Ya es tarde. La verdad ha salido a la luz.\n{0} es... {1}!
 6471b9792e9ff71e662679c9710bcf71:0:{0} es {1}. Eso es un hecho.\nPor desgraciado que resulte...
@@ -1863,7 +1863,7 @@ cd1048ebce818be552064107319cd72d:0:Sí, no es una decisión fácil.\nCada uno ti
 cf6b6acf425034c545f3880b13b04002:0:Sí, entiendo vuestra decisión.\nLo siento, y buena suerte.
 f241c73b8ba7e63c91d7956bea6c30a8:0:{0}. Yo...\nNo voy a rendirme. Me niego a rendirme.
 7d97b61485a3a977964a108436e45d50:0:Mirándote a los ojos así, {0}...\nVeo que el universo siempre ha estado retorcido.
-49d41fd38cf17dd2579dd2f0d71d7a7a:0:El {0} ha desaparecido y sigo con vida.\n¿He ganado? Pero yo...\nAún quiero hacerme más fuerte.
+49d41fd38cf17dd2579dd2f0d71d7a7a:0:Ya no queda nadie con el cargo de {0}, y sigo con vida.\n¿He ganado? Pero yo...\nAún quiero hacerme más fuerte.
 eb8d7717f1cf6f1e0e901cc8478b1b6a:0:El resultado siempre será el mismo.\nPensemos cómo salir adelante esta vez.
 f9d5753cf9f8b0decadfe149c98afc51:0:{0}, deberías descansar.\nDéjanos el resto de esta batalla a nosotros.
 4da0fa191b77ab2ad2e08c2ac20a6a92:0:Ahora toca esperar... en silencio. El próximo movimiento del enemigo.
@@ -1882,7 +1882,7 @@ a27a8c9333a7d7feb3d1125b360bec13:0:El primer ataque ocurrió en el último puert
 13758211d19aa19c2f2bd6ddf10508e0:0:No puedo quedarme callado...\n{1} es Gnosia, según los resultados de mi investigación como {0}.
 42ce21caf4c119818a891d8de57744fc:0:Tengo dos cosas que compartir. Una es que soy {0}...\nLa otra es que, según mi examen, {1} era Gnosia.
 8c11119ef545d2e2d4468ef92dec6602:0:Qué rápido.\n{1} es un enemigo.\nAl menos para mí, que soy la única {0} de aquí.
-aaa4bbd283e53841b9454a29eeaf9f1d:0:Objeción. La {0} soy yo, no {1}.\nEl enemigo intenta confundirnos con mentiras.\nNo pienso permitirlo.
+aaa4bbd283e53841b9454a29eeaf9f1d:0:Objeción. Quien tiene el cargo de {0} soy yo, no {1}.\nEl enemigo intenta confundirnos con mentiras.\nNo pienso permitirlo.
 7bc4996b92e1d2e79966475887e8fb6a:0:Sí, {1} no es Gnosia.\n{1} y yo nos quedamos en la nave y podemos respaldarnos mutuamente.\n¿Alguna objeción?
 e1955a8a5204bb6e87e1f21ec6e9190c:0:Parece que nadie más quiere dar un paso al frente...\nEn ese caso, solo {1} puede ser {0}.\n¿Me equivoco?
 36185c3cda041368b9fe9ce22064c36b:0:Entre {1}, uno es nuestro enemigo...\nAdemás, quien NO reclamó el puesto no puede ser {0}.\nEsos dos puntos están claros.

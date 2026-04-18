@@ -41,6 +41,12 @@ def parse_args() -> argparse.Namespace:
         default=TMP_DIR / "sharedassets0.repacked.assets",
         help="Output path for repacked sharedassets0.assets",
     )
+    parser.add_argument(
+        "--asset",
+        type=Path,
+        default=None,
+        help="Optional source sharedassets0.assets override. Useful when the installed asset is currently patched.",
+    )
     return parser.parse_args()
 
 
@@ -50,12 +56,25 @@ def main() -> int:
     if replacements_manifest.exists():
         replacements_data, replacements = load_replacements_from_manifest(replacements_manifest)
         source_asset = Path(replacements_data["source_asset"])
+        expected_source_sha256 = str(replacements_data.get("source_asset_sha256", ""))
     else:
         manifest, entities = load_entities_from_manifest(args.manifest)
         source_asset = Path(manifest["source_asset"])
+        expected_source_sha256 = str(manifest.get("source_asset_sha256", ""))
         replacements = {entity.path_id: serialize_entity(entity) for entity in entities}
 
+    if args.asset is not None:
+        source_asset = args.asset
+
     original_bytes = source_asset.read_bytes()
+    if expected_source_sha256 and sha256_bytes(original_bytes) != expected_source_sha256:
+        print(
+            "ERROR: source asset SHA-256 does not match the manifest; "
+            "pass --asset with an original backup if the installed asset is patched",
+            file=sys.stderr,
+        )
+        return 1
+
     source_raw_map = load_source_entity_raw_map(source_asset)
     is_noop = all(source_raw_map.get(path_id) == blob for path_id, blob in replacements.items())
 
