@@ -41,6 +41,23 @@ GENDERED_AROUND_PLACEHOLDER_RE = re.compile(
     r"confirmad[oa]s?|segur[oa]s?|human[oa]s?|sospechos[oa]s?)\s+\{[0-9]+\})",
     re.IGNORECASE,
 )
+SOURCE_GENDER_NUMBER_ROLE_RE = re.compile(
+    r"\b(?:he|she|him|her|his|hers|they|them|their|theirs|"
+    r"human|humans|person|people|crew|member|members|role|claim|claims|"
+    r"Doctor|Engineer|Guardian Angel|AC Follower|Bug|Gnosia|alive|dead|"
+    r"cold sleep|put into|sent to|infected|suspicious|safe)\b|"
+    r"\{[0-9]+\}",
+    re.IGNORECASE,
+)
+SPANISH_AGREEMENT_RISK_RE = re.compile(
+    r"\b(?:el|la|los|las|un|una|unos|unas|al|del)\s+\{[0-9]+\}|"
+    r"\{[0-9]+\}\s+(?:es|era|está|fue|ha sido)\s+"
+    r"(?:human[oa]s?|infectad[oa]s?|sospechos[oa]s?|segur[oa]s?|"
+    r"congelad[oa]s?|enviad[oa]s?|eliminad[oa]s?)|"
+    r"(?:human[oa]s?|infectad[oa]s?|sospechos[oa]s?|segur[oa]s?|"
+    r"congelad[oa]s?|enviad[oa]s?|eliminad[oa]s?)\s+\{[0-9]+\}",
+    re.IGNORECASE,
+)
 FEMININE_GNOSIA_ARTICLE_RE = re.compile(r"\b(?:la|las|una|unas)\s+Gnosia\b", re.IGNORECASE)
 GNOSIA_PLURALIZED_RE = re.compile(r"\bGnosias\b", re.IGNORECASE)
 BARE_COLLECTIVE_GNOSIA_RE = re.compile(
@@ -211,6 +228,14 @@ def is_neutral_sensitive_context(entry: CorpusEntry) -> bool:
     return entry.entity_name == VOICE_VARIANT_ENTITY and entry.sheet_name in NEUTRAL_SENSITIVE_CHARA_SHEETS
 
 
+def source_has_gender_number_role_signal(text: str) -> bool:
+    return bool(SOURCE_GENDER_NUMBER_ROLE_RE.search(text))
+
+
+def spanish_has_agreement_risk(text: str) -> bool:
+    return bool(SPANISH_AGREEMENT_RISK_RE.search(text))
+
+
 def duplicate_divergence_findings(entries: list[CorpusEntry], *, max_examples: int) -> list[dict[str, Any]]:
     findings: list[dict[str, Any]] = []
     groups = grouped(entries, lambda entry: stable_source_key(entry.jp, entry.en, entry.zh))
@@ -327,6 +352,121 @@ def placeholder_risk_findings(entries: list[CorpusEntry], *, max_examples: int) 
     return findings
 
 
+def same_es_source_variants_gender_number_findings(
+    entries: list[CorpusEntry],
+    *,
+    max_examples: int,
+) -> list[dict[str, Any]]:
+    findings: list[dict[str, Any]] = []
+    groups = grouped(entries, lambda entry: entry.es)
+    for es_text, group in sorted(groups.items(), key=lambda item: (-len(item[1]), item[0])):
+        if len(group) < 2 or is_low_signal_duplicate_text(es_text):
+            continue
+        source_keys = {stable_source_key(entry.jp, entry.en, entry.zh) for entry in group}
+        source_ens = sorted({entry.en for entry in group})
+        if len(source_keys) <= 1 or len(source_ens) <= 1:
+            continue
+        if not any(source_has_gender_number_role_signal(source) for source in source_ens):
+            continue
+
+        reasons = ["same_es_source_variants_gender_number"]
+        status = "review"
+        if spanish_has_agreement_risk(es_text):
+            status = "high"
+            reasons.append("spanish_agreement_risk")
+        if any(is_neutral_sensitive_context(entry) for entry in group):
+            status = "high"
+            reasons.append("neutral_sensitive_context")
+        findings.append(
+            {
+                "status": status,
+                "reasons": reasons,
+                "entry_count": len(group),
+                "source_variant_count": len(source_keys),
+                "english_variant_count": len(source_ens),
+                "translation": es_text,
+                "source_en_samples": source_ens[:max_examples],
+                "examples": [entry_ref(entry) for entry in group[:max_examples]],
+            }
+        )
+    return findings
+
+
+def same_jp_or_zh_en_variants_findings(
+    entries: list[CorpusEntry],
+    *,
+    max_examples: int,
+) -> list[dict[str, Any]]:
+    findings: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    language_specs = (("jp", lambda entry: entry.jp), ("zh", lambda entry: entry.zh))
+    for language, key_fn in language_specs:
+        groups = grouped(entries, key_fn)
+        for source_text, group in sorted(groups.items(), key=lambda item: (-len(item[1]), item[0])):
+            if len(group) < 2 or not source_text.strip():
+                continue
+            source_ens = sorted({entry.en for entry in group})
+            if len(source_ens) <= 1:
+                continue
+            dedupe_key = (language, hashlib.md5(source_text.encode("utf-8")).hexdigest())
+            if dedupe_key in seen:
+                continue
+            seen.add(dedupe_key)
+
+            translations = sorted({entry.es for entry in group})
+            reasons = [f"same_{language}_en_variants"]
+            status = "review"
+            if len(translations) == 1 and any(source_has_gender_number_role_signal(source) for source in source_ens):
+                status = "high"
+                reasons.append("english_matiz_collapsed_in_es")
+            findings.append(
+                {
+                    "status": status,
+                    "reasons": reasons,
+                    "language": language,
+                    "source_hash": dedupe_key[1],
+                    "entry_count": len(group),
+                    "english_variant_count": len(source_ens),
+                    "translation_count": len(translations),
+                    "source_en_samples": source_ens[:max_examples],
+                    "translations": translations[:max_examples],
+                    "examples": [entry_ref(entry) for entry in group[:max_examples]],
+                }
+            )
+    return findings
+
+
+def placeholder_agreement_risk_findings(entries: list[CorpusEntry]) -> list[dict[str, Any]]:
+    findings: list[dict[str, Any]] = []
+    for entry in entries:
+        if not PERSON_PLACEHOLDER_RE.search(entry.es):
+            continue
+        reasons: list[str] = []
+        if ARTICLE_BEFORE_PLACEHOLDER_RE.search(entry.es):
+            reasons.append("article_before_placeholder")
+        if GENDERED_AROUND_PLACEHOLDER_RE.search(entry.es):
+            reasons.append("gendered_placeholder_context")
+        if spanish_has_agreement_risk(entry.es):
+            reasons.append("spanish_agreement_risk")
+        if not reasons:
+            continue
+
+        status = "high" if is_neutral_sensitive_context(entry) else "review"
+        if status == "high":
+            reasons.append("neutral_sensitive_context")
+        findings.append(
+            {
+                "status": status,
+                "reasons": sorted(set(reasons)),
+                "location": entry.location,
+                "patch_key": entry.patch_key,
+                "source_en": entry.en,
+                "translation": entry.es,
+            }
+        )
+    return findings
+
+
 def gnosia_article_findings(entries: list[CorpusEntry]) -> list[dict[str, Any]]:
     findings: list[dict[str, Any]] = []
     for entry in entries:
@@ -350,6 +490,47 @@ def gnosia_article_findings(entries: list[CorpusEntry]) -> list[dict[str, Any]]:
             }
         )
     return findings
+
+
+def source_identity_matrix(entries: list[CorpusEntry]) -> list[dict[str, Any]]:
+    exact_groups = [group for group in grouped(entries, lambda entry: stable_source_key(entry.jp, entry.en, entry.zh)).values() if len(group) > 1]
+    jp_zh_groups = [group for group in grouped(entries, lambda entry: entry.patch_hash).values() if len(group) > 1]
+    same_es_groups = [group for group in grouped(entries, lambda entry: entry.es).values() if len(group) > 1]
+
+    rows = [
+        {
+            "metric": "same_jp_en_zh_groups",
+            "group_count": len(exact_groups),
+            "divergent_es_groups": sum(1 for group in exact_groups if len({entry.es for entry in group}) > 1),
+        },
+        {
+            "metric": "same_jp_zh_groups",
+            "group_count": len(jp_zh_groups),
+            "english_variant_groups": sum(1 for group in jp_zh_groups if len({entry.en for entry in group}) > 1),
+            "collapsed_es_groups": sum(
+                1
+                for group in jp_zh_groups
+                if len({entry.en for entry in group}) > 1 and len({entry.es for entry in group}) == 1
+            ),
+        },
+        {
+            "metric": "same_es_groups",
+            "group_count": len(same_es_groups),
+            "source_variant_groups": sum(
+                1
+                for group in same_es_groups
+                if len({stable_source_key(entry.jp, entry.en, entry.zh) for entry in group}) > 1
+            ),
+        },
+    ]
+    return [
+        {
+            "status": "review",
+            "reasons": ["source_identity_matrix"],
+            "entry_count": len(entries),
+            "summary_rows": rows,
+        }
+    ]
 
 
 def summarize_findings(sections: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
@@ -393,6 +574,10 @@ def render_text_report(sections: dict[str, list[dict[str, Any]]], summary: dict[
                 lines.append(f"   EN: {short_text(str(item.get('source_en', '')))}")
                 lines.append(f"   ES: {short_text(str(item.get('translation', '')))}")
             else:
+                if "summary_rows" in item:
+                    for row in item["summary_rows"]:
+                        lines.append(f"   {row}")
+                    continue
                 lines.append(f"   entradas={item.get('entry_count')} variantes={item.get('translation_count', item.get('source_variant_count'))}")
                 if "source_en" in item:
                     lines.append(f"   EN: {short_text(str(item['source_en']))}")
@@ -428,11 +613,21 @@ def main() -> int:
             entries,
             max_examples=args.max_examples,
         ),
+        "same_es_source_variants_gender_number": same_es_source_variants_gender_number_findings(
+            entries,
+            max_examples=args.max_examples,
+        ),
+        "same_jp_or_zh_en_variants": same_jp_or_zh_en_variants_findings(
+            entries,
+            max_examples=args.max_examples,
+        ),
+        "placeholder_agreement_risk": placeholder_agreement_risk_findings(entries),
         "placeholder_gender_number_risk": placeholder_risk_findings(
             entries,
             max_examples=args.max_examples,
         ),
         "gnosia_article_review": gnosia_article_findings(entries),
+        "source_identity_matrix": source_identity_matrix(entries),
     }
     summary = summarize_findings(sections)
 

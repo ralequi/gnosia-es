@@ -66,40 +66,40 @@ af2c575469d430ca57656f59c5efbc64:0:Declaraste que, al ser {0}, no podías ser Gn
 e686b217ab543df691a467c7af918b33:0:Afirmaste que tú también eres {0}, y que, igual que {1}, no podías ser Gnosia.
 1e033c7f979a8ac630397eeba32361bd:0:Solo {1} se presentó como {0}.
 747ffaf63a13516768b6f753c19717c3:0:{1} se presentó como {0}.
-58f48540f8c809733f94c0083e7542f8:0:Solo {1} se presentó como {0}.
+58f48540f8c809733f94c0083e7542f8:0:{1} se presentó como {0}.
 519804e09e643945013b24629492ec08:0:Como Ingeniero,\n
 519804e09e643945013b24629492ec08:1:Como Ingeniero,\n
 519804e09e643945013b24629492ec08:2:Como Ingeniero,\n
 3dcd3c1fd1cc81611a8adb4a301ead06:0:Informaste que, al investigar a {1}, resultó ser {0}.
 ff0f00740aa5a40f05d54ac1ae3ccf35:0:Informaste que, al investigar a {1}, resultó no ser {0}.
 d9223f7f569119e8aad0123e198371ea:0:Informaste que no había nadie a quien investigar.
-333a2dbeb5312696e1db60d6f066dbb6:0:informaste de que {1} resultó no ser {0}.
-15c76f7cb5b0c5c53a79a2b982dd0998:0:Informaste de que no había nadie a quien investigar.
+333a2dbeb5312696e1db60d6f066dbb6:0:Como te atacaron anoche, {1} no podía ser {0}.\nA regañadientes, informaste de que {1} no era {0}.
+15c76f7cb5b0c5c53a79a2b982dd0998:0:Como Doctor,\n
 443c73c3a56cc2893ba6fc4f6fc8eb7f:0:Informaste que {1} era {0}.
 18ffda039862cc7f71bc07e0563fa6c5:0:Informaste que {1} no era {0}.
 64614ce5a93990e9a8c1de4834666aad:0:Informaste que, entre {1}, {2} era {0}.
-b7930d2587869fcec00a4c2a09631a02:0:informaste de que {1} no era {0}.
+b7930d2587869fcec00a4c2a09631a02:0:Informaste de que no había ningún {0} entre {1}.
 99fd117b09e173b9486ea12607ad7606:0:Como se informó antes,\n
 d9b2558a1566311a2ee61035623c1e68:0:A diferencia del informe anterior,\n
 77d813b2b2894f89fef4752b25ad4e00:0:Lamentaste que {0} fuera atacado...
 2652249b22b41aa1b0c34d6ecf14897a:0:Te alegró comprobar que nadie había sido atacado.
 77d813b2b2894f89fef4752b25ad4e00:1:Lamentaste la muerte de {0}...
-18308988d7b305d0688f0af66e4c37ef:0:Te alegraste al comprobar que nadie había sido atacado.
+18308988d7b305d0688f0af66e4c37ef:0:Pediste que quienes aún no hubieran informado se presentaran.
 18308988d7b305d0688f0af66e4c37ef:1:Pediste que quienes aún no hubieran informado se presentaran.
-2a2e3d805e5fd398e8b09c666c1766c0:0:Pediste a quienes aún no habían informado que se adelantaran y lo hicieran.
-6915af5119b33029cd8759c815019bc6:0:Pediste a quienes aún no habían informado que se adelantaran y lo hicieran.
-849ef0ac3637a2b415b4223a7cbff706:0:Les dijiste a todos que querías que dijeran claramente que son humanos.
-c40ab2d3f119c7facfaf2c3831314be9:0:Afirmaste delante de todos que eres humano.
+2a2e3d805e5fd398e8b09c666c1766c0:0:Pediste a todos que declarasen claramente que son humanos.
+6915af5119b33029cd8759c815019bc6:0:Afirmaste delante de todos que eres humano.
+849ef0ac3637a2b415b4223a7cbff706:0:Les dijiste a todos que parasen con eso.
+c40ab2d3f119c7facfaf2c3831314be9:0:...Nadie se adelantó...
 c6f8b57fb8d2ad3f678fea0fb3513cd2:0:...Parece que esto es todo.\nAunque hay quienes no se han presentado...
-e9f54871a049cd0b1bf9a99ee472e02e:0:...Nadie se adelantó...
+e9f54871a049cd0b1bf9a99ee472e02e:0:...Parece que ya están todos.
 c90ac2fa140f1cd20929627a9e4981b6:0:...Se interrumpió la declaración...
-4a7b0c49d5a07bffd116c86bf98f21bb:0:...Parece que ya están todos.
-86716d13ca348cab0c35f92a579bc19f:0:...Te interrumpieron...
-334b53f59d731e3f2e0651358e1c8a2e:0:Intentaste relajar el ambiente hablando de comida.
-5a277c7ec286ccc66e1accfc59427bb1:0:Intentaste relajar el ambiente hablando de romance.
-fa5ec0128d3c4b02f343100f06f92158:0:Propusiste contar historias de miedo para cambiar de aires.
-9d2b22d0af3565b31de29921f5d93aef:0:Te sumaste a la charla hablando de comida.
-29ac8c46758d53c7dbcf87e8a23ee763:0:Te sumaste a la charla hablando de tu primer amor.
+4a7b0c49d5a07bffd116c86bf98f21bb:0:Intentaste relajar el ambiente hablando de comida.
+86716d13ca348cab0c35f92a579bc19f:0:Intentaste relajar el ambiente hablando de romance.
+334b53f59d731e3f2e0651358e1c8a2e:0:Propusiste contar historias de miedo para cambiar de aires.
+5a277c7ec286ccc66e1accfc59427bb1:0:Te sumaste a la charla hablando de comida.
+fa5ec0128d3c4b02f343100f06f92158:0:Te sumaste a la charla hablando de tu primer amor.
+9d2b22d0af3565b31de29921f5d93aef:0:Te sumaste a la charla contando una historia de miedo de tu infancia.
+29ac8c46758d53c7dbcf87e8a23ee763:0:Dijiste que no era momento para esas charlas.
 b15958cc6b1ef63a8520aef5d5bf7d2c:0:Propusiste poner en criogenia a todos los que afirmaron ser {0}.
 215a84e4aba89a4317d4c0f1dbc790da:0:Estuve de acuerdo en poner en criogenia a todos los que afirmaban ser {0}.
 18f95b21bdf72d80c1e1c4d5ca6cb9f6:0:Me manifesté en contra de poner en criogenia a todos los que afirmaban ser {0}.
@@ -121,7 +121,7 @@ ad7a1050b81c9881b38ebc496fa75e61:0:Dije que yo también me oponía a votar contr
 ac13253dccd2ec4ccae173b8e10a4d51:0:Dije que yo tampoco tendría problema en votar contra {0}.
 8e9c2daf904ed32881f739694b6761ce:0:Le pedí a {0} que colaborara conmigo.
 289768436942287a69a0fe4955159651:0:Le respondí a {0} que, a partir de ahora, unamos fuerzas.
-901d8232933a59b26bd89df81f8be90e:0:Le dije a {0} que no podía colaborar con él.
+901d8232933a59b26bd89df81f8be90e:0:Le dije a {0} que no podía ayudar.
 dcee67fae471bbc85c7c41e56b12653a:0:Propuse a todos que confiáramos en el criterio de {0}.
 424c99997a8024439e5dfde4125cf8a0:0:Amenacé con que no toleraría ninguna oposición a {0}.
 4247123bf2c20420ae5991ceb81c1ee0:0:Exageré ante todos el peligro que suponía {1}.
@@ -145,7 +145,7 @@ d297ba7ccb534b20e1466935de999ec2:0:Personalidad equilibrada y sin puntos débile
 92576e7c8217bed6152412a45fa81b00:0:Piensa someterse a una operación para convertirse en un gato por completo.
 16ab10d25ff59c7bef30de029b0fa28c:0:Creció rodeado de gatos desde pequeño.
 36e329f990cc4c6c04fd01c9d8c64eb1:0:Yo soy Chipie. Solo soy un simple gato loco.
-0539af22a11e6455f8ed67e32cf72071:0:Muy capaz, con una intuición, una gracia\n y una habilidad para el sigilo impresionantes. Su personalidad, además, es muy equilibrada,\n así que, si se pone en contra, es un rival duro.
+0539af22a11e6455f8ed67e32cf72071:0:Muy capaz: gran intuición, encanto y sigilo.\nSu personalidad equilibrada\nlo convierte en un rival formidable.
 8b8f026b6b9709a34ca3f8d3e2e52fac:0:Es solo una corazonada, pero bueno.\n{0}... quizá no sea de fiar.
 9c42ba231313073c247e030ec670f1bc:0:Hablas demasiado, {0}.\nEstamos en una situación así. ¿No es mala idea llamar tanto la atención?
 e8f6a4d605d57eb6d3159236345f11ef:0:Oye, ¿no estás apoyando demasiado a {0}?\nPor mi parte, hay cosas de {0} que me llaman la atención.
@@ -1545,7 +1545,7 @@ e1c98ab6b2ed0d201c10988365cb1e33:0:Ja, qué suerte la tuya, {0}. De verdad eres 
 5651794609b4e092fa8f113c97ed3af8:0:Debo admitir que sí tengo un pesar...\nLamento haber subestimado la profundidad de tu absoluta estupidez.
 348cbf1d5e2f5ae9496bd420d4ab0f3b:0:No puedo creer que intentara colaborar con alguien como tú.\nDebería agradecerte que me hayas hecho advertir mi propio mal juicio.
 2bcb4d8614fcda8f7d7baa1b970ce8e3:0:No tengo nada que agradecerte.\nFuera.
-f1ccefa10637e074b10509ba7b545699:0:Oye, {0}. ¿De verdad deberías estar perdiendo el tiempo en un sitio como este?\n¿Ya has decidido a quién eliminarán esta noche?\nClaro que no. Por supuesto que no.
+f1ccefa10637e074b10509ba7b545699:0:Oye, {0}. ¿De verdad deberías perder el tiempo aquí?\n¿Ya decidiste a quién eliminarán esta noche?\nClaro que no. Por supuesto que no.
 d59fa9563ee8359c3b29c57a30b40f3a:0:He pensado por ti, ya que hacía falta.\nEsta vez deberíamos deshacernos de {1}.\nEs la elección obvia, dadas las circunstancias.
 f03cc30fc2bb2ba796e77fcbd37b5b4a:0:Aun así, te dejaré decidir.\nSolo recuerda que he sido yo quien ha propuesto a {1}.\n¿Entendido...? {1}, no lo olvides.
 ea6ad105afe844a25e056c570b1be7ea:0:(Bien...\nPor fin la victoria está al alcance.)
@@ -1934,7 +1934,7 @@ fcada4a3253bf58e6904250b3a71ded8:0:Estoy de acuerdo.\nCreo que deberíamos votar
 9806e6353694eb3b822e9d42ed28361c:0:Tal como dice {1}.\n{0} no es contra quien deberíamos estar luchando ahora mismo.
 4db7333f5352aac3b4751c30ae8018f2:0:En realidad no estoy de acuerdo.\nCreo que deberíamos dejar abierta la opción de votar contra {0}.
 1c4a1120f941ac3a38948a91b0e28f04:0:Bien.\nDejemos que cada uno decida si vota o no contra {0}.
-db23daea330ee67d5b600081e185e4e6:0:Sí, ayudémonos. Pero...\nDependiendo de cómo vayan las cosas, uno de nosotros podría traicionar al otro.\nTenemos que estar preparados por si llega ese momento.
+db23daea330ee67d5b600081e185e4e6:0:Sí, ayudémonos. Pero...\nSegún cómo vayan las cosas, podríamos acabar traicionándonos.\nDebemos estar preparados por si llega ese momento.
 58aa95536936d6f9a4a37bdfa4a39543:0:Lo siento, pero... no puedo confiar en ti sin más.\n¿Me das tiempo para pensarlo?
 749b7b1c77d6697052bf5a648b0029f1:0:Sí, estoy de acuerdo con {0}.\nSi confiáis en mi criterio, me gustaría pediros que confiéis en {0}, ¿de acuerdo?
 062184981c0f081164a3366a83f1a278:0:Voy a tener que oponerme, {0}.\nPara mí, la persona de la que debemos sospechar eres tú, {0}.
@@ -1944,7 +1944,7 @@ ab9b413b4daa61052ef2bab4c165c9df:0:Lo siento...\nNo puedo ayudarte dadas las cir
 e38545e4a87d7f9e833147979d41e52e:0:No le des demasiadas vueltas, {0}.\nIncluso yo me he equivocado muchas veces.\nDemasiadas como para contarlas...
 7c21caa3d7840a2759c6eae8fea1c625:0:Esta vez tú y yo somos enemigos, {0}.\nJeje, no hace falta que te contengas, ¿vale?
 93827924c96f25cd36cf5e5e78d0089e:0:{0}, tú y yo somos del bando humano, ¿verdad?\nEso hace que los Gnosia puedan fijarse más en nosotros.\nEspero que tengamos suerte... los dos.
-a18e43175ffe16798e556c8a9c69849b:0:No creo que nadie tenga ya motivos para dudar de ti, {0}.\nAhora solo tenemos que vigilar de cerca la situación...\ny procurar no llamar demasiado la atención para no convertirnos en un blanco fácil.
+a18e43175ffe16798e556c8a9c69849b:0:No creo que nadie tenga ya motivos para dudar de ti, {0}.\nAhora toca vigilar de cerca la situación...\ny no llamar la atención para evitar ser un blanco fácil.
 78cde1d376a6f29ff9b675f06418c944:0:{0}, confío en ti... Quiero decir...\nAunque al final resultes ser el enemigo, no te castigues demasiado, ¿vale?\nDespués de todo, cada uno tiene que mirar por sí mismo.
 14fab4b3351103c98dc58aa6abd13a2f:0:{0}... ¿De verdad estás de nuestro lado?\nJeje, es broma. No hace falta que contestes.
 36c28daab81c5adab0506811af6904a5:0:Oye, {0}. ¿Has descubierto algo?\nLlegas en buen momento, ¿te apetece hablar un rato?
@@ -2118,7 +2118,7 @@ f60bb6d259fe0ebd7427d7fcf209b849:0:Vamos, tomémoslo con calma, ¿vale?\n¿Qué 
 aa2d649d77a8d145013f259a0723915a:0:¡Venga ya, esto es un coñazo!\nHablemos de algo más interesante...\n¿Qué tal algo que dé un miedo de la hostia?
 5f73b6218e58e1d5f726402d7f53d20c:0:La comida de esta nave es demasiado sana.\n¡Quiero comer algo malo de verdad por una vez! ¡Patatas fritas con chili y queso o algo así!
 efe4d2d6b997072ded898d08040626e3:0:¿Alguien quiere declararme su amor? Adelante.\nNo, en serio... ¿nadie? Estoy abierto a cualquier candidatura...
-d711acb1c50df58943b3c8ad800e5622:0:¿Habéis oído hablar de la viruela de cara? Te salen caritas diminutas por todo el cuerpo.\nExiste de verdad, en serio. A mí me salieron en la barriga.\nOs las enseño si queréis...
+d711acb1c50df58943b3c8ad800e5622:0:¿Conocéis la viruela de cara? Salen caritas por todo el cuerpo.\nExiste, en serio. A mí me salieron en la barriga.\nOs las enseño si queréis...
 4d6d64250a57470aa1cbc85800d8bf9e:0:¿Intentas que baje la guardia con esta mierda?!\nJa, a mí esas cosas no me funcionan.
 5535a9cd32b442cb53a8aed61fab83b3:0:¡Eh, ojo! ¡Genocidio! Qué bonito.\nAsí somos los humanos, hombre.
 10d99b27e5557920ad4921302f36e384:0:{1}... ¿En serio?\n¿De verdad quieres quemar todo el pueblo para pillar a un chalado?
@@ -2294,7 +2294,7 @@ c80e4d9ad50622073a4a90ec9cbe8318:0:Espera, qué?! Quiero decir, sí, medio fue i
 d9c10fd3fc880e0db5581a77272fde53:0:Soy {0}, así que puedo manejar los sistemas de la nave.\nVoy a investigar quién de aquí es Gnosia.
 3c4a35a78fbb1cf08c36d918738c55f6:0:Por cierto, en realidad soy {0}...\nSi un Gnosia entra en criogenia, puedo usar el sistema médico para averiguarlo!
 cba72a8c96974b1de6437e70e0fb17d5:0:Jejeje, con esta pistola ya se ve, ¿no?\n¡Soy {0}!
-b6cc31ea7659f20991e434df4eb2e5c0:0:Puedo asegurar que no soy Gnosia!\nMe quedé encerrado en mi cuarto todo el tiempo mientras la nave estaba atracada!\nEs que tampoco tengo muchos amigos...
+b6cc31ea7659f20991e434df4eb2e5c0:0:¡Puedo asegurar que no soy Gnosia!\n¡Estuve encerrado en mi cuarto mientras la nave estaba atracada!\nEs que tampoco tengo muchos amigos...
 307909070de38740c59680bd32ed1bbc:0:Eh, estaba trasteando con el equipo del {0} y me ha dicho que {1} es Gnosia...\nEse cacharro no estará roto ni nada, ¿no?!
 c764d19da19b5828aa14d75e6c4078cf:0:Ah, sí, en realidad soy {0}.\nRevisé a {1} en criogenia y... ¡pues Gnosia! Menuda sorpresa, ¿eh?
 a374c1cebe35c45694f3c0570f973247:0:¡Eh, un momento! ¡El {0} soy YO!\n{1}, deja de mentir!
@@ -2937,7 +2937,7 @@ b2103d744b68e26bb08bc57d49734e62:0:Así que la falta de fiabilidad de {0} ya es 
 dda9116cbd5a8a750714253f089ae4cc:0:{0}.\nNo tengo intención de participar en vuestra farsa.
 1cc792bc7d917e1d1598842dc7062231:0:Parece que en esta nave solo quedan cobardes.\nQué lamentable. Para todos vosotros.
 469d8a28f357a09ec8156ca04f2f662d:0:Buen trabajo...\nAhora ya sabemos de quién debemos sospechar, ¿no?\nDe quienes se negaron a declarar que eran humanos...
-0ff244f12c0210ab5c5887ae0341b16f:0:Buen trabajo...\nTemiendo ser descubierto, el salvaje ha sido lo bastante listo como para mentir sin rubor.\nCasi dan ganas de elogiar el valor del Gnosia.
+0ff244f12c0210ab5c5887ae0341b16f:0:Buen trabajo...\nTemiendo ser descubierto, el salvaje ha mentido con descaro.\nCasi dan ganas de elogiar el valor del Gnosia.
 72946e7cf9bddc4d3d5d378c08ef6bec:0:Jeje, {0}. Así que quieres evitar tener que declarar...\nO eres un Gnosia valiente o un cobarde indigno de vivir.\nMe pregunto cuál de las dos cosas serás.
 6688fb6e425ff4a4d8a0f03c23bc1d35:0:Me pregunto cuál de nosotros se convertirá en la cena de esta noche.
 94c0b1d5afb9b58938520edf0bdaac25:0:Soy miko, una sacerdotisa. Nadie me ha mancillado.\nSin embargo, sé más de diversión y placer que todos vosotros juntos.

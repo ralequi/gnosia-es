@@ -65,7 +65,7 @@ a76aff34e971658853aa9eea1b15788c:0:Datos tripul. actualizados: Jonas/Kukrushka
 a27534a69686ba67e79d9d9bc7525edc:0:Todos a dormir
 a132f7a1d96adfb15bd2d508137b014f:0:(Kukrushka parece decir que ella y Remnan están de Servicio de guardia,\nasí que relajémonos y dejémoslo todo en sus manos.)
 6496c212aa54445f80e32a961b3337dc:0:¡*Chiiic*! A mí me parece bien.\nEstos dos desde luego no son Gnosia, así que si todos los demás entran en criogenia,\ntodo irá bien.
-413918984b037ee8bdc3f34fa04c5af1:0:Ya veo... Así que criogenia para todos salvo quienes están de Servicio de guardia.\nQuizá merezca la pena probarlo.\nRemnan, ¿te parece bien a ti también?
+413918984b037ee8bdc3f34fa04c5af1:0:Ya veo... Criogenia para todos salvo Servicio de guardia.\nQuizá merezca la pena probarlo.\nRemnan, ¿te parece bien a ti también?
 c47c3a18e49e00d45a27c6483719d752:0:Sí, yo... no tengo problema.\nNos... ocuparemos de todo...
 4c3dd4f67759f1b147c9ad2a1c7d81e2:0:Bastaría con mantener la nave hasta el siguiente puerto.\nAunque Remnan y Kukrushka fueran completamente inútiles,\nLeVi les ayudaría de todos modos, ¿verdad?
 78d5810289e142899d499f909e15a968:0:(\"Todo irá bien, dejádnoslo a nosotros\",\nsonríe Kukrushka, tranquilizando a todos.)
@@ -81,7 +81,7 @@ afd6846834bf7c743f0c57905e5042a4:0:Esto es... ¿la sala de criogenia?\nParece qu
 668815cd59adb19615a7fdd0879ab12d:0:Escóndete, deprisa.\nO si no... ¡{0}, tú también...!
 f8d818c52af6a65569add3e59636f017:0:{0}, ¡eres el único que queda!\nA todos... a todos los demás los han... expulsado de la nave...
 d11770ce06800e5b7dc4c1cb4ddc118f:0:¡Por favor, sal de aquí! ¡Ya!\n¡Antes de que... antes de que venga...!
-5ebc72a02fab3adc6a915719b872b215:0:¿Que venga...?\nLos únicos despiertos ahora son quienes estaban de Servicio de guardia, o sea Remnan y...\n...¿Kukrushka...?
+5ebc72a02fab3adc6a915719b872b215:0:¿Que venga...?\nLos únicos despiertos son los de Servicio de guardia: Remnan y...\n...¿Kukrushka...?
 57a6dc367f16dc7f50783090b74fe5e3:0:¡Kukrushka? ¡Ese no es su nombre!\nQuiero decir, ni siquiera era humana desde el princi-
 0f32407d80a54766595c77961565b9da:0:Aaah... Aaaaaah...
 65a2059c0507a99c8da17d9ec9d14194:0:Datos tripul. actualizados: Kukrushka
@@ -117,7 +117,7 @@ d7445f86caeba3cdceaf9a5728c802bc:0:Respondiste que quizá todavía queden Gnosia
 bbea1762711f50e0f9c6028da21360f8:0:Tendré que volver al ejército.\nAsí que sería después de eso, pero... Si...\n{0}, si a ti te parece bien...
 ea66d9b130dc38182c2a90eb86115632:0:Quizá, juntos, podríamos...
 63879c371720b14830d0866d06c87969:0:Pronto iniciaremos el warp.\nTodos los miembros de la tripulación, regresen a sus habitaciones.
-f1e68f7652e598dae228a4524d5db4e3:0:Ah, claro.\nDespués del warp tendremos que hacer la comprobación final de infección Gnosia.\nSupongo que deberíamos pensar en el futuro después de eso.
+f1e68f7652e598dae228a4524d5db4e3:0:Ah, claro.\nDespués del warp habrá una última comprobación de infección Gnosia.\nSupongo que deberíamos pensar en el futuro después de eso.
 5365a060867837623fb0990330caf21e:0:Lo siento, {0}.\nVolvamos a hablar mañana.
 b0dcc71109c3e1edda392843067986aa:0:Pero, sabes... esto es la primera vez.\nDe verdad estoy deseando que llegue mañana así...
 66c43b21040e98e5be3e2bc558bda6f7:0:Anoche, tras el ataque de los Gnosia,\n
@@ -244,4 +244,4 @@ b1dd0e7b7df22f1ec6cc5d76fb3b5b9a:0:(Jejeje, qué idiota tan simple...\nEso parec
 ecd008e98ca3da443fa5af7903355725:0:¡Aaaaah!\n¡Te estás riendo de mí! ¡Te estás burlando, ¿a que sí?!
 46de972019d96e03e802e88dbae7b99a:0:¡YA SABÍA que fuiste tú quien lo robó!\n¡Devuélveme mis chocolatinas de chatarra espacial!
 ef13fbe31f2c4a52f29eda6c3ab20e1e:0:Habilidad \"Dar pena\" adquirida
-27e33afe160192a657f1618de55754b3:0:Has adquirido la habilidad \"Dar pena\". Cuando recaigan sospechas sobre ti, esto\npermite despertar compasión y hace más probable que otros\nte apoyen. Requiere 25 de \"Carisma\".
+27e33afe160192a657f1618de55754b3:0:Has adquirido \"Dar pena\". Si recaen sospechas sobre ti,\ndespierta compasión y hace más probable que otros te apoyen.\nRequiere 25 de \"Carisma\".

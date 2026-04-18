@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import fnmatch
 import math
 import re
 import sys
@@ -179,6 +180,16 @@ TEXTBOX_CAPS = {
     }
     for key, value in LAYOUT_RULES.get("textbox_caps", {}).items()
 }
+FLOW_LINE_CAPS = {
+    parse_entity_sheet_key(key): {"line_width": int(value["line_width"])}
+    for key, value in LAYOUT_RULES.get("flow_line_caps", {}).items()
+}
+GENERIC_TEXTBOX_CAPS = LAYOUT_RULES.get("generic_textbox_caps", {})
+GENERIC_TEXTBOX_ENTITY_PATTERNS = [
+    str(pattern) for pattern in GENERIC_TEXTBOX_CAPS.get("entity_patterns", [])
+]
+GENERIC_TEXTBOX_LINE_WIDTH = int(GENERIC_TEXTBOX_CAPS.get("line_width", 0) or 0)
+GENERIC_TEXTBOX_MAX_LINES = int(GENERIC_TEXTBOX_CAPS.get("max_lines", 0) or 0)
 
 
 def parse_args() -> argparse.Namespace:
@@ -291,11 +302,84 @@ def max_line_length(text: str) -> int:
     return max((len(line) for line in text.split("\n")), default=0)
 
 
+def visual_line_length(line: str, *, line_width: int) -> int:
+    if len(line) == line_width + 1 and line.endswith(" "):
+        return line_width
+    return len(line)
+
+
 def rendered_textbox_lines(text: str, *, line_width: int) -> int:
     total = 0
     for line in text.split("\n"):
-        total += max(1, math.ceil(len(line) / line_width))
+        total += max(1, math.ceil(visual_line_length(line, line_width=line_width) / line_width))
     return total
+
+
+def overflowing_lines(text: str, *, line_width: int) -> list[dict[str, object]]:
+    lines: list[dict[str, object]] = []
+    for index, line in enumerate(text.split("\n"), start=1):
+        visual_length = visual_line_length(line, line_width=line_width)
+        if visual_length > line_width:
+            lines.append(
+                {
+                    "line_index": index,
+                    "line_length": len(line),
+                    "visual_length": visual_length,
+                    "line_width": line_width,
+                    "line_text": line,
+                }
+            )
+    return lines
+
+
+def textbox_layout_detail(
+    *,
+    reason: str,
+    text: str,
+    line_width: int,
+    max_lines: int | None = None,
+) -> dict[str, object]:
+    detail: dict[str, object] = {
+        "reason": reason,
+        "line_width": line_width,
+        "rendered_lines": rendered_textbox_lines(text, line_width=line_width),
+        "overflowing_lines": overflowing_lines(text, line_width=line_width),
+    }
+    if max_lines is not None:
+        detail["max_lines"] = max_lines
+    return detail
+
+
+def entity_matches_any_pattern(entity_name: str, patterns: list[str]) -> bool:
+    return any(fnmatch.fnmatchcase(entity_name, pattern) for pattern in patterns)
+
+
+def generic_textbox_cap_applies(
+    entity_name: str,
+    source_text: str,
+    *,
+    has_choice_cap: bool,
+    has_ui_cap: bool,
+    has_explicit_textbox_cap: bool,
+    has_flow_line_cap: bool,
+) -> bool:
+    if (
+        not GENERIC_TEXTBOX_LINE_WIDTH
+        or not GENERIC_TEXTBOX_MAX_LINES
+        or not GENERIC_TEXTBOX_ENTITY_PATTERNS
+    ):
+        return False
+    if has_choice_cap or has_ui_cap or has_explicit_textbox_cap or has_flow_line_cap:
+        return False
+    if is_allowed_unchanged(source_text):
+        return False
+    if not entity_matches_any_pattern(entity_name, GENERIC_TEXTBOX_ENTITY_PATTERNS):
+        return False
+    source_rendered_lines = rendered_textbox_lines(
+        source_text,
+        line_width=GENERIC_TEXTBOX_LINE_WIDTH,
+    )
+    return source_rendered_lines <= GENERIC_TEXTBOX_MAX_LINES
 
 
 def is_choice_option(
@@ -450,6 +534,7 @@ def main() -> int:
 
                 status = "ok"
                 reasons: list[str] = []
+                layout_details: list[dict[str, object]] = []
                 if (
                     not required_placeholders.issubset(translated_placeholders)
                     or not translated_placeholders.issubset(allowed_placeholders)
@@ -457,7 +542,13 @@ def main() -> int:
                     status = "hard_fail"
                     reasons.append("placeholder_mismatch")
 
-                if is_choice_option(source_entity.entity_name, source_sheet.name, param_index, source_sheet):
+                has_choice_cap = is_choice_option(
+                    source_entity.entity_name,
+                    source_sheet.name,
+                    param_index,
+                    source_sheet,
+                )
+                if has_choice_cap:
                     if line_count(work_display) > line_count(source_display):
                         status = "hard_fail"
                         reasons.append("choice_linecount_overflow")
@@ -473,6 +564,7 @@ def main() -> int:
                 ui_cap = UI_LABEL_WIDTH_CAPS.get(
                     (source_entity.entity_name, source_sheet.name, param_index)
                 )
+                has_ui_cap = ui_cap is not None
                 if ui_cap is not None and max_line_length(work_display) > ui_cap:
                     status = "hard_fail"
                     reasons.append("ui_label_overflow")
@@ -480,6 +572,7 @@ def main() -> int:
                 textbox_cap = TEXTBOX_CAPS.get(
                     (source_entity.entity_name, source_sheet.name, param_index)
                 )
+                has_explicit_textbox_cap = textbox_cap is not None
                 if textbox_cap is not None:
                     rendered_lines = rendered_textbox_lines(
                         work_display,
@@ -488,6 +581,70 @@ def main() -> int:
                     if rendered_lines > int(textbox_cap["max_lines"]):
                         status = "hard_fail"
                         reasons.append("textbox_linecount_overflow")
+                        layout_details.append(
+                            textbox_layout_detail(
+                                reason="textbox_linecount_overflow",
+                                text=work_display,
+                                line_width=int(textbox_cap["line_width"]),
+                                max_lines=int(textbox_cap["max_lines"]),
+                            )
+                        )
+
+                flow_cap = FLOW_LINE_CAPS.get((source_entity.entity_name, source_sheet.name))
+                has_flow_line_cap = flow_cap is not None
+                if flow_cap is not None:
+                    flow_width = int(flow_cap["line_width"])
+                    flow_overflows = overflowing_lines(work_display, line_width=flow_width)
+                    if flow_overflows:
+                        status = "hard_fail"
+                        reasons.append("flow_line_width_overflow")
+                        layout_details.append(
+                            {
+                                "reason": "flow_line_width_overflow",
+                                "line_width": flow_width,
+                                "overflowing_lines": flow_overflows,
+                            }
+                        )
+
+                if generic_textbox_cap_applies(
+                    source_entity.entity_name,
+                    source_display,
+                    has_choice_cap=has_choice_cap,
+                    has_ui_cap=has_ui_cap,
+                    has_explicit_textbox_cap=has_explicit_textbox_cap,
+                    has_flow_line_cap=has_flow_line_cap,
+                ):
+                    generic_width = GENERIC_TEXTBOX_LINE_WIDTH
+                    generic_max_lines = GENERIC_TEXTBOX_MAX_LINES
+                    generic_rendered_lines = rendered_textbox_lines(
+                        work_display,
+                        line_width=generic_width,
+                    )
+                    generic_overflows = overflowing_lines(work_display, line_width=generic_width)
+                    if generic_rendered_lines > generic_max_lines:
+                        status = "hard_fail"
+                        reasons.append("generic_textbox_linecount_overflow")
+                        layout_details.append(
+                            textbox_layout_detail(
+                                reason="generic_textbox_linecount_overflow",
+                                text=work_display,
+                                line_width=generic_width,
+                                max_lines=generic_max_lines,
+                            )
+                        )
+                    if generic_overflows:
+                        if status != "hard_fail":
+                            status = "review"
+                        reasons.append("generic_textbox_line_width_overflow")
+                        layout_details.append(
+                            {
+                                "reason": "generic_textbox_line_width_overflow",
+                                "line_width": generic_width,
+                                "max_lines": generic_max_lines,
+                                "rendered_lines": generic_rendered_lines,
+                                "overflowing_lines": generic_overflows,
+                            }
+                        )
 
                 budget = max_len_for_tier(source_len, tier)
                 if work_len > budget:
@@ -520,24 +677,25 @@ def main() -> int:
                         status = "review"
 
                 summary[status] += 1
-                report_entries.append(
-                    {
-                        "path_id": path_id,
-                        "entity_name": source_entity.entity_name,
-                        "sheet_name": source_sheet.name,
-                        "param_index": param_index,
-                        "tier": tier,
-                        "status": status,
-                        "reasons": reasons,
-                        "source_len": source_len,
-                        "translated_len": work_len,
-                        "budget": budget,
-                        "source_text": source_text,
-                        "translated_text": work_text,
-                        "source_display_text": source_display,
-                        "translated_display_text": work_display,
-                    }
-                )
+                report_entry = {
+                    "path_id": path_id,
+                    "entity_name": source_entity.entity_name,
+                    "sheet_name": source_sheet.name,
+                    "param_index": param_index,
+                    "tier": tier,
+                    "status": status,
+                    "reasons": reasons,
+                    "source_len": source_len,
+                    "translated_len": work_len,
+                    "budget": budget,
+                    "source_text": source_text,
+                    "translated_text": work_text,
+                    "source_display_text": source_display,
+                    "translated_display_text": work_display,
+                }
+                if layout_details:
+                    report_entry["layout_details"] = layout_details
+                report_entries.append(report_entry)
 
     report_dir = ensure_dir(args.report_dir)
     write_json(report_dir / "audit.json", {"summary": summary, "entries": report_entries})

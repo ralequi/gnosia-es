@@ -20,5 +20,18 @@
       "line_width": 67,
       "max_lines": 3
     }
+  },
+  "flow_line_caps": {
+    "ScreenText/FirstLoadScreen": {
+      "line_width": 77
+    }
+  },
+  "generic_textbox_caps": {
+    "entity_patterns": [
+      "Scenario*Text",
+      "CharaText"
+    ],
+    "line_width": 77,
+    "max_lines": 3
   }
 }

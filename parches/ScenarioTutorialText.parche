@@ -78,7 +78,7 @@ e96656f719f50b4a74421f1f95ce3992:0:Hm, o sea que no tenemos ni una sola pista, �
 ea81e7dea59fd1796e30c8d4a1323c77:0:Pues es justo lo que vengo diciendo.\n\"No recuerdo nada\" resulta demasiado convenientemente sospechoso, ¿no?
 1c11e3cbabebc311fbce3db9abd8878f:0:Es prácticamente seguro: {0} es Gnosia.\nJa. Te esforzaste por parecer humano, pero no te ha servido de nada.
 5c280d76d761da5e714d7255476fd38c:0:Parece que estás despertando sospechas...\n¿La sospecha de que tú... no eres humano?
-0a953de303a2e4af6d6ba933c3ce63a6:0:No, piensa en ello así.\nLa amnesia en un momento como este resulta demasiado sospechosa y atrae atención no deseada.\n¿De verdad crees que un depredador intentaría algo así?
+0a953de303a2e4af6d6ba933c3ce63a6:0:No, míralo así.\nLa amnesia en un momento así resulta sospechosa y atrae miradas.\n¿De verdad crees que un depredador haría algo así?
 352042c0c9147d968c89edb422811d1c:0:Y que yo sepa, ningún infectado por Gnosia ha intentado fingir amnesia antes.\nSi {0} fuera un enemigo, creo que sería mucho más difícil notarlo.
 3b146a8e0b957870cc48a3928c225163:0:Estoy de acuerdo. No creo que tengamos motivos para sospechar de {0}.
 8250f8051c56d17d36d20f3d71bad72e:0:Uy, eh, ¡se nos acaba el tiempo!\nTotal, tampoco tenemos ni idea de quién es el Gnosia.\n¡Vamos a darnos prisa y terminemos con la votación!
@@ -600,7 +600,7 @@ c38d25fa61ae5a253191f5e8cbe256ea:0:Eh... vaya...
 5e42800cddce7aa30d5d088a2fcfaa0f:0:LeVi... ¿Puedes confirmar que yo soy el Ingeniero?
 3398def6b9aa81e0dff2343adaab4503:0:Lo siento... pero no puedo.\nSolo puedo confirmar que he procesado y\naceptado una solicitud de credenciales de Ingeniero...
 751a051a550f14eab8442b418d59c099:0:¿Pero no puedes confirmar que fui yo?
-947fabc19e4b76a09b3ef4ecf49f1ae7:0:Exacto...\nEs posible que los datos personales de la tripulación se hayan corrompido, así que\nno puedo confirmar si esas credenciales de Ingeniero son tuyas o no.
+947fabc19e4b76a09b3ef4ecf49f1ae7:0:Exacto...\nLos datos personales de la tripulación podrían estar dañados,\nasí que no puedo confirmar si esas credenciales son tuyas.
 6cff8b24c9260a58bf63929cd2070a12:0:Vale, ya veo...\nEntonces... {0}.
 ab4ec219b6a81af60b977ae85e638936:0:Así que, {0}...\n{1} y yo, uno de los dos está mintiendo.\nY...
 83bc0dfab53e1cd2d7ac3b0dde95b0e4:0:Bueno...\nDe ti depende a quién creas...
@@ -881,7 +881,7 @@ e4325abd2d561454bea46ede08ded4e2:0:Hm, al menos podrías darme una respuesta, ¿
 5f29ccac7b7becb658f57643f20c9f2a:0:Quiero decir, {0}... se te da mal mentir, ¿no?\nComo a Shigemichi y Gina.
 33d2419f0f62240d54bdf04f2187454c:0:Quiero decir, {0}... se te da bien ocultar mentiras, ¿no?\nPero...
 130321d41e2680cf409078f59c7a85a8:0:En realidad soy bastante perceptiva.\nNormalmente noto enseguida cuándo alguien miente.
-6a3280d03735fe6d60b49dbc2f2cfbd8:0:Comet tiene una \"Intuición\" extremadamente alta y detecta mentiras con facilidad.\nCuando sospecha o duda de alguien,\npuede ser porque se ha dado cuenta de que estaba mintiendo.
+6a3280d03735fe6d60b49dbc2f2cfbd8:0:Comet tiene mucha \"Intuición\" y detecta mentiras con facilidad.\nCuando sospecha o duda de alguien,\npuede ser porque lo ha pillado mintiendo.
 a7641ea4db32381ec163a0de8d7a36fd:0:Vale, voy a ir a preguntarles a los demás.\n¡Nos vemos!
 b83d39ce3bbc98651c1bbb011a563f7d:0:(Has detectado la mentira de {0}...)
 1962e6bfe0aa821bc742b07fed80e35b:0:Ten cuidado
@@ -920,7 +920,7 @@ ad32d40da4fa3e42905e4f52a84c8d93:0:Comienza la cuenta atrás para el salto.
 09a9fcee8233ae1861f3f55ffedbff6e:0:¿Eh...?\n¿El tiempo... se ha detenido...?
 c6c422349c3f71682a9653f91e8566b7:0:Hm.
 1ba9fa4e10d3b1239e564dbcd247a3d5:0:Si, y?
-0c8a37d4aae19cd2b165b5082b38f858:0:¿No entiendes lo que está pasando?\nPara el salto se usan cálculos de panposibilidad, ¿verdad?\nComo \"terminales\", tú y yo estamos conectados automáticamente a Gnos, obviamente.
+0c8a37d4aae19cd2b165b5082b38f858:0:¿No entiendes lo que pasa?\nEl salto usa cálculos de panposibilidad, ¿verdad?\nComo \"terminales\", tú y yo estamos conectados a Gnos, obviamente.
 325b2fd4119ff70c84c7ea1e67ae4293:0:Para el salto se usan cálculos de panposibilidad, ¿verdad?\nComo \"terminales\", tú y yo estamos conectados automáticamente a Gnos.
 916d6d706db76d9e8dd3d49095fb392f:0:No lo entiendo
 700b13546596cc4aa215641e2ebc3f5f:0:Respondiste que no lo entendías.
@@ -1146,7 +1146,7 @@ d5c3ad31363e16b01c5ea521633225dd:0:Creo que debemos asumir que Otome también pu
 e6bb2d480a5b4b25702727fece0576ca:0:Sí, si no podemos asegurarlo... lo más prudente es eso.\nTenemos que contar con ese riesgo.
 7f53db4f35e382e0758b9bf6e2e530a0:0:Además, yo...\ncreo que es humana.
 d3d64cfb3d0c602e3cd8acdfd0d0dfab:0:¡Chii! ¡Gina...!
-49011ec6f5f542184096ee4a57403085:0:Hum...\nSi lo que separa a los humanos de los animales es la inteligencia y la conciencia...\nentonces sí... estoy de acuerdo.
+49011ec6f5f542184096ee4a57403085:0:Hum...\nSi inteligencia y conciencia separan a humanos y animales...\nentonces sí... estoy de acuerdo.
 07e7e54894aec246e604f8e717434a52:0:Sí. Percibo inteligencia en Otome.\nEn Shigemichi y Comet, en cambio, no tanta.
 3ee98f2340532347ca36617c38a5f88b:0:¿Eh? Entonces Shigemichi es... ¿humano?
 e9e73d5c6c4633ea8baf7401be897466:0:¡Eh! ¡No fastidiéis...!
@@ -1323,7 +1323,7 @@ b3e03fff68660f7129bdf9f141a79252:0:Ya veo...\nPero hay una cosa sobre los Ingeni
 9d655f9d510ca2e44cae231b08703a8d:0:No respondas
 1aeb34f2fd5034a15d91e3f4566e99a4:0:De acuerdo... te lo explico.\nLo primero es procurar no destacar demasiado.
 5c841298915e0e8bbc14d254d785ee9c:0:Seguir la conversación
-e1e077c75616e7d973041c57b492dbfb:0:Cuanto más destaques, más probable será que sospechen de ti\ny acaben votándote.\nTambién llamarás la atención del enemigo y correrás más riesgo de que te eliminen.
+e1e077c75616e7d973041c57b492dbfb:0:Cuanto más destaques, más probable será que sospechen de ti\ny acaben votándote.\nTambién atraerás al enemigo y aumentará tu riesgo de eliminación.
 b0ab5237ac36b2716a4b4a1832a2cc80:0:Claro que hablar ya te hace destacar.\nSi te limitas a seguir la opinión de otra persona, mucho menos.
 adb110317eaeeb5d22d509f912616f09:0:Además, si te señalan y protestas o discutes demasiado, también llamarás la atención.\nCualquier comportamiento antinatural te hará destacar.
 f68c8dacc3bd5f4e555d5e31873ea831:0:Pero si por miedo a destacar no haces nada, te dejarás arrastrar por la situación.\nAsí que no tengas miedo de hablar cuando creas que hace falta.

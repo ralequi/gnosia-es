@@ -162,7 +162,7 @@ QA de consistencia editorial:
 python auditar_consistencia.py --report-dir tmp/qa_consistencia
 ```
 
-El reporte puede incluir fragmentos del corpus original para dar contexto, así que debe quedarse en `tmp/` y no subirse al repositorio.
+El reporte prioriza duplicados con traducción divergente, fuentes con mismo JP/ZH pero matices distintos en inglés, riesgos de género/número cerca de placeholders y artículos de `Gnosia`. Puede incluir fragmentos del corpus original para dar contexto, así que debe quedarse en `tmp/` y no subirse al repositorio.
 
 7. Reconstruir blobs:
 
@@ -233,6 +233,13 @@ Además de la integridad estructural, añade señales editoriales no bloqueantes
 - `english_leftover`
 - `stylization_review`
 - `unchanged_translatable`
+- `generic_textbox_line_width_overflow`
+
+Y bloquea problemas de layout conocidos:
+
+- `flow_line_width_overflow`: líneas de pantallas largas que exceden el ancho configurado.
+- `textbox_linecount_overflow`: cajas explícitas que exceden sus líneas máximas.
+- `generic_textbox_linecount_overflow`: cajas genéricas de escenario/personaje que exceden `77x3`.
 
 Lo importante para una build utilizable es mantener `hard_fail=0`.
 
