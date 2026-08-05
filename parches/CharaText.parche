@@ -647,7 +647,7 @@ b8fecc3c28f56710c846397dda44098d:0:Sobre el ataque,\n
 4098f6e432cfca252710cbab412b1e0d:0:He investigado a {1}, y el resultado fue \"humano\".\nNo era {0}.
 9278af0521d997fd4e04440579f4ac6b:0:Ya no queda nadie a quien quiera investigar...
 aba02ef6037a3b9ead7fc5070b30a66d:0:Tengo un informe. Examiné a quien durmió ayer en criogenia.\n
-e1aead517a51faef06311f924856d1b2:0:El resultado fue negativo para {0}. {1} {3} humano.
+e1aead517a51faef06311f924856d1b2:0:El resultado fue negativo para {0}. {1} {3} de naturaleza humana.
 c1854c11e3f387a27f80f7e7668f163a:0:{1}, ambos humanos.\n¿Qué estamos haciendo...?
 40a40c6210aa412170a719d346ec4a85:0:Mi informe es el mismo.\n
 6c33545049f91d9561fa30f391e3908d:0:Eso no está bien...\n
@@ -850,9 +850,9 @@ f10181fb0c8ee8265a926980b7968d40:0:{1} no puede ser {0}. SIN EMBARGO...\nEso es,
 b0dced4deb7c9d1de566849df4e51730:0:Mi investigación ha concluido.
 1e42784bdf2e3acb23c6bed197747b92:0:El cuerpo humano helado y congelado es algo hermoso.\nEso sí, lo dejé un poco destrozado con mi \"examen\".
 b861b04cac44d08559128f568aa45654:0:¡Procedo a... INFORMAR! {1} {3} {0}.
-a4e4624ec7988c93833ed1c63d494c6c:0:¡Procedo a... INFORMAR! {1} {3} no {0}.
+a4e4624ec7988c93833ed1c63d494c6c:0:¡Procedo a... INFORMAR! {1} no {3} {0}.
 0a58eaa36af304e536eab97775321168:0:¡INFORME! {2} {4} {0}.
-cbd828f78a2be918fcff4854b2ff94e2:0:¡INFORME! {1} {3} no {0}.
+cbd828f78a2be918fcff4854b2ff94e2:0:¡INFORME! {1} no {3} {0}.
 d1d24b89a490efa1e1d163f4b9e9b3e1:0:Tú... me has copiado el resultado, ¿verdad...?\n
 35c4bc0e0fe2ba7cfb28d2ac2cec5a68:0:Por mi parte, ¡un rotundo NO! ¡AJÁ! ¡La fachada del monstruo se desmorona!\n
 3ba54879ec18243e8f5290e2c357db6e:0:¡INFORME! {0} ha sido... victimizado.\nCausa de la muerte: ¡GNOSIA!
@@ -1067,7 +1067,7 @@ cf7123bb73e02b8a2612750cbe5edc5a:0:(Kukrushka informa.\n
 6f091207bc787bbfdf3481fd1ee78155:0:(Kukrushka da a entender...\nque no sabía a quién investigar.)
 15f21d050486df9dd9af7228741e18aa:0:(Afirmando ser la Doctora, Kukrushka informa.\n
 b1779f92250183a0f3fcfd0439cb0730:0:Parece que descubrió que {1} {3} {0}.)
-99066a03a7faa795bc2bcb2a4957ba0b:0:Parece que {1} {3} no {0}.)
+99066a03a7faa795bc2bcb2a4957ba0b:0:Parece que {1} no {3} {0}.)
 3bdb89c30d3ca1d1786f691bce892e5a:0:{2} {4} {0}, según su informe.)
 27f32c636a71bb9630db781380caf214:0:Parece que anoche no había ningún {0} entre quienes entraron en criogenia.)
 f19ed7348719f3ac357d158fe0978fe8:0:(Kukrushka asiente.\n
@@ -1684,7 +1684,7 @@ abbad3f6a0a2aae9db1f7d0735e71c73:0:He comprobado las ondas dimensionales...\n
 d7c1419a4cb4096e7adba0499393ff70:0:Según el registro, {1} no es {0}.
 57e859a118bc971a9569fc9ecc1c5d05:0:Ya no hace falta revisar a nadie más...
 24e56aa36a6a0024c8225bb4c68f3d17:0:Yo... examiné a quienes estaban en criogenia...\n
-9d5418847343719d4dedef9e1d1feeda:0:{1} {3}... no {0}.
+9d5418847343719d4dedef9e1d1feeda:0:{1}... no {3} {0}.
 56965dfb6ee72eb8c7756bef0a7f430f:0:He revisado a {1}. Y {2}... {4} {0}.
 123c789ad09a9f2a00f30f8e109eb580:0:{1}...\nNinguno era {0}.
 60428da6f82ed7634c24676fa492707a:0:Mi investigación dio... el mismo resultado.\n
@@ -1894,7 +1894,7 @@ f7db4fd08aa69a83731b43101b3fa473:0:Ahora permitidme presentar algo de informaci�
 9c773781355e584612f9098fd3b7c8c3:0:Como mínimo, {1} no era {0}.
 ec53747c24e01157b5243b9e9fef1677:0:Como Ingeniero, no tengo nada concreto que informar.\nYa no queda nadie que investigar.
 cff46c5030a29758d186afaf62044306:0:Aquí van los resultados de las pruebas posteriores a la criogenia de anoche.\n
-24ea8c04fbb1580e463453cd250fc955:0:Como mínimo, {1} {3} no {0}.
+24ea8c04fbb1580e463453cd250fc955:0:Como mínimo, {1} no {3} {0}.
 424b0de16fa4f2c6126e1df18d06c261:0:Cero. {1}...\nNadie era {0}.
 ac98ba233a00cef07fe5d45597dec5c1:0:Mis resultados fueron los mismos.\n
 314a438f5dfb8651c4f92b7cec7798dc:0:Parece que hay discrepancias. Aquí van mis resultados.\n
@@ -2509,7 +2509,7 @@ c5df89b14d9acb376bf6dacac7c202cc:0:¡Uy! ¡La pelea por {0} está servida, chico
 6061b4f79a68a4a1ea2535051449cc64:0:He revisado a {1}.\n¡Un no gigante para {0}! {1} está limpísimo.
 fe696204fcb755b722fa391188b41759:0:Vale, entonces... ¿a quién se supone que reviso ahora?
 d29d721aaa6b084e63fabc7ab1a1d937:0:¡Hoooola! He revisado la nevera, chicos.\n
-93e2a29b9283ac295bf446707cc03cb0:0:{1} {3} total {0}. ¡Bingo!
+93e2a29b9283ac295bf446707cc03cb0:0:{1} {3} totalmente {0}. ¡Bingo!
 ec806afdea158a4e0d2d8ef684e75763:0:Y además, {1} {5} {0}...\nPero eso es todo lo que puedo decir.
 f06d669923fc62329ca920fb6df22a0e:0:He revisado a {1} y el {0} era...\n{2}. ¡Lo clavé, chicos!
 4433974546ae75a9850d6231c19299e1:0:He revisado a {1} y el {0} era...\nNadie. Nada. La hemos pifiado totalmente.
@@ -2922,8 +2922,8 @@ b85d01d99a75e02605e84494eefc0b23:0:{1} no mostró signos de infección por {0}.\
 af7ffca5a6db1d4d419068e13b08a4af:0:No había nadie que mereciera ser investigado.\n¿No estaba ya todo suficientemente claro?
 5cae963c9463f499088e051fd0f22f1c:0:Analicé el tejido cerebral de quienes fueron congelados.\n
 ae982b508a1d22845014ecb74df78ebb:0:Jeje, enhorabuena.\n{1} {3} {0}.
-7478cd40a00e60ddc895a337d11de1a1:0:{1} {3} no {0}.\nLa criogenia fue inútil.
-e6528faea75889cba830e16ba1c855d6:0:Entre {1}, {2} {4} infectado por {0}.\nCayó en nuestra red, justo como esperaba.
+7478cd40a00e60ddc895a337d11de1a1:0:{1} no {3} {0}.\nLa criogenia fue inútil.
+e6528faea75889cba830e16ba1c855d6:0:Entre {1}, {2} {4} parte de los infectados por {0}.\nCayó en nuestra red, justo como esperaba.
 c344d37dcf42148f9174f12696680c57:0:{1} eran todos seres humanos normales...\nParece que {0} sigue escondiéndose bien.
 c523962c20fa90405dbec5500c09e346:0:Mis resultados fueron los mismos...\n
 617aee9ef2bb6af49aaa6ffbdd7539b4:0:Así que tu papel es claramente el de propagar desinformación, ya veo...\n
