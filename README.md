@@ -74,6 +74,8 @@ Esto permite versionar solo la traducción sin incluir `jp`, `en` ni `zh` en el 
 Scripts principales
 -------------------
 
+- `instalar.bash`
+  Crea backups verificables, reconstruye y valida toda la traducción e instala juntos el asset y el DLL.
 - `extractor.py`
   Extrae el snapshot técnico local desde `sharedassets0.assets` a `out/`.
 - `preparar_trabajo.py`
@@ -92,6 +94,8 @@ Scripts principales
   Reconstruye blobs binarios desde el corpus materializado.
 - `reempacador.py`
   Reempaqueta un asset de prueba sin tocar la instalación original.
+- `parchear_assembly.py`
+  Genera una copia localizada de `Assembly-CSharp.dll` para los conectores y verbos que el juego inserta desde código.
 - `validar.py`
   Comprueba integridad estructural del pipeline.
 - `extraer_imagenes_localizadas.py`
@@ -113,6 +117,8 @@ python3 -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+El parche de código administrado requiere también `mono`, `mcs` y `Mono.Cecil.dll`. En Linux suelen formar parte de la instalación de desarrollo de Mono; si Cecil no está en su GAC, indica su ruta mediante `parchear_assembly.py --cecil RUTA`.
 
 Flujo recomendado
 -----------------
@@ -168,6 +174,7 @@ El reporte prioriza duplicados con traducción divergente, fuentes con mismo JP/
 
 ```bash
 python reconstructor.py \
+  --asset ../Gnosia_Data/sharedassets0.assets \
   --manifest work/manifest.json \
   --out-dir tmp/work_reconstructed
 ```
@@ -182,9 +189,17 @@ python reempacador.py \
   --output-asset tmp/sharedassets0.phase1_es.assets
 ```
 
-Si el asset instalado ya está parcheado porque estás probando la traducción, usa aquí la copia original, por ejemplo `--asset ../Gnosia_Data/sharedassets0.assets.bak`.
+Si el asset instalado ya está parcheado porque estás probando la traducción, usa aquí una copia original identificada explícitamente con `--asset`.
 
-9. Validar la build editada:
+9. Generar una copia localizada del código administrado:
+
+```bash
+python parchear_assembly.py
+```
+
+Esto modifica en la copia los conectores `and/or`, los verbos `was/wasn't/were/weren't` inyectados en placeholders y una variante plural hardcodeada. Verifica el SHA-256 de entrada y el número exacto de instrucciones antes de escribir `tmp/managed/Assembly-CSharp.dll`; nunca modifica el DLL instalado.
+
+10. Validar la build editada:
 
 ```bash
 python validar.py \
@@ -256,17 +271,24 @@ Reglas básicas:
 - conservar el estilo de saltos y escapes que usa el corpus original
 - usar `exportar_parches.py` para persistir cambios en Git
 
-Prueba dentro del juego
------------------------
+Instalación y prueba dentro del juego
+-------------------------------------
 
-Para probar la build traducida dentro de GNOSIA, sustituye temporalmente el asset real solo después de hacer copia de seguridad.
-
-Desde la raíz del juego:
+Con GNOSIA cerrado, el instalador ejecuta el pipeline completo en un directorio aislado, exige `hard_fail=0` y solo entonces sustituye juntos el asset y el DLL:
 
 ```bash
-cp Gnosia_Data/sharedassets0.assets Gnosia_Data/sharedassets0.assets.bak
-cp traductor_es/tmp/sharedassets0.phase1_es.assets Gnosia_Data/sharedassets0.assets
+bash instalar.bash
 ```
+
+La primera ejecución crea backups canónicos de ambos originales y verifica sus SHA-256. Nunca los sobrescribe; las ejecuciones posteriores siempre reconstruyen desde esas copias. Si detecta una versión desconocida, una pareja mezclada o una instalación anterior interrumpida, aborta o recupera los originales antes de continuar.
+
+Para generar y validar sin sustituir los archivos activos:
+
+```bash
+bash instalar.bash --build-only
+```
+
+Los artefactos y reportes quedan en `tmp/install-*/`. Los bundles de imágenes localizadas también se materializan y validan allí; como actualmente son copias no-op, no se reinstalan.
 
 Lanza el juego y revisa, como mínimo:
 
@@ -276,10 +298,10 @@ Lanza el juego y revisa, como mínimo:
 - labels cortas de sistema
 - arranque del tutorial
 
-Cuando termines, restaura el original:
+Para restaurar ambos originales verificados sin borrar los backups:
 
 ```bash
-mv Gnosia_Data/sharedassets0.assets.bak Gnosia_Data/sharedassets0.assets
+bash instalar.bash --restore
 ```
 
 Notas

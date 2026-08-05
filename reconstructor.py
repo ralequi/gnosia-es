@@ -9,6 +9,7 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 from gnosia_common import (  # noqa: E402
+    DEFAULT_SHAREDASSETS,
     OUTPUT_DIR,
     RECONSTRUCTED_BLOB_DIRNAME,
     TMP_DIR,
@@ -17,6 +18,7 @@ from gnosia_common import (  # noqa: E402
     load_entities_from_manifest,
     load_source_entity_raw_map,
     serialize_entity,
+    sha256_file,
     write_json,
 )
 
@@ -28,6 +30,15 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=OUTPUT_DIR / "manifest.json",
         help="Path to manifest.json produced by extractor.py",
+    )
+    parser.add_argument(
+        "--asset",
+        type=Path,
+        default=None,
+        help=(
+            "Override the source asset path stored in the manifest; useful after moving "
+            f"the repository (current default asset: {DEFAULT_SHAREDASSETS})"
+        ),
     )
     parser.add_argument(
         "--out-dir",
@@ -46,7 +57,18 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     manifest, entities = load_entities_from_manifest(args.manifest)
-    source_asset = Path(manifest["source_asset"])
+    source_asset = args.asset if args.asset is not None else Path(manifest["source_asset"])
+    if not source_asset.is_file():
+        raise SystemExit(
+            f"source asset not found: {source_asset}; pass its current path with --asset"
+        )
+    source_sha256 = sha256_file(source_asset)
+    if source_sha256 != manifest["source_asset_sha256"]:
+        raise SystemExit(
+            "source asset SHA-256 does not match the manifest: "
+            f"{source_sha256} != {manifest['source_asset_sha256']}"
+        )
+    manifest["source_asset"] = str(source_asset.resolve())
     source_raw_map = load_source_entity_raw_map(source_asset)
 
     out_dir = args.out_dir
