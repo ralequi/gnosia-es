@@ -75,7 +75,9 @@ Scripts principales
 -------------------
 
 - `instalar.bash`
-  Crea backups verificables, reconstruye y valida toda la traducción e instala juntos el asset y el DLL.
+  Crea backups verificables, reconstruye y valida toda la traducción e instala juntos el asset y el DLL, localmente o por SSH en una Steam Deck.
+- `instalar_steamdeck.bash`
+  Helper interno que `instalar.bash` ejecuta remotamente; no se invoca directamente.
 - `extractor.py`
   Extrae el snapshot técnico local desde `sharedassets0.assets` a `out/`.
 - `preparar_trabajo.py`
@@ -303,6 +305,31 @@ Para restaurar ambos originales verificados sin borrar los backups:
 ```bash
 bash instalar.bash --restore
 ```
+
+Steam Deck
+----------
+
+Con acceso SSH por clave ya configurado, añade `--steam-deck USUARIO@HOST`. La build y todas las validaciones se ejecutan en este equipo; la Deck solo recibe los originales de recuperación y los dos artefactos finales mediante SSH:
+
+```bash
+bash instalar.bash --steam-deck deck@steamdeck.local
+```
+
+El instalador autodetecta bibliotecas en el almacenamiento interno y en `/run/media/deck/*`, comprueba que el juego esté cerrado y mantiene backups, lock, estado y journal independientes en la Deck. Si hay varias instalaciones, especifica la elegida:
+
+```bash
+bash instalar.bash --steam-deck deck@steamdeck.local \
+  --deck-game-dir /run/media/deck/TARJETA/steamapps/common/GNOSIA
+```
+
+Las acciones existentes también funcionan remotamente:
+
+```bash
+bash instalar.bash --steam-deck deck@steamdeck.local --build-only
+bash instalar.bash --steam-deck deck@steamdeck.local --restore
+```
+
+`--build-only` realiza un preflight SSH de solo lectura y no sube archivos. Una traducción antigua reconocida se conserva como backup `preexisting`; el original canónico se copia directamente desde el backup local verificado, nunca desde un asset remoto ya modificado.
 
 Notas
 -----

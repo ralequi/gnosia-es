@@ -17,11 +17,16 @@ readonly JOURNAL_FILE="$DATA_DIR/.traductor_es-install.pending"
 readonly TMP_ROOT="$SCRIPT_DIR/tmp"
 readonly VENV_DIR="$SCRIPT_DIR/.venv"
 readonly VENV_PYTHON="$VENV_DIR/bin/python"
+readonly STEAM_DECK_HELPER="$SCRIPT_DIR/instalar_steamdeck.bash"
 
 # Fingerprints of the supported Steam build. Never make a backup from an
 # installed file unless it matches its original fingerprint exactly.
 readonly ORIGINAL_ASSET_SHA256="f97e8e126e3b2419d4748af6c0550715a208c02166b543f224e8895434470057"
 readonly ORIGINAL_DLL_SHA256="d5b0f013fc343e5cdde56f598a251c7cd7acfdd258430910b50707faf2362fe2"
+# Fingerprint of the previous asset-only translation installed before this
+# installer managed both files. It is safe to migrate, but never to treat as
+# an original backup.
+readonly LEGACY_ASSET_SHA256="47afc93d2522d56752b22935ab30fbe926175274bce222a6fdef96bcd159c3fb"
 
 ACTION="install"
 CECIL_PATH=""
@@ -30,6 +35,11 @@ ASSET_OUTPUT=""
 DLL_OUTPUT=""
 PENDING_ASSET_STAGE=""
 PENDING_DLL_STAGE=""
+STEAM_DECK_DEST=""
+DECK_GAME_DIR="-"
+REMOTE_PAYLOAD_DIR=""
+REMOTE_PAYLOAD_ACTIVE=0
+SSH_OPTIONS=(-o BatchMode=yes -o ConnectTimeout=10)
 
 say() {
     printf '\n==> %s\n' "$*"
@@ -50,6 +60,9 @@ Opciones:
   --build-only       Genera y valida, pero no sustituye archivos del juego.
   --restore          Restaura los dos originales desde los backups verificados.
   --cecil RUTA       Usa este Mono.Cecil.dll para parchear Assembly-CSharp.dll.
+  --steam-deck HOST  Publica por SSH en una Steam Deck (p. ej. deck@steamdeck.local).
+  --deck-game-dir RUTA
+                     Ruta absoluta remota si la autodetección es ambigua.
   -h, --help         Muestra esta ayuda.
 
 Los backups nunca se sobrescriben:
@@ -75,6 +88,19 @@ while (($# > 0)); do
             CECIL_PATH="$2"
             shift 2
             ;;
+        --steam-deck|--steamdeck)
+            (($# >= 2)) || die "$1 necesita USUARIO@HOST"
+            [[ "$2" != -* ]] || die "$1 necesita USUARIO@HOST"
+            [[ -z "$STEAM_DECK_DEST" ]] || die "--steam-deck solo puede indicarse una vez"
+            STEAM_DECK_DEST="$2"
+            shift 2
+            ;;
+        --deck-game-dir)
+            (($# >= 2)) || die "--deck-game-dir necesita una ruta absoluta remota"
+            [[ "$DECK_GAME_DIR" == "-" ]] || die "--deck-game-dir solo puede indicarse una vez"
+            DECK_GAME_DIR="$2"
+            shift 2
+            ;;
         -h|--help)
             usage
             exit 0
@@ -84,6 +110,16 @@ while (($# > 0)); do
             ;;
     esac
 done
+
+if [[ -n "$STEAM_DECK_DEST" ]]; then
+    [[ "$STEAM_DECK_DEST" =~ ^[A-Za-z0-9][A-Za-z0-9_.-]*(@[A-Za-z0-9][A-Za-z0-9_.-]*)?$ ]] || \
+        die "destino SSH inválido: $STEAM_DECK_DEST"
+fi
+if [[ "$DECK_GAME_DIR" != "-" ]]; then
+    [[ -n "$STEAM_DECK_DEST" ]] || die "--deck-game-dir requiere --steam-deck"
+    [[ "$DECK_GAME_DIR" == /* ]] || die "--deck-game-dir debe ser absoluta"
+    [[ "$DECK_GAME_DIR" != *$'\n'* ]] || die "--deck-game-dir contiene caracteres no permitidos"
+fi
 
 require_command() {
     command -v "$1" >/dev/null 2>&1 || die "no se encontró el comando requerido: $1"
@@ -368,6 +404,100 @@ recover_pending_install() {
     rm -f -- "$JOURNAL_FILE"
 }
 
+run_steam_deck_helper() {
+    local operation="$1"
+    local payload_dir="$2"
+    local output_asset_sha="$3"
+    local output_dll_sha="$4"
+    local remote_command="bash -s --"
+    local argument quoted
+    local arguments=(
+        "$operation"
+        "$DECK_GAME_DIR"
+        "$payload_dir"
+        "$ORIGINAL_ASSET_SHA256"
+        "$ORIGINAL_DLL_SHA256"
+        "$output_asset_sha"
+        "$output_dll_sha"
+        "$LEGACY_ASSET_SHA256"
+    )
+
+    [[ -f "$STEAM_DECK_HELPER" ]] || die "falta el helper Steam Deck: $STEAM_DECK_HELPER"
+    for argument in "${arguments[@]}"; do
+        printf -v quoted '%q' "$argument"
+        remote_command+=" $quoted"
+    done
+    ssh "${SSH_OPTIONS[@]}" -- "$STEAM_DECK_DEST" "$remote_command" <"$STEAM_DECK_HELPER"
+}
+
+steam_deck_preflight() {
+    local operation="preflight-install"
+
+    require_command ssh
+    [[ "$ACTION" == "restore" ]] && operation="preflight-restore"
+    say "Comprobando Steam Deck por SSH (solo lectura)"
+    run_steam_deck_helper "$operation" "-" "-" "-"
+}
+
+create_remote_payload_dir() {
+    REMOTE_PAYLOAD_DIR="$(
+        ssh "${SSH_OPTIONS[@]}" -- "$STEAM_DECK_DEST" \
+            'umask 077; mkdir -p -- "$HOME/.cache/traductor_es"; mktemp -d "$HOME/.cache/traductor_es/deploy.XXXXXXXX"'
+    )"
+    [[ "$REMOTE_PAYLOAD_DIR" == /* ]] || die "la Steam Deck devolvió una ruta temporal inválida"
+    [[ "$REMOTE_PAYLOAD_DIR" != *$'\n'* ]] || die "la Steam Deck devolvió varias rutas temporales"
+    [[ "$REMOTE_PAYLOAD_DIR" =~ ^/[A-Za-z0-9_./-]+$ ]] || die "ruta temporal remota no permitida"
+    [[ "$(basename -- "$REMOTE_PAYLOAD_DIR")" == deploy.* ]] || die "nombre temporal remoto no permitido"
+    REMOTE_PAYLOAD_ACTIVE=1
+}
+
+cleanup_remote_payload() {
+    local cleanup_command
+    local remote_file
+    local quoted
+
+    [[ "$REMOTE_PAYLOAD_ACTIVE" -eq 1 ]] || return 0
+    cleanup_command="rm -f --"
+    for remote_file in \
+        "$REMOTE_PAYLOAD_DIR/original-sharedassets0.assets" \
+        "$REMOTE_PAYLOAD_DIR/original-Assembly-CSharp.dll" \
+        "$REMOTE_PAYLOAD_DIR/translated-sharedassets0.assets" \
+        "$REMOTE_PAYLOAD_DIR/translated-Assembly-CSharp.dll"; do
+        printf -v quoted '%q' "$remote_file"
+        cleanup_command+=" $quoted"
+    done
+    printf -v quoted '%q' "$REMOTE_PAYLOAD_DIR"
+    cleanup_command+="; rmdir -- $quoted 2>/dev/null || true"
+    ssh "${SSH_OPTIONS[@]}" -- "$STEAM_DECK_DEST" "$cleanup_command" >/dev/null 2>&1 || true
+    REMOTE_PAYLOAD_ACTIVE=0
+}
+
+copy_to_steam_deck() {
+    local source="$1"
+    local remote_name="$2"
+
+    scp -q "${SSH_OPTIONS[@]}" -- "$source" "$STEAM_DECK_DEST:$REMOTE_PAYLOAD_DIR/$remote_name"
+}
+
+install_on_steam_deck() {
+    require_command ssh
+    require_command scp
+    create_remote_payload_dir
+    trap cleanup_remote_payload EXIT
+
+    say "Transfiriendo originales de recuperación y artefactos validados"
+    copy_to_steam_deck "$ASSET_BACKUP" "original-sharedassets0.assets"
+    copy_to_steam_deck "$DLL_BACKUP" "original-Assembly-CSharp.dll"
+    copy_to_steam_deck "$ASSET_OUTPUT" "translated-sharedassets0.assets"
+    copy_to_steam_deck "$DLL_OUTPUT" "translated-Assembly-CSharp.dll"
+
+    say "Publicando en la Steam Deck"
+    run_steam_deck_helper \
+        "install" "$REMOTE_PAYLOAD_DIR" "$BUILT_ASSET_SHA" "$BUILT_DLL_SHA"
+    REMOTE_PAYLOAD_ACTIVE=0
+    trap - EXIT
+}
+
 ensure_python_environment() {
     if [[ ! -x "$VENV_PYTHON" ]]; then
         require_command python3
@@ -471,10 +601,39 @@ require_command ln
 require_command mktemp
 require_command flock
 require_command date
+require_command basename
 mkdir -p -- "$TMP_ROOT"
 
 exec 9>"$TMP_ROOT/instalar.lock"
 flock -n 9 || die "ya hay otro instalar.bash en ejecución"
+
+if [[ -n "$STEAM_DECK_DEST" ]]; then
+    steam_deck_preflight
+    if [[ "$ACTION" == "restore" ]]; then
+        say "Restaurando originales en la Steam Deck"
+        run_steam_deck_helper "restore" "-" "-" "-"
+        printf '\nRestauración remota completada y verificada.\n'
+        exit 0
+    fi
+
+    ensure_backups
+    ensure_python_environment
+    build_translation
+    printf '\nBuild validada:\n'
+    printf '  asset: %s (sha256=%s)\n' "$ASSET_OUTPUT" "$BUILT_ASSET_SHA"
+    printf '  DLL:   %s (sha256=%s)\n' "$DLL_OUTPUT" "$BUILT_DLL_SHA"
+
+    if [[ "$ACTION" == "build-only" ]]; then
+        printf '\nNo se modificó la Steam Deck (--build-only).\n'
+        exit 0
+    fi
+
+    install_on_steam_deck
+    printf '\nInstalación en Steam Deck completada y verificada.\n'
+    printf 'Para restaurarla: bash %q --steam-deck %q --restore\n' \
+        "$SCRIPT_DIR/instalar.bash" "$STEAM_DECK_DEST"
+    exit 0
+fi
 
 ensure_backups
 recover_pending_install

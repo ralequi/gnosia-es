@@ -8,13 +8,13 @@ Root Python scripts implement the translation pipeline; shared parsing and seria
 
 ## Original Content Firewall — Absolute Rule
 
-No original or extracted game content may enter the repository or Git history. This includes source-language text, textures, sprites, audio, screenshots, serialized blobs, assets, DLLs, fixtures, and reports containing any of them. Keep such material only in ignored local directories.
+No original or extracted game content may enter the repository or Git history: source text, textures, sprites, audio, screenshots, blobs, binaries, fixtures, or reports containing them. Keep such material only in ignored local directories.
 
-Represent every conversion as a minimal hash/ID-addressed patch or delta containing only contributor-authored replacements. Never include original-side payload, contextual source lines, or recoverable texture data; ordinary unified diffs are unsuitable when their removed/context lines expose game content. Before staging, inspect modified and untracked files for leaks.
+Use minimal hash/ID-addressed patches or deltas containing only contributor-owned replacements. Never include original-side payload, source context, or recoverable texture data; never use unified diffs that expose game content. Before staging, inspect modified and untracked files for leaks.
 
 ## Game Asset Safety
 
-Treat `../Gnosia_Data/` as read-only during development and build only in `tmp/`. Publish solely with `instalar.bash`, which verifies source hashes, preserves canonical backups, and journals installation. Never overwrite backups or bypass unknown-file guards.
+Treat `../Gnosia_Data/` as read-only during development and build only in `tmp/`. Publish solely with `instalar.bash`, which verifies hashes, preserves backups, and journals installation. Never overwrite backups or bypass unknown-file guards. Steam Deck mode may stream verified originals directly between owned installations for recovery; never stage them in repository paths.
 
 ## Build, Test, and Development Commands
 
@@ -34,11 +34,11 @@ python auditar_consistencia.py --report-dir tmp/qa_consistencia
 python cobertura_traduccion.py --details
 ```
 
-Use `bash instalar.bash --build-only` to build and validate, `bash instalar.bash` to install, and `bash instalar.bash --restore` to recover originals.
+Use `bash instalar.bash --build-only` to validate, `bash instalar.bash` to install, and `bash instalar.bash --restore` to recover. Add `--steam-deck USER@HOST` for the same remote actions.
 
 ## Coding Style & Naming Conventions
 
-Use four-space indentation, UTF-8, type hints, `pathlib.Path`, and future annotations in Python. Use `snake_case` for functions and variables, `PascalCase` for classes, and `UPPER_SNAKE_CASE` for constants. Keep CLI parsing in `parse_args()` and return integer exit codes from `main()`. Match surrounding PEP 8-style code.
+Use four-space indentation, UTF-8, type hints, and `pathlib.Path` in Python. Use `snake_case` for functions and variables, `PascalCase` for classes, and `UPPER_SNAKE_CASE` for constants. Keep CLI parsing in `parse_args()` and integer exit codes from `main()`. Match surrounding code.
 
 Preserve patch lines as `<hash>:<id>:<translation>`, including placeholders, escapes, and line breaks.
 
