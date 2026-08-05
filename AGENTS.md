@@ -2,13 +2,23 @@
 
 ## Project Structure & Module Organization
 
-This repository contains Python tooling and versioned Spanish translation patches for GNOSIA. Root-level scripts each cover one pipeline stage; shared parsing, serialization, and path helpers belong in `gnosia_common.py`. `parches/*.parche` is the versioned source of truth for translations. Editorial rules live in `GUIA_EDITORIAL.md`, character guidance in `VOCES_PERSONAJES.md`, and fixed terminology in `glosario_v1.json`. `layout_rules.json` defines UI constraints.
+Root Python scripts implement the translation pipeline; shared parsing and serialization belong in `gnosia_common.py`. A C# helper patches runtime grammar. `parches/*.parche` is the versioned translation source of truth. Editorial, terminology, and layout rules live in the Markdown and JSON guides.
 
-`out/`, `work/`, and `tmp/` contain extracted, editable, or generated artifacts. They are ignored and must never be committed, nor should original `.assets` files or copyrighted game text be added to Git.
+`out/`, `work/`, and `tmp/` are ignored local artifacts.
+
+## Original Content Firewall — Absolute Rule
+
+No original or extracted game content may enter the repository or Git history. This includes source-language text, textures, sprites, audio, screenshots, serialized blobs, assets, DLLs, fixtures, and reports containing any of them. Keep such material only in ignored local directories.
+
+Represent every conversion as a minimal hash/ID-addressed patch or delta containing only contributor-authored replacements. Never include original-side payload, contextual source lines, or recoverable texture data; ordinary unified diffs are unsuitable when their removed/context lines expose game content. Before staging, inspect modified and untracked files for leaks.
+
+## Game Asset Safety
+
+Treat `../Gnosia_Data/` as read-only during development and build only in `tmp/`. Publish solely with `instalar.bash`, which verifies source hashes, preserves canonical backups, and journals installation. Never overwrite backups or bypass unknown-file guards.
 
 ## Build, Test, and Development Commands
 
-Create the environment with:
+Set up Python with:
 
 ```bash
 python3 -m venv .venv
@@ -16,7 +26,7 @@ python3 -m venv .venv
 pip install -r requirements.txt
 ```
 
-Run `python extractor.py` once against a legally obtained game asset. Use `python aplicar_parches.py` to recreate `work/` from `out/`, edit only `texts[1]` in `work/entities/*.json`, then run `python exportar_parches.py` to persist changes. Check quality with:
+Run `python aplicar_parches.py`, edit only `texts[1]` under `work/entities/`, then persist changes with `python exportar_parches.py`. Check them with:
 
 ```bash
 python auditar_traduccion.py --work-manifest work/manifest.json
@@ -24,18 +34,18 @@ python auditar_consistencia.py --report-dir tmp/qa_consistencia
 python cobertura_traduccion.py --details
 ```
 
-Build blobs with `python reconstructor.py --manifest work/manifest.json --out-dir tmp/work_reconstructed`. See `README.md` for the complete repack and `validar.py --mode edited` commands, which require paths to local game assets.
+Use `bash instalar.bash --build-only` to build and validate, `bash instalar.bash` to install, and `bash instalar.bash --restore` to recover originals.
 
 ## Coding Style & Naming Conventions
 
-Use four-space indentation, UTF-8, type hints, `pathlib.Path`, and `from __future__ import annotations`. Follow existing Python naming: `snake_case` for functions and variables, `PascalCase` for dataclasses, and `UPPER_SNAKE_CASE` for constants. Keep CLI parsing in `parse_args()` and return integer exit codes from `main()`. No formatter or linter is configured; match the surrounding PEP 8-style code.
+Use four-space indentation, UTF-8, type hints, `pathlib.Path`, and future annotations in Python. Use `snake_case` for functions and variables, `PascalCase` for classes, and `UPPER_SNAKE_CASE` for constants. Keep CLI parsing in `parse_args()` and return integer exit codes from `main()`. Match surrounding PEP 8-style code.
 
-Preserve patch lines as `<hash>:<id>:<translation>` and retain placeholders (`{0}`), escapes, and line breaks exactly.
+Preserve patch lines as `<hash>:<id>:<translation>`, including placeholders, escapes, and line breaks.
 
 ## Testing Guidelines
 
-There is no unit-test framework or coverage threshold. Treat the audit scripts and `validar.py` round-trip checks as integration tests. A usable translation must report `hard_fail=0`. If adding isolated tests, place `test_*.py` files under `tests/` and document any new test dependency.
+There is no unit-test framework or coverage threshold. Treat audit scripts and `validar.py` round trips as integration tests; usable builds require `hard_fail=0`. Audit both materialized text and runtime-generated grammar without recording source literals in reports.
 
 ## Commit & Pull Request Guidelines
 
-History uses short Spanish, sentence-style subjects such as `pequeñas mejoras`; no Conventional Commit prefixes are used. Keep commits focused on one tool or translation group. PRs should describe affected entities, list commands run and audit results, link relevant issues, and include screenshots for visible UI changes. Never attach original game assets or reports containing source-game text.
+History uses short Spanish subjects without Conventional Commit prefixes. Keep commits focused. PRs should identify affected entities or code paths, list validation results, and link issues. Include screenshots only when they contain no original game content.
