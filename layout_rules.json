@@ -26,6 +26,40 @@
       "line_width": 77
     }
   },
+  "fixed_length_caps": {
+    "character_note": {
+      "max_chars": 59,
+      "expected_count": 82,
+      "target_sha256": "7ef94b0d24354b526f0e1cf4eda0d1408741021e97ae968c031952fa7b692688",
+      "param_ranges": {
+        "CharaText/Cipi": [2, 7],
+        "CharaText/Comet": [2, 8],
+        "CharaText/Gina": [2, 7],
+        "CharaText/Jonas": [2, 8],
+        "CharaText/Kukulsika": [2, 7],
+        "CharaText/Otome": [2, 7],
+        "CharaText/Rakio": [2, 7],
+        "CharaText/Remnant": [2, 6],
+        "CharaText/Setsu": [2, 7],
+        "CharaText/ShaMin": [2, 5],
+        "CharaText/Shigemichi": [2, 8],
+        "CharaText/SQ": [2, 6],
+        "CharaText/Stella": [2, 6],
+        "CharaText/Yuriko": [2, 7]
+      }
+    },
+    "scenario_action": {
+      "max_chars": 20,
+      "expected_count": 52,
+      "target_sha256": "75d2fa921552276e13746dadd63b24e8b599aeee581e80e82fbdb5a55ed588cf",
+      "param_indices": {
+        "ScenarioBaseText/Houkoku": [1, 7],
+        "ScenarioBaseText/Jinro": [0, 10, 14, 15, 20, 23, 24, 27, 29, 31, 33, 37, 41, 50, 52, 54, 56],
+        "ScenarioBaseText/JinroTohyogo": [10, 11, 12, 13, 14, 19, 21],
+        "ScenarioBaseText/JinroSkill": [0, 7, 10, 15, 20, 23, 27, 29, 31, 32, 35, 38, 41, 43, 45, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69]
+      }
+    }
+  },
   "generic_textbox_caps": {
     "entity_patterns": [
       "Scenario*Text",

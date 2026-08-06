@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import fnmatch
+import hashlib
 import math
 import re
 import sys
@@ -16,6 +17,7 @@ from gnosia_common import (  # noqa: E402
     TMP_DIR,
     decode_corpus_text,
     ensure_dir,
+    iter_patch_targets,
     load_entities_from_manifest,
     read_json,
     write_json,
@@ -165,6 +167,71 @@ def parse_entity_sheet_param_key(key: str) -> tuple[str, str, int]:
         raise ValueError(f"Invalid Entity/Sheet#Param key in {LAYOUT_RULES_PATH}: {key!r}") from exc
 
 
+def load_fixed_length_caps() -> dict[tuple[str, str, int], dict[str, object]]:
+    groups = LAYOUT_RULES.get("fixed_length_caps", {})
+    if not isinstance(groups, dict):
+        raise ValueError(f"fixed_length_caps must be an object in {LAYOUT_RULES_PATH}")
+
+    caps: dict[tuple[str, str, int], dict[str, object]] = {}
+    for group_name, raw_group in groups.items():
+        if not re.fullmatch(r"[a-z][a-z0-9_]*", str(group_name)):
+            raise ValueError(f"Invalid fixed-length group name in {LAYOUT_RULES_PATH}: {group_name!r}")
+        if not isinstance(raw_group, dict):
+            raise ValueError(f"Fixed-length group {group_name!r} must be an object")
+
+        max_chars = int(raw_group.get("max_chars", 0))
+        expected_count = int(raw_group.get("expected_count", 0))
+        target_sha256 = str(raw_group.get("target_sha256", ""))
+        if max_chars <= 0 or expected_count <= 0:
+            raise ValueError(f"Fixed-length group {group_name!r} needs positive limits")
+        if not re.fullmatch(r"[0-9a-f]{64}", target_sha256):
+            raise ValueError(f"Fixed-length group {group_name!r} needs a target_sha256")
+
+        group_targets: list[tuple[str, str, int]] = []
+        param_ranges = raw_group.get("param_ranges", {})
+        if not isinstance(param_ranges, dict):
+            raise ValueError(f"param_ranges for {group_name!r} must be an object")
+        for key, bounds in param_ranges.items():
+            entity_name, sheet_name = parse_entity_sheet_key(str(key))
+            if not isinstance(bounds, list) or len(bounds) != 2:
+                raise ValueError(f"Invalid parameter range for {key!r} in {LAYOUT_RULES_PATH}")
+            start, end = (int(bound) for bound in bounds)
+            if start < 0 or end < start:
+                raise ValueError(f"Invalid parameter range for {key!r} in {LAYOUT_RULES_PATH}")
+            group_targets.extend(
+                (entity_name, sheet_name, param_index)
+                for param_index in range(start, end + 1)
+            )
+
+        param_indices = raw_group.get("param_indices", {})
+        if not isinstance(param_indices, dict):
+            raise ValueError(f"param_indices for {group_name!r} must be an object")
+        for key, indices in param_indices.items():
+            entity_name, sheet_name = parse_entity_sheet_key(str(key))
+            if not isinstance(indices, list):
+                raise ValueError(f"Invalid parameter indices for {key!r} in {LAYOUT_RULES_PATH}")
+            for raw_index in indices:
+                param_index = int(raw_index)
+                if param_index < 0:
+                    raise ValueError(f"Invalid parameter index for {key!r} in {LAYOUT_RULES_PATH}")
+                group_targets.append((entity_name, sheet_name, param_index))
+
+        if len(group_targets) != expected_count or len(set(group_targets)) != expected_count:
+            raise ValueError(
+                f"Fixed-length group {group_name!r} must resolve to "
+                f"{expected_count} unique targets, got {len(set(group_targets))}"
+            )
+        for target in group_targets:
+            if target in caps:
+                raise ValueError(f"Fixed-length target configured more than once: {target!r}")
+            caps[target] = {
+                "group": str(group_name),
+                "max_chars": max_chars,
+                "target_sha256": target_sha256,
+            }
+    return caps
+
+
 CHOICE_WIDTH_CAPS = {
     parse_entity_sheet_key(key): int(value)
     for key, value in LAYOUT_RULES.get("choice_width_caps", {}).items()
@@ -184,12 +251,69 @@ FLOW_LINE_CAPS = {
     parse_entity_sheet_key(key): {"line_width": int(value["line_width"])}
     for key, value in LAYOUT_RULES.get("flow_line_caps", {}).items()
 }
+FIXED_LENGTH_CAPS = load_fixed_length_caps()
 GENERIC_TEXTBOX_CAPS = LAYOUT_RULES.get("generic_textbox_caps", {})
 GENERIC_TEXTBOX_ENTITY_PATTERNS = [
     str(pattern) for pattern in GENERIC_TEXTBOX_CAPS.get("entity_patterns", [])
 ]
 GENERIC_TEXTBOX_LINE_WIDTH = int(GENERIC_TEXTBOX_CAPS.get("line_width", 0) or 0)
 GENERIC_TEXTBOX_MAX_LINES = int(GENERIC_TEXTBOX_CAPS.get("max_lines", 0) or 0)
+
+
+def validate_fixed_length_cap_targets(source_entities) -> None:
+    available = {
+        (entity.entity_name, sheet.name, param_index)
+        for entity in source_entities
+        for sheet in entity.sheets
+        for param_index in range(len(sheet.params))
+    }
+    missing = sorted(set(FIXED_LENGTH_CAPS) - available)
+    if missing:
+        formatted = ", ".join(
+            f"{entity_name}/{sheet_name}#{param_index}"
+            for entity_name, sheet_name, param_index in missing
+        )
+        raise ValueError(f"Fixed-length targets missing from source manifest: {formatted}")
+
+    patch_keys = {
+        (entity.entity_name, str(target["sheet_name"]), int(target["param_index"])): (
+            f"{entity.entity_name}:{target['hash']}:{target['id']}"
+        )
+        for entity in source_entities
+        for target in iter_patch_targets(entity)
+    }
+    missing_patch_keys = sorted(set(FIXED_LENGTH_CAPS) - set(patch_keys))
+    if missing_patch_keys:
+        raise ValueError(f"Fixed-length targets have no patch identity: {missing_patch_keys!r}")
+
+    groups: dict[str, list[str]] = {}
+    checksums: dict[str, str] = {}
+    for location, cap in FIXED_LENGTH_CAPS.items():
+        group_name = str(cap["group"])
+        groups.setdefault(group_name, []).append(patch_keys[location])
+        checksums[group_name] = str(cap["target_sha256"])
+    for group_name, keys in groups.items():
+        actual = hashlib.sha256("\n".join(sorted(keys)).encode("utf-8")).hexdigest()
+        if actual != checksums[group_name]:
+            raise ValueError(
+                f"Fixed-length group {group_name!r} no longer matches its structural targets"
+            )
+
+
+def fixed_length_overflow_detail(
+    entity_name: str,
+    sheet_name: str,
+    param_index: int,
+    text: str,
+) -> dict[str, object] | None:
+    cap = FIXED_LENGTH_CAPS.get((entity_name, sheet_name, param_index))
+    if cap is None or len(text) <= int(cap["max_chars"]):
+        return None
+    return {
+        "reason": f"{cap['group']}_length_overflow",
+        "max_chars": int(cap["max_chars"]),
+        "char_count": len(text),
+    }
 
 
 def parse_args() -> argparse.Namespace:
@@ -493,6 +617,8 @@ def main() -> int:
     source_manifest, source_entities = load_entities_from_manifest(args.source_manifest)
     work_manifest, work_entities = load_entities_from_manifest(args.work_manifest)
 
+    validate_fixed_length_cap_targets(source_entities)
+
     del source_manifest
     del work_manifest
 
@@ -541,6 +667,17 @@ def main() -> int:
                 ):
                     status = "hard_fail"
                     reasons.append("placeholder_mismatch")
+
+                fixed_length_detail = fixed_length_overflow_detail(
+                    source_entity.entity_name,
+                    source_sheet.name,
+                    param_index,
+                    work_display,
+                )
+                if fixed_length_detail is not None:
+                    status = "hard_fail"
+                    reasons.append(str(fixed_length_detail["reason"]))
+                    layout_details.append(fixed_length_detail)
 
                 has_choice_cap = is_choice_option(
                     source_entity.entity_name,

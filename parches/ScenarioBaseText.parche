@@ -59,13 +59,13 @@ a46131e6337df31dacf6a45db5812e33:1:{0} resulta molesto
 e703cfb828dc9ed04cd9e93302734832:0:Revelar rol
 460d7c1445a67f9f9f3af523c3d14f6b:0:Se presentó como {0}.
 9310e8ab9c5589a7386db90a22f273a3:0:Revelar tu rol
-2033c3c1ea961307a1f395c3413e2ead:0:También dio un paso al frente como {0}.
-2125b00d9a10e76d56521bedc1402ac0:0:Dar un paso al frente
-e577c9484aff20c4af7813cc733bc776:0:{0}, da un paso al frente
+2033c3c1ea961307a1f395c3413e2ead:0:También se presentó como {0}.
+2125b00d9a10e76d56521bedc1402ac0:0:Instar a proclamarse
+e577c9484aff20c4af7813cc733bc776:0:Que se proclame quien sea {0}
 e703cfb828dc9ed04cd9e93302734832:1:Revelar rol
 460d7c1445a67f9f9f3af523c3d14f6b:1:Se presentó como {0}.
-6c1eec47a35e47c1c334b81ee099120c:0:Nadie dio un paso al frente
-976b9ee0ba8bc558dcfdcb5544d52de0:0:Nadie dio un paso al frente...
+6c1eec47a35e47c1c334b81ee099120c:0:Nadie se proclamó
+976b9ee0ba8bc558dcfdcb5544d52de0:0:Nadie se proclamó...
 8c418849eda663789dd51aa035621de0:0:Humano seguro
 8f8bc1e3b45d1628b3dcc9dfe7e041dc:0:\"Humano seguro\" es una habilidad de tipo Lógica que sirve para demostrar que el objetivo\nes sin duda humano, o que se puede confiar plenamente en él.
 b0b8e0bbcbda73103cab8c0258cd652c:0:Se puede confiar totalmente en {0}
@@ -172,7 +172,7 @@ b8e2ccd770b2df429f431b701697de0d:0:Conversación libre
 5c6288e43cd7e60ab3cd286892410771:0:Ir a la habitación
 d91dae6f7e259f45c7277e6c5634842c:0:Elegir habitación
 # JinroSkill
-6720fd0cae5e2775d38b8db9a858276f:0:Decir que eres humano
+6720fd0cae5e2775d38b8db9a858276f:0:Declararse humano
 208cecf401080ffd7d8a36d84e00d66c:0:Prueba a decir que eres humano
 0c91893ffa3bf458baef4a57e83e791d:0:Fin
 a2de07dc9474784fae05150e0f4eea6a:0:{0} no dijo ser humano...

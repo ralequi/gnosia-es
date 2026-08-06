@@ -35,7 +35,7 @@ c9490ef8fa3c0d13a090f6536278db57:0:Señalaste que la lógica de {0} es errónea.
 8e9e024a93b3f0749acf3ee56fd82231:0:Agradeciste a {0} por salir en tu defensa.
 bb4cb94a5c4bccae79f5d39a9445ed64:0:Han visto a través de tu mentira...
 a4ca9de7cf3da584b89ef03ed64974d1:0:Te despediste de {0}.
-d5d118f1b70a81debc60590cd45ae064:0:Animaste a {0} a dar un paso al frente.
+d5d118f1b70a81debc60590cd45ae064:0:Pediste que quien fuera {0} se proclamara.
 f054425794a9c73ac6c03905fbd8e362:0:Propusiste empezar a votar si nadie tenía nada más que decir.
 ab600aa84c1f1130809e0da534704b68:0:Ya es hora de votar...
 1c49cb1cf663541120da604c8d8bf26c:0:Está a punto de empezar una votación decisiva...
@@ -89,7 +89,7 @@ d9b2558a1566311a2ee61035623c1e68:0:A diferencia del informe anterior,\n
 2a2e3d805e5fd398e8b09c666c1766c0:0:Pediste a todos que declarasen claramente que son humanos.
 6915af5119b33029cd8759c815019bc6:0:Afirmaste delante de todos que eres humano.
 849ef0ac3637a2b415b4223a7cbff706:0:Les dijiste a todos que parasen con eso.
-c40ab2d3f119c7facfaf2c3831314be9:0:...Nadie se adelantó...
+c40ab2d3f119c7facfaf2c3831314be9:0:...Nadie se proclamó...
 c6f8b57fb8d2ad3f678fea0fb3513cd2:0:...Parece que esto es todo.\nAunque hay quienes no se han presentado...
 e9f54871a049cd0b1bf9a99ee472e02e:0:...Parece que ya están todos.
 c90ac2fa140f1cd20929627a9e4981b6:0:...Se interrumpió la declaración...
@@ -138,11 +138,11 @@ ed88c3a57f6ab0cfb270103507b7f952:0:Supliqué de rodillas que no me congelaran.
 3ca9944df1b3c0299a83d9438a13f4b1:0:Como me atacaron anoche, {1} no puede ser {0}.\nA regañadientes, informé de que {1} no era {0}.
 # Chipie (Cipi)
 72647bd4266ff9ee33a4fdbd8eaddd4d:0:Planeta\nHans
-d297ba7ccb534b20e1466935de999ec2:0:Personalidad equilibrada y sin puntos débiles. Tiene mucho olfato.
+d297ba7ccb534b20e1466935de999ec2:0:Personalidad equilibrada, sin puntos débiles. Mucho olfato.
 84c06ec121c062c221c46d3e2e34be4f:0:La carne de su cuello está fusionada con un gato.
 14493dc3d02c46d683c90c838d282d4b:0:Se sometió a una operación para tener el cuerpo de un gato.
 42e5981924f8e5a33bdbea11d312ffb2:0:Trabajaba como tripulante de una nave de carga.
-92576e7c8217bed6152412a45fa81b00:0:Piensa someterse a una operación para convertirse en un gato por completo.
+92576e7c8217bed6152412a45fa81b00:0:Planea operarse para convertirse por completo en un gato.
 16ab10d25ff59c7bef30de029b0fa28c:0:Creció rodeado de gatos desde pequeño.
 36e329f990cc4c6c04fd01c9d8c64eb1:0:Yo soy Chipie. Solo soy un simple gato loco.
 0539af22a11e6455f8ed67e32cf72071:0:Muy capaz: gran intuición, encanto y sigilo.\nSu personalidad equilibrada\nlo convierte en un rival formidable.
@@ -339,7 +339,7 @@ b06f29e5e4fa403639b8dfb5b079ef96:0:...gracias.\nTú te has dejado la piel por m�
 b0fcad69b1e206456fb4ad884aaf04a7:0:Sueña con ser capitana de su propia nave estelar.
 4a6fad570a7cc59323da55a907211caf:0:Escapó de su planeta natal en el carguero de Chipie.
 413b95702813581fa1edd3f2cdab4fe7:0:Se le da bien detectar mentiras y fatal mentir.
-1355f4a6f487dd8afd870d42bbea846d:0:Su \"tatuaje\" es en realidad un moho mucilaginoso simbiótico.
+1355f4a6f487dd8afd870d42bbea846d:0:Su \"tatuaje\" es un moho mucilaginoso simbiótico.
 283914c60bc8efb82d66f256fe99e23b:0:Ese moho ataca a los humanos cuando su huésped muere.
 f208aa07d8789d24e4f44bdbfdcdfcab:0:Su peligroso planeta tiene una tasa de mortalidad altísima.
 858aac3c08d2dd5d9ee292c732d00241:0:Soy {0}, ¡tengo 16 años!
@@ -541,7 +541,7 @@ dd455603612c53149de2a9b3018d7958:0:Vale, vamos a liarla.\n¡Igual empiezo por {0
 496e51ce1cdbf48be71522a4ba84d0c5:0:Seria y valiente. Algo puntillosa.
 9af041f5a1cccc7a25ff23329feed441:0:Su madre descartó su propio cuerpo y fue \"ciberizada\".
 b4d2ac02ccde0d1f3378b6bc8196756e:0:Se le da mal mentir. Odia engañar.
-f11c26837a52f8b57768622f5f2950f7:0:Tiene mucha intuición, pero ni ella misma es consciente de ello.
+f11c26837a52f8b57768622f5f2950f7:0:Tiene mucha intuición, pero ni ella misma lo sabe.
 33d15fd961bbc714f1dcaff259b30283:0:Profesión: Controladora de tráfico espacial.
 b2fc609ee6fe4137c4a8150a502e06fd:0:Le gusta la comida japonesa.
 0e55c5e195a2b4016e4393cfeb7ef6f6:0:Medidas: 7
@@ -743,7 +743,7 @@ a47f3d1d08a9a5e0b87233a3a422a0c7:0:Gracias a ti he podido sobrevivir.\nAsí que.
 03fbbd97f5e900f2f792d891698139d1:0:Capacidades altas en general, aunque no lo parezca.
 577987dd3dbb24fe99330789c0a23056:0:Estuvo en una nave legendaria hace casi 1000 años.
 049d644f861925c55d87962c002c49ca:0:Dueño del crucero interestelar \"D.Q.O.\".
-0bc29ddd3410e9ed5b2b6db06014e04d:0:Antiguo héroe de la era de la exploración espacial; ahora es un excéntrico.
+0bc29ddd3410e9ed5b2b6db06014e04d:0:Fue héroe de la exploración espacial; ahora es excéntrico.
 65725e1967db3a91b1dc004f26f23f76:0:Tiene debilidad por Kukrushka.
 ccd4d679d5367ebbf8efba40242784e9:0:Como adicto a los videojuegos, vivió aislado cien años.
 81fcdd5ce779da38d66f4c08cc316d39:0:Venera a Kukrushka como una \"muñeca milagrosa sagrada\".
@@ -962,7 +962,7 @@ ec5f903fae1c67200e68f3d774b21f86:0:Muy bien, entonces... Adiós.\nAdiós, mis qu
 c85b4ba134b78b617967d3d5dd410e63:0:Según Yuriko, no es humana.
 8bc93efe17a7ad2df4deba40a6312e31:0:Si hace guardia con Remnan, mata a todo el mundo.
 aebd2743708393eb92a3eadf8e02f329:0:Muñeca autónoma de dos cuerpos; el otro está guardado.
-19c804cdc2abde00d676594e3c39466b:0:Es la muñeca de Jonas; su personalidad se mueve entre ambos cuerpos.
+19c804cdc2abde00d676594e3c39466b:0:Muñeca de Jonas; su personalidad alterna entre dos cuerpos.
 0e55c5e195a2b4016e4393cfeb7ef6f6:1:Medidas: 8
 560e7e1b30e6e80d6b8991456cb59d54:0:(Esta chica se llama {0}.\n{0} no habla. Nadie ha oído jamás su voz.\nAun así, {0} se expresa muy bien con gestos y expresiones.)
 d46bdf05ccdfb81f2624f77d57ad0015:0:Tiene muchísimo Encanto e Interpretación, así que es difícil mandarla a criogenia incluso cuando sospechan de ella.\nComo actúa sobre todo por emoción, va a por quienes le disgustan antes que a por los enemigos peligrosos.
@@ -1165,7 +1165,7 @@ baf7e71657058e45b6d43a8945f10b41:0:Planeta marino\nNada
 9f6def8eccb13156e8e2cef70ffb72f3:0:Una inteligente beluga nacida en un planeta marino.
 628a09a2c86a81083e5527254b63c647:0:Está enamorada de su investigador, el \"doctor Yoshikado\".
 3d8d503d88c0eb50e1840b0db3ca50d0:0:Quedó traumatizada tras tragarse por accidente un pez rojo.
-a3181c36d2d3b2e43f5afddcf1736043:0:Tiene un oído perfecto; puede notar el movimiento a su alrededor.
+a3181c36d2d3b2e43f5afddcf1736043:0:Tiene oído perfecto; nota el movimiento a su alrededor.
 b42d8a843e408d23bac0ab8c28613b51:0:Sueña con llegar a ser humana algún día.
 0e55c5e195a2b4016e4393cfeb7ef6f6:2:Medidas: 7
 1d9729a954ebfa1dee3f7e8e70191b84:0:Yo, em... me llamo {0}.\nAún me estoy acostumbrando a todo, pero haré lo que pueda.
@@ -1260,7 +1260,7 @@ d18c5774da311ffad63ebe8ec0f3939e:0:Entonces te conviertes en Gnosia al contagiar
 c90190dfc5b50784393384f5c96d7f24:0:*CHII!* Disculpadme...\nPero la {0} soy yo.
 abfe7165ec1752f172ffc9010bcd07ad:0:Em, espero que podáis creerme, pero...\nLa Doctora no es {1}.\nSoy yo.
 e8503c36c085b3914b8019e66ffd73f0:0:Es cierto que {1} estaba en la nave.\nYo he estado aquí todo el tiempo, así que, em...\nFui comprobando si había alguien más.
-430787e671205ed5eb868d13dda23064:0:{1}, ¿eres {0}?\nGracias por dar un paso al frente.
+430787e671205ed5eb868d13dda23064:0:{1}, ¿eres {0}?\nGracias por proclamarte.
 5799f3d0afe07d0b3c9ba3676849da24:0:Eso, em... no tiene sentido.\nSolo debería haber uno {0}...
 911030a653519a91cae4341109716e97:0:*Chii*... Aquí algo no va bien.\nSolo debería haber uno {0}...
 fcaf33d3aea3c4fb67edce65937443e3:0:Bueno, yo... intenté averiguarlo, pero...\n
@@ -1367,7 +1367,7 @@ d4cbc6c5c536f49970c6dbf88d1b72d6:0:*Chii!* ¡{0}!\n¡Gracias por toda tu ayuda!
 e0fc4749fd6f9fc9f2a749bc2f4e2973:0:Flota\nGliese
 6821fbbc9786b96d833de7fefb6fb536:0:Supremacista de la inteligencia. Excelente actuando.
 771a33513a5d26bbd129cda93774db29:0:Procede del estado de clase superalta \"Flota Móvil Gliese\".
-7b4cc91e4ec419328f0d3b756e4850f3:0:Se le asignó sexo masculino al nacer; no se identifica dentro del binario.
+7b4cc91e4ec419328f0d3b756e4850f3:0:Sexo masculino asignado al nacer; no se ciñe al binario.
 ce6fea784bf78596a2e6f3963915654b:0:Se comunica, aunque no tanto con palabras.
 43ac648757708a7d031c6b01f6337d79:0:Fue estudiante de secundaria en Gliese.
 50fee7544e1c4194a516cae38592ba20:0:Posee por derecho de nacimiento la \"Llave de Plata\".
@@ -1645,7 +1645,7 @@ eaef043a95c1aea399ef41db6d3956d2:0:{0}... ¿por qué?\n¿Por qué repetir algo q
 cdc9b68c6508edf449d7d5ec55bf32b6:0:Vale... ahora me siento un poco más tranquilo.\nEs verdad, yo... soy {1}.
 c9f1d12455c0ea2d5d95c5043be2f543:0:Yo... no tengo nada más que decir.
 8985471e8d03e7550898957d7ec0626d:0:{0}... y-yo...!
-b1c8a70b3d2840344525e428fdebe20e:0:¿Podría dar un paso al frente el {0}...?
+b1c8a70b3d2840344525e428fdebe20e:0:¿Podría proclamarse quien sea {0}...?
 957aa05b4fe78bbb5963bdb95d5be691:0:Entonces... ¿nadie tiene nada que decir...?\nBueno... yo tampoco...
 9c50c9e329c10916fef8ef4adcba1f87:0:Entonces ya es... ya es hora de votar.\nTenemos que decidir a quién mandar a criogenia.
 20d1ad56b14a58dd13137c4279f6ab60:0:Entonces... tenemos que decidir entre quienes empataron...
@@ -1783,11 +1783,11 @@ da19282a2dde3d91adcf7e2c7ba038cc:0:Jeje...
 60672f5aabab74b29c0e3456b3bcc9db:0:{0}... Como muestra de agradecimiento...\nTe eliminaré yo personalmente...
 0c6b52b751d70a5c1bd7884c10670c79:0:Te envidio...\nPoder elegir ser eliminado...
 # Setsu
-4602bfc81ec7236513ee0904daa5f9e6:0:Gran sentido de la justicia y la responsabilidad. Muy racional.
+4602bfc81ec7236513ee0904daa5f9e6:0:Racional, responsable y con gran sentido de la justicia.
 6aa4f4a110dd1cfff316b52694b9a21c:0:Repite loops en un orden distinto al del protagonista.
 481ba5215d980a882c3445f1208094f2:0:No soporta a Sha-Ming y a veces se pelea con él.
-fe425a8dece197db5dc2094573258313:0:Miembro de las Fuerzas Especiales del Ejército Federal Galáctico.
-81d7585cf8785542b5da357bc17c54c5:0:Espera poder salvar a todos los que están a bordo, si es posible.
+fe425a8dece197db5dc2094573258313:0:De las Fuerzas Especiales del Ejército Federal Galáctico.
+81d7585cf8785542b5da357bc17c54c5:0:Espera poder salvar a todos los que están a bordo.
 583fab6c22ef870e0ff7bdf20a0d82fd:0:Escapó de una muerte segura con la \"llave\".
 0e55c5e195a2b4016e4393cfeb7ef6f6:5:Medidas: 7
 1daa516543b5919a383332fe0b21b975:0:Soy {0}. Seas aliado o enemigo, estamos metidos en esto juntos.\nNuestros destinos están entrelazados.
@@ -1855,7 +1855,7 @@ bd0c5faaf5cc3d1a60886557de3d8e9e:0:Vamos, {0}...\nEso ya lo sabe todo el mundo.
 cd5459ce69a179f7168cc6d4b1024db1:0:Gracias, {0}.\nNecesitamos información para acorralar al enemigo. Pongámonos con ello.
 4a66951c3580144326ae1372447bf848:0:No puedo salir de esta hablando...\nHah... Siempre acabo equivocándome.
 715f6c3850aa3b6ab457fd932d6aba48:0:Adiós, {0}. Nos veremos de nuevo.
-ccf90c0cefdab4357c75833f188b1fd4:0:Una propuesta...\nQue dé un paso al frente cualquiera que tenga el cargo de {0}.
+ccf90c0cefdab4357c75833f188b1fd4:0:Una propuesta...\nQue se proclame quien tenga el cargo de {0}.
 fedce2ac207b3367401acd831f1eb961:0:Si nadie objeta, empecemos la votación...\nHablad ahora o callad para siempre.
 8a3900f08bfd0273a080c4a66ec1f258:0:Así es como combatimos...\nEmpecemos la votación. Tenemos que erradicar al enemigo.
 cd1048ebce818be552064107319cd72d:0:Sí, no es una decisión fácil.\nCada uno tiene sus propios motivos.
@@ -1884,9 +1884,9 @@ a27a8c9333a7d7feb3d1125b360bec13:0:El primer ataque ocurrió en el último puert
 8c11119ef545d2e2d4468ef92dec6602:0:Qué rápido.\n{1} es un enemigo.\nAl menos para mí, que soy la única {0} de aquí.
 aaa4bbd283e53841b9454a29eeaf9f1d:0:Objeción. Quien tiene el cargo de {0} soy yo, no {1}.\nEl enemigo intenta confundirnos con mentiras.\nNo pienso permitirlo.
 7bc4996b92e1d2e79966475887e8fb6a:0:Sí, {1} no es Gnosia.\n{1} y yo nos quedamos en la nave y podemos respaldarnos mutuamente.\n¿Alguna objeción?
-e1955a8a5204bb6e87e1f21ec6e9190c:0:Parece que nadie más quiere dar un paso al frente...\nEn ese caso, solo {1} puede ser {0}.\n¿Me equivoco?
-36185c3cda041368b9fe9ce22064c36b:0:Entre {1}, uno es nuestro enemigo...\nAdemás, quien NO reclamó el puesto no puede ser {0}.\nEsos dos puntos están claros.
-7c4d69f797a46053823fbd10e10194cf:0:Entre {1}, como mucho hay un aliado.\nAdemás, quien NO reclamó el puesto no puede ser {0}.\nDebemos considerar ambos puntos como hechos.
+e1955a8a5204bb6e87e1f21ec6e9190c:0:Parece que nadie más va a declararse {0}...\nEn ese caso, solo {1} puede serlo.\n¿Me equivoco?
+36185c3cda041368b9fe9ce22064c36b:0:Entre {1}, uno es nuestro enemigo...\nAdemás, quien NO se proclamó {0} no puede serlo.\nEsos dos puntos están claros.
+7c4d69f797a46053823fbd10e10194cf:0:Entre {1}, como mucho hay un aliado.\nAdemás, quien NO se proclamó {0} no puede serlo.\nDebemos considerar ambos puntos como hechos.
 06819b430013d868c2acb650f0daad74:0:Tengo información...\n
 275a679c33129fa595b04cc06f9b408b:0:Como Ingeniero, tengo información que presentar.\n
 f7db4fd08aa69a83731b43101b3fa473:0:Ahora permitidme presentar algo de información.\n
@@ -2204,7 +2204,7 @@ d908a78507532f5eead04f09f027d01d:0:A que algunos no os lo creéis, ¿eh?\n¿Os p
 f03a3920bbba513bfcf3ff6d365f0860:0:Tiene buen corazón y es positivo. Extrañamente carismático.
 b7ec504a5de38fea0114229324720452:0:Se cubrió el cuerpo con piel artificial tras un accidente.
 a23cdf7a6e1a53bff6248a0ecb04d658:0:Esa piel artificial también puede hacer de traje espacial.
-6d96c204fc4d8585de3ded1eff1bfdbc:0:Está destinado a volver atrás en el tiempo y convertirse en un \"Little Grey\".
+6d96c204fc4d8585de3ded1eff1bfdbc:0:Destinado a retroceder en el tiempo y ser un \"Little Grey\".
 6a3670a4aa71186f98afe07db99c6852:0:Coleccionista y maestro de los videojuegos retro.
 f7179e9f64bfa1f45e5fdab3e409a6f6:0:Está enamorado de Stella.
 11782eb2162dab55036040605289ef03:0:Nunca ha tenido novia de verdad.
@@ -2404,7 +2404,7 @@ ab3ee383264316fc70910510785a066b:0:¡Lo siento, universo! ¡Te toca desaparecer!
 77df2138bffe5cf580867a19c24b2031:0:Conoce a Remnan desde hace mucho.
 c6b7c98fa022ea5f5088f049fbce7e65:0:¿Podría ser la hija de Remnan?
 86c492da7d43ee25ebcefdcc1134b423:0:Se crió en una cápsula de incubación y salió hace un año.
-319fd55285bf2e793cdd98738c24475c:0:Nació por accidente durante el trasplante mental de su madre.
+319fd55285bf2e793cdd98738c24475c:0:Nació por accidente en el trasplante mental de su madre.
 5a7705dab6b561d9c6a7c4b035d8e34f:0:Ninguno / SQ Gnosia = madre tras un trasplante exitoso.
 0e55c5e195a2b4016e4393cfeb7ef6f6:6:Medidas: 7
 93f942f473be1af70db89cc03b21ef50:0:¡Hoooola! ¡Soy {0}!
@@ -2676,7 +2676,7 @@ e00cbbfb3d59e67c00cc4e3b44db3fef:0:Sí, eso es verdad.\nSin embargo, no hay moti
 8b8cba94949f9162d74dfabb1e265204:0:Gracias por demostrar mi situación.\nSe lo agradezco, {0}.
 2f7a1ee917f4aff6c9c2473963597580:0:Ah...!\nY-yo...
 af77cc8e231efe963a6e1a2e42111839:0:{0}, yo...\nSeguiré velando por usted a partir de ahora...
-3b19856f76bbec832bd5ecedd827494e:0:Primero debemos poner en común nuestra información.\n¿Podría dar un paso al frente quien sea {0}?
+3b19856f76bbec832bd5ecedd827494e:0:Primero debemos poner en común nuestra información.\n¿Podría proclamarse quien sea {0}?
 11bc9cea3c91a4bd35d0206ba76cbe78:0:¿Alguien más tiene alguna opinión...?\nSi no, pasaremos a la votación, ¿de acuerdo?
 daa3822a0ef5f6820dc3c799862b275f:0:Nos queda poco tiempo.\nDecidamos a quién enviar a criogenia...
 1e63057d140e5709b9e5de3f53831dad:0:Elijamos entre quienes han empatado.\nNo será fácil... pero debemos hacerlo.
@@ -2812,11 +2812,11 @@ ee0d02d2fd8419935c94f34352e8c572:0:Se ha acabado, {0}.\nY ahora... ¿hm? ¿Un Bu
 3e8b578abfaff440ca14e868ded6c3d2:0:Buen trabajo, {0}.\nAhora vaya a descansar.
 # Yuriko
 0796f5a274bd2507ed300e1ff54d6583:1:Desconocido
-1c60fd4452a2911793f85bae5119a73a:0:Altas aptitudes y una influencia muy fuerte. Destaca enseguida.
+1c60fd4452a2911793f85bae5119a73a:0:Altas aptitudes y mucha influencia. Destaca enseguida.
 5fd9ac5890dad403b7a479f71a5c2bbb:0:Sacerdotisa cibernetizada de la nave \"Hoshibune\".
 fe57a4534587835b2b1dfa34d358075e:0:Escapó de la Hoshibune; la matarán si la atrapan.
 9c9eebe6de6f9fee1217a100a3f07e3d:0:Conoce la verdad sobre lo que es Gnos en realidad.
-74125aa935da2d6691ff58da7559df16:0:Gnos es, en realidad, un conjunto de humanos cibernetizados.
+74125aa935da2d6691ff58da7559df16:0:Gnos es un conjunto de seres humanos cibernetizados.
 f59a1879f320ca401e7b4e08f9952bc5:0:Puede interferir en la percepción humana y distorsionarla.
 0e55c5e195a2b4016e4393cfeb7ef6f6:8:Medidas: 7
 4518c1a641b155280d09d1243299a3e9:0:Me llamo {0}. Encantada, supongo.
