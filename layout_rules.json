@@ -48,6 +48,16 @@
         "CharaText/Yuriko": [2, 7]
       }
     },
+    "command_list": {
+      "max_chars": 19,
+      "expected_count": 47,
+      "target_sha256": "3da509b03a6de56f3c6ec0426edfaf295d52c59bc32261411345673d29fa8312",
+      "param_ranges": {
+        "OthersText/setting": [38, 56],
+        "ScreenText/GameMenuSkillScreen": [0, 13],
+        "ScreenText/ParamChangeSkillScreen": [0, 13]
+      }
+    },
     "scenario_action": {
       "max_chars": 20,
       "expected_count": 52,

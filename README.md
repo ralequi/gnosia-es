@@ -254,6 +254,7 @@ Además de la integridad estructural, añade señales editoriales no bloqueantes
 
 Y bloquea problemas de layout conocidos:
 
+- `command_list_length_overflow`: las 47 etiquetas del listado de comandos superan 19 caracteres.
 - `flow_line_width_overflow`: líneas de pantallas largas que exceden el ancho configurado.
 - `textbox_linecount_overflow`: cajas explícitas que exceden sus líneas máximas.
 - `generic_textbox_linecount_overflow`: cajas genéricas de escenario/personaje que exceden `77x3`.

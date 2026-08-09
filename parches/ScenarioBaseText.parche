@@ -42,16 +42,16 @@ eb9fbd0fe6dc9bbd47a7d303a47b5746:0:Apoyar
 b83b970fb2fea22f0b619952955a030f:0:Defender
 e605e5bc8275871fdcda08bb9ccd34ad:0:No, no quiero dudar de {0}
 fe8ca9e41e4b94664a3402f3ffb094cd:0:No, {0} está bien
-ee4018a4ecfd922cddf7a64576b69e2c:0:Sumarse a la defensa
+ee4018a4ecfd922cddf7a64576b69e2c:0:Apoyar la defensa
 0f3cadcaa58e7aa322be508aeed179f3:0:Rebatir
 8847efebf7ad92f98c5e96067c271685:0:Cubrir
 e0941bbb19d530fba31beef0391d4864:0:{0} me cae bien
 97091e37c68299d1d67887e479bcfc48:0:Probablemente se puede confiar en {0}
 e4678e70c27d4ccf43636f0e9956e4c2:0:{0} parece de fiar
 1c4cdc15e0a2ff47cc87c3cdf09df34b:0:Ayudar a cubrir
-16f7d6b2112f451eb5f385c1959977bd:0:Disc.
+16f7d6b2112f451eb5f385c1959977bd:0:Objetar
 8fd015fdeab16eaf614797765ef7636c:0:No, no podemos confiar en {0}
-93800f0b10e87a5cc397395c7b71c0ad:0:Discrepar también
+93800f0b10e87a5cc397395c7b71c0ad:0:Apoyar la objeción
 4c908b8977aceb7a25180128f7c68239:0:Dar las gracias
 847e38bc3ca3daca68ddc61e830b51ec:0:Calla
 a46131e6337df31dacf6a45db5812e33:1:{0} resulta molesto
@@ -60,7 +60,7 @@ e703cfb828dc9ed04cd9e93302734832:0:Revelar rol
 460d7c1445a67f9f9f3af523c3d14f6b:0:Se presentó como {0}.
 9310e8ab9c5589a7386db90a22f273a3:0:Revelar tu rol
 2033c3c1ea961307a1f395c3413e2ead:0:También se presentó como {0}.
-2125b00d9a10e76d56521bedc1402ac0:0:Instar a proclamarse
+2125b00d9a10e76d56521bedc1402ac0:0:Instar a proclamar
 e577c9484aff20c4af7813cc733bc776:0:Que se proclame quien sea {0}
 e703cfb828dc9ed04cd9e93302734832:1:Revelar rol
 460d7c1445a67f9f9f3af523c3d14f6b:1:Se presentó como {0}.
@@ -237,7 +237,7 @@ cdedf83f5e278d2019757c8032ddf113:0:Replicar
 9d8a1729d889e56887b70bdb0012016f:0:No, {0} es más sospechoso que yo
 d61804a6feab48e82b0421d476fbb634:0:Lamentarse
 99364f10237eb8397b4b0ccf325c1f3f:0:Es horrible que los atacaran...
-edb84025caa7428111f52ef366b3a37a:0:No te dejes engañar
+edb84025caa7428111f52ef366b3a37a:0:No caer en engaños
 875930b87de8fe6e2af38f1cadd48284:0:{0} está mintiendo. Ten cuidado.
 3cf4c67ed1601cb47cdd675c4d4958c5:0:Pide ayuda
 b1f9a6a933a6875156bf46124c4fdc8b:0:Haz que rebatan a {0}

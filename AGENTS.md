@@ -46,7 +46,7 @@ Use four-space indentation, UTF-8, type hints, and `pathlib.Path` in Python. Use
 
 Preserve patch lines as `<hash>:<id>:<translation>`, including placeholders, escapes, and line breaks.
 
-Keep caps structural: 82 visible `CharaText` notes allow 59 logical characters; 52 visible `ScenarioBaseText` command names allow 20. Translate the role-request action as `Instar a declararse`; related copy describes declaring a role, never physical movement. Exclude filler, dialogue, and duplicate hashes in other entities.
+Keep structural caps: `CharaText` notes 82×59; command-list labels 47×19; `ScenarioBaseText` commands 52×20. Use short label `Instar a proclamar`; prose uses `proclamarse`, never physical movement. Exclude filler, dialogue, and duplicate hashes elsewhere.
 
 ## Testing Guidelines
 
