@@ -58,6 +58,14 @@
         "ScreenText/ParamChangeSkillScreen": [0, 13]
       }
     },
+    "loop_setup_role": {
+      "max_chars": 14,
+      "expected_count": 8,
+      "target_sha256": "a38c24f0c19a9263d5a473b2c95d7796001f928fbeb0cebdca4ef33c5aad7dce",
+      "param_ranges": {
+        "OthersText/setting": [3, 10]
+      }
+    },
     "scenario_action": {
       "max_chars": 20,
       "expected_count": 52,

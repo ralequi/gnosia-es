@@ -46,6 +46,7 @@ Convenciones
 - `Crew` pasa a `Pasajeros` cuando la UI es demasiado estrecha para `Tripulación`.
 - `AC Follower` pasa a `Seguidor AC`.
 - `Defend` se traduce como `Defender`; `Cover` se traduce como `Cubrir`.
+- Las ocho casillas de rol del nuevo loop admiten como máximo 14 caracteres. Usar `Guardia` como nombre singular del rol y `Guardianes` para la pareja.
 - Las 47 etiquetas cortas del listado de comandos admiten como máximo 19 caracteres. Usar `Objetar`, `Apoyar la defensa`, `Apoyar la objeción`, `Instar a proclamar` y `No caer en engaños`. En prosa, mantener `proclamarse`.
 - `Criogenia` no lleva tilde. Sí la llevan `criogénico` y `criogénica`.
 - Las cadenas puramente estructurales como `, `, `\n`, `.` o `...` se conservan.

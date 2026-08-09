@@ -200,7 +200,7 @@ edc0e2a453f51b4427c5ab1a27585931:0:Gracias a la restauración de las funciones d
 76b435fcc24f07a7d0322d40e7ac83d1:0:Los Ingenieros pueden investigar durante el salto y saber si su objetivo es o no Gnosia. A veces otros fingen tener este rol.
 de789c9bfd739e9b8b61acb7c4fcba82:0:Los Doctores pueden saber si una persona enviada a criogenia era o no Gnosia. A veces otros fingen tener este rol.
 43c3a6b1e501924280d50731330bdc01:0:Los Ángeles guardianes pueden elegir a una persona para protegerla del ataque de los Gnosia durante el salto. Este rol no puede fingirse.
-8549ce5b130ba2cb6269c5da0eda3b76:0:Los Guardias (quienes están de servicio de guardia) pueden anunciar su estado juntos y demostrar que ambos son humanos. Este rol no puede fingirse.
+8549ce5b130ba2cb6269c5da0eda3b76:0:Los Guardianes pueden proclamarse juntos y demostrar que ambos son humanos. Este rol no puede fingirse.
 e91b56fe3c45e33fff1e0e858d185297:0:Los Seguidores AC son humanos, pero mentirán e intentarán ayudar a los Gnosia a ganar. Pueden hacerse pasar por Ingenieros y Doctores.
 dd935874f30728e3c75cd5f00c0e1791:0:Los Gnosia son enemigos de los humanos. Durante el salto elegirán un objetivo y eliminarán a los humanos uno a uno. Pueden hacerse pasar por Ingenieros y Doctores.
 0dad26e9f9d08600edf31275a555b8e0:0:Los Bugs son enemigos tanto de humanos como de Gnosia. No pueden morir, pero desaparecen cuando un Ingeniero los investiga. Pueden fingir otros roles.
