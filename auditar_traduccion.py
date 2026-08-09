@@ -258,6 +258,7 @@ GENERIC_TEXTBOX_ENTITY_PATTERNS = [
 ]
 GENERIC_TEXTBOX_LINE_WIDTH = int(GENERIC_TEXTBOX_CAPS.get("line_width", 0) or 0)
 GENERIC_TEXTBOX_MAX_LINES = int(GENERIC_TEXTBOX_CAPS.get("max_lines", 0) or 0)
+TEXT_REPORT_REVIEW_LIMIT = 200
 
 
 def validate_fixed_length_cap_targets(source_entities) -> None:
@@ -314,6 +315,24 @@ def fixed_length_overflow_detail(
         "max_chars": int(cap["max_chars"]),
         "char_count": len(text),
     }
+
+
+def summarize_layout_details(details: list[dict[str, object]]) -> str:
+    metric_names = (
+        "max_chars",
+        "char_count",
+        "line_width",
+        "max_lines",
+        "rendered_lines",
+    )
+    summaries = []
+    for detail in details:
+        reason = str(detail.get("reason", "layout"))
+        metrics = ",".join(
+            f"{name}={detail[name]}" for name in metric_names if name in detail
+        )
+        summaries.append(f"{reason}({metrics})" if metrics else reason)
+    return ";".join(summaries)
 
 
 def parse_args() -> argparse.Namespace:
@@ -637,6 +656,10 @@ def main() -> int:
 
     for path_id, source_entity in sorted(source_map.items()):
         work_entity = work_map[path_id]
+        source_targets = {
+            (int(target["sheet_index"]), int(target["param_index"])): target
+            for target in iter_patch_targets(source_entity)
+        }
         for sheet_index, source_sheet in enumerate(source_entity.sheets):
             work_sheet = work_entity.sheets[sheet_index]
             for param_index, source_param in enumerate(source_sheet.params):
@@ -832,6 +855,10 @@ def main() -> int:
                 }
                 if layout_details:
                     report_entry["layout_details"] = layout_details
+                patch_target = source_targets.get((sheet_index, param_index))
+                if patch_target is not None:
+                    report_entry["patch_hash"] = str(patch_target["hash"])
+                    report_entry["patch_id"] = int(patch_target["id"])
                 report_entries.append(report_entry)
 
     report_dir = ensure_dir(args.report_dir)
@@ -844,16 +871,41 @@ def main() -> int:
         "",
         "Findings:",
     ]
-    findings = [entry for entry in report_entries if entry["status"] != "ok"]
-    for entry in findings[:200]:
+    hard_fail_findings = [
+        entry for entry in report_entries if entry["status"] == "hard_fail"
+    ]
+    review_findings = [entry for entry in report_entries if entry["status"] == "review"]
+    shown_review_findings = review_findings[:TEXT_REPORT_REVIEW_LIMIT]
+    lines.extend(
+        [
+            f"hard_fail shown={len(hard_fail_findings)}/{len(hard_fail_findings)}",
+            f"review shown={len(shown_review_findings)}/{len(review_findings)}",
+            "",
+        ]
+    )
+    for entry in hard_fail_findings + shown_review_findings:
+        patch_identity = ""
+        if "patch_hash" in entry:
+            patch_identity = f" patch={entry['patch_hash']}:{entry['patch_id']}"
+        layout_summary = ""
+        if "layout_details" in entry:
+            layout_summary = f" layout={summarize_layout_details(entry['layout_details'])}"
         lines.append(
             f"[{entry['status']}] {entry['entity_name']}/{entry['sheet_name']}#{entry['param_index']:04d} "
-            f"tier={entry['tier']} budget={entry['budget']} "
+            f"tier={entry['tier']} tier_budget={entry['budget']} "
             f"src={entry['source_len']} dst={entry['translated_len']} "
-            f"reasons={','.join(entry['reasons']) or '-'}"
+            f"reasons={','.join(entry['reasons']) or '-'}{patch_identity}{layout_summary}"
         )
         lines.append(f"  EN: {entry['source_text']}")
         lines.append(f"  ES: {entry['translated_text']}")
+    omitted_reviews = len(review_findings) - len(shown_review_findings)
+    if omitted_reviews:
+        lines.extend(
+            [
+                "",
+                f"{omitted_reviews} review findings omitted; see audit.json for all entries.",
+            ]
+        )
     (report_dir / "audit.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(
