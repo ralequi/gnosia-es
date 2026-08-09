@@ -232,6 +232,60 @@ def load_fixed_length_caps() -> dict[tuple[str, str, int], dict[str, object]]:
     return caps
 
 
+def load_required_term_guards() -> dict[tuple[str, str, int], dict[str, object]]:
+    groups = LAYOUT_RULES.get("required_term_guards", {})
+    if not isinstance(groups, dict):
+        raise ValueError(f"required_term_guards must be an object in {LAYOUT_RULES_PATH}")
+
+    guards: dict[tuple[str, str, int], dict[str, object]] = {}
+    for group_name, raw_group in groups.items():
+        if not re.fullmatch(r"[a-z][a-z0-9_]*", str(group_name)):
+            raise ValueError(f"Invalid required-term group name: {group_name!r}")
+        if not isinstance(raw_group, dict):
+            raise ValueError(f"Required-term group {group_name!r} must be an object")
+
+        required_pattern = str(raw_group.get("required_pattern", ""))
+        expected_count = int(raw_group.get("expected_count", 0))
+        target_sha256 = str(raw_group.get("target_sha256", ""))
+        if not required_pattern or expected_count <= 0:
+            raise ValueError(f"Required-term group {group_name!r} needs a pattern and count")
+        try:
+            re.compile(required_pattern)
+        except re.error as exc:
+            raise ValueError(f"Invalid pattern for required-term group {group_name!r}") from exc
+        if not re.fullmatch(r"[0-9a-f]{64}", target_sha256):
+            raise ValueError(f"Required-term group {group_name!r} needs a target_sha256")
+
+        group_targets: list[tuple[str, str, int]] = []
+        param_indices = raw_group.get("param_indices", {})
+        if not isinstance(param_indices, dict):
+            raise ValueError(f"param_indices for {group_name!r} must be an object")
+        for key, indices in param_indices.items():
+            entity_name, sheet_name = parse_entity_sheet_key(str(key))
+            if not isinstance(indices, list):
+                raise ValueError(f"Invalid parameter indices for {key!r}")
+            for raw_index in indices:
+                param_index = int(raw_index)
+                if param_index < 0:
+                    raise ValueError(f"Invalid parameter index for {key!r}")
+                group_targets.append((entity_name, sheet_name, param_index))
+
+        if len(group_targets) != expected_count or len(set(group_targets)) != expected_count:
+            raise ValueError(
+                f"Required-term group {group_name!r} must resolve to "
+                f"{expected_count} unique targets, got {len(set(group_targets))}"
+            )
+        for target in group_targets:
+            if target in guards:
+                raise ValueError(f"Required-term target configured more than once: {target!r}")
+            guards[target] = {
+                "group": str(group_name),
+                "required_pattern": required_pattern,
+                "target_sha256": target_sha256,
+            }
+    return guards
+
+
 CHOICE_WIDTH_CAPS = {
     parse_entity_sheet_key(key): int(value)
     for key, value in LAYOUT_RULES.get("choice_width_caps", {}).items()
@@ -252,6 +306,7 @@ FLOW_LINE_CAPS = {
     for key, value in LAYOUT_RULES.get("flow_line_caps", {}).items()
 }
 FIXED_LENGTH_CAPS = load_fixed_length_caps()
+REQUIRED_TERM_GUARDS = load_required_term_guards()
 GENERIC_TEXTBOX_CAPS = LAYOUT_RULES.get("generic_textbox_caps", {})
 GENERIC_TEXTBOX_ENTITY_PATTERNS = [
     str(pattern) for pattern in GENERIC_TEXTBOX_CAPS.get("entity_patterns", [])
@@ -261,20 +316,25 @@ GENERIC_TEXTBOX_MAX_LINES = int(GENERIC_TEXTBOX_CAPS.get("max_lines", 0) or 0)
 TEXT_REPORT_REVIEW_LIMIT = 200
 
 
-def validate_fixed_length_cap_targets(source_entities) -> None:
+def validate_structural_targets(
+    source_entities,
+    targets: dict[tuple[str, str, int], dict[str, object]],
+    *,
+    label: str,
+) -> None:
     available = {
         (entity.entity_name, sheet.name, param_index)
         for entity in source_entities
         for sheet in entity.sheets
         for param_index in range(len(sheet.params))
     }
-    missing = sorted(set(FIXED_LENGTH_CAPS) - available)
+    missing = sorted(set(targets) - available)
     if missing:
         formatted = ", ".join(
             f"{entity_name}/{sheet_name}#{param_index}"
             for entity_name, sheet_name, param_index in missing
         )
-        raise ValueError(f"Fixed-length targets missing from source manifest: {formatted}")
+        raise ValueError(f"{label} targets missing from source manifest: {formatted}")
 
     patch_keys = {
         (entity.entity_name, str(target["sheet_name"]), int(target["param_index"])): (
@@ -283,22 +343,38 @@ def validate_fixed_length_cap_targets(source_entities) -> None:
         for entity in source_entities
         for target in iter_patch_targets(entity)
     }
-    missing_patch_keys = sorted(set(FIXED_LENGTH_CAPS) - set(patch_keys))
+    missing_patch_keys = sorted(set(targets) - set(patch_keys))
     if missing_patch_keys:
-        raise ValueError(f"Fixed-length targets have no patch identity: {missing_patch_keys!r}")
+        raise ValueError(f"{label} targets have no patch identity: {missing_patch_keys!r}")
 
     groups: dict[str, list[str]] = {}
     checksums: dict[str, str] = {}
-    for location, cap in FIXED_LENGTH_CAPS.items():
-        group_name = str(cap["group"])
+    for location, details in targets.items():
+        group_name = str(details["group"])
         groups.setdefault(group_name, []).append(patch_keys[location])
-        checksums[group_name] = str(cap["target_sha256"])
+        checksums[group_name] = str(details["target_sha256"])
     for group_name, keys in groups.items():
         actual = hashlib.sha256("\n".join(sorted(keys)).encode("utf-8")).hexdigest()
         if actual != checksums[group_name]:
             raise ValueError(
-                f"Fixed-length group {group_name!r} no longer matches its structural targets"
+                f"{label} group {group_name!r} no longer matches its structural targets"
             )
+
+
+def validate_fixed_length_cap_targets(source_entities) -> None:
+    validate_structural_targets(
+        source_entities,
+        FIXED_LENGTH_CAPS,
+        label="Fixed-length",
+    )
+
+
+def validate_required_term_guard_targets(source_entities) -> None:
+    validate_structural_targets(
+        source_entities,
+        REQUIRED_TERM_GUARDS,
+        label="Required-term",
+    )
 
 
 def fixed_length_overflow_detail(
@@ -637,6 +713,7 @@ def main() -> int:
     work_manifest, work_entities = load_entities_from_manifest(args.work_manifest)
 
     validate_fixed_length_cap_targets(source_entities)
+    validate_required_term_guard_targets(source_entities)
 
     del source_manifest
     del work_manifest
@@ -665,7 +742,9 @@ def main() -> int:
             for param_index, source_param in enumerate(source_sheet.params):
                 source_text = source_param[1]
                 work_text = work_sheet.params[param_index][1]
+                source_jp_display = decode_corpus_text(source_param[0])
                 source_display = decode_corpus_text(source_text)
+                source_zh_display = decode_corpus_text(source_param[2])
                 work_display = decode_corpus_text(work_text)
                 tier = classify_tier(source_entity.entity_name, source_sheet.name, source_display)
                 if tier is None:
@@ -673,9 +752,9 @@ def main() -> int:
 
                 summary[f"tier_{tier}"] += 1
                 required_placeholders, allowed_placeholders = placeholder_sets(
-                    decode_corpus_text(source_param[0]),
+                    source_jp_display,
                     source_display,
-                    decode_corpus_text(source_param[2]),
+                    source_zh_display,
                 )
                 translated_placeholders = set(PLACEHOLDER_RE.findall(work_display))
                 source_len = len(source_display)
@@ -690,6 +769,15 @@ def main() -> int:
                 ):
                     status = "hard_fail"
                     reasons.append("placeholder_mismatch")
+
+                term_guard = REQUIRED_TERM_GUARDS.get(
+                    (source_entity.entity_name, source_sheet.name, param_index)
+                )
+                if term_guard is not None and re.search(
+                    str(term_guard["required_pattern"]), work_display
+                ) is None:
+                    status = "hard_fail"
+                    reasons.append(f"{term_guard['group']}_term_mismatch")
 
                 fixed_length_detail = fixed_length_overflow_detail(
                     source_entity.entity_name,

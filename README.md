@@ -254,6 +254,7 @@ Además de la integridad estructural, añade señales editoriales no bloqueantes
 
 Y bloquea problemas de layout conocidos:
 
+- `bug_role_term_mismatch`: una mención inequívoca del rol no conserva `Bug` o `Bugs`.
 - `command_list_length_overflow`: las 47 etiquetas del listado de comandos superan 19 caracteres.
 - `loop_setup_role_length_overflow`: las ocho etiquetas de rol del nuevo loop superan 14 caracteres.
 - `flow_line_width_overflow`: líneas de pantallas largas que exceden el ancho configurado.

@@ -78,6 +78,47 @@
       }
     }
   },
+  "required_term_guards": {
+    "bug_role": {
+      "required_pattern": "(?<!\\w)Bugs?(?!\\w)",
+      "expected_count": 70,
+      "target_sha256": "a83f618a64059b9cc6aa6a1a4c33ed93302014390626a4d245a1a66f48345d7c",
+      "param_indices": {
+        "CharaText/Cipi": [63, 210],
+        "CharaText/Comet": [64, 218],
+        "CharaText/Gina": [219],
+        "CharaText/Jonas": [229],
+        "CharaText/Kukulsika": [64],
+        "CharaText/Otome": [138, 220],
+        "CharaText/Rakio": [66, 138],
+        "CharaText/SQ": [64, 219],
+        "CharaText/Setsu": [139, 224],
+        "CharaText/ShaMin": [64, 223],
+        "CharaText/Shigemichi": [64, 211],
+        "CharaText/Stella": [138, 219],
+        "CharaText/Takashi": [30],
+        "CharaText/Yuriko": [138],
+        "OthersText/setting": [10, 41],
+        "ScenarioBaseText/Houkoku": [16],
+        "ScenarioBaseText/Jinro": [47, 49],
+        "ScenarioOtomeText/Otome1": [6, 7, 36],
+        "ScenarioOtomeText/Otome2": [2, 4, 12, 30],
+        "ScenarioRakioText/Rakio3": [12, 17],
+        "ScenarioRakioText/Rakio4": [15, 21],
+        "ScenarioRakioText/Rakio6": [2, 5, 16, 20],
+        "ScenarioRakioText/Rakio8": [78, 79, 83],
+        "ScenarioRamnantText/Remnant2": [6, 7, 8],
+        "ScenarioSQText/SQ3": [36, 37],
+        "ScenarioSetsuText/Setsu2": [22],
+        "ScenarioTutorialText/AfterBug": [5, 11, 14, 17, 18, 20, 22, 23],
+        "ScenarioTutorialText/loop19": [20, 24, 25, 26],
+        "ScreenText/GameMenuSkillScreen": [37],
+        "ScreenText/MakeLoopScreen": [9, 29],
+        "ScreenText/ParamChangeSkillScreen": [37],
+        "ScreenText/ResultScreen": [2, 17]
+      }
+    }
+  },
   "generic_textbox_caps": {
     "entity_patterns": [
       "Scenario*Text",
